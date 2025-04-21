@@ -1469,7 +1469,7 @@ rule-providers:
     path: ./ruleset/LeasewebASN.yaml
 
   AmazonASN:
-    <<: *ipcidr_yaml
+    <<: *classical_yaml
     url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List/data/Amazon/ASN.Amazon.yaml"
     path: ./ruleset/AmazonASN.yaml
 
