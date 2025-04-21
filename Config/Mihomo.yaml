@@ -395,8 +395,9 @@ proxy-groups:
   - { name: Adobe, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Adobe.webp }
   - { name: 支付宝, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/AliPay.webp }
   - { name: 阿里巴巴, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Alibaba.webp }
-  - { name: 亚马逊电商, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Amazon.webp }
+  - { name: 亚马逊电商, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/AmazonShopping.webp }
   - { name: 亚马逊TV, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/AmazonPrimeVideo.webp }
+  - { name: 亚马逊, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Amazon.webp }
   - { name: Apple, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Apple.webp }
   - { name: AppStore, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/AppStore.webp }
   - { name: Apple邮箱, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/AppleMail.webp }
@@ -447,6 +448,7 @@ proxy-groups:
   - { name: 酷狗, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Kugou.webp }
   - { name: LastFM, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/LastFM.webp }
   - { name: LINE, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Line.webp }
+  - { name: Leaseweb, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Leaseweb.webp }
   - { name: 美团, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/MeiTuan.webp }
   - { name: 微软, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Microsoft.webp }
   - { name: NGA, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/NGA.webp }
@@ -707,9 +709,11 @@ rules:
   - RULE-SET,Twitter,Twitter # Twitter 社交平台
   - RULE-SET,Google,Google # Google 相关服务
   - RULE-SET,Cloudflare,Cloudflare # Cloudflare CDN 及安全服务
+  - RULE-SET,AmazonASN,亚马逊 # 亚马逊 服务商
+  - RULE-SET,LeasewebASN,Leaseweb # Leaseweb 服务商
   - OR,((RULE-SET,Tor),(RULE-SET,Torcidr,no-resolve)),Tor # 洋葱浏览器
   - OR,((RULE-SET,Fastly),(RULE-SET,Fastlycidr,no-resolve)),Fastly # Fastly 服务商
-  - OR,((RULE-SET,Category-anticensorship),(RULE-SET,Geolocation-!cn),(RULE-SET,Proxy),(RULE-SET,Gfw),(RULE-SET,STUN),(RULE-SET,Leaseweb)),Proxy # 国际网络
+  - OR,((RULE-SET,Category-anticensorship),(RULE-SET,Geolocation-!cn),(RULE-SET,Proxy),(RULE-SET,Gfw),(RULE-SET,STUN)),Proxy # 国际网络
 
   # 国内分流
   - RULE-SET,NGA,NGA # NGA 论坛 (游戏社区)
@@ -1459,10 +1463,15 @@ rule-providers:
     url: "https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/rule/clash/WeChat/WeChat.mrs"
     path: ./ruleset/WeChat.mrs
 
-  Leaseweb:
+  LeasewebASN:
     <<: *classical_yaml
     url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Leaseweb/ASN.Leaseweb.yaml"
-    path: ./ruleset/Leaseweb.yaml
+    path: ./ruleset/LeasewebASN.yaml
+
+  AmazonASN:
+    <<: *ipcidr_yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Amazon/ASN.Amazon.yaml"
+    path: ./ruleset/AmazonASN.yaml
 
   Talkatone:
     <<: *classical_yaml
