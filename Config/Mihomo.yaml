@@ -215,6 +215,10 @@ dns:
   fake-ip-range: 10.10.10.1/16 # fake-ip 池设置
   fake-ip-filter-mode: blacklist
   fake-ip-filter:
+    - RULE-SET:Lan
+    - RULE-SET:Private
+    - RULE-SET:STUN
+    - RULE-SET:CN
     - +.media.dssott.com
     - "*.lan"
     - "*.localdomain"
@@ -345,8 +349,6 @@ dns:
     - +.logon.battle.net
     - +.logon.battlenet.com.cn
     - +.pingan.com.cn
-    - RULE-SET:Private
-    - RULE-SET:CN
   nameserver-policy:
     RULE-SET:CN,Private:
       - "https://dns.alidns.com/dns-query" # 阿里 DNS over H3
@@ -1337,6 +1339,11 @@ rule-providers:
     url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Line/Line.yaml"
     path: ./ruleset/Line.yaml
 
+  STUN:
+    <<: *classical_yaml
+    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/STUN/STUN.yaml"
+    path: ./ruleset/STUN.yaml
+
   # ------------------------------------------------------------
   # MetaCubeX 规则
   Category-httpdns-cn:
@@ -1452,11 +1459,6 @@ rule-providers:
     <<: *classical_text
     url: "https://jsd.onmicrosoft.cn/gh/antn0000/fenliu/4GTV.list"
     path: ./ruleset/4GTV.text
-
-  STUN:
-    <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/HDTianRu/clashConfig/provide/rule/stun.yaml"
-    path: ./ruleset/STUN.yaml
 
   WeChat:
     <<: *domain_mrs
