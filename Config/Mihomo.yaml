@@ -679,9 +679,6 @@ rules:
   - RULE-SET,HoYoverse,HoYoverse # 米哈游 (如原神)
   - RULE-SET,Biliintl,哔哩东南亚 # 哔哩哔哩国际版
   - RULE-SET,18comic,禁漫天堂 # 禁漫天堂动漫网站
-  - RULE-SET,Fastly,Fastly # Fastly 服务商
-  - RULE-SET,Tor,Tor # 洋葱浏览器
-  - RULE-SET,Torcidr,Tor,no-resolve # 洋葱浏览器 CIDR 
   - RULE-SET,GoogleDrive,Google云盘 # Google Drive 云存储
   - RULE-SET,GoogleEarth,Google地图 # Google Earth 地图服务
   - RULE-SET,GoogleFCM,FCM # Google Firebase Cloud Messaging (推送)
@@ -690,9 +687,10 @@ rules:
   - RULE-SET,Scholar,Google学术 # Google Scholar 学术搜索
   - RULE-SET,Gemini,OpenAI # Google Gemini AI
   - RULE-SET,Google,Google # Google 相关服务
-  - RULE-SET,Fastlycidr,Fastly,no-resolve # Fastly 服务商
-  - RULE-SET,Cloudflare,Cloudflare # Cloudflare CDN 及安全服务
   - RULE-SET,Category-media,国际媒体 # 媒体相关规则集，适用于流媒体解锁
+  - RULE-SET,Cloudflare,Cloudflare # Cloudflare CDN 及安全服务
+  - OR,((RULE-SET,Tor),(RULE-SET,Torcidr,no-resolve)),Tor # 洋葱浏览器
+  - OR,((RULE-SET,Fastly),(RULE-SET,Fastlycidr,no-resolve)),Fastly # Fastly 服务商
   - OR,((RULE-SET,Category-anticensorship),(RULE-SET,Geolocation-!cn),(RULE-SET,Proxy),(RULE-SET,Gfw),(RULE-SET,STUN),(RULE-SET,Leaseweb)),Proxy # 国际网络
 
   # 国内分流
