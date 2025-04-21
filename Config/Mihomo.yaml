@@ -215,10 +215,6 @@ dns:
   fake-ip-range: 10.10.10.1/16 # fake-ip 池设置
   fake-ip-filter-mode: blacklist
   fake-ip-filter:
-    - RULE-SET:Lan
-    - RULE-SET:Private
-    - RULE-SET:STUN
-    - RULE-SET:CN
     - +.media.dssott.com
     - "*.lan"
     - "*.localdomain"
@@ -349,6 +345,10 @@ dns:
     - +.logon.battle.net
     - +.logon.battlenet.com.cn
     - +.pingan.com.cn
+    - RULE-SET:Lan
+    - RULE-SET:Private
+    - RULE-SET:STUN
+    - RULE-SET:CN
   nameserver-policy:
     RULE-SET:CN,Private:
       - "https://dns.alidns.com/dns-query" # 阿里 DNS over H3
