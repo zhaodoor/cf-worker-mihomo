@@ -176,7 +176,6 @@ sniffer:
 
 # tun 配置：用于启用 TUN 模式，优化流量路由和 IP 设置
 tun:
-  exclude-package: []
   enable: true # 启用 TUN 模式，用于透明代理
   stack: gvisor # 使用空间网络栈处理流量，可用值： system/gvisor/mixed
   auto-route: true # 自动根据流量选择最佳路由
@@ -194,6 +193,9 @@ tun:
 #  iproute2-table-index: 2022 # 使用指定的路由表索引 (iproute2)
 #  iproute2-rule-index: 9000 # 设置路由规则的索引 (iproute2)
   endpoint-independent-nat: true # 基于端点的 NAT 独立性
+  exclude-package: #排除 Android 应用包名，使其避免被 Tun 路由流量
+    - com.v2ray.ang
+    - com.nebula.clashmi
 
 # DNS 配置：控制 DNS 查询行为，支持增强模式和假 IP 功能
 # 查询 DNS 是否支持 H3 指令:
@@ -388,7 +390,6 @@ proxy-groups:
   # 应用分组
   - { name: "115", <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/115.webp }
   - { name: "12306", <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/12306.webp }
-  - { name: 禁漫天堂, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/18comic.webp }
   - { name: "4399", <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/4399.webp }
   - { name: 4GTV, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/4GTV.webp }
   - { name: 58同城, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/58TongCheng.webp }
@@ -496,6 +497,8 @@ proxy-groups:
   - { name: Wise, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Wise.webp }
   - { name: YouTube, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/YouTube.webp }
   - { name: YouTubeMusic, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/YouTubeMusic.webp }
+  - { name: 禁漫天堂, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/18comic.webp }
+  - { name: 哔咔哔咔, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Picacg.webp }
 
   # 地区分组
   - { name: 🇭🇰香港, <<: *u, hidden: true, filter: '(?i)🇭🇰|\bHK\b|香港|Hong Kong' }
@@ -680,7 +683,7 @@ rules:
   - RULE-SET,Reddit,Reddit # Reddit 论坛
   - RULE-SET,4GTV,4GTV # 4GTV 媒体
   - RULE-SET,EHGallery,E站 #E站（E-Hentai / ExHentai）
-  - RULE-SET,Pixiv,Pixiv # P站（Pixiv插画社区）
+  - RULE-SET,vv,Pixiv # P站（Pixiv插画社区）
   - RULE-SET,Wikipedia,维基百科 # 维基百科，自由的百科全书
   - RULE-SET,Twitch,Twitch # Twitch 直播平台
   - RULE-SET,Blizzard,暴雪 # 暴雪游戏 (如魔兽世界)
@@ -706,6 +709,7 @@ rules:
   - RULE-SET,Wise,Wise # Wise 金融科技
   - RULE-SET,Talkatone,Talkatone # Talkatone 电话
   - RULE-SET,Signal,Signal # Signal 加密即時通訊
+  - RULE-SET,Picacg,哔咔哔咔 # 哔咔哔咔漫画
   - RULE-SET,Category-media,国际媒体 # 媒体相关规则集，适用于流媒体解锁
   - RULE-SET,Facebook,Facebook # Facebook 社交网络
   - RULE-SET,Twitter,Twitter # Twitter 社交平台
@@ -1410,6 +1414,11 @@ rule-providers:
     <<: *domain_mrs
     url: "https://jsd.onmicrosoft.cn/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/signal.mrs"
     path: ./ruleset/Signal.mrs
+
+  Picacg:
+    <<: *domain_mrs
+    url: "https://jsd.onmicrosoft.cn/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/picacg.mrs"
+    path: ./ruleset/Picacg.mrs
 
   # ------------------------------------------------------------
   # Loyalsoldier 规则
