@@ -98,7 +98,7 @@ geodata-loader: memconservative
 geox-url: # Geo 数据库配置，用于地理位置和 ASN 匹配
   geoip: "https://jsd.onmicrosoft.cn/gh/MetaCubeX/meta-rules-dat@release/geoip.dat" # GeoIP 数据库
   geosite: "https://jsd.onmicrosoft.cn/gh/MetaCubeX/meta-rules-dat@release/geosite.dat" # GeoSite 数据库
-  mmdb: "https://jsd.onmicrosoft.cn/gh/MetaCubeX/meta-rules-dat@release/country.mmdb" # MaxMind GeoLite2 数据库
+  mmdb: "https://jsd.onmicrosoft.cn/gh/MetaCubeX/meta-rules-dat@release/geoip.metadb" # GeoIP mmdb 数据库
   asn: "https://jsd.onmicrosoft.cn/gh/MetaCubeX/meta-rules-dat@release/GeoLite2-ASN.mmdb" # ASN 数据库
 geo-auto-update: true # 开启自动更新 Geo 数据库
 geo-update-interval: 24 # Geo 数据库更新间隔 (单位: 小时)
