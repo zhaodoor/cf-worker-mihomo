@@ -91,7 +91,7 @@ lan-disallowed-ips:
 # off 不匹配进程，推荐在路由器上使用此模式
 find-process-mode: strict
 mode: rule # 工作模式为规则模式
-geodata-mode: true # 更改 geoip 使用文件，mmdb 或者 dat，可选 true/false,true为 dat
+geodata-mode: false # 更改 geoip 使用文件，mmdb 或者 dat，可选 true/false,true为 dat
 # standard：标准加载器
 # memconservative：专为内存受限 (小内存) 设备优化的加载器 (默认值)
 geodata-loader: memconservative
@@ -349,17 +349,17 @@ dns:
     - RULE-SET:CN
   nameserver-policy:
     RULE-SET:CN,Private:
-      - "https://dns.alidns.com/dns-query" # 阿里 DNS over H3
+      - "https://dns.alidns.com/dns-query#h3=true" # 阿里 DNS over H3
       - "tls://dot.pub" # 腾讯 DNS over TLS 
   nameserver:
-    - "https://cloudflare-dns.com/dns-query" # Cloudflare DNS over H3
-    - "https://dns.google/dns-query" # Google DNS over H3
-    - "https://doh.dns.sb/dns-query" # SB DNS over H3
-    - "https://public.dns.iij.jp/dns-query#🇯🇵日本" # IIJ DNS over H3
+    - "https://cloudflare-dns.com/dns-query#h3=true" # Cloudflare DNS over H3
+    - "https://dns.google/dns-query#h3=true" # Google DNS over H3
+    - "https://doh.dns.sb/dns-query#h3=true" # SB DNS over H3
+    - "https://public.dns.iij.jp/dns-query#🇯🇵日本&h3=true" # IIJ DNS over H3
   proxy-server-nameserver: # 用于节点域名解析 DNS 服务器
-    - "https://dns.alidns.com/dns-query" # 阿里 DNS over H3
+    - "https://dns.alidns.com/dns-query#h3=true" # 阿里 DNS over H3
   direct-nameserver: #  用于直连出口域名解析的 DNS 服务器
-    - "https://dns.alidns.com/dns-query" # 阿里 DNS over H3
+    - "https://dns.alidns.com/dns-query#h3=true" # 阿里 DNS over H3
 
 proxies:
   - name: "🎯直连"
