@@ -570,7 +570,7 @@ proxy-groups:
 
   - { name: 🇨🇭瑞士, <<: *u, hidden: true, filter: '(?i)🇨🇭|\bCH\b|瑞士|Switzerland' }
 
-  - { name: 🌐其它地区, <<: *u, type: select, filter: '(?i)^(?!.*(?:🇨🇳|\bCN\b|中国|China|
+  - { name: 🌐其它地区, <<: *u, type: select, exclude-filter: '(?i)^.*(?:🇨🇳|\bCN\b|中国|China|
         ‎|🇭🇰|\bHK\b|香港|Hong Kong|
         ‎|🇹🇼|\bTW\b|台湾|Taiwan|Tai wan|
         ‎|🇯🇵|\bJP\b|日本|Japan|
@@ -606,7 +606,7 @@ proxy-groups:
         ‎|🇰🇿|\bKZ\b|哈萨克斯坦|Kazakhstan|
         ‎|🇮🇱|\bIL\b|以色列|Israel|
         ‎|🇦🇪|\bAE\b|阿拉伯联合酋长国|United Arab Emirates|
-        ‎|🇨🇭|\bCH\b|瑞士|Switzerland)).*$' }
+        ‎|🇨🇭|\bCH\b|瑞士|Switzerland).*$' }
 
   - { name: 🐟漏网之鱼, <<: *proxy }
 
