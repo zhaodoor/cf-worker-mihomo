@@ -7,7 +7,7 @@
 # 修改自官方示例规则 https://wiki.metacubex.one/example/#meta
 # 不理解的地方建议对照 虚空终端 (Clash Meta) Docs 进行理解
 # 虚空终端 (Clash Meta) Docs 地址: https://wiki.metacubex.one
-# 转载请保留此注释
+# 转载请保留此注释测
 
 # ------------------------------------------------------------
 # 锚点区
@@ -349,17 +349,17 @@ dns:
     - RULE-SET:CN
   nameserver-policy:
     RULE-SET:CN,Private:
-      - "https://dns.alidns.com/dns-query#h3=true" # 阿里 DNS over H3
+      - "https://dns.alidns.com/dns-query" # 阿里 DNS over H3
       - "tls://dot.pub" # 腾讯 DNS over TLS 
   nameserver:
-    - "https://cloudflare-dns.com/dns-query#h3=true" # Cloudflare DNS over H3
-    - "https://dns.google/dns-query#h3=true" # Google DNS over H3
-    - "https://doh.dns.sb/dns-query#h3=true" # SB DNS over H3
+    - "https://cloudflare-dns.com/dns-query" # Cloudflare DNS over H3
+    - "https://dns.google/dns-query" # Google DNS over H3
+    - "https://doh.dns.sb/dns-query" # SB DNS over H3
     - "https://public.dns.iij.jp/dns-query#🇯🇵日本&h3=true" # IIJ DNS over H3
   proxy-server-nameserver: # 用于节点域名解析 DNS 服务器
-    - "https://dns.alidns.com/dns-query#h3=true" # 阿里 DNS over H3
+    - "https://dns.alidns.com/dns-query" # 阿里 DNS over H3
   direct-nameserver: #  用于直连出口域名解析的 DNS 服务器
-    - "https://dns.alidns.com/dns-query#h3=true" # 阿里 DNS over H3
+    - "https://dns.alidns.com/dns-query" # 阿里 DNS over H3
 
 proxies:
   - name: "🎯直连"
@@ -395,7 +395,7 @@ proxy-groups:
   - { name: Adobe, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Adobe.webp }
   - { name: 支付宝, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/AliPay.webp }
   - { name: 阿里巴巴, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Alibaba.webp }
-  - { name: 亚马逊, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Amazon.webp }
+  - { name: 亚马逊电商, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Amazon.webp }
   - { name: 亚马逊TV, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/AmazonPrimeVideo.webp }
   - { name: Apple, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Apple.webp }
   - { name: AppleTV, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/AppleTV.webp }
@@ -403,7 +403,6 @@ proxy-groups:
   - { name: 百度贴吧, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/BaiDuTieBa.webp }
   - { name: 百度, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Baidu.webp }
   - { name: 哔哩哔哩, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/BiliBili.webp }
-  - { name: 哔哩游戏, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Biligame.webp }
   - { name: 哔哩东南亚, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Biliintl.webp }
   - { name: BT追踪器, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/BitTorrent.webp }
   - { name: 暴雪, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Blizzard.webp }
@@ -431,6 +430,7 @@ proxy-groups:
   - { name: HoYoverse, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/HoYoverse.webp }
   - { name: Hulu, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Hulu.webp }
   - { name: 虎扑, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Hupu.webp }
+  - { name: HBO, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/HBO.webp }
   - { name: IMDB, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/IMDB.webp }
   - { name: 爱奇艺, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/IQIYI.webp }
   - { name: Instagram, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Instagram.webp }
@@ -438,6 +438,7 @@ proxy-groups:
   - { name: 京东, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/JingDong.webp }
   - { name: 酷狗, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Kugou.webp }
   - { name: LastFM, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/LastFM.webp }
+  - { name: LINE, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Line.webp }
   - { name: 美团, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/MeiTuan.webp }
   - { name: 微软, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Microsoft.webp }
   - { name: NGA, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/NGA.webp }
@@ -446,6 +447,7 @@ proxy-groups:
   - { name: Netflix, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Netflix.webp }
   - { name: ニコニコ, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Niconico.webp }
   - { name: OpenAI, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/OpenAI.webp }
+  - { name: 微软云盘, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/OneDrive.webp }
   - { name: 潘朵拉珠宝, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Pandora.webp }
   - { name: PayPal, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/PayPal.webp }
   - { name: PikPak, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/PikPak.webp }
@@ -467,6 +469,7 @@ proxy-groups:
   - { name: Steam, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Steam.webp }
   - { name: Steam中国, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Steam.webp }
   - { name: Supercell, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Supercell.webp }
+  - { name: Signal, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Signal.webp }
   - { name: TVB, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/TVB.webp }
   - { name: Telegram, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Telegram.webp }
   - { name: 腾讯, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Tencent.webp }
@@ -475,8 +478,10 @@ proxy-groups:
   - { name: Twitch, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Twitch.webp }
   - { name: Twitter, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Twitter.webp }
   - { name: Tor, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Tor.webp }
+  - { name: Talkatone, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Talkatone.webp }
   - { name: 微信, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/WeChat.webp }
   - { name: 维基百科, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Wikipedia.webp }
+  - { name: Wise, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Wise.webp }
   - { name: YouTube, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/YouTube.webp }
   - { name: YouTubeMusic, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/YouTubeMusic.webp }
 
@@ -626,14 +631,12 @@ rules:
   - RULE-SET,TikTok,TikTok # TikTok 短视频平台
   - RULE-SET,YouTube,YouTube # YouTube 视频平台
   - RULE-SET,YouTubeMusic,YouTubeMusic # YouTube Music 音乐流媒体
-  - RULE-SET,Twitter,Twitter # Twitter 社交平台
   - RULE-SET,Discord,Discord # Discord 语音聊天社区
   - RULE-SET,Spotify,Spotify # Spotify 音乐流媒体
   - RULE-SET,Telegram,Telegram # Telegram 即时通讯
   - RULE-SET,OpenAI,OpenAI # OpenAI 相关服务
   - RULE-SET,Claude,OpenAI # Claude AI 聊天机器人
   - RULE-SET,GitHub,GitHub # GitHub 代码托管平台
-  - RULE-SET,Facebook,Facebook # Facebook 社交网络
   - RULE-SET,Netflix,Netflix # Netflix 影视流媒体
   - RULE-SET,Disney,Disney # Disney+ 影视订阅服务
   - RULE-SET,Bahamut,巴哈姆特 # 巴哈姆特 ACG 论坛
@@ -644,7 +647,7 @@ rules:
   - RULE-SET,Niconico,ニコニコ # Niconico 日本弹幕视频
   - RULE-SET,Abema,Abema # Abema 日本网络电视
   - RULE-SET,AmazonPrimeVideo,亚马逊TV # 亚马逊 Prime Video 影视订阅
-  - RULE-SET,Amazon,亚马逊 # 亚马逊电商
+  - RULE-SET,Amazon,亚马逊电商 # 亚马逊电商
   - RULE-SET,Adobe,Adobe # Adobe 相关服务 (如 Creative Cloud)
   - RULE-SET,Docker,Docker # Docker 容器服务
   - RULE-SET,IMDB,IMDB # IMDB 电影数据库
@@ -654,7 +657,7 @@ rules:
   - RULE-SET,Bing,微软 # Bing 搜索引擎
   - RULE-SET,Teams,微软 # Microsoft Teams 协作工具
   - RULE-SET,MicrosoftEdge,微软 # Microsoft Edge 浏览器
-  - RULE-SET,OneDrive,微软 # OneDrive 云存储
+  - RULE-SET,OneDrive,微软云盘 # Microsoft OneDrive 云储存
   - RULE-SET,Copilot,OpenAI # Microsoft Copilot AI 助手
   - RULE-SET,Microsoft,微软 # Microsoft 相关服务
   - RULE-SET,Intel,因特尔 # Intel 相关服务
@@ -686,8 +689,15 @@ rules:
   - RULE-SET,Chromecast,Google # Google Chromecast 投屏
   - RULE-SET,Scholar,Google学术 # Google Scholar 学术搜索
   - RULE-SET,Gemini,OpenAI # Google Gemini AI
-  - RULE-SET,Google,Google # Google 相关服务
+  - RULE-SET,HBO,HBO # Home Box Office
+  - RULE-SET,Line,LINE # LINE （连我）
+  - RULE-SET,Wise,Wise # Wise 金融科技
+  - RULE-SET,Talkatone,Talkatone # Talkatone 电话
+  - RULE-SET,Signal,Signal # Signal 加密即時通訊
   - RULE-SET,Category-media,国际媒体 # 媒体相关规则集，适用于流媒体解锁
+  - RULE-SET,Facebook,Facebook # Facebook 社交网络
+  - RULE-SET,Twitter,Twitter # Twitter 社交平台
+  - RULE-SET,Google,Google # Google 相关服务
   - RULE-SET,Cloudflare,Cloudflare # Cloudflare CDN 及安全服务
   - OR,((RULE-SET,Tor),(RULE-SET,Torcidr,no-resolve)),Tor # 洋葱浏览器
   - OR,((RULE-SET,Fastly),(RULE-SET,Fastlycidr,no-resolve)),Fastly # Fastly 服务商
@@ -713,7 +723,6 @@ rules:
   - RULE-SET,DingTalk,钉钉 # 钉钉，阿里巴巴企业通讯工具
   - RULE-SET,iQIYI,爱奇艺 # 爱奇艺，在线视频平台
   - RULE-SET,SteamCN,Steam中国 # Steam 中国版，游戏社区和商店
-  - RULE-SET,Bilibili-game,哔哩游戏 # bilibili 游戏规则
   - RULE-SET,BiliBili,哔哩哔哩 # 哔哩哔哩，二次元弹幕视频网站
   - RULE-SET,NetEase,网易 # 网易，涵盖邮箱、游戏等服务
   - RULE-SET,JingDong,京东 # 京东，电商平台
@@ -1306,6 +1315,16 @@ rule-providers:
     url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Twitch/Twitch.yaml"
     path: ./ruleset/Twitch.yaml
 
+  HBO:
+    <<: *classical_yaml
+    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script@master/rule/Clash/HBO/HBO.yaml"
+    path: ./ruleset/HBO.yaml
+
+  Line:
+    <<: *classical_yaml
+    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Line/Line.yaml"
+    path: ./ruleset/Line.yaml
+
   # ------------------------------------------------------------
   # MetaCubeX 规则
   Category-httpdns-cn:
@@ -1332,11 +1351,6 @@ rule-providers:
     <<: *domain_mrs
     url: "https://jsd.onmicrosoft.cn/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ads-all.mrs"
     path: ./ruleset/Category-ads-all.mrs
-
-  Bilibili-game:
-    <<: *domain_mrs
-    url: "https://jsd.onmicrosoft.cn/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/bilibili-game.mrs"
-    path: ./ruleset/Bilibili-game.mrs
 
   Biliintl:
     <<: *domain_mrs
@@ -1367,6 +1381,16 @@ rule-providers:
     <<: *ipcidr_mrs
     url: "https://jsd.onmicrosoft.cn/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/fastly.mrs"
     path: ./ruleset/Fastlycidr.mrs
+
+  Wise:
+    <<: *domain_mrs
+    url: "https://jsd.onmicrosoft.cn/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/wise.mrs"
+    path: ./ruleset/Wise.mrs
+
+  Signal:
+    <<: *domain_mrs
+    url: "https://jsd.onmicrosoft.cn/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/signal.mrs"
+    path: ./ruleset/Signal.mrs
 
   # ------------------------------------------------------------
   # Loyalsoldier 规则
@@ -1431,3 +1455,8 @@ rule-providers:
     <<: *classical_yaml
     url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Leaseweb/ASN.Leaseweb.yaml"
     path: ./ruleset/Leaseweb.yaml
+
+  Talkatone:
+    <<: *classical_yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Auniquesir/Tool@X/Stash/Rule/Talkatone/Talkatone.yaml"
+    path: ./ruleset/Talkatone.yaml
