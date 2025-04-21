@@ -371,11 +371,11 @@ proxy-groups:
 
   - { name: ☑️ 手动切换, <<: *u, type: select }
 
-  - { name: 🚫广告拦截, type: select, include-all-providers: true, proxies: [🚫拒绝, 🚀节点选择] }
+  - { name: 🚫广告拦截, type: select, include-all-providers: true, proxies: [🚫拒绝, 🚀节点选择, 🎯全球直连, ♻️自动选择, ⚡️均衡负载, 🔯故障转移] }
 
-  - { name: 🚫泄漏拦截, type: select, include-all-providers: true, proxies: [🚫拒绝, 🚀节点选择] }
+  - { name: 🚫泄漏拦截, type: select, include-all-providers: true, proxies: [🚫拒绝, 🚀节点选择, 🎯全球直连, ♻️自动选择, ⚡️均衡负载, 🔯故障转移] }
 
-  - { name: 🎯全球直连, type: select, include-all-providers: true, proxies: [🎯直连, 🚀节点选择] }
+  - { name: 🎯全球直连, type: select, include-all-providers: true, proxies: [🎯直连, 🚫拒绝, 🚀节点选择, ♻️自动选择, ⚡️均衡负载, 🔯故障转移] }
 
   - { name: ♻️自动选择, <<: *u, tolerance: 1, type: url-test }
 
@@ -398,6 +398,11 @@ proxy-groups:
   - { name: 亚马逊电商, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Amazon.webp }
   - { name: 亚马逊TV, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/AmazonPrimeVideo.webp }
   - { name: Apple, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Apple.webp }
+  - { name: AppStore, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/AppStore.webp }
+  - { name: Apple邮箱, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/AppleMail.webp }
+  - { name: Apple音乐, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/AppleMusic.webp }
+  - { name: Apple新闻, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/AppleNews.webp }
+  - { name: Apple日报, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/AppleDaily.webp }
   - { name: AppleTV, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/AppleTV.webp }
   - { name: 巴哈姆特, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Bahamut.webp }
   - { name: 百度贴吧, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/BaiDuTieBa.webp }
@@ -407,6 +412,7 @@ proxy-groups:
   - { name: BT追踪器, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/BitTorrent.webp }
   - { name: 暴雪, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Blizzard.webp }
   - { name: 字节跳动, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/ByteDance.webp }
+  - { name: Beats, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Beats.webp }
   - { name: CCTV, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/CCTV.webp }
   - { name: 中国媒体, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/ChinaTV.webp }
   - { name: Cloudflare, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Cloudflare.webp }
@@ -421,6 +427,7 @@ proxy-groups:
   - { name: FCM, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/FCM.webp }
   - { name: Facebook, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Facebook.webp }
   - { name: Fastly, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Fastly.webp }
+  - { name: FitnessPlus, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/FitnessPlus.webp }
   - { name: 高德, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/GaoDe.webp }
   - { name: GitHub, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/GitHub.webp }
   - { name: Google, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Google.webp }
@@ -435,6 +442,7 @@ proxy-groups:
   - { name: 爱奇艺, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/IQIYI.webp }
   - { name: Instagram, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Instagram.webp }
   - { name: 因特尔, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Intel.webp }
+  - { name: iCloud, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/iCloud.webp }
   - { name: 京东, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/JingDong.webp }
   - { name: 酷狗, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Kugou.webp }
   - { name: LastFM, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo@main/icon/webp/LastFM.webp }
@@ -607,24 +615,24 @@ rules:
   - OR,((RULE-SET,BlockHttpDNS),(RULE-SET,Category-httpdns-cn)),🚫泄漏拦截
 
   # Apple 相关服务
-  - RULE-SET,AppStore,Apple # App Store 应用商店
-  - RULE-SET,iCloud,Apple # iCloud 云存储服务
+  - RULE-SET,AppStore,AppStore # App Store 应用商店
+  - RULE-SET,iCloud,iCloud # iCloud 云存储服务
+  - RULE-SET,AppleMail,Apple邮箱 # Apple Mail 邮件服务
+  - RULE-SET,AppleMusic,Apple音乐 # Apple Music 音乐流媒体
+  - RULE-SET,AppleNews,Apple新闻 # Apple News 新闻订阅
+  - RULE-SET,AppleDaily,Apple日报 # Apple Daily 新闻
+  - RULE-SET,FitnessPlus,FitnessPlus # Apple Fitness+ 健身订阅
+  - RULE-SET,Beats,Beats # Beats 耳机及音频服务
+  - RULE-SET,AppleTV,AppleTV # Apple TV+ 影视订阅服务
+  - RULE-SET,AppleMedia,AppleTV # Apple 影音服务 (如 Podcasts)
+  - RULE-SET,Siri,Apple # Siri 语音助手
   - RULE-SET,SystemOTA,Apple # iOS/macOS 系统更新 (OTA)
   - RULE-SET,AppleID,Apple # Apple ID 登录及验证
-  - RULE-SET,AppleMail,Apple # Apple Mail 邮件服务
-  - RULE-SET,AppleMusic,Apple # Apple Music 音乐流媒体
-  - RULE-SET,AppleNews,Apple # Apple News 新闻订阅
+  - RULE-SET,AppleDev,Apple # Apple 开发者服务
   - RULE-SET,AppleFirmware,Apple # Apple 设备固件下载
   - RULE-SET,AppleHardware,Apple # Apple 硬件相关服务
-  - RULE-SET,AppleDaily,Apple # Apple Daily (已停运)
-  - RULE-SET,AppleDev,Apple # Apple 开发者服务
-  - RULE-SET,AppleMedia,Apple # Apple 影音服务 (如 Podcasts)
-  - RULE-SET,FitnessPlus,Apple # Apple Fitness+ 健身订阅
-  - RULE-SET,Siri,Apple # Siri 语音助手
-  - RULE-SET,AppleProxy,Apple # Apple 代理相关流量
-  - RULE-SET,Beats,Apple # Beats 耳机及音频服务
-  - RULE-SET,AppleTV,AppleTV # Apple TV+ 影视订阅服务
   - RULE-SET,Apple,Apple # Apple 相关服务的总规则
+  - RULE-SET,AppleProxy,Apple # Apple 代理相关流量
 
   # 国外分流
   - RULE-SET,PikPak,PikPak # PikPak 云存储
