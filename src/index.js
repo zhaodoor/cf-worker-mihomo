@@ -1,47 +1,47 @@
 import yaml from 'js-yaml';
 export default {
-	async fetch(request, env) {
-		const config = env.CONFIG || "https://raw.githubusercontent.com/Kwisma/cf-worker-mihomo/main/Config/Mihomo.yaml"
-		const url = new URL(request.url);
-		const hostHeader = request.headers.get("host");
+  async fetch(request, env) {
+    const config = env.CONFIG || "https://raw.githubusercontent.com/Kwisma/cf-worker-mihomo/main/Config/Mihomo.yaml"
+    const url = new URL(request.url);
+    const hostHeader = request.headers.get("host");
 
-		// 处理 URL 参数
-		let urls = url.searchParams.getAll("url");
+    // 处理 URL 参数
+    let urls = url.searchParams.getAll("url");
 
-		if (urls.length === 1 && urls[0].includes(",")) {
-			urls = urls[0].split(",").map(u => u.trim()); // 拆分并去除空格
-		}
+    if (urls.length === 1 && urls[0].includes(",")) {
+      urls = urls[0].split(",").map(u => u.trim()); // 拆分并去除空格
+    }
 
-		if (urls.length === 0 || urls[0] === "") {
-			const message = "没有提供 URL 参数，请检查并重新尝试！";
-			return new Response(await getFakePage(message, hostHeader), {
-				headers: {
-					"Content-Type": "text/html; charset=utf-8"
-				}
-			}, { status: 400 });
-		}
+    if (urls.length === 0 || urls[0] === "") {
+      const message = "没有提供 URL 参数，请检查并重新尝试！";
+      return new Response(await getFakePage(message, hostHeader), {
+        headers: {
+          "Content-Type": "text/html; charset=utf-8"
+        }
+      }, { status: 400 });
+    }
 
-		// URL 校验
-		for (let u of urls) {
-			if (!isValidURL(u)) {
-				const message = `无效的 URL: ${u}，请检查输入！`;
-				return new Response(await getFakePage(message, hostHeader), {
-					headers: {
-						"Content-Type": "text/html; charset=utf-8"
-					}
-				}, { status: 400 });
-			}
-		}
+    // URL 校验
+    for (let u of urls) {
+      if (!isValidURL(u)) {
+        const message = `无效的 URL: ${u}，请检查输入！`;
+        return new Response(await getFakePage(message, hostHeader), {
+          headers: {
+            "Content-Type": "text/html; charset=utf-8"
+          }
+        }, { status: 400 });
+      }
+    }
 
-		return new Response(await initconfig(urls, config), {
-			headers: { "Content-Type": "text/plain; charset=utf-8" }
-		});
-	}
+    return new Response(await initconfig(urls, config), {
+      headers: { "Content-Type": "text/plain; charset=utf-8" }
+    });
+  }
 };
 
 // 获取伪装页面
 async function getFakePage(message, hostHeader) {
-	return `
+  return `
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -142,19 +142,19 @@ async function getFakePage(message, hostHeader) {
 
 // 校验 URL 是否有效
 function isValidURL(url) {
-	try {
-		const parsedUrl = new URL(url);
-		return ['http:', 'https:'].includes(parsedUrl.protocol);
-	} catch (e) {
-		return false;
-	}
+  try {
+    const parsedUrl = new URL(url);
+    return ['http:', 'https:'].includes(parsedUrl.protocol);
+  } catch (e) {
+    return false;
+  }
 }
 
 // 初始化配置
 async function initconfig(urls, config) {
-	let index = 0, proxy = [];
-	for (const url of urls) {
-		proxy.push(`
+  let index = 0, proxy = [];
+  for (const url of urls) {
+    proxy.push(`
   provider${index + 1}:
     <<: *p
     url: "${url}"
@@ -164,15 +164,15 @@ async function initconfig(urls, config) {
       additional-suffix: ' ${index + 1}'
 `)
     index++;
-    }
-	const ProxyProviders = `
+  }
+  const ProxyProviders = `
 proxy-providers:
 ${proxy.join('')}
 `
 
-	const response = await fetch(config);
-	let mihomodata = await response.text()
-	// 使用正则表达式替换 proxy-providers 和 u 锚点
-	mihomodata = mihomodata.replace(/proxy-providers:([\s\S]*?)(?=\n\S|$)/, ProxyProviders.trim());
-	return JSON.stringify(yaml.load(mihomodata));
+  const response = await fetch(config);
+  let mihomodata = await response.text()
+  // 使用正则表达式替换 proxy-providers 和 u 锚点
+  mihomodata = mihomodata.replace(/proxy-providers:([\s\S]*?)(?=\n\S|$)/, ProxyProviders.trim());
+  return JSON.stringify(yaml.load(mihomodata));
 }

@@ -1,15 +1,21 @@
+var __defProp = Object.defineProperty;
+var __name = (target, value) => __defProp(target, "name", { value, configurable: true });
+
 // node_modules/js-yaml/dist/js-yaml.mjs
 function isNothing(subject) {
   return typeof subject === "undefined" || subject === null;
 }
+__name(isNothing, "isNothing");
 function isObject(subject) {
   return typeof subject === "object" && subject !== null;
 }
+__name(isObject, "isObject");
 function toArray(sequence) {
   if (Array.isArray(sequence)) return sequence;
   else if (isNothing(sequence)) return [];
   return [sequence];
 }
+__name(toArray, "toArray");
 function extend(target, source) {
   var index, length, key, sourceKeys;
   if (source) {
@@ -21,6 +27,7 @@ function extend(target, source) {
   }
   return target;
 }
+__name(extend, "extend");
 function repeat(string, count) {
   var result = "", cycle;
   for (cycle = 0; cycle < count; cycle += 1) {
@@ -28,9 +35,11 @@ function repeat(string, count) {
   }
   return result;
 }
+__name(repeat, "repeat");
 function isNegativeZero(number) {
   return number === 0 && Number.NEGATIVE_INFINITY === 1 / number;
 }
+__name(isNegativeZero, "isNegativeZero");
 var isNothing_1 = isNothing;
 var isObject_1 = isObject;
 var toArray_1 = toArray;
@@ -57,6 +66,7 @@ function formatError(exception2, compact) {
   }
   return message + " " + where;
 }
+__name(formatError, "formatError");
 function YAMLException$1(reason, mark) {
   Error.call(this);
   this.name = "YAMLException";
@@ -69,11 +79,12 @@ function YAMLException$1(reason, mark) {
     this.stack = new Error().stack || "";
   }
 }
+__name(YAMLException$1, "YAMLException$1");
 YAMLException$1.prototype = Object.create(Error.prototype);
 YAMLException$1.prototype.constructor = YAMLException$1;
-YAMLException$1.prototype.toString = function toString(compact) {
+YAMLException$1.prototype.toString = /* @__PURE__ */ __name(function toString(compact) {
   return this.name + ": " + formatError(this, compact);
-};
+}, "toString");
 var exception = YAMLException$1;
 function getLine(buffer, lineStart, lineEnd, position, maxLineLength) {
   var head = "";
@@ -93,9 +104,11 @@ function getLine(buffer, lineStart, lineEnd, position, maxLineLength) {
     // relative position
   };
 }
+__name(getLine, "getLine");
 function padStart(string, max) {
   return common.repeat(" ", max - string.length) + string;
 }
+__name(padStart, "padStart");
 function makeSnippet(mark, options) {
   options = Object.create(options || null);
   if (!mark.buffer) return null;
@@ -146,6 +159,7 @@ function makeSnippet(mark, options) {
   }
   return result.replace(/\n$/, "");
 }
+__name(makeSnippet, "makeSnippet");
 var snippet = makeSnippet;
 var TYPE_CONSTRUCTOR_OPTIONS = [
   "kind",
@@ -175,6 +189,7 @@ function compileStyleAliases(map2) {
   }
   return result;
 }
+__name(compileStyleAliases, "compileStyleAliases");
 function Type$1(tag, options) {
   options = options || {};
   Object.keys(options).forEach(function(name) {
@@ -202,6 +217,7 @@ function Type$1(tag, options) {
     throw new exception('Unknown kind "' + this.kind + '" is specified for "' + tag + '" YAML type.');
   }
 }
+__name(Type$1, "Type$1");
 var type = Type$1;
 function compileList(schema2, name) {
   var result = [];
@@ -216,6 +232,7 @@ function compileList(schema2, name) {
   });
   return result;
 }
+__name(compileList, "compileList");
 function compileMap() {
   var result = {
     scalar: {},
@@ -237,15 +254,18 @@ function compileMap() {
       result[type2.kind][type2.tag] = result["fallback"][type2.tag] = type2;
     }
   }
+  __name(collectType, "collectType");
   for (index = 0, length = arguments.length; index < length; index += 1) {
     arguments[index].forEach(collectType);
   }
   return result;
 }
+__name(compileMap, "compileMap");
 function Schema$1(definition) {
   return this.extend(definition);
 }
-Schema$1.prototype.extend = function extend2(definition) {
+__name(Schema$1, "Schema$1");
+Schema$1.prototype.extend = /* @__PURE__ */ __name(function extend2(definition) {
   var implicit = [];
   var explicit = [];
   if (definition instanceof type) {
@@ -281,25 +301,25 @@ Schema$1.prototype.extend = function extend2(definition) {
   result.compiledExplicit = compileList(result, "explicit");
   result.compiledTypeMap = compileMap(result.compiledImplicit, result.compiledExplicit);
   return result;
-};
+}, "extend");
 var schema = Schema$1;
 var str = new type("tag:yaml.org,2002:str", {
   kind: "scalar",
-  construct: function(data) {
+  construct: /* @__PURE__ */ __name(function(data) {
     return data !== null ? data : "";
-  }
+  }, "construct")
 });
 var seq = new type("tag:yaml.org,2002:seq", {
   kind: "sequence",
-  construct: function(data) {
+  construct: /* @__PURE__ */ __name(function(data) {
     return data !== null ? data : [];
-  }
+  }, "construct")
 });
 var map = new type("tag:yaml.org,2002:map", {
   kind: "mapping",
-  construct: function(data) {
+  construct: /* @__PURE__ */ __name(function(data) {
     return data !== null ? data : {};
-  }
+  }, "construct")
 });
 var failsafe = new schema({
   explicit: [
@@ -313,33 +333,36 @@ function resolveYamlNull(data) {
   var max = data.length;
   return max === 1 && data === "~" || max === 4 && (data === "null" || data === "Null" || data === "NULL");
 }
+__name(resolveYamlNull, "resolveYamlNull");
 function constructYamlNull() {
   return null;
 }
+__name(constructYamlNull, "constructYamlNull");
 function isNull(object) {
   return object === null;
 }
+__name(isNull, "isNull");
 var _null = new type("tag:yaml.org,2002:null", {
   kind: "scalar",
   resolve: resolveYamlNull,
   construct: constructYamlNull,
   predicate: isNull,
   represent: {
-    canonical: function() {
+    canonical: /* @__PURE__ */ __name(function() {
       return "~";
-    },
-    lowercase: function() {
+    }, "canonical"),
+    lowercase: /* @__PURE__ */ __name(function() {
       return "null";
-    },
-    uppercase: function() {
+    }, "lowercase"),
+    uppercase: /* @__PURE__ */ __name(function() {
       return "NULL";
-    },
-    camelcase: function() {
+    }, "uppercase"),
+    camelcase: /* @__PURE__ */ __name(function() {
       return "Null";
-    },
-    empty: function() {
+    }, "camelcase"),
+    empty: /* @__PURE__ */ __name(function() {
       return "";
-    }
+    }, "empty")
   },
   defaultStyle: "lowercase"
 });
@@ -348,39 +371,45 @@ function resolveYamlBoolean(data) {
   var max = data.length;
   return max === 4 && (data === "true" || data === "True" || data === "TRUE") || max === 5 && (data === "false" || data === "False" || data === "FALSE");
 }
+__name(resolveYamlBoolean, "resolveYamlBoolean");
 function constructYamlBoolean(data) {
   return data === "true" || data === "True" || data === "TRUE";
 }
+__name(constructYamlBoolean, "constructYamlBoolean");
 function isBoolean(object) {
   return Object.prototype.toString.call(object) === "[object Boolean]";
 }
+__name(isBoolean, "isBoolean");
 var bool = new type("tag:yaml.org,2002:bool", {
   kind: "scalar",
   resolve: resolveYamlBoolean,
   construct: constructYamlBoolean,
   predicate: isBoolean,
   represent: {
-    lowercase: function(object) {
+    lowercase: /* @__PURE__ */ __name(function(object) {
       return object ? "true" : "false";
-    },
-    uppercase: function(object) {
+    }, "lowercase"),
+    uppercase: /* @__PURE__ */ __name(function(object) {
       return object ? "TRUE" : "FALSE";
-    },
-    camelcase: function(object) {
+    }, "uppercase"),
+    camelcase: /* @__PURE__ */ __name(function(object) {
       return object ? "True" : "False";
-    }
+    }, "camelcase")
   },
   defaultStyle: "lowercase"
 });
 function isHexCode(c) {
   return 48 <= c && c <= 57 || 65 <= c && c <= 70 || 97 <= c && c <= 102;
 }
+__name(isHexCode, "isHexCode");
 function isOctCode(c) {
   return 48 <= c && c <= 55;
 }
+__name(isOctCode, "isOctCode");
 function isDecCode(c) {
   return 48 <= c && c <= 57;
 }
+__name(isDecCode, "isDecCode");
 function resolveYamlInteger(data) {
   if (data === null) return false;
   var max = data.length, index = 0, hasDigits = false, ch;
@@ -435,6 +464,7 @@ function resolveYamlInteger(data) {
   if (!hasDigits || ch === "_") return false;
   return true;
 }
+__name(resolveYamlInteger, "resolveYamlInteger");
 function constructYamlInteger(data) {
   var value = data, sign = 1, ch;
   if (value.indexOf("_") !== -1) {
@@ -454,28 +484,30 @@ function constructYamlInteger(data) {
   }
   return sign * parseInt(value, 10);
 }
+__name(constructYamlInteger, "constructYamlInteger");
 function isInteger(object) {
   return Object.prototype.toString.call(object) === "[object Number]" && (object % 1 === 0 && !common.isNegativeZero(object));
 }
+__name(isInteger, "isInteger");
 var int = new type("tag:yaml.org,2002:int", {
   kind: "scalar",
   resolve: resolveYamlInteger,
   construct: constructYamlInteger,
   predicate: isInteger,
   represent: {
-    binary: function(obj) {
+    binary: /* @__PURE__ */ __name(function(obj) {
       return obj >= 0 ? "0b" + obj.toString(2) : "-0b" + obj.toString(2).slice(1);
-    },
-    octal: function(obj) {
+    }, "binary"),
+    octal: /* @__PURE__ */ __name(function(obj) {
       return obj >= 0 ? "0o" + obj.toString(8) : "-0o" + obj.toString(8).slice(1);
-    },
-    decimal: function(obj) {
+    }, "octal"),
+    decimal: /* @__PURE__ */ __name(function(obj) {
       return obj.toString(10);
-    },
+    }, "decimal"),
     /* eslint-disable max-len */
-    hexadecimal: function(obj) {
+    hexadecimal: /* @__PURE__ */ __name(function(obj) {
       return obj >= 0 ? "0x" + obj.toString(16).toUpperCase() : "-0x" + obj.toString(16).toUpperCase().slice(1);
-    }
+    }, "hexadecimal")
   },
   defaultStyle: "decimal",
   styleAliases: {
@@ -498,6 +530,7 @@ function resolveYamlFloat(data) {
   }
   return true;
 }
+__name(resolveYamlFloat, "resolveYamlFloat");
 function constructYamlFloat(data) {
   var value, sign;
   value = data.replace(/_/g, "").toLowerCase();
@@ -512,6 +545,7 @@ function constructYamlFloat(data) {
   }
   return sign * parseFloat(value, 10);
 }
+__name(constructYamlFloat, "constructYamlFloat");
 var SCIENTIFIC_WITHOUT_DOT = /^[-+]?[0-9]+e/;
 function representYamlFloat(object, style) {
   var res;
@@ -548,9 +582,11 @@ function representYamlFloat(object, style) {
   res = object.toString(10);
   return SCIENTIFIC_WITHOUT_DOT.test(res) ? res.replace("e", ".e") : res;
 }
+__name(representYamlFloat, "representYamlFloat");
 function isFloat(object) {
   return Object.prototype.toString.call(object) === "[object Number]" && (object % 1 !== 0 || common.isNegativeZero(object));
 }
+__name(isFloat, "isFloat");
 var float = new type("tag:yaml.org,2002:float", {
   kind: "scalar",
   resolve: resolveYamlFloat,
@@ -580,6 +616,7 @@ function resolveYamlTimestamp(data) {
   if (YAML_TIMESTAMP_REGEXP.exec(data) !== null) return true;
   return false;
 }
+__name(resolveYamlTimestamp, "resolveYamlTimestamp");
 function constructYamlTimestamp(data) {
   var match, year, month, day, hour, minute, second, fraction = 0, delta = null, tz_hour, tz_minute, date;
   match = YAML_DATE_REGEXP.exec(data);
@@ -611,9 +648,11 @@ function constructYamlTimestamp(data) {
   if (delta) date.setTime(date.getTime() - delta);
   return date;
 }
+__name(constructYamlTimestamp, "constructYamlTimestamp");
 function representYamlTimestamp(object) {
   return object.toISOString();
 }
+__name(representYamlTimestamp, "representYamlTimestamp");
 var timestamp = new type("tag:yaml.org,2002:timestamp", {
   kind: "scalar",
   resolve: resolveYamlTimestamp,
@@ -624,6 +663,7 @@ var timestamp = new type("tag:yaml.org,2002:timestamp", {
 function resolveYamlMerge(data) {
   return data === "<<" || data === null;
 }
+__name(resolveYamlMerge, "resolveYamlMerge");
 var merge = new type("tag:yaml.org,2002:merge", {
   kind: "scalar",
   resolve: resolveYamlMerge
@@ -640,6 +680,7 @@ function resolveYamlBinary(data) {
   }
   return bitlen % 8 === 0;
 }
+__name(resolveYamlBinary, "resolveYamlBinary");
 function constructYamlBinary(data) {
   var idx, tailbits, input = data.replace(/[\r\n=]/g, ""), max = input.length, map2 = BASE64_MAP, bits = 0, result = [];
   for (idx = 0; idx < max; idx++) {
@@ -663,6 +704,7 @@ function constructYamlBinary(data) {
   }
   return new Uint8Array(result);
 }
+__name(constructYamlBinary, "constructYamlBinary");
 function representYamlBinary(object) {
   var result = "", bits = 0, idx, tail, max = object.length, map2 = BASE64_MAP;
   for (idx = 0; idx < max; idx++) {
@@ -693,9 +735,11 @@ function representYamlBinary(object) {
   }
   return result;
 }
+__name(representYamlBinary, "representYamlBinary");
 function isBinary(obj) {
   return Object.prototype.toString.call(obj) === "[object Uint8Array]";
 }
+__name(isBinary, "isBinary");
 var binary = new type("tag:yaml.org,2002:binary", {
   kind: "scalar",
   resolve: resolveYamlBinary,
@@ -724,9 +768,11 @@ function resolveYamlOmap(data) {
   }
   return true;
 }
+__name(resolveYamlOmap, "resolveYamlOmap");
 function constructYamlOmap(data) {
   return data !== null ? data : [];
 }
+__name(constructYamlOmap, "constructYamlOmap");
 var omap = new type("tag:yaml.org,2002:omap", {
   kind: "sequence",
   resolve: resolveYamlOmap,
@@ -746,6 +792,7 @@ function resolveYamlPairs(data) {
   }
   return true;
 }
+__name(resolveYamlPairs, "resolveYamlPairs");
 function constructYamlPairs(data) {
   if (data === null) return [];
   var index, length, pair, keys, result, object = data;
@@ -757,6 +804,7 @@ function constructYamlPairs(data) {
   }
   return result;
 }
+__name(constructYamlPairs, "constructYamlPairs");
 var pairs = new type("tag:yaml.org,2002:pairs", {
   kind: "sequence",
   resolve: resolveYamlPairs,
@@ -773,9 +821,11 @@ function resolveYamlSet(data) {
   }
   return true;
 }
+__name(resolveYamlSet, "resolveYamlSet");
 function constructYamlSet(data) {
   return data !== null ? data : {};
 }
+__name(constructYamlSet, "constructYamlSet");
 var set = new type("tag:yaml.org,2002:set", {
   kind: "mapping",
   resolve: resolveYamlSet,
@@ -809,18 +859,23 @@ var PATTERN_TAG_URI = /^(?:!|[^,\[\]\{\}])(?:%[0-9a-f]{2}|[0-9a-z\-#;\/\?:@&=\+\
 function _class(obj) {
   return Object.prototype.toString.call(obj);
 }
+__name(_class, "_class");
 function is_EOL(c) {
   return c === 10 || c === 13;
 }
+__name(is_EOL, "is_EOL");
 function is_WHITE_SPACE(c) {
   return c === 9 || c === 32;
 }
+__name(is_WHITE_SPACE, "is_WHITE_SPACE");
 function is_WS_OR_EOL(c) {
   return c === 9 || c === 32 || c === 10 || c === 13;
 }
+__name(is_WS_OR_EOL, "is_WS_OR_EOL");
 function is_FLOW_INDICATOR(c) {
   return c === 44 || c === 91 || c === 93 || c === 123 || c === 125;
 }
+__name(is_FLOW_INDICATOR, "is_FLOW_INDICATOR");
 function fromHexCode(c) {
   var lc;
   if (48 <= c && c <= 57) {
@@ -832,6 +887,7 @@ function fromHexCode(c) {
   }
   return -1;
 }
+__name(fromHexCode, "fromHexCode");
 function escapedHexLen(c) {
   if (c === 120) {
     return 2;
@@ -844,15 +900,18 @@ function escapedHexLen(c) {
   }
   return 0;
 }
+__name(escapedHexLen, "escapedHexLen");
 function fromDecimalCode(c) {
   if (48 <= c && c <= 57) {
     return c - 48;
   }
   return -1;
 }
+__name(fromDecimalCode, "fromDecimalCode");
 function simpleEscapeSequence(c) {
   return c === 48 ? "\0" : c === 97 ? "\x07" : c === 98 ? "\b" : c === 116 ? "	" : c === 9 ? "	" : c === 110 ? "\n" : c === 118 ? "\v" : c === 102 ? "\f" : c === 114 ? "\r" : c === 101 ? "\x1B" : c === 32 ? " " : c === 34 ? '"' : c === 47 ? "/" : c === 92 ? "\\" : c === 78 ? "\x85" : c === 95 ? "\xA0" : c === 76 ? "\u2028" : c === 80 ? "\u2029" : "";
 }
+__name(simpleEscapeSequence, "simpleEscapeSequence");
 function charFromCodepoint(c) {
   if (c <= 65535) {
     return String.fromCharCode(c);
@@ -862,6 +921,7 @@ function charFromCodepoint(c) {
     (c - 65536 & 1023) + 56320
   );
 }
+__name(charFromCodepoint, "charFromCodepoint");
 var simpleEscapeCheck = new Array(256);
 var simpleEscapeMap = new Array(256);
 for (i = 0; i < 256; i++) {
@@ -887,6 +947,7 @@ function State$1(input, options) {
   this.firstTabInLine = -1;
   this.documents = [];
 }
+__name(State$1, "State$1");
 function generateError(state, message) {
   var mark = {
     name: state.filename,
@@ -899,16 +960,19 @@ function generateError(state, message) {
   mark.snippet = snippet(mark);
   return new exception(message, mark);
 }
+__name(generateError, "generateError");
 function throwError(state, message) {
   throw generateError(state, message);
 }
+__name(throwError, "throwError");
 function throwWarning(state, message) {
   if (state.onWarning) {
     state.onWarning.call(null, generateError(state, message));
   }
 }
+__name(throwWarning, "throwWarning");
 var directiveHandlers = {
-  YAML: function handleYamlDirective(state, name, args) {
+  YAML: /* @__PURE__ */ __name(function handleYamlDirective(state, name, args) {
     var match, major, minor;
     if (state.version !== null) {
       throwError(state, "duplication of %YAML directive");
@@ -930,8 +994,8 @@ var directiveHandlers = {
     if (minor !== 1 && minor !== 2) {
       throwWarning(state, "unsupported YAML version of the document");
     }
-  },
-  TAG: function handleTagDirective(state, name, args) {
+  }, "handleYamlDirective"),
+  TAG: /* @__PURE__ */ __name(function handleTagDirective(state, name, args) {
     var handle, prefix;
     if (args.length !== 2) {
       throwError(state, "TAG directive accepts exactly two arguments");
@@ -953,7 +1017,7 @@ var directiveHandlers = {
       throwError(state, "tag prefix is malformed: " + prefix);
     }
     state.tagMap[handle] = prefix;
-  }
+  }, "handleTagDirective")
 };
 function captureSegment(state, start, end, checkJson) {
   var _position, _length, _character, _result;
@@ -972,6 +1036,7 @@ function captureSegment(state, start, end, checkJson) {
     state.result += _result;
   }
 }
+__name(captureSegment, "captureSegment");
 function mergeMappings(state, destination, source, overridableKeys) {
   var sourceKeys, key, index, quantity;
   if (!common.isObject(source)) {
@@ -986,6 +1051,7 @@ function mergeMappings(state, destination, source, overridableKeys) {
     }
   }
 }
+__name(mergeMappings, "mergeMappings");
 function storeMappingPair(state, _result, overridableKeys, keyTag, keyNode, valueNode, startLine, startLineStart, startPos) {
   var index, quantity;
   if (Array.isArray(keyNode)) {
@@ -1035,6 +1101,7 @@ function storeMappingPair(state, _result, overridableKeys, keyTag, keyNode, valu
   }
   return _result;
 }
+__name(storeMappingPair, "storeMappingPair");
 function readLineBreak(state) {
   var ch;
   ch = state.input.charCodeAt(state.position);
@@ -1052,6 +1119,7 @@ function readLineBreak(state) {
   state.lineStart = state.position;
   state.firstTabInLine = -1;
 }
+__name(readLineBreak, "readLineBreak");
 function skipSeparationSpace(state, allowComments, checkIndent) {
   var lineBreaks = 0, ch = state.input.charCodeAt(state.position);
   while (ch !== 0) {
@@ -1084,6 +1152,7 @@ function skipSeparationSpace(state, allowComments, checkIndent) {
   }
   return lineBreaks;
 }
+__name(skipSeparationSpace, "skipSeparationSpace");
 function testDocumentSeparator(state) {
   var _position = state.position, ch;
   ch = state.input.charCodeAt(_position);
@@ -1096,6 +1165,7 @@ function testDocumentSeparator(state) {
   }
   return false;
 }
+__name(testDocumentSeparator, "testDocumentSeparator");
 function writeFoldedLines(state, count) {
   if (count === 1) {
     state.result += " ";
@@ -1103,6 +1173,7 @@ function writeFoldedLines(state, count) {
     state.result += common.repeat("\n", count - 1);
   }
 }
+__name(writeFoldedLines, "writeFoldedLines");
 function readPlainScalar(state, nodeIndent, withinFlowCollection) {
   var preceding, following, captureStart, captureEnd, hasPendingContent, _line, _lineStart, _lineIndent, _kind = state.kind, _result = state.result, ch;
   ch = state.input.charCodeAt(state.position);
@@ -1168,6 +1239,7 @@ function readPlainScalar(state, nodeIndent, withinFlowCollection) {
   state.result = _result;
   return false;
 }
+__name(readPlainScalar, "readPlainScalar");
 function readSingleQuotedScalar(state, nodeIndent) {
   var ch, captureStart, captureEnd;
   ch = state.input.charCodeAt(state.position);
@@ -1202,6 +1274,7 @@ function readSingleQuotedScalar(state, nodeIndent) {
   }
   throwError(state, "unexpected end of the stream within a single quoted scalar");
 }
+__name(readSingleQuotedScalar, "readSingleQuotedScalar");
 function readDoubleQuotedScalar(state, nodeIndent) {
   var captureStart, captureEnd, hexLength, hexResult, tmp, ch;
   ch = state.input.charCodeAt(state.position);
@@ -1255,6 +1328,7 @@ function readDoubleQuotedScalar(state, nodeIndent) {
   }
   throwError(state, "unexpected end of the stream within a double quoted scalar");
 }
+__name(readDoubleQuotedScalar, "readDoubleQuotedScalar");
 function readFlowCollection(state, nodeIndent) {
   var readNext = true, _line, _lineStart, _pos, _tag = state.tag, _result, _anchor = state.anchor, following, terminator, isPair, isExplicitPair, isMapping, overridableKeys = /* @__PURE__ */ Object.create(null), keyNode, keyTag, valueNode, ch;
   ch = state.input.charCodeAt(state.position);
@@ -1331,6 +1405,7 @@ function readFlowCollection(state, nodeIndent) {
   }
   throwError(state, "unexpected end of the stream within a flow collection");
 }
+__name(readFlowCollection, "readFlowCollection");
 function readBlockScalar(state, nodeIndent) {
   var captureStart, folding, chomping = CHOMPING_CLIP, didReadContent = false, detectedIndent = false, textIndent = nodeIndent, emptyLines = 0, atMoreIndented = false, tmp, ch;
   ch = state.input.charCodeAt(state.position);
@@ -1427,6 +1502,7 @@ function readBlockScalar(state, nodeIndent) {
   }
   return true;
 }
+__name(readBlockScalar, "readBlockScalar");
 function readBlockSequence(state, nodeIndent) {
   var _line, _tag = state.tag, _anchor = state.anchor, _result = [], following, detected = false, ch;
   if (state.firstTabInLine !== -1) return false;
@@ -1475,6 +1551,7 @@ function readBlockSequence(state, nodeIndent) {
   }
   return false;
 }
+__name(readBlockSequence, "readBlockSequence");
 function readBlockMapping(state, nodeIndent, flowIndent) {
   var following, allowCompact, _line, _keyLine, _keyLineStart, _keyPos, _tag = state.tag, _anchor = state.anchor, _result = {}, overridableKeys = /* @__PURE__ */ Object.create(null), keyTag = null, keyNode = null, valueNode = null, atExplicitKey = false, detected = false, ch;
   if (state.firstTabInLine !== -1) return false;
@@ -1584,6 +1661,7 @@ function readBlockMapping(state, nodeIndent, flowIndent) {
   }
   return detected;
 }
+__name(readBlockMapping, "readBlockMapping");
 function readTagProperty(state) {
   var _position, isVerbatim = false, isNamed = false, tagHandle, tagName, ch;
   ch = state.input.charCodeAt(state.position);
@@ -1655,6 +1733,7 @@ function readTagProperty(state) {
   }
   return true;
 }
+__name(readTagProperty, "readTagProperty");
 function readAnchorProperty(state) {
   var _position, ch;
   ch = state.input.charCodeAt(state.position);
@@ -1673,6 +1752,7 @@ function readAnchorProperty(state) {
   state.anchor = state.input.slice(_position, state.position);
   return true;
 }
+__name(readAnchorProperty, "readAnchorProperty");
 function readAlias(state) {
   var _position, alias, ch;
   ch = state.input.charCodeAt(state.position);
@@ -1693,6 +1773,7 @@ function readAlias(state) {
   skipSeparationSpace(state, true, -1);
   return true;
 }
+__name(readAlias, "readAlias");
 function composeNode(state, parentIndent, nodeContext, allowToSeek, allowCompact) {
   var allowBlockStyles, allowBlockScalars, allowBlockCollections, indentStatus = 1, atNewLine = false, hasContent = false, typeIndex, typeQuantity, typeList, type2, flowIndent, blockIndent;
   if (state.listener !== null) {
@@ -1819,6 +1900,7 @@ function composeNode(state, parentIndent, nodeContext, allowToSeek, allowCompact
   }
   return state.tag !== null || state.anchor !== null || hasContent;
 }
+__name(composeNode, "composeNode");
 function readDocument(state) {
   var documentStart = state.position, _position, directiveName, directiveArgs, hasDirectives = false, ch;
   state.version = null;
@@ -1892,6 +1974,7 @@ function readDocument(state) {
     return;
   }
 }
+__name(readDocument, "readDocument");
 function loadDocuments(input, options) {
   input = String(input);
   options = options || {};
@@ -1919,6 +2002,7 @@ function loadDocuments(input, options) {
   }
   return state.documents;
 }
+__name(loadDocuments, "loadDocuments");
 function loadAll$1(input, iterator, options) {
   if (iterator !== null && typeof iterator === "object" && typeof options === "undefined") {
     options = iterator;
@@ -1932,6 +2016,7 @@ function loadAll$1(input, iterator, options) {
     iterator(documents[index]);
   }
 }
+__name(loadAll$1, "loadAll$1");
 function load$1(input, options) {
   var documents = loadDocuments(input, options);
   if (documents.length === 0) {
@@ -1941,6 +2026,7 @@ function load$1(input, options) {
   }
   throw new exception("expected a single document in the stream, but found more");
 }
+__name(load$1, "load$1");
 var loadAll_1 = loadAll$1;
 var load_1 = load$1;
 var loader = {
@@ -2028,6 +2114,7 @@ function compileStyleMap(schema2, map2) {
   }
   return result;
 }
+__name(compileStyleMap, "compileStyleMap");
 function encodeHex(character) {
   var string, handle, length;
   string = character.toString(16).toUpperCase();
@@ -2045,6 +2132,7 @@ function encodeHex(character) {
   }
   return "\\" + handle + common.repeat("0", length - string.length) + string;
 }
+__name(encodeHex, "encodeHex");
 var QUOTING_TYPE_SINGLE = 1;
 var QUOTING_TYPE_DOUBLE = 2;
 function State(options) {
@@ -2069,6 +2157,7 @@ function State(options) {
   this.duplicates = [];
   this.usedDuplicates = null;
 }
+__name(State, "State");
 function indentString(string, spaces) {
   var ind = common.repeat(" ", spaces), position = 0, next = -1, result = "", line, length = string.length;
   while (position < length) {
@@ -2085,9 +2174,11 @@ function indentString(string, spaces) {
   }
   return result;
 }
+__name(indentString, "indentString");
 function generateNextLine(state, level) {
   return "\n" + common.repeat(" ", state.indent * level);
 }
+__name(generateNextLine, "generateNextLine");
 function testImplicitResolving(state, str2) {
   var index, length, type2;
   for (index = 0, length = state.implicitTypes.length; index < length; index += 1) {
@@ -2098,15 +2189,19 @@ function testImplicitResolving(state, str2) {
   }
   return false;
 }
+__name(testImplicitResolving, "testImplicitResolving");
 function isWhitespace(c) {
   return c === CHAR_SPACE || c === CHAR_TAB;
 }
+__name(isWhitespace, "isWhitespace");
 function isPrintable(c) {
   return 32 <= c && c <= 126 || 161 <= c && c <= 55295 && c !== 8232 && c !== 8233 || 57344 <= c && c <= 65533 && c !== CHAR_BOM || 65536 <= c && c <= 1114111;
 }
+__name(isPrintable, "isPrintable");
 function isNsCharOrWhitespace(c) {
   return isPrintable(c) && c !== CHAR_BOM && c !== CHAR_CARRIAGE_RETURN && c !== CHAR_LINE_FEED;
 }
+__name(isNsCharOrWhitespace, "isNsCharOrWhitespace");
 function isPlainSafe(c, prev, inblock) {
   var cIsNsCharOrWhitespace = isNsCharOrWhitespace(c);
   var cIsNsChar = cIsNsCharOrWhitespace && !isWhitespace(c);
@@ -2118,12 +2213,15 @@ function isPlainSafe(c, prev, inblock) {
     ) : cIsNsCharOrWhitespace && c !== CHAR_COMMA && c !== CHAR_LEFT_SQUARE_BRACKET && c !== CHAR_RIGHT_SQUARE_BRACKET && c !== CHAR_LEFT_CURLY_BRACKET && c !== CHAR_RIGHT_CURLY_BRACKET) && c !== CHAR_SHARP && !(prev === CHAR_COLON && !cIsNsChar) || isNsCharOrWhitespace(prev) && !isWhitespace(prev) && c === CHAR_SHARP || prev === CHAR_COLON && cIsNsChar
   );
 }
+__name(isPlainSafe, "isPlainSafe");
 function isPlainSafeFirst(c) {
   return isPrintable(c) && c !== CHAR_BOM && !isWhitespace(c) && c !== CHAR_MINUS && c !== CHAR_QUESTION && c !== CHAR_COLON && c !== CHAR_COMMA && c !== CHAR_LEFT_SQUARE_BRACKET && c !== CHAR_RIGHT_SQUARE_BRACKET && c !== CHAR_LEFT_CURLY_BRACKET && c !== CHAR_RIGHT_CURLY_BRACKET && c !== CHAR_SHARP && c !== CHAR_AMPERSAND && c !== CHAR_ASTERISK && c !== CHAR_EXCLAMATION && c !== CHAR_VERTICAL_LINE && c !== CHAR_EQUALS && c !== CHAR_GREATER_THAN && c !== CHAR_SINGLE_QUOTE && c !== CHAR_DOUBLE_QUOTE && c !== CHAR_PERCENT && c !== CHAR_COMMERCIAL_AT && c !== CHAR_GRAVE_ACCENT;
 }
+__name(isPlainSafeFirst, "isPlainSafeFirst");
 function isPlainSafeLast(c) {
   return !isWhitespace(c) && c !== CHAR_COLON;
 }
+__name(isPlainSafeLast, "isPlainSafeLast");
 function codePointAt(string, pos) {
   var first = string.charCodeAt(pos), second;
   if (first >= 55296 && first <= 56319 && pos + 1 < string.length) {
@@ -2134,10 +2232,12 @@ function codePointAt(string, pos) {
   }
   return first;
 }
+__name(codePointAt, "codePointAt");
 function needIndentIndicator(string) {
   var leadingSpaceRe = /^\n* /;
   return leadingSpaceRe.test(string);
 }
+__name(needIndentIndicator, "needIndentIndicator");
 var STYLE_PLAIN = 1;
 var STYLE_SINGLE = 2;
 var STYLE_LITERAL = 3;
@@ -2193,6 +2293,7 @@ function chooseScalarStyle(string, singleLineOnly, indentPerLevel, lineWidth, te
   }
   return quotingType === QUOTING_TYPE_DOUBLE ? STYLE_DOUBLE : STYLE_SINGLE;
 }
+__name(chooseScalarStyle, "chooseScalarStyle");
 function writeScalar(state, string, level, iskey, inblock) {
   state.dump = function() {
     if (string.length === 0) {
@@ -2209,6 +2310,7 @@ function writeScalar(state, string, level, iskey, inblock) {
     function testAmbiguity(string2) {
       return testImplicitResolving(state, string2);
     }
+    __name(testAmbiguity, "testAmbiguity");
     switch (chooseScalarStyle(
       string,
       singleLineOnly,
@@ -2234,6 +2336,7 @@ function writeScalar(state, string, level, iskey, inblock) {
     }
   }();
 }
+__name(writeScalar, "writeScalar");
 function blockHeader(string, indentPerLevel) {
   var indentIndicator = needIndentIndicator(string) ? String(indentPerLevel) : "";
   var clip = string[string.length - 1] === "\n";
@@ -2241,9 +2344,11 @@ function blockHeader(string, indentPerLevel) {
   var chomp = keep ? "+" : clip ? "" : "-";
   return indentIndicator + chomp + "\n";
 }
+__name(blockHeader, "blockHeader");
 function dropEndingNewline(string) {
   return string[string.length - 1] === "\n" ? string.slice(0, -1) : string;
 }
+__name(dropEndingNewline, "dropEndingNewline");
 function foldString(string, width) {
   var lineRe = /(\n+)([^\n]*)/g;
   var result = function() {
@@ -2263,6 +2368,7 @@ function foldString(string, width) {
   }
   return result;
 }
+__name(foldString, "foldString");
 function foldLine(line, width) {
   if (line === "" || line[0] === " ") return line;
   var breakRe = / [^ ]/g;
@@ -2286,6 +2392,7 @@ function foldLine(line, width) {
   }
   return result.slice(1);
 }
+__name(foldLine, "foldLine");
 function escapeString(string) {
   var result = "";
   var char = 0;
@@ -2302,6 +2409,7 @@ function escapeString(string) {
   }
   return result;
 }
+__name(escapeString, "escapeString");
 function writeFlowSequence(state, level, object) {
   var _result = "", _tag = state.tag, index, length, value;
   for (index = 0, length = object.length; index < length; index += 1) {
@@ -2317,6 +2425,7 @@ function writeFlowSequence(state, level, object) {
   state.tag = _tag;
   state.dump = "[" + _result + "]";
 }
+__name(writeFlowSequence, "writeFlowSequence");
 function writeBlockSequence(state, level, object, compact) {
   var _result = "", _tag = state.tag, index, length, value;
   for (index = 0, length = object.length; index < length; index += 1) {
@@ -2339,6 +2448,7 @@ function writeBlockSequence(state, level, object, compact) {
   state.tag = _tag;
   state.dump = _result || "[]";
 }
+__name(writeBlockSequence, "writeBlockSequence");
 function writeFlowMapping(state, level, object) {
   var _result = "", _tag = state.tag, objectKeyList = Object.keys(object), index, length, objectKey, objectValue, pairBuffer;
   for (index = 0, length = objectKeyList.length; index < length; index += 1) {
@@ -2364,6 +2474,7 @@ function writeFlowMapping(state, level, object) {
   state.tag = _tag;
   state.dump = "{" + _result + "}";
 }
+__name(writeFlowMapping, "writeFlowMapping");
 function writeBlockMapping(state, level, object, compact) {
   var _result = "", _tag = state.tag, objectKeyList = Object.keys(object), index, length, objectKey, objectValue, explicitPair, pairBuffer;
   if (state.sortKeys === true) {
@@ -2412,6 +2523,7 @@ function writeBlockMapping(state, level, object, compact) {
   state.tag = _tag;
   state.dump = _result || "{}";
 }
+__name(writeBlockMapping, "writeBlockMapping");
 function detectType(state, object, explicit) {
   var _result, typeList, index, length, type2, style;
   typeList = explicit ? state.explicitTypes : state.implicitTypes;
@@ -2443,6 +2555,7 @@ function detectType(state, object, explicit) {
   }
   return false;
 }
+__name(detectType, "detectType");
 function writeNode(state, level, object, block, compact, iskey, isblockseq) {
   state.tag = null;
   state.dump = object;
@@ -2523,6 +2636,7 @@ function writeNode(state, level, object, block, compact, iskey, isblockseq) {
   }
   return true;
 }
+__name(writeNode, "writeNode");
 function getDuplicateReferences(object, state) {
   var objects = [], duplicatesIndexes = [], index, length;
   inspectNode(object, objects, duplicatesIndexes);
@@ -2531,6 +2645,7 @@ function getDuplicateReferences(object, state) {
   }
   state.usedDuplicates = new Array(length);
 }
+__name(getDuplicateReferences, "getDuplicateReferences");
 function inspectNode(object, objects, duplicatesIndexes) {
   var objectKeyList, index, length;
   if (object !== null && typeof object === "object") {
@@ -2554,6 +2669,7 @@ function inspectNode(object, objects, duplicatesIndexes) {
     }
   }
 }
+__name(inspectNode, "inspectNode");
 function dump$1(input, options) {
   options = options || {};
   var state = new State(options);
@@ -2565,6 +2681,7 @@ function dump$1(input, options) {
   if (writeNode(state, 0, value, true, true)) return state.dump + "\n";
   return "";
 }
+__name(dump$1, "dump$1");
 var dump_1 = dump$1;
 var dumper = {
   dump: dump_1
@@ -2574,6 +2691,7 @@ function renamed(from, to) {
     throw new Error("Function yaml." + from + " is removed in js-yaml 4. Use yaml." + to + " instead, which is now safe by default.");
   };
 }
+__name(renamed, "renamed");
 var Type = type;
 var Schema = schema;
 var FAILSAFE_SCHEMA = failsafe;
@@ -2620,8 +2738,8 @@ var jsYaml = {
 };
 var js_yaml_default = jsYaml;
 
-// config.js
-var config_default = {
+// src/index.js
+var index_default = {
   async fetch(request, env) {
     const config = env.CONFIG || "https://raw.githubusercontent.com/Kwisma/cf-worker-mihomo/main/Config/Mihomo.yaml";
     const url = new URL(request.url);
@@ -2752,6 +2870,7 @@ async function getFakePage(message, hostHeader) {
 </html>
     `;
 }
+__name(getFakePage, "getFakePage");
 function isValidURL(url) {
   try {
     const parsedUrl = new URL(url);
@@ -2760,6 +2879,7 @@ function isValidURL(url) {
     return false;
   }
 }
+__name(isValidURL, "isValidURL");
 async function initconfig(urls, config) {
   let index = 0, proxy = [];
   for (const url of urls) {
@@ -2783,11 +2903,13 @@ ${proxy.join("")}
   mihomodata = mihomodata.replace(/proxy-providers:([\s\S]*?)(?=\n\S|$)/, ProxyProviders.trim());
   return JSON.stringify(js_yaml_default.load(mihomodata));
 }
+__name(initconfig, "initconfig");
 export {
-  config_default as default
+  index_default as default
 };
 /*! Bundled license information:
 
 js-yaml/dist/js-yaml.mjs:
   (*! js-yaml 4.1.0 https://github.com/nodeca/js-yaml @license MIT *)
 */
+//# sourceMappingURL=index.js.map
