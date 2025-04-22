@@ -174,5 +174,5 @@ ${proxy.join('')}
 	let mihomodata = await response.text()
 	// 使用正则表达式替换 proxy-providers 和 u 锚点
 	mihomodata = mihomodata.replace(/proxy-providers:([\s\S]*?)(?=\n\S|$)/, ProxyProviders.trim());
-	return yaml.dump(yaml.load(mihomodata), { noRefs: true, lineWidth: -1 });
+	return JSON.stringify(yaml.load(mihomodata));
 }
