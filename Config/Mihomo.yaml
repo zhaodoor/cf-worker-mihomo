@@ -451,7 +451,7 @@ proxy-groups:
   - { name: LINE, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Line.webp }
   - { name: Leaseweb, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Leaseweb.webp }
   - { name: 美团, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/MeiTuan.webp }
-  - { name: 微软, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Microsoft.webp }
+  - { name: 微软, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Microsoft.webp }
   - { name: NGA, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/NGA.webp }
   - { name: 网易, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/NetEase.webp }
   - { name: 网易云音乐, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/NetEase_Music.webp }
@@ -613,7 +613,7 @@ proxy-groups:
 
 rules:
   # 局域网
-  - OR,((RULE-SET,Lan),(RULE-SET,Lancidr,no-resolve),(RULE-SET,Private),(RULE-SET,Privatecidr,no-resolve)),🎯全球直连
+  - OR,((RULE-SET,Lan),(RULE-SET,Lancidr,no-resolve),(RULE-SET,Private),(RULE-SET,Privatecidr,no-resolve),(RULE-SET,STUN)),DIRECT
 
   # 广告拦截
   - OR,((RULE-SET,Advertising),(RULE-SET,Category-ads-all)),🚫广告拦截
@@ -717,7 +717,7 @@ rules:
   - RULE-SET,LeasewebASN,Leaseweb # Leaseweb 服务商
   - OR,((RULE-SET,Tor),(RULE-SET,Torcidr,no-resolve)),Tor # 洋葱浏览器
   - OR,((RULE-SET,Fastly),(RULE-SET,Fastlycidr,no-resolve)),Fastly # Fastly 服务商
-  - OR,((RULE-SET,Category-anticensorship),(RULE-SET,Geolocation-!cn),(RULE-SET,Proxy),(RULE-SET,Gfw),(RULE-SET,STUN)),Proxy # 国际网络
+  - OR,((RULE-SET,Category-anticensorship),(RULE-SET,Geolocation-!cn),(RULE-SET,Proxy),(RULE-SET,Gfw)),Proxy # 国际网络
 
   # 国内分流
   - RULE-SET,NGA,NGA # NGA 论坛 (游戏社区)
