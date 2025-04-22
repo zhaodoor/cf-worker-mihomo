@@ -2781,7 +2781,7 @@ ${proxy.join("")}
   const response = await fetch(config);
   let mihomodata = await response.text();
   mihomodata = mihomodata.replace(/proxy-providers:([\s\S]*?)(?=\n\S|$)/, ProxyProviders.trim());
-  return js_yaml_default.dump(js_yaml_default.load(mihomodata), { noRefs: true, lineWidth: -1 });
+  return JSON.stringify(js_yaml_default.load(mihomodata));
 }
 export {
   config_default as default
