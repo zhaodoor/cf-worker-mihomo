@@ -96,10 +96,10 @@ geodata-mode: false # 更改 geoip 使用文件，mmdb 或者 dat，可选 true/
 # memconservative：专为内存受限 (小内存) 设备优化的加载器 (默认值)
 geodata-loader: memconservative
 geox-url: # Geo 数据库配置，用于地理位置和 ASN 匹配
-  geoip: "https://jsd.onmicrosoft.cn/gh/MetaCubeX/meta-rules-dat@release/geoip.dat" # GeoIP 数据库
-  geosite: "https://jsd.onmicrosoft.cn/gh/MetaCubeX/meta-rules-dat@release/geosite.dat" # GeoSite 数据库
-  mmdb: "https://jsd.onmicrosoft.cn/gh/MetaCubeX/meta-rules-dat@release/geoip.metadb" # GeoIP mmdb 数据库
-  asn: "https://jsd.onmicrosoft.cn/gh/MetaCubeX/meta-rules-dat@release/GeoLite2-ASN.mmdb" # ASN 数据库
+  geoip: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@release/geoip.dat" # GeoIP 数据库
+  geosite: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@release/geosite.dat" # GeoSite 数据库
+  mmdb: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@release/geoip.metadb" # GeoIP mmdb 数据库
+  asn: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@release/GeoLite2-ASN.mmdb" # ASN 数据库
 geo-auto-update: true # 开启自动更新 Geo 数据库
 geo-update-interval: 24 # Geo 数据库更新间隔 (单位: 小时)
 global-ua: clash.meta # 自定全局 UA
@@ -386,117 +386,117 @@ proxy-groups:
   - { name: 🔯故障转移, <<: *u, type: fallback }
 
   # 应用分组
-  - { name: "115", <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/115.webp }
-  - { name: "12306", <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/12306.webp }
-  - { name: "4399", <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/4399.webp }
-  - { name: 4GTV, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/4GTV.webp }
-  - { name: 58同城, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/58TongCheng.webp }
-  - { name: 农业银行, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/ABC.webp }
-  - { name: Abema, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Abema.webp }
-  - { name: Adobe, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Adobe.webp }
-  - { name: 支付宝, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/AliPay.webp }
-  - { name: 阿里巴巴, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Alibaba.webp }
-  - { name: 亚马逊电商, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/AmazonShopping.webp }
-  - { name: 亚马逊TV, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/AmazonPrimeVideo.webp }
-  - { name: 亚马逊, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Amazon.webp }
-  - { name: Apple, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Apple.webp }
-  - { name: AppStore, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/AppStore.webp }
-  - { name: Apple邮箱, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/AppleMail.webp }
-  - { name: Apple音乐, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/AppleMusic.webp }
-  - { name: Apple新闻, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/AppleNews.webp }
-  - { name: Apple日报, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/AppleDaily.webp }
-  - { name: AppleTV, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/AppleTV.webp }
-  - { name: 巴哈姆特, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Bahamut.webp }
-  - { name: 百度贴吧, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/BaiDuTieBa.webp }
-  - { name: 百度, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Baidu.webp }
-  - { name: 哔哩哔哩, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/BiliBili.webp }
-  - { name: 哔哩东南亚, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Biliintl.webp }
-  - { name: BT追踪器, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/BitTorrent.webp }
-  - { name: 暴雪, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Blizzard.webp }
-  - { name: 字节跳动, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/ByteDance.webp }
-  - { name: Beats, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Beats.webp }
-  - { name: CCTV, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/CCTV.webp }
-  - { name: 中国媒体, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/ChinaTV.webp }
-  - { name: Cloudflare, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Cloudflare.webp }
-  - { name: 钉钉, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/DingTalk.webp }
-  - { name: Discord, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Discord.webp }
-  - { name: Disney, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Disney+.webp }
-  - { name: Docker, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Docker.webp }
-  - { name: 豆瓣, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/DouBan.webp }
-  - { name: E站, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/E-Hentai.webp }
-  - { name: EA, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/EA.webp }
-  - { name: Epic, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Epic.webp }
-  - { name: FCM, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/FCM.webp }
-  - { name: Facebook, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Facebook.webp }
-  - { name: Fastly, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Fastly.webp }
-  - { name: FitnessPlus, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/FitnessPlus.webp }
-  - { name: 高德, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/GaoDe.webp }
-  - { name: GitHub, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/GitHub.webp }
-  - { name: Google, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Google.webp }
-  - { name: Google云盘, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/GoogleDrive.webp }
-  - { name: Google地图, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/GoogleEarth.webp }
-  - { name: GoogleVoice, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/GoogleVoice.webp }
-  - { name: HoYoverse, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/HoYoverse.webp }
-  - { name: Hulu, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Hulu.webp }
-  - { name: 虎扑, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Hupu.webp }
-  - { name: HBO, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/HBO.webp }
-  - { name: IMDB, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/IMDB.webp }
-  - { name: 爱奇艺, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/IQIYI.webp }
-  - { name: Instagram, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Instagram.webp }
-  - { name: 因特尔, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Intel.webp }
-  - { name: iCloud, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/iCloud.webp }
-  - { name: 京东, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/JingDong.webp }
-  - { name: 酷狗, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Kugou.webp }
-  - { name: LastFM, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/LastFM.webp }
-  - { name: LINE, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Line.webp }
-  - { name: Leaseweb, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Leaseweb.webp }
-  - { name: 美团, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/MeiTuan.webp }
-  - { name: 微软, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Microsoft.webp }
-  - { name: NGA, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/NGA.webp }
-  - { name: 网易, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/NetEase.webp }
-  - { name: 网易云音乐, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/NetEase_Music.webp }
-  - { name: Netflix, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Netflix.webp }
-  - { name: ニコニコ, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Niconico.webp }
-  - { name: OpenAI, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/OpenAI.webp }
-  - { name: 微软云盘, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/OneDrive.webp }
-  - { name: 潘朵拉珠宝, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Pandora.webp }
-  - { name: PayPal, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/PayPal.webp }
-  - { name: PikPak, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/PikPak.webp }
-  - { name: 拼多多, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Pinduoduo.webp }
-  - { name: Pixiv, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Pixiv.webp }
-  - { name: PlayStation, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/PlayStation.webp }
-  - { name: Proxy, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Proxy.webp }
-  - { name: 国际媒体, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/ProxyTV.webp }
-  - { name: Qobuz, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Qobuz.webp }
-  - { name: Reddit, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Reddit.webp }
-  - { name: Rockstar, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Rockstar.webp }
-  - { name: 什么值得买, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/SMZDM.webp }
-  - { name: Google学术, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Scholar.webp }
-  - { name: 新浪, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Sina.webp }
-  - { name: 索尼, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Sony.webp }
-  - { name: SoundCloud, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/SoundCloud.webp }
-  - { name: Speedtest, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Speedtest.webp }
-  - { name: Spotify, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Spotify.webp }
-  - { name: Steam, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Steam.webp }
-  - { name: Steam中国, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Steam.webp }
-  - { name: Supercell, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Supercell.webp }
-  - { name: Signal, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Signal.webp }
-  - { name: TVB, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/TVB.webp }
-  - { name: Telegram, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Telegram.webp }
-  - { name: 腾讯, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Tencent.webp }
-  - { name: 抖音, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/TikTok.webp }
-  - { name: TikTok, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/TikTok.webp }
-  - { name: Twitch, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Twitch.webp }
-  - { name: Twitter, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Twitter.webp }
-  - { name: Tor, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Tor.webp }
-  - { name: Talkatone, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Talkatone.webp }
-  - { name: 微信, <<: *direct, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/WeChat.webp }
-  - { name: 维基百科, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Wikipedia.webp }
-  - { name: Wise, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Wise.webp }
-  - { name: YouTube, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/YouTube.webp }
-  - { name: YouTubeMusic, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/YouTubeMusic.webp }
-  - { name: 禁漫天堂, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/18comic.webp }
-  - { name: 哔咔哔咔, <<: *proxy, icon: https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/icon/webp/Picacg.webp }
+  - { name: "115", <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/115.webp }
+  - { name: "12306", <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/12306.webp }
+  - { name: "4399", <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/4399.webp }
+  - { name: 4GTV, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/4GTV.webp }
+  - { name: 58同城, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/58TongCheng.webp }
+  - { name: 农业银行, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/ABC.webp }
+  - { name: Abema, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Abema.webp }
+  - { name: Adobe, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Adobe.webp }
+  - { name: 支付宝, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/AliPay.webp }
+  - { name: 阿里巴巴, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Alibaba.webp }
+  - { name: 亚马逊电商, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/AmazonShopping.webp }
+  - { name: 亚马逊TV, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/AmazonPrimeVideo.webp }
+  - { name: 亚马逊, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Amazon.webp }
+  - { name: Apple, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Apple.webp }
+  - { name: AppStore, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/AppStore.webp }
+  - { name: Apple邮箱, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/AppleMail.webp }
+  - { name: Apple音乐, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/AppleMusic.webp }
+  - { name: Apple新闻, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/AppleNews.webp }
+  - { name: Apple日报, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/AppleDaily.webp }
+  - { name: AppleTV, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/AppleTV.webp }
+  - { name: 巴哈姆特, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Bahamut.webp }
+  - { name: 百度贴吧, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/BaiDuTieBa.webp }
+  - { name: 百度, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Baidu.webp }
+  - { name: 哔哩哔哩, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/BiliBili.webp }
+  - { name: 哔哩东南亚, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Biliintl.webp }
+  - { name: BT追踪器, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/BitTorrent.webp }
+  - { name: 暴雪, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Blizzard.webp }
+  - { name: 字节跳动, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/ByteDance.webp }
+  - { name: Beats, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Beats.webp }
+  - { name: CCTV, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/CCTV.webp }
+  - { name: 中国媒体, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/ChinaTV.webp }
+  - { name: Cloudflare, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Cloudflare.webp }
+  - { name: 钉钉, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/DingTalk.webp }
+  - { name: Discord, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Discord.webp }
+  - { name: Disney, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Disney+.webp }
+  - { name: Docker, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Docker.webp }
+  - { name: 豆瓣, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/DouBan.webp }
+  - { name: E站, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/E-Hentai.webp }
+  - { name: EA, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/EA.webp }
+  - { name: Epic, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Epic.webp }
+  - { name: FCM, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/FCM.webp }
+  - { name: Facebook, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Facebook.webp }
+  - { name: Fastly, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Fastly.webp }
+  - { name: FitnessPlus, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/FitnessPlus.webp }
+  - { name: 高德, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/GaoDe.webp }
+  - { name: GitHub, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/GitHub.webp }
+  - { name: Google, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Google.webp }
+  - { name: Google云盘, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/GoogleDrive.webp }
+  - { name: Google地图, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/GoogleEarth.webp }
+  - { name: GoogleVoice, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/GoogleVoice.webp }
+  - { name: HoYoverse, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/HoYoverse.webp }
+  - { name: Hulu, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Hulu.webp }
+  - { name: 虎扑, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Hupu.webp }
+  - { name: HBO, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/HBO.webp }
+  - { name: IMDB, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/IMDB.webp }
+  - { name: 爱奇艺, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/IQIYI.webp }
+  - { name: Instagram, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Instagram.webp }
+  - { name: 因特尔, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Intel.webp }
+  - { name: iCloud, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/iCloud.webp }
+  - { name: 京东, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/JingDong.webp }
+  - { name: 酷狗, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Kugou.webp }
+  - { name: LastFM, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/LastFM.webp }
+  - { name: LINE, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Line.webp }
+  - { name: Leaseweb, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Leaseweb.webp }
+  - { name: 美团, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/MeiTuan.webp }
+  - { name: 微软, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Microsoft.webp }
+  - { name: NGA, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/NGA.webp }
+  - { name: 网易, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/NetEase.webp }
+  - { name: 网易云音乐, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/NetEase_Music.webp }
+  - { name: Netflix, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Netflix.webp }
+  - { name: ニコニコ, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Niconico.webp }
+  - { name: OpenAI, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/OpenAI.webp }
+  - { name: 微软云盘, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/OneDrive.webp }
+  - { name: 潘朵拉珠宝, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Pandora.webp }
+  - { name: PayPal, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/PayPal.webp }
+  - { name: PikPak, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/PikPak.webp }
+  - { name: 拼多多, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Pinduoduo.webp }
+  - { name: Pixiv, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Pixiv.webp }
+  - { name: PlayStation, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/PlayStation.webp }
+  - { name: Proxy, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Proxy.webp }
+  - { name: 国际媒体, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/ProxyTV.webp }
+  - { name: Qobuz, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Qobuz.webp }
+  - { name: Reddit, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Reddit.webp }
+  - { name: Rockstar, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Rockstar.webp }
+  - { name: 什么值得买, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/SMZDM.webp }
+  - { name: Google学术, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Scholar.webp }
+  - { name: 新浪, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Sina.webp }
+  - { name: 索尼, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Sony.webp }
+  - { name: SoundCloud, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/SoundCloud.webp }
+  - { name: Speedtest, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Speedtest.webp }
+  - { name: Spotify, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Spotify.webp }
+  - { name: Steam, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Steam.webp }
+  - { name: Steam中国, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Steam.webp }
+  - { name: Supercell, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Supercell.webp }
+  - { name: Signal, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Signal.webp }
+  - { name: TVB, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/TVB.webp }
+  - { name: Telegram, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Telegram.webp }
+  - { name: 腾讯, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Tencent.webp }
+  - { name: 抖音, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/TikTok.webp }
+  - { name: TikTok, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/TikTok.webp }
+  - { name: Twitch, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Twitch.webp }
+  - { name: Twitter, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Twitter.webp }
+  - { name: Tor, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Tor.webp }
+  - { name: Talkatone, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Talkatone.webp }
+  - { name: 微信, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/WeChat.webp }
+  - { name: 维基百科, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Wikipedia.webp }
+  - { name: Wise, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Wise.webp }
+  - { name: YouTube, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/YouTube.webp }
+  - { name: YouTubeMusic, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/YouTubeMusic.webp }
+  - { name: 禁漫天堂, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/18comic.webp }
+  - { name: 哔咔哔咔, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/icon/webp/Picacg.webp }
 
   # 地区分组
   - { name: 🇭🇰香港, <<: *u, hidden: true, filter: '(?i)🇭🇰|\bHK\b|香港|Hong Kong' }
@@ -763,726 +763,726 @@ rule-providers:
   # ios_rule_script 规则
   Lan:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Lan/Lan.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Lan/Lan.yaml"
     path: ./ruleset/Lan.yaml
 
   Apple:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Apple/Apple_Classical.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Apple/Apple_Classical.yaml"
     path: ./ruleset/Apple.yaml
 
   BlockHttpDNS:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/BlockHttpDNS/BlockHttpDNS.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/BlockHttpDNS/BlockHttpDNS.yaml"
     path: ./ruleset/BlockHttpDNS.yaml
 
   ChinaMedia:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/ChinaMedia/ChinaMedia.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/ChinaMedia/ChinaMedia.yaml"
     path: ./ruleset/ChinaMedia.yaml
 
   BiliBili:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/BiliBili/BiliBili.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/BiliBili/BiliBili.yaml"
     path: ./ruleset/BiliBili.yaml
 
   NetEase:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/NetEase/NetEase.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/NetEase/NetEase.yaml"
     path: ./ruleset/NetEase.yaml
 
   JingDong:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/JingDong/JingDong.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/JingDong/JingDong.yaml"
     path: ./ruleset/JingDong.yaml
 
   58TongCheng:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/58TongCheng/58TongCheng.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/58TongCheng/58TongCheng.yaml"
     path: ./ruleset/58TongCheng.yaml
 
   AliPay:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/AliPay/AliPay.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/AliPay/AliPay.yaml"
     path: ./ruleset/AliPay.yaml
 
   Pinduoduo:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Pinduoduo/Pinduoduo.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Pinduoduo/Pinduoduo.yaml"
     path: ./ruleset/Pinduoduo.yaml
 
   Alibaba:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Alibaba/Alibaba_Classical.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Alibaba/Alibaba_Classical.yaml"
     path: ./ruleset/Alibaba.yaml
 
   115:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/115/115.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/115/115.yaml"
     path: ./ruleset/115.yaml
 
   4399:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/4399/4399.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/4399/4399.yaml"
     path: ./ruleset/4399.yaml
 
   PikPak:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/PikPak/PikPak.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/PikPak/PikPak.yaml"
     path: ./ruleset/PikPak.yaml
 
   Google:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Google/Google.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Google/Google.yaml"
     path: ./ruleset/Google.yaml
 
   TikTok:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/TikTok/TikTok.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/TikTok/TikTok.yaml"
     path: ./ruleset/TikTok.yaml
 
   YouTube:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/YouTube/YouTube.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/YouTube/YouTube.yaml"
     path: ./ruleset/YouTube.yaml
 
   YouTubeMusic:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/YouTubeMusic/YouTubeMusic.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/YouTubeMusic/YouTubeMusic.yaml"
     path: ./ruleset/YouTubeMusic.yaml
 
   Twitter:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Twitter/Twitter.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Twitter/Twitter.yaml"
     path: ./ruleset/Twitter.yaml
 
   Discord:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Discord/Discord.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Discord/Discord.yaml"
     path: ./ruleset/Discord.yaml
 
   Spotify:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Spotify/Spotify.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Spotify/Spotify.yaml"
     path: ./ruleset/Spotify.yaml
 
   Telegram:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Telegram/Telegram.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Telegram/Telegram.yaml"
     path: ./ruleset/Telegram.yaml
 
   OpenAI:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/OpenAI/OpenAI.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/OpenAI/OpenAI.yaml"
     path: ./ruleset/OpenAI.yaml
 
   GitHub:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/GitHub/GitHub.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/GitHub/GitHub.yaml"
     path: ./ruleset/GitHub.yaml
 
   Facebook:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Facebook/Facebook.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Facebook/Facebook.yaml"
     path: ./ruleset/Facebook.yaml
 
   Netflix:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Netflix/Netflix_Classical.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Netflix/Netflix_Classical.yaml"
     path: ./ruleset/Netflix.yaml
 
   Disney:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Disney/Disney.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Disney/Disney.yaml"
     path: ./ruleset/Disney.yaml
 
   Cloudflare:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Cloudflare/Cloudflare.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Cloudflare/Cloudflare.yaml"
     path: ./ruleset/Cloudflare.yaml
 
   Bahamut:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Bahamut/Bahamut.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Bahamut/Bahamut.yaml"
     path: ./ruleset/Bahamut.yaml
 
   Hulu:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Hulu/Hulu.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Hulu/Hulu.yaml"
     path: ./ruleset/Hulu.yaml
 
   TVB:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/TVB/TVB.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/TVB/TVB.yaml"
     path: ./ruleset/TVB.yaml
 
   Niconico:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Niconico/Niconico.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Niconico/Niconico.yaml"
     path: ./ruleset/Niconico.yaml
 
   Abema:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/AbemaTV/AbemaTV.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/AbemaTV/AbemaTV.yaml"
     path: ./ruleset/Abema.yaml
 
   12306:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/12306/12306.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/12306/12306.yaml"
     path: ./ruleset/12306.yaml
 
   ABC:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/ABC/ABC.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/ABC/ABC.yaml"
     path: ./ruleset/ABC.yaml
 
   Adobe:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Adobe/Adobe.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Adobe/Adobe.yaml"
     path: ./ruleset/Adobe.yaml
 
   Amazon:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Amazon/Amazon.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Amazon/Amazon.yaml"
     path: ./ruleset/Amazon.yaml
 
   AmazonPrimeVideo:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/AmazonPrimeVideo/AmazonPrimeVideo.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/AmazonPrimeVideo/AmazonPrimeVideo.yaml"
     path: ./ruleset/AmazonPrimeVideo.yaml
 
   AppleDaily:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/AppleDaily/AppleDaily.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/AppleDaily/AppleDaily.yaml"
     path: ./ruleset/AppleDaily.yaml
 
   AppleDev:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/AppleDev/AppleDev.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/AppleDev/AppleDev.yaml"
     path: ./ruleset/AppleDev.yaml
 
   AppleFirmware:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/AppleFirmware/AppleFirmware.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/AppleFirmware/AppleFirmware.yaml"
     path: ./ruleset/AppleFirmware.yaml
 
   AppleHardware:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/AppleHardware/AppleHardware.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/AppleHardware/AppleHardware.yaml"
     path: ./ruleset/AppleHardware.yaml
 
   AppleID:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/AppleID/AppleID.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/AppleID/AppleID.yaml"
     path: ./ruleset/AppleID.yaml
 
   AppleMail:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/AppleMail/AppleMail.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/AppleMail/AppleMail.yaml"
     path: ./ruleset/AppleMail.yaml
 
   AppleMedia:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/AppleMedia/AppleMedia.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/AppleMedia/AppleMedia.yaml"
     path: ./ruleset/AppleMedia.yaml
 
   AppleMusic:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/AppleMusic/AppleMusic.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/AppleMusic/AppleMusic.yaml"
     path: ./ruleset/AppleMusic.yaml
 
   AppleNews:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/AppleNews/AppleNews.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/AppleNews/AppleNews.yaml"
     path: ./ruleset/AppleNews.yaml
 
   AppleProxy:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/AppleProxy/AppleProxy.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/AppleProxy/AppleProxy.yaml"
     path: ./ruleset/AppleProxy.yaml
 
   AppleTV:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/AppleTV/AppleTV.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/AppleTV/AppleTV.yaml"
     path: ./ruleset/AppleTV.yaml
 
   AppStore:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/AppStore/AppStore.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/AppStore/AppStore.yaml"
     path: ./ruleset/AppStore.yaml
 
   Baidu:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Baidu/Baidu.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Baidu/Baidu.yaml"
     path: ./ruleset/Baidu.yaml
 
   BaiDuTieBa:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/BaiDuTieBa/BaiDuTieBa.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/BaiDuTieBa/BaiDuTieBa.yaml"
     path: ./ruleset/BaiDuTieBa.yaml
 
   Beats:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Beats/Beats.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Beats/Beats.yaml"
     path: ./ruleset/Beats.yaml
 
   Bing:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Bing/Bing.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Bing/Bing.yaml"
     path: ./ruleset/Bing.yaml
 
   Blizzard:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Blizzard/Blizzard.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Blizzard/Blizzard.yaml"
     path: ./ruleset/Blizzard.yaml
 
   ByteDance:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/ByteDance/ByteDance.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/ByteDance/ByteDance.yaml"
     path: ./ruleset/ByteDance.yaml
 
   CCTV:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/CCTV/CCTV.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/CCTV/CCTV.yaml"
     path: ./ruleset/CCTV.yaml
 
   Chromecast:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Chromecast/Chromecast.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Chromecast/Chromecast.yaml"
     path: ./ruleset/chromecast.yaml
 
   Claude:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Claude/Claude.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Claude/Claude.yaml"
     path: ./ruleset/Claude.yaml
 
   Copilot:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Copilot/Copilot.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Copilot/Copilot.yaml"
     path: ./ruleset/Copilot.yaml
 
   DingTalk:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/DingTalk/DingTalk.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/DingTalk/DingTalk.yaml"
     path: ./ruleset/DingTalk.yaml
 
   Docker:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Docker/Docker.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Docker/Docker.yaml"
     path: ./ruleset/Docker.yaml
 
   DouBan:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/DouBan/DouBan.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/DouBan/DouBan.yaml"
     path: ./ruleset/DouBan.yaml
 
   DouYin:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/DouYin/DouYin.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/DouYin/DouYin.yaml"
     path: ./ruleset/DouYin.yaml
 
   EA:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/EA/EA.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/EA/EA.yaml"
     path: ./ruleset/EA.yaml
 
   Epic:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Epic/Epic.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Epic/Epic.yaml"
     path: ./ruleset/Epic.yaml
 
   FitnessPlus:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/FitnessPlus/FitnessPlus.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/FitnessPlus/FitnessPlus.yaml"
     path: ./ruleset/FitnessPlus.yaml
 
   GaoDe:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/GaoDe/GaoDe.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/GaoDe/GaoDe.yaml"
     path: ./ruleset/GaoDe.yaml
 
   Gemini:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Gemini/Gemini.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Gemini/Gemini.yaml"
     path: ./ruleset/Gemini.yaml
 
   GoogleDrive:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/GoogleDrive/GoogleDrive.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/GoogleDrive/GoogleDrive.yaml"
     path: ./ruleset/GoogleDrive.yaml
 
   GoogleEarth:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/GoogleEarth/GoogleEarth.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/GoogleEarth/GoogleEarth.yaml"
     path: ./ruleset/GoogleEarth.yaml
 
   GoogleFCM:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/GoogleFCM/GoogleFCM.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/GoogleFCM/GoogleFCM.yaml"
     path: ./ruleset/GoogleFCM.yaml
 
   GoogleVoice:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/GoogleVoice/GoogleVoice.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/GoogleVoice/GoogleVoice.yaml"
     path: ./ruleset/GoogleVoice.yaml
 
   HoYoverse:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/HoYoverse/HoYoverse.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/HoYoverse/HoYoverse.yaml"
     path: ./ruleset/HoYoverse.yaml
 
   HuluJP:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/HuluJP/HuluJP.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/HuluJP/HuluJP.yaml"
     path: ./ruleset/HuluJP.yaml
 
   HuluUSA:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/HuluUSA/HuluUSA.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/HuluUSA/HuluUSA.yaml"
     path: ./ruleset/HuluUSA.yaml
 
   Hupu:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Hupu/Hupu.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Hupu/Hupu.yaml"
     path: ./ruleset/Hupu.yaml
 
   iCloud:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/iCloud/iCloud.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/iCloud/iCloud.yaml"
     path: ./ruleset/iCloud.yaml
 
   IMDB:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/IMDB/IMDB.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/IMDB/IMDB.yaml"
     path: ./ruleset/IMDB.yaml
 
   Instagram:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Instagram/Instagram.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Instagram/Instagram.yaml"
     path: ./ruleset/Instagram.yaml
 
   Intel:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Intel/Intel.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Intel/Intel.yaml"
     path: ./ruleset/Intel.yaml
 
   iQIYI:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/iQIYI/iQIYI.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/iQIYI/iQIYI.yaml"
     path: ./ruleset/iQIYI.yaml
 
   KugouKuwo:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/KugouKuwo/KugouKuwo.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/KugouKuwo/KugouKuwo.yaml"
     path: ./ruleset/KugouKuwo.yaml
 
   LastFM:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/LastFM/LastFM.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/LastFM/LastFM.yaml"
     path: ./ruleset/LastFM.yaml
 
   MeiTuan:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/MeiTuan/MeiTuan.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/MeiTuan/MeiTuan.yaml"
     path: ./ruleset/MeiTuan.yaml
 
   Microsoft:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Microsoft/Microsoft.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Microsoft/Microsoft.yaml"
     path: ./ruleset/Microsoft.yaml
 
   MicrosoftEdge:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/MicrosoftEdge/MicrosoftEdge.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/MicrosoftEdge/MicrosoftEdge.yaml"
     path: ./ruleset/MicrosoftEdge.yaml
 
   NetEaseMusic:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/NetEaseMusic/NetEaseMusic.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/NetEaseMusic/NetEaseMusic.yaml"
     path: ./ruleset/NetEaseMusic.yaml
 
   NGA:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/NGA/NGA.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/NGA/NGA.yaml"
     path: ./ruleset/NGA.yaml
 
   OneDrive:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/OneDrive/OneDrive.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/OneDrive/OneDrive.yaml"
     path: ./ruleset/OneDrive.yaml
 
   Pandora:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Pandora/Pandora.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Pandora/Pandora.yaml"
     path: ./ruleset/Pandora.yaml
 
   PayPal:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/PayPal/PayPal.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/PayPal/PayPal.yaml"
     path: ./ruleset/PayPal.yaml
 
   PlayStation:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/PlayStation/PlayStation.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/PlayStation/PlayStation.yaml"
     path: ./ruleset/PlayStation.yaml
 
   PrivateTracker:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/PrivateTracker/PrivateTracker.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/PrivateTracker/PrivateTracker.yaml"
     path: ./ruleset/PrivateTracker.yaml
 
   Qobuz:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Qobuz/Qobuz.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Qobuz/Qobuz.yaml"
     path: ./ruleset/Qobuz.yaml
 
   Reddit:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Reddit/Reddit.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Reddit/Reddit.yaml"
     path: ./ruleset/Reddit.yaml
 
   Rockstar:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Rockstar/Rockstar.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Rockstar/Rockstar.yaml"
     path: ./ruleset/Rockstar.yaml
 
   Scholar:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Scholar/Scholar.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Scholar/Scholar.yaml"
     path: ./ruleset/Scholar.yaml
 
   Sina:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Sina/Sina.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Sina/Sina.yaml"
     path: ./ruleset/Sina.yaml
 
   Siri:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Siri/Siri.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Siri/Siri.yaml"
     path: ./ruleset/Siri.yaml
 
   SMZDM:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/SMZDM/SMZDM.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/SMZDM/SMZDM.yaml"
     path: ./ruleset/SMZDM.yaml
 
   Sony:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Sony/Sony.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Sony/Sony.yaml"
     path: ./ruleset/Sony.yaml
 
   SoundCloud:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/SoundCloud/SoundCloud.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/SoundCloud/SoundCloud.yaml"
     path: ./ruleset/SoundCloud.yaml
 
   Speedtest:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Speedtest/Speedtest.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Speedtest/Speedtest.yaml"
     path: ./ruleset/Speedtest.yaml
 
   Steam:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Steam/Steam.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Steam/Steam.yaml"
     path: ./ruleset/Steam.yaml
 
   SteamCN:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/SteamCN/SteamCN.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/SteamCN/SteamCN.yaml"
     path: ./ruleset/SteamCN.yaml
 
   Supercell:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Supercell/Supercell.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Supercell/Supercell.yaml"
     path: ./ruleset/Supercell.yaml
 
   SystemOTA:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/SystemOTA/SystemOTA.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/SystemOTA/SystemOTA.yaml"
     path: ./ruleset/SystemOTA.yaml
 
   Teams:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Teams/Teams.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Teams/Teams.yaml"
     path: ./ruleset/Teams.yaml
 
   Tencent:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Tencent/Tencent.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Tencent/Tencent.yaml"
     path: ./ruleset/Tencent.yaml
 
   EHGallery:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/EHGallery/EHGallery.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/EHGallery/EHGallery.yaml"
     path: ./ruleset/EHGallery.yaml
 
   Pixiv:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Pixiv/Pixiv.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Pixiv/Pixiv.yaml"
     path: ./ruleset/Pixiv.yaml
 
   Wikipedia:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Wikipedia/Wikipedia.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Wikipedia/Wikipedia.yaml"
     path: ./ruleset/Wikipedia.yaml
 
   Twitch:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Twitch/Twitch.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Twitch/Twitch.yaml"
     path: ./ruleset/Twitch.yaml
 
   HBO:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/HBO/HBO.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/HBO/HBO.yaml"
     path: ./ruleset/HBO.yaml
 
   Line:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/Line/Line.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/Line/Line.yaml"
     path: ./ruleset/Line.yaml
 
   STUN:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/blackmatrix7/ios_rule_script/rule/Clash/STUN/STUN.yaml"
+    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script/rule/Clash/STUN/STUN.yaml"
     path: ./ruleset/STUN.yaml
 
   # ------------------------------------------------------------
   # MetaCubeX 规则
   Category-httpdns-cn:
     <<: *domain_mrs
-    url: "https://jsd.onmicrosoft.cn/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-httpdns-cn.mrs"
+    url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-httpdns-cn.mrs"
     path: ./ruleset/Category-httpdns-cn.mrs
     
   Category-anticensorship:
     <<: *domain_mrs
-    url: "https://jsd.onmicrosoft.cn/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-anticensorship.mrs"
+    url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-anticensorship.mrs"
     path: ./ruleset/Category-anticensorship.mrs
 
   Category-media:
     <<: *domain_mrs
-    url: "https://jsd.onmicrosoft.cn/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-media.mrs"
+    url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-media.mrs"
     path: ./ruleset/Category-media.mrs
 
   Geolocation-!cn:
     <<: *domain_mrs
-    url: "https://jsd.onmicrosoft.cn/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/geolocation-!cn.mrs"
+    url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/geolocation-!cn.mrs"
     path: ./ruleset/Geolocation-!cn.mrs
 
   Category-ads-all:
     <<: *domain_mrs
-    url: "https://jsd.onmicrosoft.cn/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ads-all.mrs"
+    url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ads-all.mrs"
     path: ./ruleset/Category-ads-all.mrs
 
   Biliintl:
     <<: *domain_mrs
-    url: "https://jsd.onmicrosoft.cn/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/biliintl.mrs"
+    url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/biliintl.mrs"
     path: ./ruleset/biliintl.mrs
 
   18comic:
     <<: *domain_mrs
-    url: "https://jsd.onmicrosoft.cn/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/18comic.mrs"
+    url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/18comic.mrs"
     path: ./ruleset/18comic.mrs
 
   Tor:
     <<: *domain_mrs
-    url: "https://jsd.onmicrosoft.cn/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/tor.mrs"
+    url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/tor.mrs"
     path: ./ruleset/Tor.mrs
 
   Torcidr:
     <<: *ipcidr_mrs
-    url: "https://jsd.onmicrosoft.cn/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/tor.mrs"
+    url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/tor.mrs"
     path: ./ruleset/Torcidr.mrs
 
   Fastly:
     <<: *domain_mrs
-    url: "https://jsd.onmicrosoft.cn/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/fastly.mrs"
+    url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/fastly.mrs"
     path: ./ruleset/Fastly.mrs
 
   Fastlycidr:
     <<: *ipcidr_mrs
-    url: "https://jsd.onmicrosoft.cn/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/fastly.mrs"
+    url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/fastly.mrs"
     path: ./ruleset/Fastlycidr.mrs
 
   Wise:
     <<: *domain_mrs
-    url: "https://jsd.onmicrosoft.cn/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/wise.mrs"
+    url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/wise.mrs"
     path: ./ruleset/Wise.mrs
 
   Signal:
     <<: *domain_mrs
-    url: "https://jsd.onmicrosoft.cn/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/signal.mrs"
+    url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/signal.mrs"
     path: ./ruleset/Signal.mrs
 
   Picacg:
     <<: *domain_mrs
-    url: "https://jsd.onmicrosoft.cn/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/picacg.mrs"
+    url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/picacg.mrs"
     path: ./ruleset/Picacg.mrs
 
   # ------------------------------------------------------------
   # Loyalsoldier 规则
   CN:
     <<: *domain_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/Loyalsoldier/clash-rules@release/direct.txt"
+    url: "https://cdn.jsdmirror.com/gh/Loyalsoldier/clash-rules@release/direct.txt"
     path: ./ruleset/CN.yaml
 
   CNcidr:
     <<: *ipcidr_mrs
-    url: "https://jsd.onmicrosoft.cn/gh/Loyalsoldier/geoip@release/mrs/cn.mrs"
+    url: "https://cdn.jsdmirror.com/gh/Loyalsoldier/geoip@release/mrs/cn.mrs"
     path: ./ruleset/CNcidr.mrs
 
   Gfw:
     <<: *domain_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/Loyalsoldier/clash-rules@release/gfw.txt"
+    url: "https://cdn.jsdmirror.com/gh/Loyalsoldier/clash-rules@release/gfw.txt"
     path: ./ruleset/Gfw.yaml
 
   Proxy:
     <<: *domain_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/Loyalsoldier/clash-rules@release/proxy.txt"
+    url: "https://cdn.jsdmirror.com/gh/Loyalsoldier/clash-rules@release/proxy.txt"
     path: ./ruleset/Proxy.yaml
 
   Lancidr:
     <<: *ipcidr_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
+    url: "https://cdn.jsdmirror.com/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
     path: ./ruleset/Lancidr.yaml
 
   Private:
     <<: *domain_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/Loyalsoldier/clash-rules@release/private.txt"
+    url: "https://cdn.jsdmirror.com/gh/Loyalsoldier/clash-rules@release/private.txt"
     path: ./ruleset/Private.yaml
 
   Privatecidr:
     <<: *ipcidr_mrs
-    url: "https://jsd.onmicrosoft.cn/gh/Loyalsoldier/geoip@release/mrs/private.mrs"
+    url: "https://cdn.jsdmirror.com/gh/Loyalsoldier/geoip@release/mrs/private.mrs"
     path: ./ruleset/Privatecidr.mrs
 
   # ------------------------------------------------------------
   # 自定义 规则
   Advertising:
     <<: *domain_mrs
-    url: "https://jsd.onmicrosoft.cn/gh/TG-Twilight/AWAvenue-Ads-Rule/Filters/AWAvenue-Ads-Rule-Clash.mrs"
+    url: "https://cdn.jsdmirror.com/gh/TG-Twilight/AWAvenue-Ads-Rule/Filters/AWAvenue-Ads-Rule-Clash.mrs"
     path: ./ruleset/Advertising.mrs
 
   4GTV:
     <<: *classical_text
-    url: "https://jsd.onmicrosoft.cn/gh/antn0000/fenliu/4GTV.list"
+    url: "https://cdn.jsdmirror.com/gh/antn0000/fenliu/4GTV.list"
     path: ./ruleset/4GTV.text
 
   WeChat:
     <<: *domain_mrs
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/cf-worker-mihomo/rule/clash/WeChat/WeChat.mrs"
+    url: "https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo/rule/clash/WeChat/WeChat.mrs"
     path: ./ruleset/WeChat.mrs
 
   LeasewebASN:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List/data/Leaseweb/ASN.Leaseweb.yaml"
+    url: "https://cdn.jsdmirror.com/gh/Kwisma/ASN-List/data/Leaseweb/ASN.Leaseweb.yaml"
     path: ./ruleset/LeasewebASN.yaml
 
   AmazonASN:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List/data/Amazon/ASN.Amazon.yaml"
+    url: "https://cdn.jsdmirror.com/gh/Kwisma/ASN-List/data/Amazon/ASN.Amazon.yaml"
     path: ./ruleset/AmazonASN.yaml
 
   Talkatone:
     <<: *classical_yaml
-    url: "https://jsd.onmicrosoft.cn/gh/Auniquesir/Tool/Stash/Rule/Talkatone/Talkatone.yaml"
+    url: "https://cdn.jsdmirror.com/gh/Auniquesir/Tool/Stash/Rule/Talkatone/Talkatone.yaml"
     path: ./ruleset/Talkatone.yaml
