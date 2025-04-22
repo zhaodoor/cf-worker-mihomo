@@ -1464,7 +1464,7 @@ rule-providers:
 
   4GTV:
     <<: *classical_text
-    url: "https://cdn.jsdmirror.com/gh/antn0000/fenliu/4GTV.list"
+    url: "https://cdn.jsdmirror.com/gh/antn0000/fenliu@main/4GTV.list"
     path: ./ruleset/4GTV.text
 
   WeChat:
