@@ -193,9 +193,7 @@ tun:
 #  iproute2-table-index: 2022 # 使用指定的路由表索引 (iproute2)
 #  iproute2-rule-index: 9000 # 设置路由规则的索引 (iproute2)
   endpoint-independent-nat: true # 基于端点的 NAT 独立性
-  exclude-package: #排除 Android 应用包名，使其避免被 Tun 路由流量
-    - com.v2ray.ang
-    - com.nebula.clashmi
+  exclude-package: []
 
 # DNS 配置：控制 DNS 查询行为，支持增强模式和假 IP 功能
 # 查询 DNS 是否支持 H3 指令:
