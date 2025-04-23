@@ -389,6 +389,9 @@ dns:
     - +.logon.battle.net
     - +.logon.battlenet.com.cn
     - +.pingan.com.cn
+    - RULE-SET:Lan
+    - RULE-SET:Private
+    - RULE-SET:STUN
     - RULE-SET:CN
   nameserver-policy:
     RULE-SET:CN,Private:
