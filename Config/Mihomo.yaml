@@ -75,7 +75,7 @@ proxy-providers:
 #      <<: *override
 #      additional-suffix: ' 2' # 节点名添加后缀
 
-######################## start ########################
+######################## end ########################
 
 port: 7892 # HTTP 代理端口
 socks-port: 7891 # SOCKS5 代理端口
@@ -181,7 +181,7 @@ profile:
 # 网络时间协议 (NTP) 设置
 ntp:
   enable: true # 启用 NTP 功能
-  write-to-system: false # 将同步的时间写入系统时钟
+  write-to-system: false # 将同步的时间写入系统时钟，需root权限
   server: ntp.ntsc.ac.cn # NTP 服务器地址
   port: 123 # NTP 服务器端口，默认使用 123 端口
   interval: 30 # 同步时间的间隔 (单位: 分钟)
@@ -219,7 +219,7 @@ tun:
   dns-hijack:
     - any:53 # 劫持所有 53 端口的 DNS 请求
     - tcp://any:53 # 劫持所有 TCP 53 端口的 DNS 请求
-  device: utun # 指定 TUN 设备名称，默认为 utun
+  device: utun0 # 指定 TUN 设备名称，默认为 utun
   mtu: 1500 # 设置最大传输单元 (MTU)，提高网络吞吐量
   strict-route: true # 启用 auto-route 时执行严格的路由规则
   gso: true # 通用分段卸载 (GSO)，提高网络性能
@@ -389,9 +389,6 @@ dns:
     - +.logon.battle.net
     - +.logon.battlenet.com.cn
     - +.pingan.com.cn
-    - RULE-SET:Lan
-    - RULE-SET:Private
-    - RULE-SET:STUN
     - RULE-SET:CN
   nameserver-policy:
     RULE-SET:CN,Private:
