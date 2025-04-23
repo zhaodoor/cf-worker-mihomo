@@ -1,53 +1,94 @@
 import yaml from 'js-yaml';
 export default {
-  async fetch(request, env) {
-    const config = env.CONFIG || "https://raw.githubusercontent.com/Kwisma/cf-worker-mihomo/main/Config/Mihomo.yaml"
-    const url = new URL(request.url);
-    const hostHeader = request.headers.get("host");
-    const userAgent = request.headers.get('User-Agent').toLowerCase();
-    const isBrowser = /chrome|firefox|safari|edge/i.test(userAgent);
+    async fetch(request, env) {
+        const config = env.CONFIG || "https://raw.githubusercontent.com/Kwisma/cf-worker-mihomo/main/Config/Mihomo.yaml"
+        const url = new URL(request.url);
+        // const hostHeader = request.headers.get("host");
+        const userAgent = request.headers.get('User-Agent');
+        const isBrowser = /mozilla|chrome|safari|firefox|edge|opera|webkit|gecko|trident/i.test(userAgent);
+        // 处理 URL 参数
+        let urls = url.searchParams.getAll("url");
 
-    // 处理 URL 参数
-    let urls = url.searchParams.getAll("url");
-
-    if (urls.length === 1 && urls[0].includes(",")) {
-      urls = urls[0].split(",").map(u => u.trim()); // 拆分并去除空格
-    }
-
-    if (urls.length === 0 || urls[0] === "") {
-      return new Response(await getFakePage(), {
-        headers: {
-          "Content-Type": "text/html; charset=utf-8"
+        if (urls.length === 1 && urls[0].includes(",")) {
+            urls = urls[0].split(",").map(u => u.trim()); // 拆分并去除空格
         }
-      }, { status: 400 });
-    }
 
-    // URL 校验
-    for (let u of urls) {
-      if (!isValidURL(u)) {
-        return new Response(await getFakePage(), {
-          headers: {
-            "Content-Type": "text/html; charset=utf-8"
-          }
-        }, { status: 400 });
-      }
-    }
-    if (isBrowser) {
-      return new Response(await getFakePage(message, hostHeader), {
-        headers: {
-          "Content-Type": "text/html; charset=utf-8"
+        if (urls.length === 0 || urls[0] === "") {
+            return new Response(await getFakePage(env.IMG), {
+                headers: {
+                    "Content-Type": "text/html; charset=utf-8"
+                }
+            }, { status: 400 });
         }
-      });
+
+        // URL 校验
+        for (let u of urls) {
+            if (!isValidURL(u)) {
+                return new Response(await getFakePage(env.IMG), {
+                    headers: {
+                        "Content-Type": "text/html; charset=utf-8"
+                    }
+                }, { status: 400 });
+            }
+        }
+        if (isBrowser) {
+            return new Response(
+                `
+                <!DOCTYPE html>
+                <html>
+                  <head>
+                    <title>Welcome</title>
+                    <style>
+                      /* 全局背景图（使用在线图片URL） */
+                      body {
+                        background:rgba(179, 172, 172, 0.5);
+                        background-size: cover;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 100vh;
+                        margin: 0;
+                        font-family: 'Arial', sans-serif;
+                      }
+                      
+                      /* 文字框样式 */
+                      .text-box {
+                        background: rgba(255, 255, 255, 0.8); /* 半透明白色背景 */
+                        backdrop-filter: blur(5px); /* 毛玻璃效果 */
+                        border-radius: 15px;
+                        padding: 40px;
+                        max-width: 600px;
+                        text-align: center;
+                        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+                      }
+                      
+                      h1 {
+                        color: rgb(255, 0, 0);
+                        margin: 0 0 20px 0;
+                      }
+                    </style>
+                  </head>
+                  <body>
+                    <div class="text-box">
+                      <h1>请使用代理工具订阅！</h1>
+                    </div>
+                  </body>
+                </html>
+                `,
+                {
+                    headers: { 'Content-Type': 'text/html; charset=utf-8' },
+                }
+            );
+        }
+        return new Response(await initconfig(urls, config), {
+            headers: { "Content-Type": "text/plain; charset=utf-8" }
+        });
     }
-    return new Response(await initconfig(urls, config), {
-      headers: { "Content-Type": "text/plain; charset=utf-8" }
-    });
-  }
 };
 
 // 获取伪装页面
 async function getFakePage(image = 'https://t.alcy.cc/ycy') {
-  return `
+    return `
 <!DOCTYPE html>
 <html>
 
@@ -485,19 +526,19 @@ async function getFakePage(image = 'https://t.alcy.cc/ycy') {
 
 // 校验 URL 是否有效
 function isValidURL(url) {
-  try {
-    const parsedUrl = new URL(url);
-    return ['http:', 'https:'].includes(parsedUrl.protocol);
-  } catch (e) {
-    return false;
-  }
+    try {
+        const parsedUrl = new URL(url);
+        return ['http:', 'https:'].includes(parsedUrl.protocol);
+    } catch (e) {
+        return false;
+    }
 }
 
 // 初始化配置
 async function initconfig(urls, config) {
-  let index = 0, proxy = [];
-  for (const url of urls) {
-    proxy.push(`
+    let index = 0, proxy = [];
+    for (const url of urls) {
+        proxy.push(`
   provider${index + 1}:
     <<: *p
     url: "${url}"
@@ -506,16 +547,16 @@ async function initconfig(urls, config) {
       <<: *override
       additional-suffix: ' ${index + 1}'
 `)
-    index++;
-  }
-  const ProxyProviders = `
+        index++;
+    }
+    const ProxyProviders = `
 proxy-providers:
 ${proxy.join('')}
 `
 
-  const response = await fetch(config);
-  let mihomodata = await response.text()
-  // 使用正则表达式替换 proxy-providers 和 u 锚点
-  mihomodata = mihomodata.replace(/proxy-providers:([\s\S]*?)(?=\n\S|$)/, ProxyProviders.trim());
-  return JSON.stringify(yaml.load(mihomodata));
+    const response = await fetch(config);
+    let mihomodata = await response.text()
+    // 使用正则表达式替换 proxy-providers 和 u 锚点
+    mihomodata = mihomodata.replace(/proxy-providers:([\s\S]*?)(?=\n\S|$)/, ProxyProviders.trim());
+    return JSON.stringify(yaml.load(mihomodata));
 }
