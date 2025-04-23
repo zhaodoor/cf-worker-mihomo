@@ -497,7 +497,7 @@ proxy-groups:
   - { name: 酷狗, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Kugou.webp }
   - { name: LastFM, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/LastFM.webp }
   - { name: LINE, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Line.webp }
-  - { name: Leaseweb, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Leaseweb.webp }
+  # - { name: Leaseweb, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Leaseweb.webp }
   - { name: 美团, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/MeiTuan.webp }
   - { name: 微软, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Microsoft.webp }
   - { name: NGA, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/NGA.webp }
@@ -762,7 +762,7 @@ rules:
   - RULE-SET,Google,Google # Google 相关服务
   - RULE-SET,Cloudflare,Cloudflare # Cloudflare CDN 及安全服务
   - RULE-SET,AmazonASN,亚马逊 # 亚马逊 服务商
-  - RULE-SET,LeasewebASN,Leaseweb # Leaseweb 服务商
+  # - RULE-SET,LeasewebASN,Leaseweb # Leaseweb 服务商
   - OR,((RULE-SET,Tor),(RULE-SET,Torcidr,no-resolve)),Tor # 洋葱浏览器
   - OR,((RULE-SET,Fastly),(RULE-SET,Fastlycidr,no-resolve)),Fastly # Fastly 服务商
   - OR,((RULE-SET,Category-anticensorship),(RULE-SET,Geolocation-!cn),(RULE-SET,Proxy),(RULE-SET,Gfw)),Proxy # 国际网络
@@ -1520,10 +1520,10 @@ rule-providers:
     url: "https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/rule/clash/WeChat/WeChat.mrs"
     path: ./ruleset/WeChat.mrs
 
-  LeasewebASN:
-    <<: *classical_yaml
-    url: "https://cdn.jsdmirror.com/gh/Kwisma/ASN-List@main/data/Leaseweb/ASN.Leaseweb.yaml"
-    path: ./ruleset/LeasewebASN.yaml
+  # LeasewebASN:
+  #   <<: *classical_yaml
+  #   url: "https://cdn.jsdmirror.com/gh/Kwisma/ASN-List@main/data/Leaseweb/ASN.Leaseweb.yaml"
+  #   path: ./ruleset/LeasewebASN.yaml
 
   AmazonASN:
     <<: *classical_yaml
