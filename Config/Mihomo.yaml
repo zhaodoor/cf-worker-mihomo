@@ -228,7 +228,15 @@ tun:
 #  iproute2-table-index: 2022 # 使用指定的路由表索引 (iproute2)
 #  iproute2-rule-index: 9000 # 设置路由规则的索引 (iproute2)
   endpoint-independent-nat: false # 启用独立于端点的 NAT，性能可能会略有下降，所以不建议在不需要的时候开启
-  exclude-package: []
+  route-address: # 启用 auto-route时路由自定义路由网段
+    - 0.0.0.0/1
+    - 128.0.0.0/1
+    - "::/1"
+    - "8000::/1"
+  route-exclude-address: # 启用 auto-route 时排除自定义网段
+    - 192.168.0.0/16
+    - fc00::/7
+  exclude-package: [] # 排除 Android 应用包名，使其避免被 Tun 路由流量
 
 # DNS 配置：控制 DNS 查询行为，支持增强模式和假 IP 功能
 # 查询 DNS 是否支持 H3 指令:
