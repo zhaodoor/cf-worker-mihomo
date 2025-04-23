@@ -113,7 +113,7 @@ geo-auto-update: true # 开启自动更新 Geo 数据库
 geo-update-interval: 24 # Geo 数据库更新间隔 (单位: 小时)
 global-ua: clash.meta # 自定全局 UA
 etag-support: true # 外部资源下载的 ETag 支持
-log-level: debug # 日志等级
+log-level: info # 日志等级
 ipv6: true # 启用 IPv6
 #tls: # TLS 相关配置
 #  certificate: string # TLS 证书
