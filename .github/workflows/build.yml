@@ -5,6 +5,9 @@ name: Node.js workers
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+    - src/*
 permissions:
   contents: write
 jobs:
