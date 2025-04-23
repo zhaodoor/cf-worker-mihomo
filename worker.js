@@ -2743,14 +2743,14 @@ var index_default = {
   async fetch(request, env) {
     const config = env.CONFIG || "https://raw.githubusercontent.com/Kwisma/cf-worker-mihomo/main/Config/Mihomo.yaml";
     const url = new URL(request.url);
-    const hostHeader = request.headers.get("host");
+    const userAgent = request.headers.get("User-Agent");
+    const isBrowser = /mozilla|chrome|safari|firefox|edge|opera|webkit|gecko|trident/i.test(userAgent);
     let urls = url.searchParams.getAll("url");
     if (urls.length === 1 && urls[0].includes(",")) {
       urls = urls[0].split(",").map((u) => u.trim());
     }
     if (urls.length === 0 || urls[0] === "") {
-      const message = "\u6CA1\u6709\u63D0\u4F9B URL \u53C2\u6570\uFF0C\u8BF7\u68C0\u67E5\u5E76\u91CD\u65B0\u5C1D\u8BD5\uFF01";
-      return new Response(await getFakePage(message, hostHeader), {
+      return new Response(await getFakePage(env.IMG), {
         headers: {
           "Content-Type": "text/html; charset=utf-8"
         }
@@ -2758,117 +2758,502 @@ var index_default = {
     }
     for (let u of urls) {
       if (!isValidURL(u)) {
-        const message = `\u65E0\u6548\u7684 URL: ${u}\uFF0C\u8BF7\u68C0\u67E5\u8F93\u5165\uFF01`;
-        return new Response(await getFakePage(message, hostHeader), {
+        return new Response(await getFakePage(env.IMG), {
           headers: {
             "Content-Type": "text/html; charset=utf-8"
           }
         }, { status: 400 });
       }
     }
+    if (isBrowser) {
+      return new Response(
+        `
+                <!DOCTYPE html>
+                <html>
+                  <head>
+                    <title>Welcome</title>
+                    <style>
+                      /* \u5168\u5C40\u80CC\u666F\u56FE\uFF08\u4F7F\u7528\u5728\u7EBF\u56FE\u7247URL\uFF09 */
+                      body {
+                        background:rgba(179, 172, 172, 0.5);
+                        background-size: cover;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 100vh;
+                        margin: 0;
+                        font-family: 'Arial', sans-serif;
+                      }
+                      
+                      /* \u6587\u5B57\u6846\u6837\u5F0F */
+                      .text-box {
+                        background: rgba(255, 255, 255, 0.8); /* \u534A\u900F\u660E\u767D\u8272\u80CC\u666F */
+                        backdrop-filter: blur(5px); /* \u6BDB\u73BB\u7483\u6548\u679C */
+                        border-radius: 15px;
+                        padding: 40px;
+                        max-width: 600px;
+                        text-align: center;
+                        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+                      }
+                      
+                      h1 {
+                        color: rgb(255, 0, 0);
+                        margin: 0 0 20px 0;
+                      }
+                    </style>
+                  </head>
+                  <body>
+                    <div class="text-box">
+                      <h1>\u8BF7\u4F7F\u7528\u4EE3\u7406\u5DE5\u5177\u8BA2\u9605\uFF01</h1>
+                    </div>
+                  </body>
+                </html>
+                `,
+        {
+          headers: { "Content-Type": "text/html; charset=utf-8" }
+        }
+      );
+    }
     return new Response(await initconfig(urls, config), {
       headers: { "Content-Type": "text/plain; charset=utf-8" }
     });
   }
 };
-async function getFakePage(message, hostHeader) {
+async function getFakePage(image = "https://t.alcy.cc/ycy") {
   return `
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html>
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>\u591A\u8BA2\u9605\u6C47\u805A\u5DE5\u5177</title>
-  <style>
-    :root {
-      --primary-color: #0078d7;
-      --background-color: #f4f6f8;
-      --card-background: #ffffff;
-      --text-color: #333;
-      --code-bg: #f1f1f1;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mihomo\u6C47\u805A\u5DE5\u5177</title>
+    <style>
+        :root {
+            --primary-color: #4361ee;
+            --hover-color: #3b4fd3;
+            --bg-color: #f5f6fa;
+            --card-bg: #ffffff;
+        }
 
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background-color: var(--background-color);
-      color: var(--text-color);
-    }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
-    .container {
-      max-width: 720px;
-      margin: 3rem auto;
-      padding: 2rem;
-      background-color: var(--card-background);
-      border-radius: 12px;
-      box-shadow: 0 0 16px rgba(0, 0, 0, 0.05);
-    }
+        body {
+            background-image: url(${image});
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-color: var(--bg-color);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-    h1 {
-      font-size: 1.8rem;
-      color: var(--primary-color);
-      margin-bottom: 1rem;
-    }
+        .container {
+            position: relative;
+            /* \u4F7F\u7528rgba\u8BBE\u7F6E\u534A\u900F\u660E\u80CC\u666F */
+            background: rgba(255, 255, 255, 0.7);
+            /* \u6DFB\u52A0\u78E8\u7802\u73BB\u7483\u6548\u679C */
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            /* Safari\u517C\u5BB9 */
+            max-width: 600px;
+            width: 90%;
+            padding: 2rem;
+            border-radius: 20px;
+            /* \u8C03\u6574\u9634\u5F71\u6548\u679C\u589E\u52A0\u901A\u900F\u611F */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05),
+                inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease;
+        }
 
-    p {
-      line-height: 1.6;
-      margin-bottom: 1rem;
-    }
+        /* \u8C03\u6574hover\u6548\u679C */
+        .container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1),
+                inset 0 0 0 1px rgba(255, 255, 255, 0.2);
+        }
 
-    code {
-      background-color: var(--code-bg);
-      padding: 4px 6px;
-      border-radius: 4px;
-      font-family: monospace;
-      font-size: 0.95em;
-    }
+        h1 {
+            text-align: center;
+            color: var(--primary-color);
+            margin-bottom: 2rem;
+            font-size: 1.8rem;
+        }
 
-    a {
-      color: var(--primary-color);
-      text-decoration: none;
-    }
+        .input-group {
+            margin-bottom: 1.5rem;
+        }
 
-    a:hover {
-      text-decoration: underline;
-    }
+        .link-input {
+            display: block;
+            margin-top: 8px;
+            width: 100%;
+        }
 
-    .notice {
-      background-color: #eaf4ff;
-      border-left: 4px solid var(--primary-color);
-      padding: 0.75rem 1rem;
-      margin-bottom: 1.5rem;
-      border-radius: 6px;
-    }
-  </style>
+        .link-row {
+            display: flex;
+            align-items: center;
+            position: relative;
+            margin-bottom: 8px;
+        }
+
+        /* \u5706\u5F62\u6DFB\u52A0\u6309\u94AE\u6837\u5F0F */
+        .add-btn {
+            position: relative;
+            background-color: #f8f9fa;
+            width: 50px;
+            height: 50px;
+            top: 3px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+            margin-left: 10px;
+        }
+
+        .add-btn:hover {
+            background-color: #ddd;
+            /* \u9F20\u6807\u60AC\u505C\u6548\u679C */
+        }
+
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #555;
+            font-weight: 500;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            /* \u4FEE\u6539\u8FB9\u6846\u989C\u8272\u4ECE #eee \u5230\u66F4\u6DF1\u7684\u989C\u8272 */
+            border: 2px solid rgba(0, 0, 0, 0.15);
+            /* \u4F7F\u7528rgba\u5B9E\u73B0\u66F4\u81EA\u7136\u7684\u6DF1\u5EA6 */
+            border-radius: 10px;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            /* \u6DFB\u52A0\u8F7B\u5FAE\u7684\u5185\u9634\u5F71\u589E\u5F3A\u8FB9\u6846\u6548\u679C */
+            box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.03);
+        }
+
+        input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            /* \u589E\u5F3Afocus\u72B6\u6001\u4E0B\u7684\u9634\u5F71\u6548\u679C */
+            box-shadow: 0 0 0 3px rgba(67, 97, 238, 0.15),
+                inset 0 2px 4px rgba(0, 0, 0, 0.03);
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-bottom: 1.5rem;
+        }
+
+        button:hover {
+            background-color: var(--hover-color);
+            transform: translateY(-2px);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        #result {
+            background-color: #f8f9fa;
+            font-family: monospace;
+            word-break: break-all;
+        }
+
+        .github-corner svg {
+            fill: var(--primary-color);
+            color: var(--card-bg);
+            position: absolute;
+            top: 0;
+            right: 0;
+            border: 0;
+            width: 80px;
+            height: 80px;
+        }
+
+        .github-corner:hover .octo-arm {
+            animation: octocat-wave 560ms ease-in-out;
+        }
+
+        @keyframes octocat-wave {
+
+            0%,
+            100% {
+                transform: rotate(0)
+            }
+
+            20%,
+            60% {
+                transform: rotate(-25deg)
+            }
+
+            40%,
+            80% {
+                transform: rotate(10deg)
+            }
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .logo-title {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+
+        .logo-title img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            position: relative;
+            z-index: 1;
+            background: var(--card-bg);
+            box-shadow: 0 0 15px rgba(67, 97, 238, 0.1);
+        }
+
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .logo-title h1 {
+            margin-bottom: 0;
+            text-align: center;
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 1.5rem;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            .github-corner:hover .octo-arm {
+                animation: none;
+            }
+
+            .github-corner .octo-arm {
+                animation: octocat-wave 560ms ease-in-out;
+            }
+        }
+
+        .beian-info {
+            text-align: center;
+            font-size: 13px;
+        }
+
+        .beian-info a {
+            color: var(--primary-color);
+            text-decoration: none;
+            border-bottom: 1px dashed var(--primary-color);
+            padding-bottom: 2px;
+        }
+
+        .beian-info a:hover {
+            border-bottom-style: solid;
+        }
+
+        #qrcode {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/@keeex/qrcodejs-kx@1.0.2/qrcode.min.js"><\/script>
 </head>
+
 <body>
-  <main class="container">
-    <header>
-      <h1>\u6B22\u8FCE\u4F7F\u7528\u591A\u8BA2\u9605\u6C47\u805A\u5DE5\u5177</h1>
-    </header>
+    <a href="${atob("aHR0cHM6Ly9naXRodWIuY29tL0t3aXNtYS9jZi13b3JrZXItbWlob21v")}" target="_blank" class="github-corner"
+        aria-label="View source on Github">
+        <svg viewBox="0 0 250 250" aria-hidden="true">
+            <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+            <path
+                d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+                fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+            <path
+                d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+                fill="currentColor" class="octo-body"></path>
+        </svg>
+    </a>
+    <div class="container">
+        <div class="logo-title">
+            <h1>mihomo\u6C47\u805A\u5DE5\u5177</h1>
+        </div>
+        <div class="input-group">
+            <label for="link">\u8BA2\u9605\u94FE\u63A5</label>
+            <div id="link-container">
+                <div class="link-row">
+                    <input type="text" class="link-input" placeholder="https://www.example.com/answer/land?token=xxx" />
+                    <div class="add-btn" onclick="addLinkInput(this)">\u2795</div>
+                </div>
+            </div>
+        </div>
 
-    <section>
-      <p>\u8FD9\u662F\u4E00\u4E2A\u5E2E\u52A9\u4F60\u5FEB\u901F\u6574\u5408\u591A\u4E2A\u4EE3\u7406\u8BA2\u9605\u94FE\u63A5\uFF0C\u5E76\u751F\u6210\u7EDF\u4E00\u6C47\u805A\u5730\u5740\u7684\u5C0F\u5DE5\u5177\u3002</p>
-    </section>
+        <button onclick="generateLink()">\u751F\u6210mihomo\u914D\u7F6E</button>
 
-    <section class="notice">
-      <p><strong>\u63D0\u793A\uFF1A</strong>${message}</p>
-    </section>
+        <div class="input-group">
+            <div style="display: flex; align-items: center;">
+                <label for="result">\u8BA2\u9605\u94FE\u63A5</label>
+            </div>
+            <input type="text" id="result" readonly onclick="copyToClipboard()">
+            <label id="qrcode" style="margin: 15px 10px -15px 10px;"></label>
+        </div>
+        <div class="beian-info" style="text-align: center; font-size: 13px;">
+            <a href='https://t.me/Marisa_kristi'>\u840CICP\u590720250001\u53F7</a>
+        </div>
+    </div>
 
-    <section>
-      <p>\u8BF7\u68C0\u67E5\u4F60\u63D0\u4F9B\u7684 <code>URL</code> \u662F\u5426\u6B63\u786E\uFF0C\u6216\u5C1D\u8BD5\u66F4\u6362\u8BA2\u9605\u94FE\u63A5\u3002</p>
-      <p>\u6B63\u786E\u683C\u5F0F\u5982\u4E0B\uFF1A</p>
-      <p><code>https://${hostHeader}/?url=\u8BA2\u9605\u94FE\u63A51,\u8BA2\u9605\u94FE\u63A52,\u8BA2\u9605\u94FE\u63A53</code></p>
-    </section>
+    <script>
 
-    <section>
-      <p>\u5F00\u6E90\u5730\u5740\uFF1A<a href="https://github.com/Kwisma/cf-worker-mihomo" target="_blank" rel="noopener noreferrer">GitHub \u4ED3\u5E93</a></p>
-    </section>
-  </main>
+        // \u70B9\u51FB\u9875\u9762\u5176\u4ED6\u533A\u57DF\u5173\u95ED\u63D0\u793A\u6846
+        document.addEventListener('click', function (event) {
+            const tooltip = document.getElementById('infoTooltip');
+            const infoIcon = document.querySelector('.info-icon');
+
+            if (!tooltip.contains(event.target) && !infoIcon.contains(event.target)) {
+                tooltip.style.display = 'none';
+            }
+        });
+
+        function copyToClipboard() {
+            const resultInput = document.getElementById('result');
+            if (!resultInput.value) {
+                return;
+            }
+
+            resultInput.select();
+            navigator.clipboard.writeText(resultInput.value).then(() => {
+                const tooltip = document.createElement('div');
+                tooltip.style.position = 'fixed';
+                tooltip.style.left = '50%';
+                tooltip.style.top = '20px';
+                tooltip.style.transform = 'translateX(-50%)';
+                tooltip.style.padding = '8px 16px';
+                tooltip.style.background = '#4361ee';
+                tooltip.style.color = 'white';
+                tooltip.style.borderRadius = '4px';
+                tooltip.style.zIndex = '1000';
+                tooltip.textContent = '\u5DF2\u590D\u5236\u5230\u526A\u8D34\u677F';
+
+                document.body.appendChild(tooltip);
+
+                setTimeout(() => {
+                    document.body.removeChild(tooltip);
+                }, 2000);
+            }).catch(err => {
+                alert('\u590D\u5236\u5931\u8D25\uFF0C\u8BF7\u624B\u52A8\u590D\u5236');
+            });
+        }
+
+        function addLinkInput(button) {
+            const container = document.getElementById('link-container'); // \u83B7\u53D6\u5BB9\u5668
+            const row = document.createElement('div');
+            row.className = 'link-row'; // \u6DFB\u52A0\u76F8\u540C\u7684\u5E03\u5C40\u6837\u5F0F
+
+            const input = document.createElement('input');
+            input.type = 'text';
+            input.className = 'link-input';
+            input.placeholder = 'https://www.example.com/answer/land?token=xxx';
+
+            // \u9690\u85CF\u5F53\u524D\u6309\u94AE
+            button.style.display = 'none';
+
+            // \u5C06\u65B0\u884C\u6DFB\u52A0\u5230\u5BB9\u5668\u4E2D
+            row.appendChild(input);
+            container.appendChild(row);
+
+            // \u4E3A\u65B0\u8F93\u5165\u6846\u6DFB\u52A0\u6309\u94AE
+            const btn = document.createElement('div');
+            btn.className = 'add-btn';
+            btn.textContent = '\u2795';
+            btn.onclick = function () {
+                addLinkInput(btn); // \u9012\u5F52\u8C03\u7528\uFF0C\u6309\u94AE\u8DDF\u968F\u65B0\u884C
+            };
+
+            row.appendChild(btn);
+        }
+
+        function generateLink() {
+            const inputs = document.querySelectorAll('.link-input');
+            const links = Array.from(inputs).map(input => input.value.trim()).filter(val => val !== '');
+
+            if (links.length === 0) {
+                alert('\u8BF7\u8F93\u5165\u81F3\u5C11\u4E00\u4E2A\u94FE\u63A5');
+                return;
+            }
+
+            // \u68C0\u67E5\u662F\u5426\u90FD\u662F\u6709\u6548\u94FE\u63A5
+            const allValid = links.every(link => link.startsWith('http://') || link.startsWith('https://'));
+            if (!allValid) {
+                alert('\u6240\u6709\u94FE\u63A5\u90FD\u5FC5\u987B\u4EE5 http:// \u6216 https:// \u5F00\u5934');
+                return;
+            }
+            const domain = window.location.hostname;
+            console.log(domain);
+            const urlLink = \`https://\${domain}/?url=\${links.join(',')}\`;
+            document.getElementById('result').value = urlLink;
+
+            // \u751F\u6210\u4E8C\u7EF4\u7801
+            const qrcodeDiv = document.getElementById('qrcode');
+            qrcodeDiv.innerHTML = '';
+            new QRCode(qrcodeDiv, {
+                text: urlLink,
+                width: 220,
+                height: 220,
+                colorDark: "#4a60ea",
+                colorLight: "#ffffff",
+                correctLevel: QRCode.CorrectLevel.L,
+                scale: 1
+            });
+        }
+    <\/script>
 </body>
-</html>
-    `;
+
+</html>    `;
 }
 __name(getFakePage, "getFakePage");
 function isValidURL(url) {
