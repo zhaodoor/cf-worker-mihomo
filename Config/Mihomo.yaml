@@ -37,11 +37,11 @@ p: &p
     timeout: 5000 # 健康检查超时时间
     lazy: true # 懒惰状态
 override: &override
-  tfo: false # 启用 TCP Fast Open, 仅生效于 TCP 协议
+  tfo: true # 启用 TCP Fast Open, 仅生效于 TCP 协议
   mptcp: false # 启用 TCP Multi Path, 仅生效于 TCP 协议
   udp: true # 是否允许 UDP 通过代理，默认为 false
   udp-over-tcp: false # 启用 UDP over TCP，默认 false
-  skip-cert-verify: false # 跳过证书验证，仅适用于使用 tls 的协议
+  skip-cert-verify: true # 跳过证书验证，仅适用于使用 tls 的协议
   ip-version: ipv4-prefer # 可选：dual/ipv4/ipv6/ipv4-prefer/ipv6-prefer ,默认使用 dual, ipv4: 仅使用 IPv4, ipv6: 仅使用 IPv6, ipv4-prefer: 优先使用 IPv4，对于 TCP 会进行双栈解析，并发链接但是优先使用 IPv4 链接，UDP 则为双栈解析，获取结果中的第一个 IPv4, ipv6-prefer:优先使用 IPv6，对于 TCP 会进行双栈解析，并发链接但是优先使用 IPv6 链接，UDP 则为双栈解析，获取结果中的第一个 IPv6
 # URL 测试配置
 u: &u
@@ -129,10 +129,10 @@ external-controller: 0.0.0.0:9093 # 外部控制端口
 secret: "" # 控制接口密钥
 
 # RESTful API CORS标头配置
-#external-controller-cors: # CORS 配置
-#  allow-origins:
-#    - "*" # 允许所有来源
-#  allow-private-network: true # 允许私有网络访问
+external-controller-cors: # CORS 配置
+  allow-origins:
+    - "*" # 允许所有来源
+  allow-private-network: true # 允许私有网络访问
 #external-controller-unix: mihomo.sock  # Unix Socket 控制接口
 #external-controller-pipe: \\.\pipe\mihomo  # Windows 管道接口
 
@@ -141,7 +141,7 @@ tcp-concurrent: true # 启用 TCP 并发连接
 external-ui: ui # 外部 UI 目录
 external-ui-name: xd # 外部 UI 名称
 external-ui-url: "https://ghfast.top/https://github.com/Zephyruso/zashboard/releases/latest/download/dist.zip" # 外部 UI 下载链接
-#external-doh-server: /dns-query # 外部 DoH 服务器
+external-doh-server: /dns-query # 外部 DoH 服务器
 #interface-name:  # 使用的网络接口名称
 #routing-mark:  # 路由标记
 global-client-fingerprint: chrome # 全局客户端指纹为 Chrome
