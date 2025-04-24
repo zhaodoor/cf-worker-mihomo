@@ -506,7 +506,7 @@ proxy-groups:
   - { name: 酷狗, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Kugou.webp }
   - { name: LastFM, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/LastFM.webp }
   - { name: LINE, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Line.webp }
-  # - { name: Leaseweb, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Leaseweb.webp }
+  - { name: Leaseweb, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Leaseweb.webp }
   - { name: 美团, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/MeiTuan.webp }
   - { name: 微软, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/Microsoft.webp }
   - { name: NGA, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/NGA.webp }
@@ -1529,10 +1529,10 @@ rule-providers:
     url: "https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/rule/clash/WeChat/WeChat.mrs"
     path: ./ruleset/WeChat.mrs
 
-  # LeasewebASN:
-  #   <<: *classical_yaml
-  #   url: "https://cdn.jsdmirror.com/gh/Kwisma/ASN-List@main/data/Leaseweb/ASN.Leaseweb.yaml"
-  #   path: ./ruleset/LeasewebASN.yaml
+  LeasewebASN:
+    <<: *classical_yaml
+    url: "https://cdn.jsdmirror.com/gh/Kwisma/ASN-List@main/data/Leaseweb/ASN.Leaseweb.yaml"
+    path: ./ruleset/LeasewebASN.yaml
 
   AmazonASN:
     <<: *classical_yaml
