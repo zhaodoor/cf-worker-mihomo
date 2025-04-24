@@ -250,10 +250,10 @@ tun:
 dns:
   enable: true # 启用 DNS 模块
   cache-algorithm: arc # 缓存算法，参数:lru 最近最少使用，arc 自适应替换缓存
-  prefer-h3: true # DOH 优先使用 http/3
+  prefer-h3: false # DOH 优先使用 http/3
   use-hosts: true # 使用配置中的 hosts 文件条目
   use-system-hosts: false # 使用系统的 hosts 文件条目
-  respect-rules: false # dns 连接遵守路由规则，需配置 proxy-server-nameserver, 强烈不建议和 prefer-h3 一起使用
+  respect-rules: true # dns 连接遵守路由规则，需配置 proxy-server-nameserver, 强烈不建议和 prefer-h3 一起使用
   listen: 0.0.0.0:1053 # 本地 DNS 监听端口，默认是 1053 端口
   ipv6: true # 启用 IPv6 DNS 解析，避免 IPv6 地址的解析请求
   default-nameserver:
@@ -402,20 +402,22 @@ dns:
   nameserver-policy:
     cdn.jsdmirror.com: "223.5.5.5"
     RULE-SET:CN,Private:
-      - "https://dns.alidns.com/dns-query#🎯直连" # 阿里 DNS over H3
-      - "tls://dot.pub#🎯直连" # 腾讯 DNS over TLS
+      - "https://dns.alidns.com/dns-query#🎯直连&h3=true" # 阿里 DNS over H3
+      - "https://dot.pub/dns-query#🎯直连" # 腾讯 DNS over DOH
   nameserver:
-    - "https://cloudflare-dns.com/dns-query#🟢手动选择" # Cloudflare DNS over H3
-    - "https://dns.google/dns-query#🟢手动选择" # Google DNS over H3
+    - "https://cloudflare-dns.com/dns-query#🟢手动选择&h3=true" # Cloudflare DNS over H3
+    - "https://dns.google/dns-query#🟢手动选择&h3=true" # Google DNS over H3
     - "https://doh.dns.sb/dns-query#🟢手动选择&h3=true" # SB DNS over H3
     - "https://public.dns.iij.jp/dns-query#🟢手动选择&h3=true" # IIJ DNS over H3
-    - "udp://dns.twnic.tw#🟢手动选择" # 台湾 DNS over UDP 
-    - "udp://doh.opendns.com#🟢手动选择" # Open DNS  over DUP 
-    - "tls://dns.nextdns.io#🟢手动选择" # Next DNS  over TLS
+    - "https://dns.twnic.tw/dns-query#🟢手动选择" # 台湾 DNS over DOH
+    - "https://doh.opendns.com/dns-query#🟢手动选择" # Open DNS  over DOH
+    - "quic://dns.nextdns.io/dns-query#🟢手动选择" # Next DNS  over DOQ
   proxy-server-nameserver: # 用于节点域名解析 DNS 服务器
-    - "https://dns.alidns.com/dns-query" # 阿里 DNS over H3
+    - "https://dns.alidns.com/dns-query#h3=true" # 阿里 DNS over H3
+    - "https://dot.pub/dns-query" # 腾讯 DNS over DOH
   direct-nameserver: #  用于直连出口域名解析的 DNS 服务器
-    - "https://dns.alidns.com/dns-query" # 阿里 DNS over H3
+    - "https://dns.alidns.com/dns-query#h3=true" # 阿里 DNS over H3
+    - "https://dot.pub/dns-query" # 腾讯 DNS over DOH
   direct-nameserver-follow-policy: true # 是否遵循 nameserver-policy，默认为不遵守，仅当 direct-nameserver 不为空时生效
 
 proxies:
