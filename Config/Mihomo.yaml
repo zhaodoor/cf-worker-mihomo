@@ -257,7 +257,7 @@ dns:
     - "2400:3200::1" # 阿里 DNS 解析 DNS 域名
     - "2402:4e00::" # 腾讯 DNS 解析 DNS 域名
   enhanced-mode: fake-ip # 启用增强模式 redir-host or fake-ip
-  fake-ip-range: 10.10.10.1/16 # fake-ip 池设置
+  fake-ip-range: 198.18.0.0/15 # fake-ip 池设置
   fake-ip-filter-mode: blacklist
   fake-ip-filter:
     - +.media.dssott.com
