@@ -670,7 +670,7 @@ proxy-groups:
 
 rules:
   # 局域网
-  - OR,((RULE-SET,Lan),(RULE-SET,Lancidr,no-resolve),(RULE-SET,Private),(RULE-SET,Privatecidr,no-resolve),(RULE-SET,STUN)),DIRECT
+  - OR,((RULE-SET,Lan),(RULE-SET,Lancidr,no-resolve),(RULE-SET,Private),(RULE-SET,Privatecidr,no-resolve)),DIRECT
 
   # 广告拦截
   - OR,((RULE-SET,Advertising),(RULE-SET,Category-ads-all)),🚫广告拦截
@@ -774,7 +774,7 @@ rules:
   - RULE-SET,LeasewebASN,Leaseweb # Leaseweb 服务商
   - OR,((RULE-SET,Tor),(RULE-SET,Torcidr,no-resolve)),Tor # 洋葱浏览器
   - OR,((RULE-SET,Fastly),(RULE-SET,Fastlycidr,no-resolve)),Fastly # Fastly 服务商
-  - OR,((RULE-SET,Category-anticensorship),(RULE-SET,Geolocation-!cn),(RULE-SET,Proxy),(RULE-SET,Gfw)),Proxy # 国际网络
+  - OR,((RULE-SET,Category-anticensorship),(RULE-SET,Geolocation-!cn),(RULE-SET,Proxy),(RULE-SET,Gfw),(RULE-SET,STUN)),Proxy # 国际网络
 
   # 国内分流
   - RULE-SET,NGA,NGA # NGA 论坛 (游戏社区)
