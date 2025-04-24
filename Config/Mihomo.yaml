@@ -405,9 +405,9 @@ dns:
       - "https://dns.alidns.com/dns-query#🎯直连&h3=true" # 阿里 DNS over H3
       - "https://dot.pub/dns-query#🎯直连" # 腾讯 DNS over DOH
   nameserver:
-    - "https://doh.dns.sb/dns-query#h3=true" # SB DNS over H3
     - "https://cloudflare-dns.com/dns-query#🟢手动选择&h3=true" # Cloudflare DNS over H3
     - "https://dns.google/dns-query#🟢手动选择&h3=true" # Google DNS over H3
+    - "https://doh.dns.sb/dns-query#🟢手动选择&h3=true" # SB DNS over H3
     - "https://public.dns.iij.jp/dns-query#🟢手动选择&h3=true" # IIJ DNS over H3
     - "https://dns.twnic.tw/dns-query#🟢手动选择" # 台湾 DNS over DOH
     - "https://doh.opendns.com/dns-query#🟢手动选择" # Open DNS  over DOH
