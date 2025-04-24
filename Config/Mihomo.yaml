@@ -395,10 +395,7 @@ dns:
     - +.logon.battle.net
     - +.logon.battlenet.com.cn
     - +.pingan.com.cn
-    - RULE-SET:Lan
-    - RULE-SET:Private
-    - RULE-SET:STUN
-    - RULE-SET:CN
+    - RULE-SET:Lan,Private,CN
   nameserver-policy:
     cdn.jsdmirror.com: "223.5.5.5"
     RULE-SET:CN,Private:
@@ -774,7 +771,7 @@ rules:
   - RULE-SET,LeasewebASN,Leaseweb # Leaseweb 服务商
   - OR,((RULE-SET,Tor),(RULE-SET,Torcidr,no-resolve)),Tor # 洋葱浏览器
   - OR,((RULE-SET,Fastly),(RULE-SET,Fastlycidr,no-resolve)),Fastly # Fastly 服务商
-  - OR,((RULE-SET,Category-anticensorship),(RULE-SET,Geolocation-!cn),(RULE-SET,Proxy),(RULE-SET,Gfw),(RULE-SET,STUN)),Proxy # 国际网络
+  - OR,((RULE-SET,Category-anticensorship),(RULE-SET,Geolocation-!cn),(RULE-SET,Proxy),(RULE-SET,Gfw)),Proxy # 国际网络
 
   # 国内分流
   - RULE-SET,NGA,NGA # NGA 论坛 (游戏社区)
@@ -1397,11 +1394,6 @@ rule-providers:
     <<: *classical_yaml
     url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Line/Line.yaml"
     path: ./ruleset/Line.yaml
-
-  STUN:
-    <<: *classical_yaml
-    url: "https://cdn.jsdmirror.com/gh/blackmatrix7/ios_rule_script@master/rule/Clash/STUN/STUN.yaml"
-    path: ./ruleset/STUN.yaml
 
   # ------------------------------------------------------------
   # MetaCubeX 规则
