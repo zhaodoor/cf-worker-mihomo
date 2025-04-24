@@ -500,9 +500,10 @@ async function getFakePage(image = 'https://t.alcy.cc/ycy') {
                 alert('所有链接都必须以 http:// 或 https:// 开头');
                 return;
             }
+			const encodedLinks = links.map(link => encodeURIComponent(link));
             const domain = window.location.hostname;
             console.log(domain);
-            const urlLink = \`https://\${domain}/?url=\${links.join(',')}\`;
+            const urlLink = \`https://\${domain}/?url=\${encodedLinks.join(',')}\`;
             document.getElementById('result').value = urlLink;
 
             // 生成二维码
@@ -538,10 +539,11 @@ function isValidURL(url) {
 async function initconfig(urls, config) {
     let index = 0, proxy = [];
     for (const url of urls) {
+		const decodedUrl = decodeURIComponent(url)
         proxy.push(`
   provider${index + 1}:
     <<: *p
-    url: "${url}"
+    url: "${decodedUrl}"
     path: ./proxies/provider${index + 1}.yaml
     override:
       <<: *override
