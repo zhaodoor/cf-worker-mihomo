@@ -252,7 +252,7 @@ dns:
   cache-algorithm: arc # 缓存算法，参数:lru 最近最少使用，arc 自适应替换缓存
   prefer-h3: true # DOH 优先使用 http/3
   use-hosts: true # 使用配置中的 hosts 文件条目
-  use-system-hosts: true # 使用系统的 hosts 文件条目
+  use-system-hosts: false # 使用系统的 hosts 文件条目
   respect-rules: false # dns 连接遵守路由规则，需配置 proxy-server-nameserver, 强烈不建议和 prefer-h3 一起使用
   listen: 0.0.0.0:1053 # 本地 DNS 监听端口，默认是 1053 端口
   ipv6: true # 启用 IPv6 DNS 解析，避免 IPv6 地址的解析请求
@@ -400,6 +400,7 @@ dns:
     - RULE-SET:STUN
     - RULE-SET:CN
   nameserver-policy:
+    cdn.jsdmirror.com: "223.5.5.5"
     RULE-SET:CN,Private:
       - "https://dns.alidns.com/dns-query#🎯直连" # 阿里 DNS over H3
       - "tls://dot.pub#🎯直连" # 腾讯 DNS over TLS
@@ -407,10 +408,10 @@ dns:
     - "https://cloudflare-dns.com/dns-query#🟢手动选择" # Cloudflare DNS over H3
     - "https://dns.google/dns-query#🟢手动选择" # Google DNS over H3
     - "https://doh.dns.sb/dns-query#🟢手动选择" # SB DNS over H3
-    - "https://public.dns.iij.jp/dns-query#🇯🇵日本" # IIJ DNS over H3
-    - "https://dns.twnic.tw/dns-query#🇹🇼台湾" # 台湾 DNS over DOH
-    - "https://doh.opendns.com/dns-query#🇺🇸美国" # Open DNS  over DOH
-    - "tls://dns.nextdns.io#🇭🇰香港" # Next DNS  over TLS
+    - "https://public.dns.iij.jp/dns-query#🟢手动选择" # IIJ DNS over H3
+    - "https://dns.twnic.tw/dns-query#🟢手动选择" # 台湾 DNS over DOH
+    - "https://doh.opendns.com/dns-query#🟢手动选择" # Open DNS  over DOH
+    - "tls://dns.nextdns.io#🟢手动选择" # Next DNS  over TLS
   proxy-server-nameserver: # 用于节点域名解析 DNS 服务器
     - "https://dns.alidns.com/dns-query" # 阿里 DNS over H3
   direct-nameserver: #  用于直连出口域名解析的 DNS 服务器
