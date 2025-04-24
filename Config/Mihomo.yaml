@@ -407,10 +407,10 @@ dns:
   nameserver:
     - "https://cloudflare-dns.com/dns-query#🟢手动选择" # Cloudflare DNS over H3
     - "https://dns.google/dns-query#🟢手动选择" # Google DNS over H3
-    - "https://doh.dns.sb/dns-query#🟢手动选择" # SB DNS over H3
-    - "https://public.dns.iij.jp/dns-query#🟢手动选择" # IIJ DNS over H3
-    - "https://dns.twnic.tw/dns-query#🟢手动选择" # 台湾 DNS over DOH
-    - "https://doh.opendns.com/dns-query#🟢手动选择" # Open DNS  over DOH
+    - "https://doh.dns.sb/dns-query#🟢手动选择&h3=true" # SB DNS over H3
+    - "https://public.dns.iij.jp/dns-query#🟢手动选择&h3=true" # IIJ DNS over H3
+    - "udp://dns.twnic.tw#🟢手动选择" # 台湾 DNS over UDP 
+    - "udp://doh.opendns.com#🟢手动选择" # Open DNS  over DUP 
     - "tls://dns.nextdns.io#🟢手动选择" # Next DNS  over TLS
   proxy-server-nameserver: # 用于节点域名解析 DNS 服务器
     - "https://dns.alidns.com/dns-query" # 阿里 DNS over H3
