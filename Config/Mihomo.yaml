@@ -261,7 +261,7 @@ dns:
     - tls://1.12.12.12:853 # 腾讯 DNS 解析 DNS 域名
     - "2400:3200::1" # 阿里 DNS 解析 DNS 域名
     - "2402:4e00::" # 腾讯 DNS 解析 DNS 域名
-  enhanced-mode: redir-host # 启用增强模式 redir-host or fake-ip
+  enhanced-mode: fake-ip # 启用增强模式 redir-host or fake-ip
   fake-ip-range: 198.18.0.0/15 # fake-ip 池设置
   fake-ip-filter-mode: blacklist
   fake-ip-filter:
@@ -397,7 +397,6 @@ dns:
     - +.pingan.com.cn
     - RULE-SET:Lan,Private,CN
   nameserver-policy:
-    cdn.jsdmirror.com: "223.5.5.5"
     RULE-SET:CN,Private:
       - "https://dns.alidns.com/dns-query" # 阿里 DNS over H3
       - "https://dot.pub/dns-query" # 腾讯 DNS over DOH
