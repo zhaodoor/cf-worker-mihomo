@@ -402,8 +402,8 @@ dns:
   nameserver-policy:
     cdn.jsdmirror.com: "223.5.5.5"
     RULE-SET:CN,Private:
-      - "https://dns.alidns.com/dns-query#h3=true" # 阿里 DNS over H3
-      - "https://dot.pub/dns-query" # 腾讯 DNS over DOH
+      - "https://dns.alidns.com/dns-query#🎯直连&h3=true" # 阿里 DNS over H3
+      - "https://dot.pub/dns-query#🎯直连" # 腾讯 DNS over DOH
   nameserver:
     - "https://doh.dns.sb/dns-query#h3=true" # SB DNS over H3
     - "https://cloudflare-dns.com/dns-query#🟢手动选择&h3=true" # Cloudflare DNS over H3
@@ -771,7 +771,7 @@ rules:
   - RULE-SET,Google,Google # Google 相关服务
   - RULE-SET,Cloudflare,Cloudflare # Cloudflare CDN 及安全服务
   - RULE-SET,AmazonASN,亚马逊 # 亚马逊 服务商
-  # - RULE-SET,LeasewebASN,Leaseweb # Leaseweb 服务商
+  - RULE-SET,LeasewebASN,Leaseweb # Leaseweb 服务商
   - OR,((RULE-SET,Tor),(RULE-SET,Torcidr,no-resolve)),Tor # 洋葱浏览器
   - OR,((RULE-SET,Fastly),(RULE-SET,Fastlycidr,no-resolve)),Fastly # Fastly 服务商
   - OR,((RULE-SET,Category-anticensorship),(RULE-SET,Geolocation-!cn),(RULE-SET,Proxy),(RULE-SET,Gfw),(RULE-SET,STUN)),Proxy # 国际网络
