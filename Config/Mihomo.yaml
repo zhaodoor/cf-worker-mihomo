@@ -85,16 +85,16 @@ socks-port: 7891 # SOCKS5 代理端口
 mixed-port: 7890 # HTTP/SOCKS 混合代理端口
 allow-lan: true # 允许局域网设备连接代理
 bind-address: "*" # 绑定地址，默认为所有 IP 地址
-authentication:
-  - "username:password" # HTTP/SOCKS 代理认证，格式为 用户名:密码
-skip-auth-prefixes:
-  - 127.0.0.1/8 # 跳过本地地址的认证
-  - ::1/128 # 跳过 IPv6 本地地址的认证
-lan-allowed-ips:
-  - 0.0.0.0/0 # 允许局域网访问的 IP 地址范围 (IPv4)
-  - ::/0 # 允许局域网访问的 IP 地址范围 (IPv6)
-lan-disallowed-ips:
-  - 192.168.0.3/32 # 局域网禁止访问的特定 IP 地址
+#authentication:
+#  - "username:password" # HTTP/SOCKS 代理认证，格式为 用户名:密码
+#skip-auth-prefixes:
+#  - 127.0.0.1/8 # 跳过本地地址的认证
+#  - ::1/128 # 跳过 IPv6 本地地址的认证
+#lan-allowed-ips:
+#  - 0.0.0.0/0 # 允许局域网访问的 IP 地址范围 (IPv4)
+#  - ::/0 # 允许局域网访问的 IP 地址范围 (IPv6)
+#lan-disallowed-ips:
+#  - 192.168.0.3/32 # 局域网禁止访问的特定 IP 地址
 
 # always 开启，强制匹配所有进程
 # strict 默认，由 Clash 判断是否开启
