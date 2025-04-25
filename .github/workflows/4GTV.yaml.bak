@@ -32,6 +32,7 @@ jobs:
     - name: Fetch 4GTV Rules
       run: |
         mkdir -p rules/mihomo/4GTV  # 确保目录存在
+
         # 下载 4GTV 规则文件
         curl -sL "https://raw.githubusercontent.com/antn0000/fenliu/main/4GTV.list" -o rules/mihomo/4GTV/4GTV.text
         # 使用 sed 去除每行的前后空格
