@@ -769,11 +769,6 @@ rule-providers:
     url: "https://cdn.jsdmirror.com/gh/peiyingyao/Rule-for-OCD@master/rule/Clash/Google/Google_OCD_IP.mrs"
     path: ./ruleset/Google_OCD_IP.mrs
 
-  TikTok:
-    <<: *domain_mrs
-    url: "https://cdn.jsdmirror.com/gh/peiyingyao/Rule-for-OCD@master/rule/Clash/TikTok/TikTok_OCD_Domain.mrs"
-    path: ./ruleset/TikTok_OCD_Domain.mrs
-
   YouTubeMusic:
     <<: *domain_mrs
     url: "https://cdn.jsdmirror.com/gh/peiyingyao/Rule-for-OCD@master/rule/Clash/YouTubeMusic/YouTubeMusic_OCD_Domain.mrs"
@@ -1524,3 +1519,8 @@ rule-providers:
     <<: *domain_mrs
     url: "https://cdn.jsdmirror.com/gh/qljsyph/ruleset-icon@main/mihomo/domain/talkatone.mrs"
     path: ./ruleset/Talkatone.mrs
+
+  TikTok:
+    <<: *domain_mrs
+    url: "https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/rules/mihomo/TikTok/TikTok_Domain.mrs"
+    path: ./ruleset/TikTok_Domain.mrs
