@@ -40,7 +40,7 @@ jobs:
           | sed -E "s/^\s*-\s*['\"]?([^'\"]+)['\"]?\s*$/\1/" \
           | sort -u \
           | sed "s/^/  - '/;s/$/'/" \
-          > TikTok_Domain.yaml
+          > rules/mihomo/TikTok/TikTok_Domain.yaml
         # 添加 payload: 头
         sed -i '1i payload:' rules/mihomo/TikTok/TikTok_Domain.yaml
 
