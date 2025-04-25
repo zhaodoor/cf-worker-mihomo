@@ -34,9 +34,11 @@ jobs:
         mkdir -p rules/mihomo/4GTV  # 确保目录存在
 
         # 下载 4GTV 规则文件
-        curl -sL "https://raw.githubusercontent.com/antn0000/fenliu/main/4GTV.list" -o rules/mihomo/4GTV/4GTV.list
+        curl -sL "https://raw.githubusercontent.com/antn0000/fenliu/main/4GTV.list" -o rules/mihomo/4GTV/4GTV.text
+        # 使用 sed 去除每行的前后空格
+        sed 's/^[[:space:]]*//;s/[[:space:]]*$//' rules/mihomo/4GTV/4GTV.text > rules/mihomo/4GTV/4GTV.list
 
-    - name: Separate domain and ip rules
+    - name: Separate domain rules
       run: |
         # 提取域名规则并保存到 4GTV-domain.list
         grep '^DOMAIN-SUFFIX' rules/mihomo/4GTV/4GTV.list > rules/mihomo/4GTV/4GTV_Domain.list
@@ -65,7 +67,7 @@ jobs:
     - name: Clean up temporary files
       run: |
         # 删除临时文件，但保留 4GTV_Domain.yaml 和 4GTV_IP.yaml
-        rm -f rules/4GTV.list rules/Domain/4GTV_Domain.list
+        rm -f rules/mihomo/4GTV/4GTV.text rules/mihomo/4GTV/4GTV.list rules/mihomo/4GTV/4GTV_Domain.list
 
     - name: Commit and Push Changes
       run: |
