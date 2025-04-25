@@ -528,7 +528,7 @@ proxy-groups:
 rules:
   # 局域网
   - OR,((RULE-SET,Private),(RULE-SET,Privatecidr,no-resolve),(RULE-SET,Fakeip-Filter)),🎯全球直连
-
+  - SUB-RULE,(NETWORK,UDP),SUB-DIRECT
   # 广告拦截
   - OR,((RULE-SET,Advertising),(RULE-SET,Category-ads-all)),🚫广告拦截
   - OR,((RULE-SET,BlockHttpDNS),(RULE-SET,BlockHttpDNScidr,no-resolve),(RULE-SET,Category-httpdns-cn)),🚫泄漏拦截
@@ -669,7 +669,11 @@ rules:
 
   # 节点代理
   - MATCH,🐟漏网之鱼
-  - NETWORK,udp,🚫泄漏拦截
+
+sub-rules:
+  SUB-DIRECT:
+    - RULE-SET,CN,🎯全球直连
+    - RULE-SET,CNcidr,🎯全球直连
       
 rule-providers:
   # ------------------------------------------------------------
