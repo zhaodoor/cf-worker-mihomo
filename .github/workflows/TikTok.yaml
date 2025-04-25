@@ -49,6 +49,11 @@ jobs:
         # 使用 mihomo 转换为 MRS 格式
         mihomo convert-ruleset domain yaml rules/mihomo/TikTok/TikTok_Domain.yaml rules/mihomo/TikTok/TikTok_Domain.mrs
 
+    - name: Clean up temporary files
+      run: |
+        # 删除临时文件，但保留 4GTV_Domain.yaml 和 4GTV_IP.yaml
+        rm -f rules/mihomo/TikTok/tiktok.txt rules/mihomo/TikTok/TikTok_OCD_Domain.yaml
+
     - name: Commit and Push Changes
       run: |
         git add .
