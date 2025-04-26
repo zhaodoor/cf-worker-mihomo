@@ -1,0 +1,129 @@
+import fs from "fs/promises";
+import fetch from "node-fetch";
+import { URL } from "url";
+import path from "path";
+
+const TrackerPath = "rules/mihomo/Tracker";
+
+const ipv4Regex = /^(25[0-5]|2[0-4]\d|1?\d{1,2})(\.(25[0-5]|2[0-4]\d|1?\d{1,2})){3}$/;
+const ipv6Regex = /^([a-fA-F0-9:]+:+)+[a-fA-F0-9]+$/;
+
+const urlList = [
+  "https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_best.txt",
+  "https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all.txt",
+  "https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_udp.txt",
+  "https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_http.txt",
+  "https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_https.txt",
+  "https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_ws.txt",
+  "https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_i2p.txt",
+  "https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_best_ip.txt",
+  "https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_ip.txt",
+  "https://cf.trackerslist.com/best.txt",
+  "https://cf.trackerslist.com/all.txt",
+  "https://cf.trackerslist.com/http.txt",
+  "https://cf.trackerslist.com/nohttp.txt",
+  "https://newtrackon.com/api/stable",
+  "https://newtrackon.com/api/live",
+  "https://newtrackon.com/api/udp",
+  "https://newtrackon.com/api/http",
+  "https://newtrackon.com/api/all",
+  "https://trackers.run/s/wp_ws_up_hp_hs_v4_v6.txt",
+  "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/f4ed4a4a7445b4b3f6b840a0b342515a045a5c64/rule/Clash/PrivateTracker/PrivateTracker.yaml",
+];
+
+const domainSet = new Set();
+const ipSet = new Set();
+const urlSet = new Set();
+
+const shortenDomain = (domain) => {
+  const parts = domain.split(".");
+  return parts.length > 2 ? `+.${parts.slice(-2).join(".")}` : `+.${domain}`;
+};
+
+const handleLine = (line) => {
+  const trimmed = line.trim();
+  if (!trimmed || trimmed.startsWith("#")) return;
+
+  if (/^- *(DOMAIN(-SUFFIX)?),/.test(trimmed)) {
+    const domain = trimmed.split(",")[1]?.trim();
+    if (domain) domainSet.add(shortenDomain(domain));
+    return;
+  }
+
+  if (/^- *IP-CIDR,/.test(trimmed)) {
+    const cidr = trimmed.split(",")[1]?.trim();
+    const ip = cidr?.split("/")[0];
+    if (ip) ipSet.add(`${ip}/32`);
+    return;
+  }
+
+  try {
+    const parsed = new URL(trimmed.replace(/^payload:/, ""));
+    urlSet.add(`${parsed}\n\n`);
+
+    const host = parsed.hostname.replace(/^\[|\]$/g, ""); // remove [ ]
+    if (ipv4Regex.test(host) || ipv6Regex.test(host)) {
+      ipSet.add(`${parsed.hostname}/32`);
+    } else {
+      domainSet.add(shortenDomain(host));
+    }
+  } catch {
+    console.warn(`Warning: Failed to parse line: ${trimmed}`);
+  }
+};
+
+async function fetchAndProcess(url) {
+  try {
+    console.log(`Fetching ${url}...`);
+    const res = await fetch(url);
+    if (!res.ok) {
+      console.warn(`Warning: Fetch failed for ${url} with status ${res.status}`);
+      return;
+    }
+    const text = await res.text();
+    text.split(/\r?\n/).forEach(handleLine);
+  } catch (err) {
+    console.error(`Error fetching ${url}:`, err);
+  }
+}
+
+async function saveYaml(filename, items) {
+  const content = ["payload:", ...Array.from(items).sort().map((item) => `  - ${item}`)].join("\n");
+  const filepath = path.join(TrackerPath, filename);
+  await fs.writeFile(filepath, content, "utf-8");
+}
+
+async function saveUrls(filename, items) {
+  const filepath = path.join(TrackerPath, filename);
+  await fs.writeFile(filepath, Array.from(items).sort().join(""), "utf-8");
+}
+
+async function ensureDirectoryExists(dir) {
+  try {
+    await fs.mkdir(dir, { recursive: true });
+    console.log(`Directory ensured: ${dir}`);
+  } catch (err) {
+    console.error(`Failed to create directory ${dir}:`, err);
+  }
+}
+
+async function main() {
+  try {
+    await ensureDirectoryExists(TrackerPath);
+
+    await Promise.all(urlList.map(fetchAndProcess));
+
+    await saveYaml("Tracker_Domain.yaml", domainSet);
+    await saveYaml("Tracker_IP.yaml", ipSet);
+    await saveUrls("Tracker.list", urlSet);
+
+    console.log(`\n✅ Done!`);
+    console.log(`Total Domains: ${domainSet.size}`);
+    console.log(`Total IPs: ${ipSet.size}`);
+    console.log(`Total Urls: ${urlSet.size}`);
+  } catch (err) {
+    console.error("Fatal error:", err);
+  }
+}
+
+main();

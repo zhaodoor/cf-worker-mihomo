@@ -70,11 +70,11 @@ proxy-providers:
 
 ######################## end ########################
 
-#redir-port: 9797 # 重定向端口，用于透明代理
-#tproxy-port: 9898 # TProxy 端口，支持 TUN 模式
+#redir-port: 7891 # 重定向端口，用于透明代理
+#tproxy-port: 1536 # TProxy 端口，支持 TUN 模式
 
 port: 7892 # HTTP 代理端口
-socks-port: 7891 # SOCKS5 代理端口
+socks-port: 7893 # SOCKS5 代理端口
 mixed-port: 7890 # HTTP/SOCKS 混合代理端口
 allow-lan: true # 允许局域网设备连接代理
 bind-address: "*" # 绑定地址，默认为所有 IP 地址
@@ -634,7 +634,7 @@ rules:
 
   # 国内分流
   - RULE-SET,NGA,NGA # NGA 论坛 (游戏社区)
-  - OR,((RULE-SET,PrivateTracker),(RULE-SET,PrivateTrackercidr,no-resolve)),BT追踪器 # 私有跟踪器，通常用于 BT 下载和种子分享
+  - OR,((RULE-SET,Tracker),(RULE-SET,Trackercidr,no-resolve)),BT追踪器 # 私有跟踪器，通常用于 BT 下载和种子分享
   - RULE-SET,DouYin,抖音 # 抖音，短视频社交平台
   - RULE-SET,BaiDuTieBa,百度贴吧 # 百度贴吧，社区论坛
   - OR,((RULE-SET,NetEaseMusic),(RULE-SET,NetEaseMusiccidr,no-resolve)),网易云音乐 # 网易云音乐，在线音乐流媒体
@@ -1198,16 +1198,6 @@ rule-providers:
     url: "https://cdn.jsdmirror.com/gh/peiyingyao/Rule-for-OCD@master/rule/Clash/PlayStation/PlayStation_OCD_Domain.mrs"
     path: ./ruleset/PlayStation_OCD_Domain.mrs
 
-  PrivateTracker:
-    <<: *domain_mrs
-    url: "https://cdn.jsdmirror.com/gh/peiyingyao/Rule-for-OCD@master/rule/Clash/PrivateTracker/PrivateTracker_OCD_Domain.mrs"
-    path: ./ruleset/PrivateTracker_OCD_Domain.mrs
-
-  PrivateTrackercidr:
-    <<: *ipcidr_mrs
-    url: "https://cdn.jsdmirror.com/gh/peiyingyao/Rule-for-OCD@master/rule/Clash/PrivateTracker/PrivateTracker_OCD_IP.mrs"
-    path: ./ruleset/PrivateTracker_OCD_IP.mrs
-
   Qobuz:
     <<: *domain_mrs
     url: "https://cdn.jsdmirror.com/gh/peiyingyao/Rule-for-OCD@master/rule/Clash/Qobuz/Qobuz_OCD_Domain.mrs"
@@ -1528,3 +1518,13 @@ rule-providers:
     <<: *domain_mrs
     url: "https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/rules/mihomo/TikTok/TikTok_Domain.mrs"
     path: ./ruleset/TikTok_Domain.mrs
+
+  Tracker:
+    <<: *domain_mrs
+    url: "https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/rules/mihomo/Tracker/Tracker_Domain.mrs"
+    path: ./ruleset/Tracker_Domain.mrs
+
+  Trackercidr:
+    <<: *ipcidr_mrs
+    url: "https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/rules/mihomo/Tracker/Tracker_IP.mrs"
+    path: ./ruleset/Tracker_IP.mrs

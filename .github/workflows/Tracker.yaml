@@ -1,0 +1,51 @@
+name: Sync and Compile Tracker Rules
+
+on:
+  schedule:
+    - cron: '0 18 * * *'  # 每天北京时间02:00执行
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  talkatone_rules:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout the repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - uses: actions/setup-node@v4
+      with:
+        node-version: node
+
+    - name: Set up Git user
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+
+    - name: Install mihomo
+      run: |
+        version=$(curl -sL https://github.com/MetaCubeX/mihomo/releases/download/Prerelease-Alpha/version.txt)
+        curl -sL "https://github.com/MetaCubeX/mihomo/releases/download/Prerelease-Alpha/mihomo-linux-amd64-${version}.gz" | \
+          gunzip -c > /usr/local/bin/mihomo && chmod +x /usr/local/bin/mihomo
+
+    - name: Install dependencies
+      run: npm install node-fetch
+
+    - name: Execute script
+      run: node script/Tracker.js
+
+    - name: Convert Tracker domain rules to MRS
+      run: |
+        # 使用 mihomo 转换为 MRS 格式
+        mihomo convert-ruleset domain yaml rules/mihomo/Tracker/Tracker_Domain.yaml rules/mihomo/Tracker/Tracker_Domain.mrs
+        mihomo convert-ruleset ipcidr yaml rules/mihomo/Tracker/Tracker_IP.yaml rules/mihomo/Tracker/Tracker_IP.mrs
+
+    - name: Commit and Push Changes
+      run: |
+        git add .
+        git diff-index --quiet HEAD -- || (git commit -m "Updated Tracker rules -> domain rules" && git push)
