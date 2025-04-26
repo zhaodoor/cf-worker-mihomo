@@ -532,7 +532,7 @@ rules:
   # 广告拦截
   - OR,((RULE-SET,Advertising),(RULE-SET,Category-ads-all)),🚫广告拦截
   - OR,((RULE-SET,BlockHttpDNS),(RULE-SET,BlockHttpDNScidr,no-resolve),(RULE-SET,Category-httpdns-cn)),🚫泄漏拦截
-  
+
   # Apple 相关服务
   - RULE-SET,AppStore,AppStore # App Store 应用商店
   - RULE-SET,iCloud,iCloud # iCloud 云存储服务
@@ -553,16 +553,14 @@ rules:
   - OR,((RULE-SET,Apple),(RULE-SET,Applecidr,no-resolve)),Apple # Apple 相关服务的总规则
   - RULE-SET,AppleProxy,Apple # Apple 代理相关流量
 
-  # 国外分流
-  - RULE-SET,PikPak,PikPak # PikPak 云存储
+  #媒体类别
+  - RULE-SET,DouYin,抖音 # 抖音，短视频社交平台
+  - RULE-SET,CCTV,CCTV # 央视影音，中国中央电视台相关服务
+  - RULE-SET,BiliBili,哔哩哔哩 # 哔哩哔哩，二次元弹幕视频网站
+  - RULE-SET,Biliintl,哔哩东南亚 # 哔哩哔哩国际版
   - RULE-SET,TikTok,TikTok # TikTok 短视频平台
   - RULE-SET,YouTube,YouTube # YouTube 视频平台
   - RULE-SET,YouTubeMusic,YouTubeMusic # YouTube Music 音乐流媒体
-  - RULE-SET,Discord,Discord # Discord 语音聊天社区
-  - RULE-SET,Spotify,Spotify # Spotify 音乐流媒体
-  - OR,((RULE-SET,Telegram),(RULE-SET,Telegramcidr,no-resolve)),Telegram # Telegram 即时通讯
-  - RULE-SET,Claude,OpenAI # Claude AI 聊天机器人
-  - RULE-SET,GitHub,GitHub # GitHub 代码托管平台
   - RULE-SET,Disney,Disney # Disney+ 影视订阅服务
   - RULE-SET,Bahamut,巴哈姆特 # 巴哈姆特 ACG 论坛
   - RULE-SET,HuluJP,Hulu # Hulu 日本版
@@ -572,12 +570,26 @@ rules:
   - RULE-SET,Niconico,ニコニコ # Niconico 日本弹幕视频
   - RULE-SET,AbemaTV,AbemaTV # Abema 日本网络电视
   - RULE-SET,AmazonPrimeVideo,亚马逊TV # 亚马逊 Prime Video 影视订阅
+  - RULE-SET,IMDB,IMDB # IMDB 电影数据库
+  - RULE-SET,Qobuz,Qobuz # Qobuz 音乐流媒体
+  - RULE-SET,SoundCloud,SoundCloud # SoundCloud 音乐分享平台
+  - RULE-SET,Spotify,Spotify # Spotify 音乐流媒体
+  - RULE-SET,LastFM,LastFM # Last.fm 音乐推荐
+  - RULE-SET,4GTV,4GTV # 4GTV 媒体
+  - OR,((RULE-SET,iQIYI),(RULE-SET,iQIYIcidr,no-resolve)),爱奇艺 # 爱奇艺，在线视频平台
+  - OR,((RULE-SET,KugouKuwo),(RULE-SET,KugouKuwocidr,no-resolve)),酷狗 # 酷狗&酷我音乐，在线音乐平台
+  - OR,((RULE-SET,NetEaseMusic),(RULE-SET,NetEaseMusiccidr,no-resolve)),网易云音乐 # 网易云音乐，在线音乐流媒体
+  - OR,((RULE-SET,Twitch),(RULE-SET,Twitchcidr,no-resolve)),Twitch # Twitch 直播平台
+  # 国外分流
+  - RULE-SET,PikPak,PikPak # PikPak 云存储
+  - RULE-SET,Discord,Discord # Discord 语音聊天社区
+  - OR,((RULE-SET,Telegram),(RULE-SET,Telegramcidr,no-resolve)),Telegram # Telegram 即时通讯
+  - RULE-SET,Claude,OpenAI # Claude AI 聊天机器人
+  - RULE-SET,GitHub,GitHub # GitHub 代码托管平台
   - OR,((RULE-SET,Amazon),(RULE-SET,Amazoncidr,no-resolve)),亚马逊电商 # 亚马逊电商
   - RULE-SET,Adobe,Adobe # Adobe 相关服务 (如 Creative Cloud)
   - RULE-SET,Docker,Docker # Docker 容器服务
-  - RULE-SET,IMDB,IMDB # IMDB 电影数据库
   - RULE-SET,Instagram,Instagram # Instagram 社交平台
-  - RULE-SET,LastFM,LastFM # Last.fm 音乐推荐
   - RULE-SET,PayPal,PayPal # PayPal 在线支付
   - RULE-SET,Bing,微软 # Bing 搜索引擎
   - RULE-SET,Teams,微软 # Microsoft Teams 协作工具
@@ -587,16 +599,11 @@ rules:
   - RULE-SET,Microsoft,微软 # Microsoft 相关服务
   - OR,((RULE-SET,OpenAI),(RULE-SET,OpenAIcidr,no-resolve)),OpenAI # OpenAI 相关服务
   - RULE-SET,Intel,因特尔 # Intel 相关服务
-  - RULE-SET,Qobuz,Qobuz # Qobuz 音乐流媒体
-  - RULE-SET,Pandora,潘朵拉珠宝 # Pandora 音乐流媒体
-  - RULE-SET,SoundCloud,SoundCloud # SoundCloud 音乐分享平台
   - RULE-SET,Speedtest,Speedtest # Speedtest 速度测试
   - RULE-SET,Reddit,Reddit # Reddit 论坛
-  - RULE-SET,4GTV,4GTV # 4GTV 媒体
   - OR,((RULE-SET,EHGallery),(RULE-SET,EHGallerycidr,no-resolve)),E站 #E站（E-Hentai / ExHentai）
   - RULE-SET,Pixiv,Pixiv # P站（Pixiv插画社区）
   - RULE-SET,Wikipedia,维基百科 # 维基百科，自由的百科全书
-  - OR,((RULE-SET,Twitch),(RULE-SET,Twitchcidr,no-resolve)),Twitch # Twitch 直播平台
   - OR,((RULE-SET,Blizzard),(RULE-SET,Blizzardcidr,no-resolve)),暴雪 # 暴雪游戏 (如魔兽世界)
   - RULE-SET,Steam,Steam # Steam 游戏商店及社区
   - RULE-SET,Rockstar,Rockstar # Rockstar 游戏 (如 GTA)
@@ -606,7 +613,6 @@ rules:
   - RULE-SET,EA,EA # EA 游戏 (如 FIFA)
   - RULE-SET,Sony,索尼 # Sony 相关服务
   - RULE-SET,HoYoverse,HoYoverse # 米哈游 (如原神)
-  - RULE-SET,Biliintl,哔哩东南亚 # 哔哩哔哩国际版
   - RULE-SET,18comic,禁漫天堂 # 禁漫天堂动漫网站
   - RULE-SET,GoogleDrive,Google云盘 # Google Drive 云存储
   - RULE-SET,GoogleEarth,Google地图 # Google Earth 地图服务
@@ -620,6 +626,7 @@ rules:
   - RULE-SET,Talkatone,Talkatone # Talkatone 电话
   - RULE-SET,Signal,Signal # Signal 加密即時通訊
   - RULE-SET,Picacg,哔咔哔咔 # 哔咔哔咔漫画
+  - RULE-SET,Pandora,潘朵拉珠宝 # Pandora 珠宝相关
   - OR,((RULE-SET,Facebook),(RULE-SET,Facebookcidr,no-resolve)),Facebook # Facebook 社交网络
   - OR,((RULE-SET,Twitter),(RULE-SET,Twittercidr,no-resolve)),Twitter # Twitter 社交平台
   - OR,((RULE-SET,Google),(RULE-SET,Googlecidr,no-resolve)),Google # Google 相关服务
@@ -635,14 +642,10 @@ rules:
   # 国内分流
   - RULE-SET,NGA,NGA # NGA 论坛 (游戏社区)
   - OR,((RULE-SET,Tracker),(RULE-SET,Trackercidr,no-resolve)),BT追踪器 # 私有跟踪器，通常用于 BT 下载和种子分享
-  - RULE-SET,DouYin,抖音 # 抖音，短视频社交平台
   - RULE-SET,BaiDuTieBa,百度贴吧 # 百度贴吧，社区论坛
-  - OR,((RULE-SET,NetEaseMusic),(RULE-SET,NetEaseMusiccidr,no-resolve)),网易云音乐 # 网易云音乐，在线音乐流媒体
   - RULE-SET,GaoDe,高德 # 高德地图，地图导航服务
-  - OR,((RULE-SET,KugouKuwo),(RULE-SET,KugouKuwocidr,no-resolve)),酷狗 # 酷狗&酷我音乐，在线音乐平台
   - RULE-SET,MeiTuan,美团 # 美团，外卖、团购、酒店预订等服务
   - RULE-SET,SMZDM,什么值得买 # 什么值得买，购物推荐和折扣信息
-  - RULE-SET,CCTV,CCTV # 央视影音，中国中央电视台相关服务
   - RULE-SET,12306,12306 # 12306，中国铁路售票官网
   - RULE-SET,Sina,新浪 # 新浪，包含新浪新闻、微博等
   - RULE-SET,DouBan,豆瓣 # 豆瓣，书影音社区
@@ -650,9 +653,7 @@ rules:
   - RULE-SET,ABC,农业银行 # 农业银行服务
   - RULE-SET,Baidu,百度 # 百度，搜索引擎和相关服务
   - RULE-SET,DingTalk,钉钉 # 钉钉，阿里巴巴企业通讯工具
-  - OR,((RULE-SET,iQIYI),(RULE-SET,iQIYIcidr,no-resolve)),爱奇艺 # 爱奇艺，在线视频平台
   - RULE-SET,SteamCN,Steam中国 # Steam 中国版，游戏社区和商店
-  - RULE-SET,BiliBili,哔哩哔哩 # 哔哩哔哩，二次元弹幕视频网站
   - OR,((RULE-SET,NetEase),(RULE-SET,NetEasecidr,no-resolve)),网易 # 网易，涵盖邮箱、游戏等服务
   - RULE-SET,JingDong,京东 # 京东，电商平台
   - RULE-SET,58TongCheng,58同城 # 58同城，分类信息平台
