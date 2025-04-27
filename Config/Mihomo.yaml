@@ -576,6 +576,7 @@ rules:
   - RULE-SET,Spotify,Spotify # Spotify 音乐流媒体
   - RULE-SET,LastFM,LastFM # Last.fm 音乐推荐
   - RULE-SET,4GTV,4GTV # 4GTV 媒体
+  - OR,((RULE-SET,Spotify),(RULE-SET,Spotifycidr,no-resolve)),Spotify # Spotify 音乐流媒体
   - OR,((RULE-SET,iQIYI),(RULE-SET,iQIYIcidr,no-resolve)),爱奇艺 # 爱奇艺，在线视频平台
   - OR,((RULE-SET,KugouKuwo),(RULE-SET,KugouKuwocidr,no-resolve)),酷狗 # 酷狗&酷我音乐，在线音乐平台
   - OR,((RULE-SET,NetEaseMusic),(RULE-SET,NetEaseMusiccidr,no-resolve)),网易云音乐 # 网易云音乐，在线音乐流媒体
@@ -623,10 +624,10 @@ rules:
   - RULE-SET,HBO,HBO # Home Box Office
   - OR,((RULE-SET,Line),(RULE-SET,Linecidr,no-resolve)),LINE # LINE （连我）
   - RULE-SET,Wise,Wise # Wise 金融科技
-  - RULE-SET,Talkatone,Talkatone # Talkatone 电话
   - RULE-SET,Signal,Signal # Signal 加密即時通訊
   - RULE-SET,Picacg,哔咔哔咔 # 哔咔哔咔漫画
   - RULE-SET,Pandora,潘朵拉珠宝 # Pandora 珠宝相关
+  - OR,((RULE-SET,Talkatone),(RULE-SET,Talkatonecidr,no-resolve)),Talkatone # Talkatone 电话
   - OR,((RULE-SET,Facebook),(RULE-SET,Facebookcidr,no-resolve)),Facebook # Facebook 社交网络
   - OR,((RULE-SET,Twitter),(RULE-SET,Twittercidr,no-resolve)),Twitter # Twitter 社交平台
   - OR,((RULE-SET,Google),(RULE-SET,Googlecidr,no-resolve)),Google # Google 相关服务
