@@ -1346,151 +1346,151 @@ rule-providers:
   Category-httpdns-cn:
     <<: *domain_mrs
     url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-httpdns-cn.mrs"
-    path: ./ruleset/Category-httpdns-cn.mrs
+    path: ./ruleset/Category_httpdns_cn_Domain.mrs
     
   Category-anticensorship:
     <<: *domain_mrs
     url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-anticensorship.mrs"
-    path: ./ruleset/Category-anticensorship.mrs
+    path: ./ruleset/Category_anticensorship_Domain.mrs
 
   Geolocation-!cn:
     <<: *domain_mrs
     url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/geolocation-!cn.mrs"
-    path: ./ruleset/Geolocation-!cn.mrs
+    path: ./ruleset/Geolocation_!cn_Domain.mrs
 
   Category-ads-all:
     <<: *domain_mrs
     url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ads-all.mrs"
-    path: ./ruleset/Category-ads-all.mrs
+    path: ./ruleset/Category_ads_all_Domain.mrs
 
   Biliintl:
     <<: *domain_mrs
     url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/biliintl.mrs"
-    path: ./ruleset/biliintl.mrs
+    path: ./ruleset/biliintl_Domain.mrs
 
   18comic:
     <<: *domain_mrs
     url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/18comic.mrs"
-    path: ./ruleset/18comic.mrs
+    path: ./ruleset/18comic_Domain.mrs
 
   Tor:
     <<: *domain_mrs
     url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/tor.mrs"
-    path: ./ruleset/Tor.mrs
+    path: ./ruleset/Tor_Domain.mrs
 
   Torcidr:
     <<: *ipcidr_mrs
     url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/tor.mrs"
-    path: ./ruleset/Torip.mrs
+    path: ./ruleset/Tor_IP.mrs
 
   Fastly:
     <<: *domain_mrs
     url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/fastly.mrs"
-    path: ./ruleset/Fastly.mrs
+    path: ./ruleset/Fastly_Domain.mrs
 
   Fastlycidr:
     <<: *ipcidr_mrs
     url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/fastly.mrs"
-    path: ./ruleset/Fastlyip.mrs
+    path: ./ruleset/Fastly_IP.mrs
 
   Wise:
     <<: *domain_mrs
     url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/wise.mrs"
-    path: ./ruleset/Wise.mrs
+    path: ./ruleset/Wise_Domain.mrs
 
   Signal:
     <<: *domain_mrs
     url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/signal.mrs"
-    path: ./ruleset/Signal.mrs
+    path: ./ruleset/Signal_Domain.mrs
 
   Picacg:
     <<: *domain_mrs
     url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/picacg.mrs"
-    path: ./ruleset/Picacg.mrs
+    path: ./ruleset/Picacg_Domain.mrs
 
   Gfw:
     <<: *domain_mrs
     url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/gfw.mrs"
-    path: ./ruleset/Gfw.mrs
+    path: ./ruleset/Gfw_Domain.mrs
 
   # ------------------------------------------------------------
   # DustinWin 规则
   Private:
     <<: *domain_mrs
     url: "https://cdn.jsdmirror.com/gh/DustinWin/ruleset_geodata@mihomo-ruleset/private.mrs"
-    path: ./ruleset/Private.mrs
+    path: ./ruleset/Private_Domain.mrs
 
   Privatecidr:
     <<: *ipcidr_mrs
     url: "https://cdn.jsdmirror.com/gh/DustinWin/ruleset_geodata@mihomo-ruleset/privateip.mrs"
-    path: ./ruleset/Privateip.mrs
+    path: ./ruleset/Private_IP.mrs
 
   Fakeip-Filter:
     <<: *domain_mrs
     url: "https://cdn.jsdmirror.com/gh/DustinWin/ruleset_geodata@mihomo-ruleset/fakeip-filter.mrs"
-    path: ./ruleset/Fakeip-Filter.mrs
+    path: ./ruleset/Fakeip_Filter_Domain.mrs
 
   BiliBili:
     <<: *domain_mrs
     url: "https://cdn.jsdmirror.com/gh/DustinWin/ruleset_geodata@mihomo-ruleset/bilibili.mrs"
-    path: ./ruleset/BiliBili.mrs
+    path: ./ruleset/BiliBili_Domain.mrs
 
   Proxy:
     <<: *domain_mrs
     url: "https://cdn.jsdmirror.com/gh/DustinWin/ruleset_geodata@mihomo-ruleset/proxy.mrs"
-    path: ./ruleset/Proxy.mrs
+    path: ./ruleset/Proxy_Domain.mrs
 
   CN:
     <<: *domain_mrs
     url: "https://cdn.jsdmirror.com/gh/DustinWin/ruleset_geodata@mihomo-ruleset/cn.mrs"
-    path: ./ruleset/CN.mrs
+    path: ./ruleset/CN_Domain.mrs
 
   CNcidr:
     <<: *ipcidr_mrs
     url: "https://cdn.jsdmirror.com/gh/DustinWin/ruleset_geodata@mihomo-ruleset/cnip.mrs"
-    path: ./ruleset/CNip.mrs
+    path: ./ruleset/CN_IP.mrs
 
   Netflix:
     <<: *domain_mrs
     url: "https://cdn.jsdmirror.com/gh/DustinWin/ruleset_geodata@mihomo-ruleset/netflix.mrs"
-    path: ./ruleset/Netflix.mrs
+    path: ./ruleset/Netflix_Domain.mrs
 
   Netflixcidr:
     <<: *ipcidr_mrs
     url: "https://cdn.jsdmirror.com/gh/DustinWin/ruleset_geodata@mihomo-ruleset/netflixip.mrs"
-    path: ./ruleset/Netflixip.mrs
+    path: ./ruleset/Netflix_IP.mrs
 
   Disney:
     <<: *domain_mrs
     url: "https://cdn.jsdmirror.com/gh/DustinWin/ruleset_geodata@mihomo-ruleset/disney.mrs"
-    path: ./ruleset/Disney.mrs
+    path: ./ruleset/Disney_Domain.mrs
 
   Media:
     <<: *domain_mrs
     url: "https://cdn.jsdmirror.com/gh/DustinWin/ruleset_geodata@mihomo-ruleset/media.mrs"
-    path: ./ruleset/Media.mrs
+    path: ./ruleset/Media_Domain.mrs
 
   Mediacidr:
     <<: *ipcidr_mrs
     url: "https://cdn.jsdmirror.com/gh/DustinWin/ruleset_geodata@mihomo-ruleset/mediaip.mrs"
-    path: ./ruleset/Mediaip.mrs
+    path: ./ruleset/Media_IP.mrs
 
   Spotify:
     <<: *domain_mrs
     url: "https://cdn.jsdmirror.com/gh/DustinWin/ruleset_geodata@mihomo-ruleset/spotify.mrs"
-    path: ./ruleset/Spotify.mrs
+    path: ./ruleset/Spotify_Domain.mrs
 
   YouTube:
     <<: *domain_mrs
     url: "https://cdn.jsdmirror.com/gh/DustinWin/ruleset_geodata@mihomo-ruleset/youtube.mrs"
-    path: ./ruleset/YouTube.mrs
+    path: ./ruleset/YouTube_Domain.mrs
 
   # ------------------------------------------------------------
   # 自定义 规则
   Advertising:
     <<: *domain_mrs
     url: "https://cdn.jsdmirror.com/gh/TG-Twilight/AWAvenue-Ads-Rule@main/Filters/AWAvenue-Ads-Rule-Clash.mrs"
-    path: ./ruleset/Advertising.mrs
+    path: ./ruleset/Advertising_Domain.mrs
 
   4GTV:
     <<: *domain_mrs
@@ -1515,7 +1515,12 @@ rule-providers:
   Talkatone:
     <<: *domain_mrs
     url: "https://cdn.jsdmirror.com/gh/qljsyph/ruleset-icon@main/mihomo/domain/talkatone.mrs"
-    path: ./ruleset/Talkatone.mrs
+    path: ./ruleset/Talkatone_Domain.mrs
+
+  Talkatonecidr:
+    <<: *ipcidr_mrs
+    url: "https://cdn.jsdmirror.com/gh/qljsyph/ruleset-icon@main/mihomo/ipcidr/talkatone-ip.mrs"
+    path: ./ruleset/Talkatone_IP.mrs
 
   TikTok:
     <<: *domain_mrs
@@ -1531,3 +1536,8 @@ rule-providers:
     <<: *ipcidr_mrs
     url: "https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/rules/mihomo/Tracker/Tracker_IP.mrs"
     path: ./ruleset/Tracker_IP.mrs
+
+  Spotifycidr:
+    <<: *domain_mrs
+    url: "https://cdn.jsdmirror.com/gh/qljsyph/ruleset-icon@main/mihomo/ipcidr/spotify-ip.mrs"
+    path: ./ruleset/Spotify_IP.mrs
