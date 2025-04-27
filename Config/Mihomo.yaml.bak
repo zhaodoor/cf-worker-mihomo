@@ -31,9 +31,9 @@ p: &p
     lazy: true # 懒惰状态
 override: &override
   tfo: true # 启用 TCP Fast Open, 仅生效于 TCP 协议
-  mptcp: true # 启用 TCP Multi Path, 仅生效于 TCP 协议
+  mptcp: false # 启用 TCP Multi Path, 仅生效于 TCP 协议
   udp: true # 是否允许 UDP 通过代理，默认为 false
-  udp-over-tcp: true # 启用 UDP over TCP，默认 false
+  udp-over-tcp: false # 启用 UDP over TCP，默认 false
   skip-cert-verify: true # 跳过证书验证，仅适用于使用 tls 的协议
   ip-version: ipv4-prefer # 可选：dual/ipv4/ipv6/ipv4-prefer/ipv6-prefer ,默认使用 dual, ipv4: 仅使用 IPv4, ipv6: 仅使用 IPv6, ipv4-prefer: 优先使用 IPv4，对于 TCP 会进行双栈解析，并发链接但是优先使用 IPv4 链接，UDP 则为双栈解析，获取结果中的第一个 IPv4, ipv6-prefer:优先使用 IPv6，对于 TCP 会进行双栈解析，并发链接但是优先使用 IPv6 链接，UDP 则为双栈解析，获取结果中的第一个 IPv6
 # URL 测试配置
