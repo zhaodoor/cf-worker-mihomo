@@ -494,15 +494,12 @@ async function getFakePage(image = 'https://t.alcy.cc/ycy') {
                 return;
             }
 
-            // 检查是否都是有效链接
-            // 检查是否所有都是合法的 http/https 链接
-	    const urlPattern = /^(https?:\/\/)[^\s/$.?#].[^\s]*$/i;
-            const allValid = links.every(link => urlPattern.test(link));
+            const allValid = links.every(link => link.startsWith('http://') || link.startsWith('https://'));
             if (!allValid) {
                 alert('请输入有效的url地址');
                 return;
             }
-			const encodedLinks = links.map(link => encodeURIComponent(link));
+	    const encodedLinks = links.map(link => encodeURIComponent(link));
             const domain = window.location.hostname;
             console.log(domain);
             const urlLink = \`https://\${domain}/?url=\${encodedLinks.join(',')}\`;
