@@ -673,6 +673,8 @@ rules:
 
 sub-rules:
   SUB-DIRECT:
+    - RULE-SET,Tracker,BT追踪器
+    - RULE-SET,Trackercidr,no-resolve,BT追踪器
     - RULE-SET,CN,🎯全球直连
     - RULE-SET,CNcidr,🎯全球直连
       
