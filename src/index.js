@@ -495,9 +495,17 @@ async function getFakePage(image = 'https://t.alcy.cc/ycy') {
             }
 
             // 检查是否都是有效链接
-            const allValid = links.every(link => link.startsWith('http://') || link.startsWith('https://'));
+            // 检查是否所有都是合法的 http/https 链接
+	    const allValid = links.every(link => {
+                try {
+                    const url = new URL(link);
+                    return url.protocol === 'http:' || url.protocol === 'https:';
+                } catch (e) {
+                    return false;
+                }
+            });
             if (!allValid) {
-                alert('所有链接都必须以 http:// 或 https:// 开头');
+                alert('请输入有效的url地址');
                 return;
             }
 			const encodedLinks = links.map(link => encodeURIComponent(link));
