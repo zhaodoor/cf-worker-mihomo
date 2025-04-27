@@ -496,14 +496,8 @@ async function getFakePage(image = 'https://t.alcy.cc/ycy') {
 
             // 检查是否都是有效链接
             // 检查是否所有都是合法的 http/https 链接
-	    const allValid = links.every(link => {
-                try {
-                    const url = new URL(link);
-                    return url.protocol === 'http:' || url.protocol === 'https:';
-                } catch (e) {
-                    return false;
-                }
-            });
+	    const urlPattern = /^(https?:\/\/)[^\s/$.?#].[^\s]*$/i;
+            const allValid = links.every(link => urlPattern.test(link));
             if (!allValid) {
                 alert('请输入有效的url地址');
                 return;
