@@ -1446,11 +1446,6 @@ rule-providers:
     url: "https://jsd.onmicrosoft.cn/gh/DustinWin/ruleset_geodata@mihomo-ruleset/cn.mrs"
     path: ./ruleset/CN_Domain.mrs
 
-  CNcidr:
-    <<: *ipcidr_mrs
-    url: "https://jsd.onmicrosoft.cn/gh/DustinWin/ruleset_geodata@mihomo-ruleset/cnip.mrs"
-    path: ./ruleset/CN_IP.mrs
-
   Netflix:
     <<: *domain_mrs
     url: "https://jsd.onmicrosoft.cn/gh/DustinWin/ruleset_geodata@mihomo-ruleset/netflix.mrs"
@@ -1542,3 +1537,8 @@ rule-providers:
     <<: *domain_mrs
     url: "https://jsd.onmicrosoft.cn/gh/qljsyph/ruleset-icon@main/mihomo/ipcidr/spotify-ip.mrs"
     path: ./ruleset/Spotify_IP.mrs
+
+  CNcidr:
+    <<: *ipcidr_mrs
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CN/CN_IP.mrs"
+    path: ./ruleset/CN_IP.mrs
