@@ -527,11 +527,13 @@ proxy-groups:
 
 rules:
   # 局域网
-  - OR,((RULE-SET,Private),(RULE-SET,Privatecidr,no-resolve),(RULE-SET,Fakeip-Filter)),🎯全球直连
-  - SUB-RULE,(NETWORK,UDP),SUB-DIRECT
   # 广告拦截
-  - OR,((RULE-SET,Advertising),(RULE-SET,Category-ads-all)),🚫广告拦截
+  - OR,((RULE-SET,Advertising),(RULE-SET,Category-ads-all),(DOMAIN-SUFFIX,hw-v2-web-player-tracker.biliapi.net)),🚫广告拦截
   - OR,((RULE-SET,BlockHttpDNS),(RULE-SET,BlockHttpDNScidr,no-resolve),(RULE-SET,Category-httpdns-cn)),🚫泄漏拦截
+  # 局域网
+  - RULE-SET,Fakeip-Filter,Proxy
+  - OR,((RULE-SET,Private),(RULE-SET,Privatecidr,no-resolve)),🎯全球直连
+  - SUB-RULE,(NETWORK,UDP),SUB-DIRECT
 
   # Apple 相关服务
   - RULE-SET,AppStore,AppStore # App Store 应用商店
