@@ -253,7 +253,7 @@ dns:
   fake-ip-range: 198.18.0.0/16 # fake-ip 池设置
   fake-ip-filter-mode: blacklist
   fake-ip-filter:
-    - RULE-SET:STUN,Fakeip-Filter,Private,CN
+    - RULE-SET:Fakeip-Filter,Private,CN
   nameserver-policy:
     RULE-SET:CN,Private:
       - "https://dns.alidns.com/dns-query" # 阿里 DNS over H3
