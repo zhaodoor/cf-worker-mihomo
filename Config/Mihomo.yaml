@@ -229,6 +229,7 @@ tun:
   endpoint-independent-nat: false # 启用独立于端点的 NAT，性能可能会略有下降，所以不建议在不需要的时候开启
   route-address: # 启用 auto-route时路由自定义路由网段
     - 198.18.0.0/30
+    - "fdfe:dcba:9876::1/126"
 
 # DNS 配置：控制 DNS 查询行为，支持增强模式和假 IP 功能
 # 查询 DNS 是否支持 H3 指令:
