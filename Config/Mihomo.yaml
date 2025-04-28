@@ -258,7 +258,7 @@ dns:
   fake-ip-range: 198.18.0.0/16 # fake-ip 池设置
   fake-ip-filter-mode: blacklist
   fake-ip-filter:
-    - RULE-SET:Fakeip-Filter,Private,CN
+    - RULE-SET:STUN,Fakeip-Filter,Private,CN
   nameserver-policy:
     RULE-SET:CN,Private:
       - "https://dns.alidns.com/dns-query" # 阿里 DNS over H3
@@ -531,7 +531,7 @@ rules:
   - OR,((RULE-SET,Advertising),(RULE-SET,Category-ads-all),(DOMAIN-SUFFIX,hw-v2-web-player-tracker.biliapi.net)),🚫广告拦截
   - OR,((RULE-SET,BlockHttpDNS),(RULE-SET,BlockHttpDNScidr,no-resolve),(RULE-SET,Category-httpdns-cn)),🚫泄漏拦截
   # 局域网
-  - RULE-SET,Fakeip-Filter,Proxy
+  - OR,((RULE-SET,STUN),(RULE-SET,STUNcidr),(RULE-SET,Fakeip-Filter),(DOMAIN-SUFFIX,stunprotocol.org)),Proxy
   - OR,((RULE-SET,Private),(RULE-SET,Privatecidr,no-resolve)),🎯全球直连
   - SUB-RULE,(NETWORK,UDP),SUB-DIRECT
 
@@ -1343,6 +1343,16 @@ rule-providers:
     <<: *ipcidr_mrs
     url: "https://jsd.onmicrosoft.cn/gh/peiyingyao/Rule-for-OCD@master/rule/Clash/Line/Line_OCD_IP.mrs"
     path: ./ruleset/Line_OCD_IP.mrs
+
+  STUN:
+    <<: *domain_mrs
+    url: "https://jsd.onmicrosoft.cn/gh/peiyingyao/Rule-for-OCD@master/rule/Clash/STUN/STUN_OCD_Domain.mrs"
+    path: ./ruleset/STUN_OCD_Domain.mrs
+
+  STUNcidr:
+    <<: *ipcidr_mrs
+    url: "https://jsd.onmicrosoft.cn/gh/peiyingyao/Rule-for-OCD@master/rule/Clash/STUN/STUN_OCD_IP.mrs"
+    path: ./ruleset/STUN_OCD_IP.mrs
 
   # ------------------------------------------------------------
   # MetaCubeX 规则
