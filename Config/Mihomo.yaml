@@ -227,14 +227,6 @@ tun:
 #  iproute2-table-index: 2022 # 使用指定的路由表索引 (iproute2)
 #  iproute2-rule-index: 9000 # 设置路由规则的索引 (iproute2)
   endpoint-independent-nat: false # 启用独立于端点的 NAT，性能可能会略有下降，所以不建议在不需要的时候开启
-  route-address: # 启用 auto-route时路由自定义路由网段
-    - 0.0.0.0/1
-    - 128.0.0.0/1
-    - "::/1"
-    - "8000::/1"
-  route-exclude-address: # 启用 auto-route 时排除自定义网段
-    - 192.168.0.0/16
-    - fc00::/7
 
 # DNS 配置：控制 DNS 查询行为，支持增强模式和假 IP 功能
 # 查询 DNS 是否支持 H3 指令:
@@ -527,13 +519,11 @@ proxy-groups:
   - { name: 🐟漏网之鱼, <<: *proxy }
 
 rules:
-  # 局域网
   # 广告拦截
-  - OR,((RULE-SET,Advertising),(RULE-SET,Category-ads-all),(DOMAIN-SUFFIX,hw-v2-web-player-tracker.biliapi.net)),🚫广告拦截
-  - OR,((RULE-SET,BlockHttpDNS),(RULE-SET,BlockHttpDNScidr,no-resolve),(RULE-SET,Category-httpdns-cn)),🚫泄漏拦截
+  - OR,((RULE-SET,Advertising),(RULE-SET,Category-ads-all)),🚫广告拦截
+  - OR,((RULE-SET,BlockHttpDNS),(RULE-SET,BlockHttpDNScidr,no-resolve),(RULE-SET,Category-httpdns-cn)(RULE-SET,STUN),(RULE-SET,STUNcidr),(DOMAIN-SUFFIX,stunprotocol.org),(DOMAIN-KEYWORD,stun),(DOMAIN-SUFFIX,hw-v2-web-player-tracker.biliapi.net)),🚫泄漏拦截
   # 局域网
-  - OR,((RULE-SET,STUN),(RULE-SET,STUNcidr),(RULE-SET,Fakeip-Filter),(DOMAIN-SUFFIX,stunprotocol.org)),Proxy
-  - OR,((RULE-SET,Private),(RULE-SET,Privatecidr,no-resolve)),🎯全球直连
+  - OR,((RULE-SET,Private),(RULE-SET,Privatecidr,no-resolve),(RULE-SET,Fakeip-Filter)),🎯全球直连
   - SUB-RULE,(NETWORK,UDP),SUB-DIRECT
 
   # Apple 相关服务
