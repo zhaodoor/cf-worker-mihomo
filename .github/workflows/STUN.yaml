@@ -40,7 +40,7 @@ jobs:
         # 提取域名规则并保存到 STUN-domain.list
         grep 'DOMAIN' STUN.txt | sed '/^#/d' | sed 's/^\s*-\s*//' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//' > STUN_value.txt
         grep 'IP-CIDR6' STUN.txt | sed '/^#/d' | sed 's/^\s*-\s*//' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//' > STUN_value.txt
-/home/runner/work/_temp/b43290e2-6f01-431d-af33-73bef648cc92.sh: line 15: syntax error near unexpected token `fi'
+
     - name: Convert STUN domain rules to YAML
       run: |
         # 将域名规则转换为 YAML 格式
