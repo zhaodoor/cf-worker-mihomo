@@ -61,15 +61,10 @@ jobs:
         # 合并 STUN.list 内容并加上前缀两个空格
         sed 's/^/  /' rules/mihomo/STUN/STUN.list >> rules/mihomo/STUN/STUN_Domain.yaml
         # 去重 STUN_Domain.yaml 文件中的重复行
-        sort rules/mihomo/STUN/STUN_Domain.yaml | uniq > rules/mihomo/STUN/STUN_Domain_temp.yaml
+        uniq rules/mihomo/STUN/STUN_Domain.yaml > rules/mihomo/STUN/STUN_Domain_temp.yaml
         # 用去重后的内容覆盖原文件
         mv rules/mihomo/STUN/STUN_Domain_temp.yaml rules/mihomo/STUN/STUN_Domain.yaml
-    - name: Convert STUN domain rules to MRS
-      run: |
-        cat rules/mihomo/STUN/STUN_Domain.yaml
-    - name: Convert STUN domain rules to MRS
-      run: |
-        cat rules/mihomo/STUN/STUN_IP.yaml
+
     - name: Convert STUN domain rules to MRS
       run: |
         # 使用 mihomo 转换为 MRS 格式
