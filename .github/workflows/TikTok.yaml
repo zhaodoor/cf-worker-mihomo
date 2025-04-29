@@ -33,8 +33,8 @@ jobs:
       run: |
         mkdir -p rules/mihomo/TikTok  # 确保目录存在
         # 下载 TikTok 规则文件
-        curl -sL "https://github.com/edwdch/domain-yaml-community/raw/master/yaml/tiktok.txt" -o rules/mihomo/TikTok/tiktok.txt
-        curl -sL "https://github.com/peiyingyao/Rule-for-OCD/raw/master/rule/Clash/TikTok/TikTok_OCD_Domain.yaml" -o rules/mihomo/TikTok/TikTok_OCD_Domain.yaml
+        curl -sL "https://cdn.jsdelivr.net/gh/edwdch/domain-yaml-community@master/yaml/tiktok.txt" -o rules/mihomo/TikTok/tiktok.txt
+        curl -sL "https://cdn.jsdelivr.net/gh/peiyingyao/Rule-for-OCD@master/rule/Clash/TikTok/TikTok_OCD_Domain.yaml" -o rules/mihomo/TikTok/TikTok_OCD_Domain.yaml
         cat rules/mihomo/TikTok/tiktok.txt rules/mihomo/TikTok/TikTok_OCD_Domain.yaml \
           | grep -E "^\s*-\s*['\"]?.+['\"]?\s*$" \
           | sed -E "s/^\s*-\s*['\"]?([^'\"]+)['\"]?\s*$/\1/" \

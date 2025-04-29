@@ -33,7 +33,7 @@ jobs:
       run: |
         mkdir -p rules/mihomo/WeChat  # 确保目录存在
         # 下载 WeChat 规则文件
-        curl -sL "https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/providers/wechat_domain.yaml" -o rules/mihomo/WeChat/WeChat_Domain.yaml
+        curl -sL "https://cdn.jsdelivr.net/gh/chinnsenn/ClashCustomRule@master/providers/wechat_domain.yaml" -o rules/mihomo/WeChat/WeChat_Domain.yaml
 
     - name: Convert WeChat domain rules to MRS
       run: |
