@@ -59,11 +59,27 @@ jobs:
           fi
         done < rules/mihomo/STUN/STUN_value.txt
         # 合并 STUN.list 内容并加上前缀两个空格
-        sed 's/^/  /' rules/mihomo/STUN/STUN.list >> rules/mihomo/STUN/STUN_Domain.yaml
-        # 去重 STUN_Domain.yaml 文件中的重复行
-        uniq rules/mihomo/STUN/STUN_Domain.yaml > rules/mihomo/STUN/STUN_Domain_temp.yaml
+        while IFS= read -r line; do
+          # 给每行加上前缀两个空格
+          echo "  - '$line'" >> rules/mihomo/STUN/STUN_Domain.yaml
+        done < rules/mihomo/STUN/STUN.list
+
+        # 去重 STUN_Domain.yaml 文件中的重复行（不排序）
+        declare -A seen_lines  # 创建一个关联数组，用于去重
+        # 临时文件存放去重后的内容
+        temp_file=$(mktemp)
+
+        # 逐行读取 STUN_Domain.yaml 文件并去重
+        while IFS= read -r line; do
+        # 如果该行没有出现过（去重）
+          if [[ -z "${seen_lines["$line"]}" ]]; then
+            echo "$line" >> "$temp_file"
+            seen_lines["$line"]=1  # 标记该行已经处理过
+          fi
+        done < rules/mihomo/STUN/STUN_Domain.yaml
+
         # 用去重后的内容覆盖原文件
-        mv rules/mihomo/STUN/STUN_Domain_temp.yaml rules/mihomo/STUN/STUN_Domain.yaml
+        mv "$temp_file" rules/mihomo/STUN/STUN_Domain.yaml
 
     - name: Convert STUN domain rules to MRS
       run: |
