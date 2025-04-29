@@ -1542,6 +1542,6 @@ rule-providers:
     path: ./ruleset/Tracker_IP.mrs
 
   Spotifycidr:
-    <<: *domain_mrs
+    <<: *ipcidr_mrs
     url: "https://jsd.onmicrosoft.cn/gh/qljsyph/ruleset-icon@main/mihomo/ipcidr/spotify-ip.mrs"
     path: ./ruleset/Spotify_IP.mrs
