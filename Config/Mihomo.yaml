@@ -112,6 +112,11 @@ geosite-matcher: succinct
 
 global-ua: clash.meta # 自定全局 UA
 etag-support: true # 外部资源下载的 ETag 支持
+# silent 静默，不输出
+# error 仅输出发生错误至无法使用的日志
+# warning 输出发生错误但不影响运行的日志，以及 error 级别内容
+# info 输出一般运行的内容，以及 error 和 warning 级别的日志
+# debug 尽可能的输出运行中所有的信息
 log-level: info # 日志等级
 ipv6: true # 启用 IPv6
 #tls: # TLS 相关配置
@@ -147,7 +152,7 @@ global-client-fingerprint: chrome # 全局客户端指纹为 Chrome
 
 # 缓解移动设备耗电问题
 # https://github.com/vernesong/OpenClash/issues/2614
-disable-keep-alive: true # 启用 Keep-Alive
+disable-keep-alive: true # 禁用 TCP Keep Alive，在 Android 默认为 true
 keep-alive-idle: 15 # Keep-Alive 空闲时间 (单位: 秒)
 keep-alive-interval: 15 # Keep-Alive 间隔时间 (单位: 秒)
 
