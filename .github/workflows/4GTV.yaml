@@ -47,7 +47,7 @@ jobs:
       run: |
         # 将域名规则转换为 YAML 格式
         echo 'payload:' > rules/mihomo/4GTV/4GTV_Domain.yaml
-        while IFS=, read -r type domain; do
+        while IFS=, read -r type domain || [[ -n $type || -n $domain ]]; do
           if [[ -n "$domain" && ! "$domain" =~ ^# ]]; then
             # 如果是 DOMAIN-SUFFIX 规则，前面加上 *.
             if [[ "$type" == "DOMAIN-SUFFIX" ]]; then
