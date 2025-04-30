@@ -62,7 +62,6 @@ jobs:
         while IFS= read -r line; do
           # 给每行加上前缀两个空格
           echo "  - '$line'" >> rules/mihomo/STUN/STUN_Domain.yaml
-          echo "  - '$line'"
         done < rules/mihomo/STUN/STUN.list
 
         # 去重 STUN_Domain.yaml 文件中的重复行（不排序）
