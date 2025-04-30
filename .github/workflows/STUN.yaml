@@ -37,6 +37,7 @@ jobs:
 
     - name: Separate domain rules
       run: |
+        cat rules/mihomo/STUN/STUN.list
         # 提取域名规则并保存到 STUN-domain.list
         grep 'DOMAIN' rules/mihomo/STUN/STUN.txt | sed '/^#/d' | sed 's/^\s*-\s*//' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//' > rules/mihomo/STUN/STUN_value.txt
         grep 'IP-CIDR6' rules/mihomo/STUN/STUN.txt | sed '/^#/d' | sed 's/^\s*-\s*//' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//' >> rules/mihomo/STUN/STUN_value.txt
