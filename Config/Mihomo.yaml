@@ -172,10 +172,6 @@ hosts:
     - 223.6.6.6
     - "2400:3200:baba::1"
     - "2400:3200::1"
-  dot.pub: 
-    - 120.53.53.53
-    - 1.12.12.21
-    - 1.12.12.12
 
 # 缓存
 profile:
@@ -265,6 +261,7 @@ dns:
     - "https://doh.dns.sb/dns-query#h3=true" # SB DNS over H3
     - "https://public.dns.iij.jp/dns-query#h3=true" # IIJ DNS over H3
     - "quic://dns.nextdns.io/dns-query" # Next DNS  over DOQ
+    - "quic://unfiltered.adguard-dns.com" # AdGuard DNS over DOQ
   proxy-server-nameserver: # 用于节点域名解析 DNS 服务器
     - "quic://dns.alidns.com" # 阿里 DNS over DOQ
   direct-nameserver: #  用于直连出口域名解析的 DNS 服务器
