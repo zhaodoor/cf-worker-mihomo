@@ -291,6 +291,7 @@ proxy-groups:
   - { name: 🔯故障转移, <<: *u, type: fallback }
 
   # 应用分组
+  - { name: 📡全球代理, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/512/Proxy.webp }
   - { name: "115", <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/512/115.webp }
   - { name: "12306", <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/512/12306.webp }
   - { name: "4399", <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/512/4399.webp }
@@ -368,7 +369,6 @@ proxy-groups:
   - { name: 拼多多, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/512/Pinduoduo.webp }
   - { name: Pixiv, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/512/Pixiv.webp }
   - { name: PlayStation, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/512/PlayStation.webp }
-  - { name: Proxy, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/512/Proxy.webp }
   - { name: 国际媒体, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/512/ProxyTV.webp }
   - { name: Qobuz, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/512/Qobuz.webp }
   - { name: Reddit, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/512/Reddit.webp }
@@ -657,7 +657,7 @@ rules:
   - RULE-SET,CNcidr,🎯全球直连,no-resolve # 中国域名
 
   # 节点代理
-  - MATCH,Proxy
+  - MATCH,📡全球代理
 
 sub-rules:
   SUB-DIRECT:
