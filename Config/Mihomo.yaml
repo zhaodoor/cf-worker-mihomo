@@ -303,7 +303,6 @@ proxy-groups:
   - { name: 阿里巴巴, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/512/Alibaba.webp }
   - { name: 亚马逊电商, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/512/AmazonShopping.webp }
   - { name: 亚马逊TV, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/512/AmazonPrimeVideo.webp }
-#  - { name: 亚马逊, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/512/Amazon.webp }
   - { name: Apple, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/512/Apple.webp }
   - { name: AppStore, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/512/AppStore.webp }
   - { name: Apple邮箱, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/512/AppleMail.webp }
@@ -354,7 +353,6 @@ proxy-groups:
   - { name: 酷狗, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/512/Kugou.webp }
   - { name: LastFM, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/512/LastFM.webp }
   - { name: LINE, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/512/Line.webp }
-#  - { name: Leaseweb, <<: *proxy, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/512/Leaseweb.webp }
   - { name: 美团, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/512/MeiTuan.webp }
   - { name: 微软, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/512/Microsoft.webp }
   - { name: NGA, <<: *direct, icon: https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/icon/webp/512/NGA.webp }
@@ -623,13 +621,11 @@ rules:
   - OR,((RULE-SET,Twitter),(RULE-SET,Twittercidr,no-resolve)),Twitter # Twitter 社交平台
   - OR,((RULE-SET,Google),(RULE-SET,Googlecidr,no-resolve)),Google # Google 相关服务
   - OR,((RULE-SET,Cloudflare),(RULE-SET,Cloudflarecidr,no-resolve)),Cloudflare # Cloudflare CDN 及安全服务
-#  - RULE-SET,AmazonASN,亚马逊 # 亚马逊 服务商
-#  - RULE-SET,Leasewebcidr,Leaseweb # Leaseweb 服务商
   - OR,((RULE-SET,Media),(RULE-SET,Mediacidr,no-resolve)),国际媒体 # 媒体相关规则集，适用于流媒体解锁
   - OR,((RULE-SET,Netflix),(RULE-SET,Netflixcidr,no-resolve)),Netflix # Netflix 影视流媒体
   - OR,((RULE-SET,Tor),(RULE-SET,Torcidr,no-resolve)),Tor # 洋葱浏览器
   - OR,((RULE-SET,Fastly),(RULE-SET,Fastlycidr,no-resolve)),Fastly # Fastly 服务商
-  - OR,((RULE-SET,Category-anticensorship),(RULE-SET,Geolocation-!cn),(RULE-SET,Proxy),(RULE-SET,Gfw),(RULE-SET,US)),Proxy # 国际网络
+#  - OR,((RULE-SET,Category-anticensorship),(RULE-SET,Geolocation-!cn),(RULE-SET,Proxy),(RULE-SET,Gfw),(RULE-SET,US)),Proxy # 国际网络
 
   # 国内分流
   - RULE-SET,NGA,NGA # NGA 论坛 (游戏社区)
@@ -658,17 +654,16 @@ rules:
   - OR,((RULE-SET,ByteDance),(RULE-SET,ByteDancecidr,no-resolve)),字节跳动 # 字节跳动，包含抖音、今日头条等
   - OR,((RULE-SET,Tencent),(RULE-SET,Tencentcidr,no-resolve)),腾讯 # 腾讯相关服务，包括 QQ、腾讯云等
   - OR,((RULE-SET,Alibaba),(RULE-SET,Alibabacidr,no-resolve)),阿里巴巴 # 阿里巴巴，涵盖云计算、电商等
-  - OR,((RULE-SET,CN),(RULE-SET,CNcidr,no-resolve)),🎯全球直连 # 中国域名
+  - RULE-SET,CNcidr,🎯全球直连,no-resolve # 中国域名
 
   # 节点代理
-  - MATCH,🐟漏网之鱼
+  - MATCH,Proxy
 
 sub-rules:
   SUB-DIRECT:
     - RULE-SET,Tracker,BT追踪器
-    - RULE-SET,Trackercidr,BT追踪器
-    - RULE-SET,CN,🎯全球直连
-    - RULE-SET,CNcidr,🎯全球直连
+    - RULE-SET,Trackercidr,BT追踪器,no-resolve
+    - RULE-SET,CNcidr,🎯全球直连,no-resolve
       
 rule-providers:
   # ------------------------------------------------------------
@@ -1340,15 +1335,15 @@ rule-providers:
     url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-httpdns-cn.mrs"
     path: ./ruleset/Category_httpdns_cn_Domain.mrs
     
-  Category-anticensorship:
-    <<: *domain_mrs
-    url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-anticensorship.mrs"
-    path: ./ruleset/Category_anticensorship_Domain.mrs
+#  Category-anticensorship:
+#    <<: *domain_mrs
+#    url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-anticensorship.mrs"
+#    path: ./ruleset/Category_anticensorship_Domain.mrs
 
-  Geolocation-!cn:
-    <<: *domain_mrs
-    url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/geolocation-!cn.mrs"
-    path: ./ruleset/Geolocation_!cn_Domain.mrs
+#  Geolocation-!cn:
+#    <<: *domain_mrs
+#    url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/geolocation-!cn.mrs"
+#    path: ./ruleset/Geolocation_!cn_Domain.mrs
 
   Category-ads-all:
     <<: *domain_mrs
@@ -1400,10 +1395,10 @@ rule-providers:
     url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/picacg.mrs"
     path: ./ruleset/Picacg_Domain.mrs
 
-  Gfw:
-    <<: *domain_mrs
-    url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/gfw.mrs"
-    path: ./ruleset/Gfw_Domain.mrs
+#  Gfw:
+#    <<: *domain_mrs
+#    url: "https://cdn.jsdmirror.com/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/gfw.mrs"
+#    path: ./ruleset/Gfw_Domain.mrs
 
   # ------------------------------------------------------------
   # DustinWin 规则
@@ -1427,10 +1422,10 @@ rule-providers:
     url: "https://cdn.jsdmirror.com/gh/DustinWin/ruleset_geodata@mihomo-ruleset/bilibili.mrs"
     path: ./ruleset/BiliBili_Domain.mrs
 
-  Proxy:
-    <<: *domain_mrs
-    url: "https://cdn.jsdmirror.com/gh/DustinWin/ruleset_geodata@mihomo-ruleset/proxy.mrs"
-    path: ./ruleset/Proxy_Domain.mrs
+#  Proxy:
+#    <<: *domain_mrs
+#    url: "https://cdn.jsdmirror.com/gh/DustinWin/ruleset_geodata@mihomo-ruleset/proxy.mrs"
+#    path: ./ruleset/Proxy_Domain.mrs
 
   CN:
     <<: *domain_mrs
@@ -1494,10 +1489,10 @@ rule-providers:
     url: "https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/rules/mihomo/WeChat/WeChat_Domain.mrs"
     path: ./ruleset/WeChat_Domain.mrs
 
-  US:
-    <<: *domain_mrs
-    url: "https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/rules/mihomo/US/US_Domain.mrs"
-    path: ./ruleset/US_Domain.mrs
+#  US:
+#    <<: *domain_mrs
+#    url: "https://cdn.jsdmirror.com/gh/Kwisma/cf-worker-mihomo@main/rules/mihomo/US/US_Domain.mrs"
+#    path: ./ruleset/US_Domain.mrs
 
   Talkatone:
     <<: *domain_mrs
