@@ -63,12 +63,12 @@ jobs:
           echo "  - '$line'" >> rules/mihomo/STUN/STUN_Domain.yaml
         done
         cat rules/mihomo/STUN/STUN.list | while IFS= read -r line || [[ -n $line ]]; do
-          # 判断是否是域名格式（包含 . 和 可选的 + 通配符）
-          if [[ "$line" =~ \+?\.[a-zA-Z0-9-]+\.[a-zA-Z]{2,}$ ]]; then
-            echo "  - '$line'" >> rules/mihomo/STUN/STUN_Domain.yaml
           # 判断是否是 CIDR 格式
-          elif [[ "$line" =~ ^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/[0-9]+$ ]]; then
+          if [[ "$line" =~ ^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/[0-9]+$ ]]; then
             echo "  - '$line'" >> rules/mihomo/STUN/STUN_IP.yaml
+          # 判断是否是域名格式（包含 . 和 可选的 + 通配符）
+          elif [[ "$line" =~ \+?\.[a-zA-Z0-9-]+\.[a-zA-Z]{2,}$ ]]; then
+            echo "  - '$line'" >> rules/mihomo/STUN/STUN_Domain.yaml
           fi
         done
         # 去重 STUN_Domain.yaml 文件中的重复行（不排序）
