@@ -50,55 +50,50 @@ jobs:
           if [[ -n "$value" && ! "$value" =~ ^# ]]; then
             # 如果是 DOMAIN-SUFFIX 规则，前面加上 *.
             if [[ "$type" == "DOMAIN" ]]; then
-              value="+.$value"
-              echo "  - '$value'" >> rules/mihomo/STUN/STUN_Domain.yaml
+              echo "  - '+.$value'" >> rules/mihomo/STUN/STUN_Domain.yaml
             elif [[ "$type" == "IP-CIDR6" ]]; then
-              value="$value/32"
-              echo "  - '$value'" >> rules/mihomo/STUN/STUN_IP.yaml
+              echo "  - '$value/32'" >> rules/mihomo/STUN/STUN_IP.yaml
             fi
           fi
         done < rules/mihomo/STUN/STUN_value.txt
         # 合并 STUN.list 内容并加上前缀两个空格
         cat rules/mihomo/STUN/STUN.list | while IFS= read -r line || [[ -n $line ]]; do
-          echo "  - '$line'" >> rules/mihomo/STUN/STUN_Domain.yaml
-        done
-        cat rules/mihomo/STUN/STUN.list | while IFS= read -r line || [[ -n $line ]]; do
           # 判断是否是 CIDR 格式
           if [[ "$line" =~ ^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/[0-9]+$ ]]; then
             echo "  - '$line'" >> rules/mihomo/STUN/STUN_IP.yaml
-          # 判断是否是域名格式（包含 . 和 可选的 + 通配符）
-          elif [[ "$line" =~ \+?\.[a-zA-Z0-9-]+\.[a-zA-Z]{2,}$ ]]; then
+          else
             echo "  - '$line'" >> rules/mihomo/STUN/STUN_Domain.yaml
           fi
         done
-        # 去重 STUN_Domain.yaml 文件中的重复行（不排序）
-        declare -A seen_lines  # 创建一个关联数组，用于去重
+        
         # 临时文件存放去重后的内容
-        temp_file=$(mktemp)
+        domain_file=$(mktemp)
+        declare -A domain_seen_lines  # 创建一个关联数组，用于去重
 
         # 逐行读取 STUN_Domain.yaml 文件并去重
-        while IFS= read -r line || [[ -n $line ]]; do
+        while IFS= read -r domain || [[ -n $domain ]]; do
         # 如果该行没有出现过（去重）
-          if [[ -z "${seen_lines["$line"]}" ]]; then
-            echo "$line" >> "$temp_file"
-            seen_lines["$line"]=1  # 标记该行已经处理过
+          if [[ -z "${domain_seen_lines["$domain"]}" ]]; then
+            echo "$domain" >> "$domain_file"
+            domain_seen_lines["$domain"]=1  # 标记该行已经处理过
           fi
         done < rules/mihomo/STUN/STUN_Domain.yaml
         # 用去重后的内容覆盖原文件
-        mv "$temp_file" rules/mihomo/STUN/STUN_Domain.yaml
+        mv "$domain_file" rules/mihomo/STUN/STUN_Domain.yaml
 
         # 去重 STUN_IP.yaml 文件中的重复行（不排序）
-        temp_file=$(mktemp)
+        ip_file=$(mktemp)
+        declare -A ip_seen_lines
         # 逐行读取 STUN_IP.yaml 文件并去重
-        while IFS= read -r line || [[ -n $line ]]; do
+        while IFS= read -r ip || [[ -n $ip ]]; do
           # 如果该行没有出现过（去重）
-          if [[ -z "${seen_lines["$line"]}" ]]; then
-            echo "$line" >> "$temp_file"
-            seen_lines["$line"]=1  # 标记该行已经处理过
+          if [[ -z "${ip_seen_lines["$ip"]}" ]]; then
+            echo "$ip" >> "$ip_file"
+            ip_seen_lines["$ip"]=1  # 标记该行已经处理过
           fi
         done < rules/mihomo/STUN/STUN_IP.yaml
         # 用去重后的内容覆盖原文件
-        mv "$temp_file" rules/mihomo/STUN/STUN_IP.yaml
+        mv "$ip_file" rules/mihomo/STUN/STUN_IP.yaml
 
     - name: Convert STUN domain rules to MRS
       run: |
