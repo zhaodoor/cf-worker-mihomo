@@ -55,7 +55,7 @@ jobs:
         # 合并 EHGallery.list 内容并加上前缀两个空格
         cat rules/mihomo/EHGallery/EHGallery.list | while IFS= read -r line || [[ -n $line ]]; do
           # 判断是否是 CIDR 格式
-          if [[ "$line" =~ ^([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/[0-9]+|([0-9a-fA-F:]+:+)+[0-9a-fA-F:]+/[0-9]+)$ ]]; then
+          if [[ "$line" =~ ^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/[0-9]+$ ]]; then
             echo "  - '$line'" >> rules/mihomo/EHGallery/EHGallery_IP.yaml
           else
             echo "  - '$line'" >> rules/mihomo/EHGallery/EHGallery_Domain.yaml
