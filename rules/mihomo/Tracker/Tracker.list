@@ -44,7 +44,7 @@ http://116.9.207.226:6969/announce
 
 http://119.28.71.45:8080/announce
 
-http://123.245.62.106:6969/announce
+http://123.245.62.107:6969/announce
 
 http://129.146.193.240:6699/announce
 
@@ -184,7 +184,7 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.189:6969/announce
+http://211.75.205.187:6969/announce
 
 http://211.75.205.190/announce
 
@@ -208,11 +208,11 @@ http://34.89.30.59:2710/announce
 
 http://34.89.91.10/announce
 
-http://34.89.91.10:11450/announce
-
-http://34.89.91.10:2701/announce
-
 http://34.89.91.10:2710/announce
+
+http://34.89.91.10:443/announce
+
+http://34.89.91.10:6960/announce
 
 http://34.89.91.10:6969/announce
 
@@ -224,11 +224,11 @@ http://34.94.213.23:2710/announce
 
 http://34.94.76.146/announce
 
+http://34.94.76.146:11450/announce
+
+http://34.94.76.146:2701/announce
+
 http://34.94.76.146:2710/announce
-
-http://34.94.76.146:443/announce
-
-http://34.94.76.146:6960/announce
 
 http://34.94.76.146:6969/announce
 
@@ -317,8 +317,6 @@ http://54.39.98.124/announce
 http://60-fps.org/bt/announce.php
 
 http://60-fps.org/bt:80/announce.php
-
-http://60.249.37.20/announce
 
 http://61.216.109.95:6969/announce
 
@@ -1870,8 +1868,6 @@ udp://207.241.231.226:6969/announce
 
 udp://209.126.11.233:6969/announce
 
-udp://209.141.59.16:6969/announce
-
 udp://209.141.59.25:6969/announce
 
 udp://210.61.187.209:6969/announce
@@ -1888,15 +1884,13 @@ udp://220.200.35.40:2710/announce
 
 udp://220.200.35.40:6969/announce
 
-udp://23.134.89.9:1337/announce
-
 udp://23.137.251.45:6969/announce
+
+udp://23.157.120.14:6969/announce
 
 udp://23.163.56.66:6969/announce
 
-udp://34.94.76.146:6969/announce
-
-udp://35.227.59.57:1337/announce
+udp://23.168.232.9:1337/announce
 
 udp://37.1.205.12:6969/announce
 
@@ -1938,13 +1932,13 @@ udp://51.158.144.42:6969/announce
 
 udp://51.159.54.68:6666/announce
 
+udp://51.222.82.36:6969/announce
+
 udp://51.68.174.87:6969/announce
 
 udp://51.81.222.188:6969/announce
 
 udp://52.58.128.163:6969/announce
-
-udp://54.39.48.3:6969/announce
 
 udp://6.pocketnet.app:6969/announce
 
@@ -1977,8 +1971,6 @@ udp://89.234.156.205:451/announce
 udp://89.36.216.8:6969/announce
 
 udp://91.211.5.21:6969/announce
-
-udp://91.216.110.53:451/announce
 
 udp://93.104.214.40:6969/announce
 
@@ -2064,8 +2056,6 @@ udp://bt.rer.lol:6969/announce
 
 udp://bt1.archive.org:6969/announce
 
-udp://bt1.xxxxbt.cc:6969/announce
-
 udp://bt2.archive.org:6969/announce
 
 udp://btt.service.gongt.me:43079/announce
@@ -2075,6 +2065,8 @@ udp://bttracker.debian.org:6969/announce
 udp://bubu.mapfactor.com:6969/announce
 
 udp://buddyfly.top:6969/announce
+
+udp://buny.uk:6969/announce
 
 udp://camera.lei001.com:6969/announce
 
@@ -2184,11 +2176,15 @@ udp://ipv6.tracker.harry.lu/announce
 
 udp://ipv6.tracker.harry.lu:6969/announce
 
+udp://isk.richardsw.club:6969/announce
+
 udp://ismaarino.com:1234/announce
 
 udp://jutone.com:6969/announce
 
 udp://keke.re:6969/announce
+
+udp://kiryuu-test.mywaifu.best:6969/announce
 
 udp://kokodayo.site:6969/announce
 
@@ -2196,7 +2192,9 @@ udp://laze.cc:6969/announce
 
 udp://leefafa.tk:6969/announce
 
-udp://leet-tracker.moe:1337/announce
+udp://li1406-230.members.linode.com:6969/announce
+
+udp://li2021-95.members.linode.com:6969/announce
 
 udp://ln.mtahost.co:6969/announce
 
