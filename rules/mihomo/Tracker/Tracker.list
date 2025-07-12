@@ -1,5 +1,3 @@
-http://00.alarmasqueretaro.com:443/announce
-
 http://00.mercax.com:443/announce
 
 http://00.xxtor.com:443/announce
@@ -23,6 +21,8 @@ http://106.14.254.164:6969/announce
 http://107.152.127.9:6969/announce
 
 http://107.189.10.20.sslip.io:7777/announce
+
+http://107.189.2.131:1337/announce
 
 http://107.189.31.134:6969/announce
 
@@ -182,11 +182,9 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.187/announce
-
 http://211.75.205.187:6969/announce
 
-http://211.75.205.188:6969/announce
+http://211.75.205.188/announce
 
 http://211.75.205.190/announce
 
@@ -210,9 +208,9 @@ http://34.89.91.10/announce
 
 http://34.89.91.10/announce.php
 
-http://34.89.91.10:1337/announce
+http://34.89.91.10:11450/announce
 
-http://34.89.91.10:2701/announce
+http://34.89.91.10:1337/announce
 
 http://34.89.91.10:2710/announce
 
@@ -239,8 +237,6 @@ http://35.227.12.84:2710/announce
 http://35.227.59.57/announce
 
 http://35.227.59.57/announce.php
-
-http://35.227.59.57:11450/announce
 
 http://35.227.59.57:2710/announce
 
@@ -319,6 +315,8 @@ http://54.39.98.124/announce
 http://60-fps.org/bt/announce.php
 
 http://60-fps.org/bt:80/announce.php
+
+http://60.249.37.20:6969/announce
 
 http://61.216.109.95:6969/announce
 
@@ -457,6 +455,8 @@ http://bigfoot1942.sektori.org:6969/announce
 http://bithq.org/announce
 
 http://bithq.org/announce.php
+
+http://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
 
 http://bjlt.zhuqiy.eu.org:6666/announce
 
@@ -1450,8 +1450,6 @@ https://docker-tracker-production.up.railway.app/announce
 
 https://evening-badlands-6215.herokuapp.com/announce
 
-https://fbiagent.cyou/announce
-
 https://grifon.info:80/announce
 
 https://gwp2-v19.rinet.ru/announce
@@ -1609,6 +1607,8 @@ https://tracker.cangku.moe/announce
 https://tracker.cloudit.top/announce
 
 https://tracker.crawfish.cf/announce
+
+https://tracker.cutie.dating/announce
 
 https://tracker.cybar.xyz/announce
 
@@ -1788,6 +1788,8 @@ udp://104.143.10.186:8000/announce
 
 udp://107.175.221.194:6969/announce
 
+udp://107.189.2.131:1337/announce
+
 udp://108.53.194.223:6969/announce
 
 udp://109.201.134.183:80/announce
@@ -1866,6 +1868,8 @@ udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
 
+udp://208.83.20.20:6969/announce
+
 udp://209.126.11.233:6969/announce
 
 udp://209.141.59.25:6969/announce
@@ -1874,9 +1878,7 @@ udp://210.61.187.209:6969/announce
 
 udp://211.23.142.127:6969/announce
 
-udp://211.75.205.187:6969/announce
-
-udp://211.75.205.187:80/announce
+udp://211.75.205.188:80/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1894,11 +1896,7 @@ udp://23.163.56.66:6969/announce
 
 udp://23.168.232.9:1337/announce
 
-udp://34.89.91.10:1337/announce
-
-udp://35.227.59.57:1337/announce
-
-udp://35.227.59.57:6969/announce
+udp://34.89.91.10:6969/announce
 
 udp://37.1.205.12:6969/announce
 
@@ -1909,8 +1907,6 @@ udp://37.187.95.112:6969/announce
 udp://37.235.176.37:2710/announce
 
 udp://37.59.48.81:6969/announce
-
-udp://45.154.96.35:6969/announce
 
 udp://45.155.53.144:6969/announce
 
@@ -1977,8 +1973,6 @@ udp://89.234.156.205:451/announce
 udp://89.36.216.8:6969/announce
 
 udp://91.211.5.21:6969/announce
-
-udp://91.216.110.53:451/announce
 
 udp://93.104.214.40:6969/announce
 
@@ -2076,6 +2070,8 @@ udp://bubu.mapfactor.com:6969/announce
 
 udp://buddyfly.top:6969/announce
 
+udp://buny.uk:6969/announce
+
 udp://camera.lei001.com:6969/announce
 
 udp://canardscitrons.nohost.me:6969/announce
@@ -2111,8 +2107,6 @@ udp://debuz.com:6969/announce
 udp://devops.gay:6969/announce
 
 udp://dht.bt251.com:6969/announce
-
-udp://discord.heihachi.pw:6969/announce
 
 udp://download.nerocloud.me:6969/announce
 
@@ -2192,8 +2186,6 @@ udp://jutone.com:6969/announce
 
 udp://keke.re:6969/announce
 
-udp://kiryuu-test.mywaifu.best:6969/announce
-
 udp://kokodayo.site:6969/announce
 
 udp://laze.cc:6969/announce
@@ -2201,10 +2193,6 @@ udp://laze.cc:6969/announce
 udp://leefafa.tk:6969/announce
 
 udp://leet-tracker.moe:1337/announce
-
-udp://li1406-230.members.linode.com:6969/announce
-
-udp://li2021-95.members.linode.com:6969/announce
 
 udp://ln.mtahost.co:6969/announce
 
@@ -2405,8 +2393,6 @@ udp://tk2.trackerservers.com:8080/announce
 udp://tk4.leechshield.link:6969/announce
 
 udp://torrent.fedoraproject.org:6969/announce
-
-udp://torrent.hificode.in:6969/announce
 
 udp://torrent.i.ng:6969/announce
 
@@ -2625,8 +2611,6 @@ udp://tracker.vraphim.com:6969/announce
 udp://tracker.vrpnet.org:6969/announce
 
 udp://tracker.waaa.moe:6969/announce
-
-udp://tracker.xiaoduola.xyz:6969/announce
 
 udp://tracker.xor.st:6969/announce
 
