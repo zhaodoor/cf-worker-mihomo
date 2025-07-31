@@ -212,6 +212,7 @@ payload:
   - +.f1sh.de
   - +.fansub.id
   - +.farted.net
+  - +.fattydove.i2p
   - +.fdn.fr
   - +.feb217.tk
   - +.fedoraproject.org
@@ -246,6 +247,7 @@ payload:
   - +.gigatorrents.ws
   - +.giize.com
   - +.github.io
+  - +.glotorrents.pw
   - +.gmi.gd
   - +.gongt.me
   - +.gongt.net
@@ -256,6 +258,7 @@ payload:
   - +.hama3.net
   - +.hammetjus.nl
   - +.harry.lu
+  - +.healthcareindia.store
   - +.heihachi.pw
   - +.herokuapp.com
   - +.hexanyn.fr
@@ -313,7 +316,6 @@ payload:
   - +.kinorun.com
   - +.kitaujisub.site
   - +.kmzs123.cn
-  - +.kmzs123.tk
   - +.koikia.eu
   - +.kokodayo.site
   - +.kozow.com
@@ -445,6 +447,7 @@ payload:
   - +.parrotlinux.org
   - +.parrotsec.org
   - +.partis.si
+  - +.passpulse.net
   - +.pcfreetime.com
   - +.peckservers.com
   - +.peer-exchange.download
@@ -661,3 +664,4 @@ payload:
   - +.zone-torrent.net
   - +.zsw.ca
   - +.zukizuki.org
+  - +.zupix.online
