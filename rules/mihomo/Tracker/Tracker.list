@@ -66,8 +66,6 @@ http://144.202.33.210:6961/announce
 
 http://144.76.118.107:6969/announce
 
-http://145.223.96.109:8000/announce
-
 http://147job.com:6969/announce
 
 http://151.115.49.115:1337/announce
@@ -164,6 +162,8 @@ http://193.37.214.12:6969/announce
 
 http://198.251.84.144/announce
 
+http://200.111.152.54:1337/announce
+
 http://200.232.254.1:6969/announce
 
 http://201.42.214.55:6969/announce
@@ -188,9 +188,9 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.189:6969/announce
-
 http://211.75.205.190/announce
+
+http://211.75.210.221:6969/announce
 
 http://211.75.29.254:6969/announce
 
@@ -220,9 +220,9 @@ http://34.89.91.10:11450/announce
 
 http://34.89.91.10:1337/announce
 
-http://34.89.91.10:2701/announce
-
 http://34.89.91.10:2710/announce
+
+http://34.89.91.10:443/announce
 
 http://34.89.91.10:6969/announce
 
@@ -236,7 +236,9 @@ http://34.94.76.146/announce
 
 http://34.94.76.146:2710/announce
 
-http://34.94.76.146:443/announce
+http://34.94.76.146:6960/announce
+
+http://34.94.76.146:6969/announce
 
 http://35.227.12.84/announce
 
@@ -244,11 +246,9 @@ http://35.227.12.84:2710/announce
 
 http://35.227.59.57/announce
 
-http://35.227.59.57/announce.php
+http://35.227.59.57:2701/announce
 
 http://35.227.59.57:2710/announce
-
-http://35.227.59.57:6960/announce
 
 http://35.227.59.57:6969/announce
 
@@ -807,8 +807,6 @@ http://p2p.0g.cx:6969/announce
 http://p4p.arenabg.com:1337/announce
 
 http://parag.rs:6969/announce
-
-http://passpulse.net:8000/announce
 
 http://peersteers.org/announce
 
@@ -1836,8 +1834,6 @@ udp://144.126.245.19:6969/announce
 
 udp://144.91.88.22:6969/announce
 
-udp://145.223.96.109:8000/announce
-
 udp://147job.com:6969/announce
 
 udp://148.251.53.72:6969/announce
@@ -1906,7 +1902,7 @@ udp://209.141.59.25:6969/announce
 
 udp://210.61.187.209:6969/announce
 
-udp://211.75.205.189:6969/announce
+udp://211.75.210.221:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1916,25 +1912,17 @@ udp://220.200.35.40:2710/announce
 
 udp://220.200.35.40:6969/announce
 
-udp://23.134.90.9:1337/announce
-
 udp://23.137.251.45:6969/announce
 
-udp://23.157.120.14:6969/announce
-
 udp://23.163.56.66:6969/announce
+
+udp://23.168.232.9:1337/announce
 
 udp://23.175.184.30:23333/announce
 
 udp://31.38.161.123:6969/announce
 
 udp://34.89.91.10:1337/announce
-
-udp://34.89.91.10:6969/announce
-
-udp://34.94.76.146:6969/announce
-
-udp://35.227.59.57:6969/announce
 
 udp://37.187.111.136:6969/announce
 
@@ -1947,6 +1935,8 @@ udp://37.59.48.81:6969/announce
 udp://43.154.112.29:17272/announce
 
 udp://45.154.214.21:6969/announce
+
+udp://45.154.96.35:6969/announce
 
 udp://45.9.60.30:6969/announce
 
@@ -2105,6 +2095,8 @@ udp://bt.rer.lol:2710/announce
 udp://bt.rer.lol:6969/announce
 
 udp://bt1.archive.org:6969/announce
+
+udp://bt1.xxxxbt.cc:6969/announce
 
 udp://bt2.archive.org:6969/announce
 
@@ -2336,8 +2328,6 @@ udp://p4p.arenabg.com:1337/announce
 
 udp://parag.rs:6969/announce
 
-udp://passpulse.net:8000/announce
-
 udp://pirate.t-1.org:1337/announce
 
 udp://pow7.com:80/announce
@@ -2528,8 +2518,6 @@ udp://tracker.draatman.uk:6969/announce
 
 udp://tracker.ducks.party:1984/announce
 
-udp://tracker.dump.cl:6969/announce
-
 udp://tracker.edkj.club:6969/announce
 
 udp://tracker.etree.org:6969/announce
@@ -2581,6 +2569,10 @@ udp://tracker.moxing.party:6969/announce
 udp://tracker.mywaifu.best:6969/announce
 
 udp://tracker.nartlof.com.br:6969/announce
+
+udp://tracker.netmap.top:6969/announce
+
+udp://tracker.novaopcj.eu.org:6969/announce
 
 udp://tracker.ololosh.space:6969/announce
 
@@ -2647,8 +2639,6 @@ udp://tracker.tryhackx.org:6969/announce
 udp://tracker.tvunderground.org.ru:3218/announce
 
 udp://tracker.valete.tf:9999/announce
-
-udp://tracker.vanitycore.co:6969/announce
 
 udp://tracker.vds.nz:6969/announce
 
@@ -2763,8 +2753,6 @@ udp://yann5.hexanyn.fr:6969/announce
 udp://z.mercax.com:53/announce
 
 udp://zecircle.xyz:6969/announce
-
-ws://passpulse.net:8000/announce
 
 ws://tracker.files.fm:7072/announce
 
