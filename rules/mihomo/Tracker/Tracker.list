@@ -42,7 +42,7 @@ http://116.9.207.226:6969/announce
 
 http://119.28.71.45:8080/announce
 
-http://123.245.62.67:6969/announce
+http://123.245.62.68:6969/announce
 
 http://129.146.193.240:6699/announce
 
@@ -150,6 +150,8 @@ http://189.0.196.51:6969/announce
 
 http://189.110.233.96:6969/announce
 
+http://189.79.13.111:6969/announce
+
 http://192.3.165.191:6969/announce
 
 http://192.9.228.30:6699/announce
@@ -186,6 +188,8 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
+http://211.75.205.189/announce
+
 http://211.75.205.190/announce
 
 http://211.75.29.254:6969/announce
@@ -208,9 +212,15 @@ http://34.89.30.59:2710/announce
 
 http://34.89.91.10/announce
 
+http://34.89.91.10/announce.php
+
+http://34.89.91.10:11450/announce
+
+http://34.89.91.10:1337/announce
+
 http://34.89.91.10:2710/announce
 
-http://34.89.91.10:6960/announce
+http://34.89.91.10:443/announce
 
 http://34.89.91.10:6969/announce
 
@@ -222,13 +232,9 @@ http://34.94.213.23:2710/announce
 
 http://34.94.76.146/announce
 
-http://34.94.76.146:11450/announce
-
-http://34.94.76.146:1337/announce
+http://34.94.76.146/announce.php
 
 http://34.94.76.146:2710/announce
-
-http://34.94.76.146:443/announce
 
 http://34.94.76.146:6969/announce
 
@@ -238,11 +244,11 @@ http://35.227.12.84:2710/announce
 
 http://35.227.59.57/announce
 
-http://35.227.59.57/announce.php
-
 http://35.227.59.57:2701/announce
 
 http://35.227.59.57:2710/announce
+
+http://35.227.59.57:6960/announce
 
 http://35.227.59.57:6969/announce
 
@@ -1820,8 +1826,6 @@ udp://107.175.221.194:6969/announce
 
 udp://107.189.2.131:1337/announce
 
-udp://108.53.194.223:6969/announce
-
 udp://109.201.134.183:80/announce
 
 udp://11.rarbg.com:80/announce
@@ -1866,6 +1870,8 @@ udp://185.181.60.155:80/announce
 
 udp://185.181.60.67:80/announce
 
+udp://185.189.13.108:6969/announce
+
 udp://185.216.179.62:25/announce
 
 udp://185.230.4.150:1337/announce
@@ -1873,6 +1879,8 @@ udp://185.230.4.150:1337/announce
 udp://185.243.218.213:80/announce
 
 udp://185.44.82.25:1337/announce
+
+udp://189.79.13.111:6969/announce
 
 udp://192.95.46.115:6969/announce
 
@@ -1892,8 +1900,6 @@ udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
 
-udp://208.83.20.20:6969/announce
-
 udp://209.126.11.233:6969/announce
 
 udp://209.141.59.25:6969/announce
@@ -1902,7 +1908,7 @@ udp://210.61.187.209:6969/announce
 
 udp://211.75.205.189:6969/announce
 
-udp://211.75.210.221:80/announce
+udp://211.75.205.189:80/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1912,7 +1918,7 @@ udp://220.200.35.40:2710/announce
 
 udp://220.200.35.40:6969/announce
 
-udp://23.134.90.9:1337/announce
+udp://23.134.88.9:1337/announce
 
 udp://23.137.251.45:6969/announce
 
@@ -1922,9 +1928,9 @@ udp://23.175.184.30:23333/announce
 
 udp://31.38.161.123:6969/announce
 
-udp://34.89.91.10:6969/announce
+udp://34.89.91.10:1337/announce
 
-udp://34.94.76.146:1337/announce
+udp://35.227.59.57:1337/announce
 
 udp://35.227.59.57:6969/announce
 
@@ -1964,8 +1970,6 @@ udp://51.158.144.42:6969/announce
 
 udp://51.159.54.68:6666/announce
 
-udp://51.222.82.36:6969/announce
-
 udp://51.68.174.87:6969/announce
 
 udp://51.81.222.188:6969/announce
@@ -1973,6 +1977,8 @@ udp://51.81.222.188:6969/announce
 udp://52.58.128.163:6969/announce
 
 udp://54.36.179.216:6969/announce
+
+udp://54.39.48.3:6969/announce
 
 udp://6.pocketnet.app:6969/announce
 
@@ -2183,8 +2189,6 @@ udp://freedom.1776.ga:6969/announce
 udp://freedomalternative.com:6969/announce
 
 udp://ftp.pet:2710/announce
-
-udp://glotorrents.pw:6969/announce
 
 udp://hbsy.zhuqiy.eu.org:6666/announce
 
@@ -2404,6 +2408,8 @@ udp://static.54.161.216.95.clients.your-server.de:6969/announce
 
 udp://su-data.com:6969/announce
 
+udp://t.jaekr.sh:6969/announce
+
 udp://t.overflow.biz:6969/announce
 
 udp://t.zerg.pw:6969/announce
@@ -2433,6 +2439,8 @@ udp://tk2.trackerservers.com:8080/announce
 udp://tk4.leechshield.link:6969/announce
 
 udp://torrent.fedoraproject.org:6969/announce
+
+udp://torrent.hificode.in:6969/announce
 
 udp://torrent.i.ng:6969/announce
 
