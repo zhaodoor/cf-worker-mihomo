@@ -42,7 +42,7 @@ http://116.9.207.226:6969/announce
 
 http://119.28.71.45:8080/announce
 
-http://123.245.62.7:6969/announce
+http://123.245.62.50:6969/announce
 
 http://129.146.193.240:6699/announce
 
@@ -57,6 +57,8 @@ http://140.82.21.192:8080/announce
 http://141.144.224.250:2710/announce
 
 http://141.144.224.250:6969/announce
+
+http://142.171.85.76:6969/announce
 
 http://144.202.33.210:6961/announce
 
@@ -118,8 +120,6 @@ http://171.104.226.31:6969/announce
 
 http://171.104.226.87:6969/announce
 
-http://177.172.67.247:6969/announce
-
 http://179.100.24.134:6969/announce
 
 http://180.97.219.76:8070/announce
@@ -147,6 +147,8 @@ http://187.57.14.62:6969/announce
 http://189.0.196.51:6969/announce
 
 http://189.110.233.96:6969/announce
+
+http://189.69.169.237:6969/announce
 
 http://192.3.165.191:6969/announce
 
@@ -208,11 +210,7 @@ http://34.89.30.59:2710/announce
 
 http://34.89.91.10/announce
 
-http://34.89.91.10:11450/announce
-
 http://34.89.91.10:2710/announce
-
-http://34.89.91.10:443/announce
 
 http://34.89.91.10:6969/announce
 
@@ -226,7 +224,13 @@ http://34.94.76.146/announce
 
 http://34.94.76.146/announce.php
 
+http://34.94.76.146:11450/announce
+
+http://34.94.76.146:1337/announce
+
 http://34.94.76.146:2710/announce
+
+http://34.94.76.146:443/announce
 
 http://34.94.76.146:6960/announce
 
@@ -239,8 +243,6 @@ http://35.227.12.84:2710/announce
 http://35.227.59.57/announce
 
 http://35.227.59.57/announce.php
-
-http://35.227.59.57:1337/announce
 
 http://35.227.59.57:2701/announce
 
@@ -331,6 +333,8 @@ http://61.222.178.227:6969/announce
 http://61.222.178.254:6969/announce
 
 http://62.182.85.138:666/announce
+
+http://62.60.157.92:6969/announce
 
 http://64.112.43.194:6969/announce
 
@@ -808,6 +812,8 @@ http://proaudiotorrents.org/announce
 
 http://proaudiotorrents.org/announce.php
 
+http://public.tracker.vraphim.com:6969/announce
+
 http://region.nl1.privex.cc:6969/announce
 
 http://reisub.nsupdate.info:6969/announce
@@ -1225,6 +1231,8 @@ http://tracker.vanitycore.co:6969/announce
 http://tracker.vraphim.com:6969/announce
 
 http://tracker.vrpnet.org:6969/announce
+
+http://tracker.waaa.moe:6969/announce
 
 http://tracker.xdvdz.com:2710/announce
 
@@ -1846,8 +1854,6 @@ udp://176.31.250.174:6969/announce
 
 udp://176.99.7.59:6969/announce
 
-udp://177.172.67.247:6969/announce
-
 udp://178.170.48.154:1337/announce
 
 udp://185.102.219.163:6969/announce
@@ -1865,6 +1871,8 @@ udp://185.230.4.150:1337/announce
 udp://185.243.218.213:80/announce
 
 udp://185.44.82.25:1337/announce
+
+udp://189.69.169.237:6969/announce
 
 udp://192.95.46.115:6969/announce
 
@@ -1884,8 +1892,6 @@ udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
 
-udp://208.83.20.20:6969/announce
-
 udp://209.126.11.233:6969/announce
 
 udp://209.141.59.25:6969/announce
@@ -1893,8 +1899,6 @@ udp://209.141.59.25:6969/announce
 udp://210.61.187.209:6969/announce
 
 udp://211.75.205.188:80/announce
-
-udp://211.75.210.221:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1906,17 +1910,13 @@ udp://220.200.35.40:6969/announce
 
 udp://23.137.251.45:6969/announce
 
-udp://23.157.120.14:6969/announce
-
 udp://23.163.56.66:6969/announce
 
 udp://23.168.232.9:1337/announce
 
-udp://23.175.184.30:23333/announce
-
 udp://31.38.161.123:6969/announce
 
-udp://35.227.59.57:1337/announce
+udp://35.227.59.57:6969/announce
 
 udp://37.187.111.136:6969/announce
 
@@ -1927,8 +1927,6 @@ udp://37.235.176.37:2710/announce
 udp://37.59.48.81:6969/announce
 
 udp://43.154.112.29:17272/announce
-
-udp://45.154.214.21:6969/announce
 
 udp://45.9.60.30:6969/announce
 
@@ -1956,6 +1954,8 @@ udp://51.158.144.42:6969/announce
 
 udp://51.159.54.68:6666/announce
 
+udp://51.222.82.36:6969/announce
+
 udp://51.68.174.87:6969/announce
 
 udp://51.81.222.188:6969/announce
@@ -1963,8 +1963,6 @@ udp://51.81.222.188:6969/announce
 udp://52.58.128.163:6969/announce
 
 udp://54.36.179.216:6969/announce
-
-udp://54.39.48.3:6969/announce
 
 udp://6.pocketnet.app:6969/announce
 
@@ -2088,6 +2086,8 @@ udp://bt.rer.lol:6969/announce
 
 udp://bt1.archive.org:6969/announce
 
+udp://bt1.xxxxbt.cc:6969/announce
+
 udp://bt2.archive.org:6969/announce
 
 udp://btt.service.gongt.me:43079/announce
@@ -2097,8 +2097,6 @@ udp://bttracker.debian.org:6969/announce
 udp://bubu.mapfactor.com:6969/announce
 
 udp://buddyfly.top:6969/announce
-
-udp://buny.uk:6969/announce
 
 udp://camera.lei001.com:6969/announce
 
@@ -2134,6 +2132,8 @@ udp://devops.gay:6969/announce
 
 udp://dht.bt251.com:6969/announce
 
+udp://discord.heihachi.pw:6969/announce
+
 udp://download.nerocloud.me:6969/announce
 
 udp://dyndns.xionxiii.ovh:6969/announce
@@ -2159,8 +2159,6 @@ udp://fe.dealclub.de:6969/announce
 udp://fh2.cmp-gaming.com:6969/announce
 
 udp://files.project-cataclysm.ru:6969/announce
-
-udp://fosstorrents.com:6969/announce
 
 udp://free.publictracker.xyz:6969/announce
 
@@ -2223,8 +2221,6 @@ udp://kokodayo.site:6969/announce
 udp://laze.cc:6969/announce
 
 udp://leefafa.tk:6969/announce
-
-udp://leet-tracker.moe:1337/announce
 
 udp://ln.mtahost.co:6969/announce
 
@@ -2390,8 +2386,6 @@ udp://static.54.161.216.95.clients.your-server.de:6969/announce
 
 udp://su-data.com:6969/announce
 
-udp://t.jaekr.sh:6969/announce
-
 udp://t.overflow.biz:6969/announce
 
 udp://t.zerg.pw:6969/announce
@@ -2421,6 +2415,8 @@ udp://tk2.trackerservers.com:8080/announce
 udp://tk4.leechshield.link:6969/announce
 
 udp://torrent.fedoraproject.org:6969/announce
+
+udp://torrent.hificode.in:6969/announce
 
 udp://torrent.i.ng:6969/announce
 
@@ -2556,8 +2552,6 @@ udp://tracker.mirrorbay.org:6969/announce
 
 udp://tracker.monitorit4.me:6969/announce
 
-udp://tracker.moxing.party:6969/announce
-
 udp://tracker.mywaifu.best:6969/announce
 
 udp://tracker.nartlof.com.br:6969/announce
@@ -2629,8 +2623,6 @@ udp://tracker.tryhackx.org:6969/announce
 udp://tracker.tvunderground.org.ru:3218/announce
 
 udp://tracker.valete.tf:9999/announce
-
-udp://tracker.vanitycore.co:6969/announce
 
 udp://tracker.vds.nz:6969/announce
 
