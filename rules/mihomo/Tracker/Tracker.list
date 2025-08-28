@@ -1024,6 +1024,8 @@ http://tracker.cutie.dating/announce
 
 http://tracker.ddunlimited.net:6969/announce
 
+http://tracker.dhitechnical.com:6969/announce
+
 http://tracker.dler.com:6969/announce
 
 http://tracker.dler.org:6969/announce
@@ -2084,6 +2086,8 @@ udp://bt.rer.lol:6969/announce
 
 udp://bt1.archive.org:6969/announce
 
+udp://bt1.xxxxbt.cc:6969/announce
+
 udp://bt2.archive.org:6969/announce
 
 udp://btt.service.gongt.me:43079/announce
@@ -2113,6 +2117,8 @@ udp://cn.pcfreetime.com:6969/announce
 udp://concen.org:6969/announce
 
 udp://cpe-104-34-3-152.socal.res.rr.com:6969/announce
+
+udp://cq.kmzs123.cn:17272/announce
 
 udp://cutscloud.duckdns.org:6969/announce
 
@@ -2176,13 +2182,9 @@ udp://hificode.in:6969/announce
 
 udp://home.kray.pw:6969/announce
 
-udp://home.yxgz.club:6969/announce
-
 udp://http//www.peckservers.com:9000/announce
 
 udp://htz3.noho.st:6969/announce
-
-udp://hzzwly.gq:6969/announce
 
 udp://ibksturm.synology.me:6969/announce
 
@@ -2554,15 +2556,9 @@ udp://tracker.mirrorbay.org:6969/announce
 
 udp://tracker.monitorit4.me:6969/announce
 
-udp://tracker.moxing.party:6969/announce
-
 udp://tracker.mywaifu.best:6969/announce
 
 udp://tracker.nartlof.com.br:6969/announce
-
-udp://tracker.netmap.top:6969/announce
-
-udp://tracker.novaopcj.eu.org:6969/announce
 
 udp://tracker.ololosh.space:6969/announce
 
@@ -2641,6 +2637,8 @@ udp://tracker.vraphim.com:6969/announce
 udp://tracker.vrpnet.org:6969/announce
 
 udp://tracker.waaa.moe:6969/announce
+
+udp://tracker.xiaoduola.xyz:6969/announce
 
 udp://tracker.xor.st:6969/announce
 
