@@ -42,7 +42,7 @@ http://116.9.207.226:6969/announce
 
 http://119.28.71.45:8080/announce
 
-http://123.245.62.7:6969/announce
+http://123.245.62.50:6969/announce
 
 http://129.146.193.240:6699/announce
 
@@ -51,6 +51,8 @@ http://13.115.115.32:6969/announce
 http://1337.abcvg.info/announce
 
 http://1337.abcvg.info/announce+108
+
+http://138.124.183.78:6969/announce
 
 http://140.82.21.192:8080/announce
 
@@ -63,6 +65,8 @@ http://142.171.85.76:6969/announce
 http://144.202.33.210:6961/announce
 
 http://144.76.118.107:6969/announce
+
+http://145.223.96.109:8000/announce
 
 http://147job.com:6969/announce
 
@@ -184,6 +188,8 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
+http://211.75.210.221/announce
+
 http://211.75.29.254:6969/announce
 
 http://212.6.3.67/announce
@@ -214,10 +220,6 @@ http://34.89.91.10/announce.php
 
 http://34.89.91.10:2710/announce
 
-http://34.89.91.10:443/announce
-
-http://34.89.91.10:6969/announce
-
 http://34.94.213.23/announce
 
 http://34.94.213.23:11451/announce
@@ -226,11 +228,11 @@ http://34.94.213.23:2710/announce
 
 http://34.94.76.146/announce
 
-http://34.94.76.146:11450/announce
-
 http://34.94.76.146:1337/announce
 
 http://34.94.76.146:2710/announce
+
+http://34.94.76.146:443/announce
 
 http://34.94.76.146:6969/announce
 
@@ -239,6 +241,8 @@ http://35.227.12.84/announce
 http://35.227.12.84:2710/announce
 
 http://35.227.59.57/announce
+
+http://35.227.59.57:11450/announce
 
 http://35.227.59.57:2701/announce
 
@@ -798,6 +802,8 @@ http://p4p.arenabg.com:1337/announce
 
 http://parag.rs:6969/announce
 
+http://passpulse.net:8000/announce
+
 http://peersteers.org/announce
 
 http://pow7.com/announce
@@ -1025,6 +1031,8 @@ http://tracker.coppersurfer.site:2710/announce
 http://tracker.corpscorp.online/announce
 
 http://tracker.cutie.dating/announce
+
+http://tracker.darkness.services:6969/announce
 
 http://tracker.ddunlimited.net:6969/announce
 
@@ -1832,7 +1840,11 @@ udp://135.125.106.92:6969/announce
 
 udp://135.125.236.64:6969/announce
 
+udp://144.126.245.19:6969/announce
+
 udp://144.91.88.22:6969/announce
+
+udp://145.223.96.109:8000/announce
 
 udp://147job.com:6969/announce
 
@@ -1896,11 +1908,13 @@ udp://208.83.20.20:6969/announce
 
 udp://209.126.11.233:6969/announce
 
+udp://209.141.59.16:6969/announce
+
 udp://209.141.59.25:6969/announce
 
-udp://211.75.205.188:80/announce
-
 udp://211.75.210.221:6969/announce
+
+udp://211.75.210.221:80/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1918,9 +1932,9 @@ udp://23.163.56.66:6969/announce
 
 udp://23.175.184.30:23333/announce
 
-udp://34.94.76.146:1337/announce
+udp://34.89.91.10:6969/announce
 
-udp://34.94.76.146:6969/announce
+udp://34.94.76.146:1337/announce
 
 udp://35.227.59.57:6969/announce
 
@@ -1958,6 +1972,8 @@ udp://51.158.144.42:6969/announce
 
 udp://51.159.54.68:6666/announce
 
+udp://51.222.82.36:6969/announce
+
 udp://51.68.174.87:6969/announce
 
 udp://51.81.222.188:6969/announce
@@ -1965,8 +1981,6 @@ udp://51.81.222.188:6969/announce
 udp://52.58.128.163:6969/announce
 
 udp://54.36.179.216:6969/announce
-
-udp://54.39.48.3:6969/announce
 
 udp://6.pocketnet.app:6969/announce
 
@@ -2178,6 +2192,8 @@ udp://glotorrents.pw:6969/announce
 
 udp://hbsy.zhuqiy.eu.org:6666/announce
 
+udp://hificode.in:6969/announce
+
 udp://home.kray.pw:6969/announce
 
 udp://home.yxgz.club:6969/announce
@@ -2211,8 +2227,6 @@ udp://ipv6.rer.lol:6969/announce
 udp://ipv6.tracker.harry.lu/announce
 
 udp://ipv6.tracker.harry.lu:6969/announce
-
-udp://isk.richardsw.club:6969/announce
 
 udp://ismaarino.com:1234/announce
 
@@ -2318,6 +2332,8 @@ udp://p4p.arenabg.com:1337/announce
 
 udp://parag.rs:6969/announce
 
+udp://passpulse.net:8000/announce
+
 udp://pirate.t-1.org:1337/announce
 
 udp://pow7.com:80/announce
@@ -2363,6 +2379,8 @@ udp://run.publictracker.xyz:6969/announce
 udp://rutorrent.frontline-mod.com:6969/announce
 
 udp://ryjer.com:6969/announce
+
+udp://saltwood.top:6969/announce
 
 udp://sanincode.com:6969/announce
 
@@ -2421,8 +2439,6 @@ udp://tk2.trackerservers.com:8080/announce
 udp://tk4.leechshield.link:6969/announce
 
 udp://torrent.fedoraproject.org:6969/announce
-
-udp://torrent.hificode.in:6969/announce
 
 udp://torrent.i.ng:6969/announce
 
@@ -2563,10 +2579,6 @@ udp://tracker.moxing.party:6969/announce
 udp://tracker.mywaifu.best:6969/announce
 
 udp://tracker.nartlof.com.br:6969/announce
-
-udp://tracker.netmap.top:6969/announce
-
-udp://tracker.novaopcj.eu.org:6969/announce
 
 udp://tracker.ololosh.space:6969/announce
 
@@ -2753,6 +2765,8 @@ udp://yann5.hexanyn.fr:6969/announce
 udp://z.mercax.com:53/announce
 
 udp://zecircle.xyz:6969/announce
+
+ws://passpulse.net:8000/announce
 
 ws://tracker.files.fm:7072/announce
 
