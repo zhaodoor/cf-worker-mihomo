@@ -42,7 +42,7 @@ http://116.9.207.226:6969/announce
 
 http://119.28.71.45:8080/announce
 
-http://123.245.62.50:6969/announce
+http://123.245.62.7:6969/announce
 
 http://129.146.193.240:6699/announce
 
@@ -186,9 +186,7 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.187/announce
-
-http://211.75.205.188:6969/announce
+http://211.75.205.190/announce
 
 http://211.75.29.254:6969/announce
 
@@ -206,21 +204,21 @@ http://220.200.35.40:2710/announce
 
 http://34.170.169.34/announce.php
 
-http://34.52.190.155:6960/announce
+http://34.170.169.34:6960/announce
 
-http://34.52.190.155:6969/announce
+http://34.170.169.34:6969/announce
 
 http://34.89.30.59/announce
 
 http://34.89.30.59:2710/announce
 
+http://34.89.91.10/announce
+
+http://34.89.91.10/announce.php
+
 http://34.89.91.10:11450/announce
 
-http://34.89.91.10:2701/announce
-
 http://34.89.91.10:2710/announce
-
-http://34.89.91.10:443/announce
 
 http://34.89.91.10:6969/announce
 
@@ -232,11 +230,15 @@ http://34.94.213.23:2710/announce
 
 http://34.94.76.146/announce
 
-http://34.94.76.146/announce.php
-
 http://34.94.76.146:1337/announce
 
+http://34.94.76.146:2701/announce
+
 http://34.94.76.146:2710/announce
+
+http://34.94.76.146:443/announce
+
+http://34.94.76.146:6969/announce
 
 http://35.227.12.84/announce
 
@@ -335,6 +337,8 @@ http://61.222.178.254:6969/announce
 http://62.182.85.138:666/announce
 
 http://62.60.157.92:6969/announce
+
+http://64.112.43.194:6969/announce
 
 http://65.108.2.176:2710/announce
 
@@ -1266,6 +1270,8 @@ http://tracker.zhuqiy.dgj055.icu/announce
 
 http://tracker.zhuqiy.eu.org:36107/announce
 
+http://tracker.zhuqiy.top/announce
+
 http://tracker1.bt.moack.co.kr/announce
 
 http://tracker1.itzmx.com80/announce
@@ -1321,8 +1327,6 @@ http://uatracker.net/announce.php
 http://unknownsite.de:6969/announce
 
 http://uraniumhexafluori.de:1919/announce
-
-http://v6-tracker.0g.cx:6969/announce
 
 http://vps-dd0a0715.vps.ovh.net:6969/announce
 
@@ -1658,6 +1662,8 @@ https://tracker.gbitt.info/announce
 
 https://tracker.gcrenwp.top/announce
 
+https://tracker.gcrreen.xyz/announce
+
 https://tracker.ghostchu-services.top/announce
 
 https://tracker.guguan.dpdns.org/announce
@@ -1830,6 +1836,8 @@ udp://119.28.71.45:8080/announce
 
 udp://135.125.106.92:6969/announce
 
+udp://135.125.236.64:6969/announce
+
 udp://144.126.245.19:6969/announce
 
 udp://144.91.88.22:6969/announce
@@ -1851,6 +1859,8 @@ udp://167.99.185.219:6969/announce
 udp://172.105.235.127:6969/announce
 
 udp://173.249.201.201:6969/announce
+
+udp://176.123.1.180:6969/announce
 
 udp://176.31.250.174:6969/announce
 
@@ -1892,13 +1902,13 @@ udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
 
-udp://208.83.20.20:6969/announce
-
 udp://209.126.11.233:6969/announce
 
-udp://211.75.205.187:80/announce
+udp://209.141.59.25:6969/announce
 
-udp://211.75.205.188:6969/announce
+udp://210.61.187.209:6969/announce
+
+udp://211.23.142.127:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1916,9 +1926,11 @@ udp://23.163.56.66:6969/announce
 
 udp://23.175.184.30:23333/announce
 
-udp://34.89.91.10:6969/announce
+udp://31.38.161.123:6969/announce
 
 udp://34.94.76.146:1337/announce
+
+udp://35.227.59.57:6969/announce
 
 udp://37.187.111.136:6969/announce
 
@@ -1950,6 +1962,8 @@ udp://51.15.26.25:6969/announce
 
 udp://51.15.3.74:6969/announce
 
+udp://51.15.41.46:6969/announce
+
 udp://51.158.144.42:6969/announce
 
 udp://51.159.54.68:6666/announce
@@ -1966,9 +1980,11 @@ udp://54.39.48.3:6969/announce
 
 udp://6.pocketnet.app:6969/announce
 
-udp://62.60.157.92:6969/announce
+udp://60.249.37.20:6969/announce
 
-udp://68.193.189.231:6969/announce
+udp://60.249.37.20:80/announce
+
+udp://62.60.157.92:6969/announce
 
 udp://6ahddutb1ucc3cp.ru:6969/announce
 
@@ -1990,6 +2006,8 @@ udp://88.99.2.212:6969/announce
 
 udp://89.110.76.229:6969/announce
 
+udp://89.234.156.205:451/announce
+
 udp://89.36.216.8:6969/announce
 
 udp://91.211.5.21:6969/announce
@@ -2005,8 +2023,6 @@ udp://94-227-232-84.access.telenet.be:6969/announce
 udp://94.103.87.87:6969/announce
 
 udp://94.136.190.183:1337/announce
-
-udp://94.136.190.183:2710/announce
 
 udp://94.136.190.183:6969/announce
 
@@ -2180,13 +2196,9 @@ udp://hificode.in:6969/announce
 
 udp://home.kray.pw:6969/announce
 
-udp://home.yxgz.club:6969/announce
-
 udp://http//www.peckservers.com:9000/announce
 
 udp://htz3.noho.st:6969/announce
-
-udp://hzzwly.gq:6969/announce
 
 udp://ibksturm.synology.me:6969/announce
 
@@ -2225,6 +2237,8 @@ udp://kokodayo.site:6969/announce
 udp://laze.cc:6969/announce
 
 udp://leefafa.tk:6969/announce
+
+udp://leet-tracker.moe:1337/announce
 
 udp://ln.mtahost.co:6969/announce
 
@@ -2369,8 +2383,6 @@ udp://seedpeer.net:6969/announce
 udp://serpb.vpsburti.com:6969/announce
 
 udp://shizzle.hammetjus.nl:6969/announce
-
-udp://shogiroom.com:6969/announce
 
 udp://slicie.icon256.com:8000/announce
 
@@ -2550,8 +2562,6 @@ udp://tracker.leena.network:6969/announce
 
 udp://tracker.lelux.fi:6969/announce
 
-udp://tracker.mirrorbay.org:6969/announce
-
 udp://tracker.monitorit4.me:6969/announce
 
 udp://tracker.moxing.party:6969/announce
@@ -2629,6 +2639,8 @@ udp://tracker.tryhackx.org:6969/announce
 udp://tracker.tvunderground.org.ru:3218/announce
 
 udp://tracker.valete.tf:9999/announce
+
+udp://tracker.vanitycore.co:6969/announce
 
 udp://tracker.vds.nz:6969/announce
 
@@ -2711,8 +2723,6 @@ udp://utracker.ghostchu-services.top:6969/announce
 udp://v1046920.hosted-by-vdsina.ru:6969/announce
 
 udp://v2.iperson.xyz:6969/announce
-
-udp://v6-tracker.0g.cx:6969/announce
 
 udp://v74853.hosted-by-vdsina.com:6969/announce
 
