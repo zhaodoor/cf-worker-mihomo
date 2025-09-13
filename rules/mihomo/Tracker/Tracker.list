@@ -214,9 +214,11 @@ http://34.94.213.23:2710/announce
 
 http://34.94.76.146/announce
 
+http://34.94.76.146/announce.php
+
 http://34.94.76.146:11450/announce
 
-http://34.94.76.146:2701/announce
+http://34.94.76.146:1337/announce
 
 http://34.94.76.146:2710/announce
 
@@ -230,9 +232,7 @@ http://35.227.12.84:2710/announce
 
 http://35.227.59.57/announce
 
-http://35.227.59.57/announce.php
-
-http://35.227.59.57:1337/announce
+http://35.227.59.57:2701/announce
 
 http://35.227.59.57:2710/announce
 
@@ -247,6 +247,8 @@ http://43.139.20.56:6969/announce
 http://44.30.4.4:6969/announce
 
 http://45.13.119.213:6969/announce
+
+http://45.146.254.59/announce
 
 http://45.154.253.10/announce
 
@@ -1017,6 +1019,8 @@ http://tracker.computel.fr/announce
 http://tracker.coppersurfer.site:2710/announce
 
 http://tracker.corpscorp.online/announce
+
+http://tracker.cutie.dating/announce
 
 http://tracker.darkness.services:6969/announce
 
@@ -1890,8 +1894,6 @@ udp://208.83.20.20:6969/announce
 
 udp://209.126.11.233:6969/announce
 
-udp://209.141.59.16:6969/announce
-
 udp://209.141.59.25:6969/announce
 
 udp://210.61.187.209:6969/announce
@@ -1910,7 +1912,7 @@ udp://220.200.35.40:2710/announce
 
 udp://220.200.35.40:6969/announce
 
-udp://23.134.88.9:1337/announce
+udp://23.134.90.9:1337/announce
 
 udp://23.137.251.45:6969/announce
 
@@ -1921,6 +1923,8 @@ udp://23.163.56.66:6969/announce
 udp://23.175.184.30:23333/announce
 
 udp://31.38.161.123:6969/announce
+
+udp://34.94.76.146:6969/announce
 
 udp://37.187.111.136:6969/announce
 
@@ -1950,6 +1954,8 @@ udp://5.255.124.190:6969/announce
 
 udp://5.45.69.185:6969/announce
 
+udp://504e163a.host.njalla.net:6969/announce
+
 udp://51.15.26.25:6969/announce
 
 udp://51.15.3.74:6969/announce
@@ -1960,6 +1966,8 @@ udp://51.158.144.42:6969/announce
 
 udp://51.159.54.68:6666/announce
 
+udp://51.222.82.36:6969/announce
+
 udp://51.68.174.87:6969/announce
 
 udp://51.81.222.188:6969/announce
@@ -1967,8 +1975,6 @@ udp://51.81.222.188:6969/announce
 udp://52.58.128.163:6969/announce
 
 udp://54.36.179.216:6969/announce
-
-udp://54.39.48.3:6969/announce
 
 udp://6.pocketnet.app:6969/announce
 
@@ -2011,8 +2017,6 @@ udp://94-227-232-84.access.telenet.be:6969/announce
 udp://94.103.87.87:6969/announce
 
 udp://94.136.190.183:1337/announce
-
-udp://94.136.190.183:2710/announce
 
 udp://94.136.190.183:6969/announce
 
@@ -2090,6 +2094,8 @@ udp://bt.rer.lol:6969/announce
 
 udp://bt1.archive.org:6969/announce
 
+udp://bt1.xxxxbt.cc:6969/announce
+
 udp://bt2.archive.org:6969/announce
 
 udp://btt.service.gongt.me:43079/announce
@@ -2099,6 +2105,8 @@ udp://bttracker.debian.org:6969/announce
 udp://bubu.mapfactor.com:6969/announce
 
 udp://buddyfly.top:6969/announce
+
+udp://buny.uk:6969/announce
 
 udp://camera.lei001.com:6969/announce
 
@@ -2136,8 +2144,6 @@ udp://devops.gay:6969/announce
 
 udp://dht.bt251.com:6969/announce
 
-udp://discord.heihachi.pw:6969/announce
-
 udp://download.nerocloud.me:6969/announce
 
 udp://dyndns.xionxiii.ovh:6969/announce
@@ -2164,6 +2170,8 @@ udp://fh2.cmp-gaming.com:6969/announce
 
 udp://files.project-cataclysm.ru:6969/announce
 
+udp://fosstorrents.com:6969/announce
+
 udp://free.publictracker.xyz:6969/announce
 
 udp://freedom.1776.ga:6969/announce
@@ -2176,9 +2184,13 @@ udp://hbsy.zhuqiy.eu.org:6666/announce
 
 udp://home.kray.pw:6969/announce
 
+udp://home.yxgz.club:6969/announce
+
 udp://http//www.peckservers.com:9000/announce
 
 udp://htz3.noho.st:6969/announce
+
+udp://hzzwly.gq:6969/announce
 
 udp://ibksturm.synology.me:6969/announce
 
@@ -2625,6 +2637,8 @@ udp://tracker.vraphim.com:6969/announce
 udp://tracker.vrpnet.org:6969/announce
 
 udp://tracker.waaa.moe:6969/announce
+
+udp://tracker.xiaoduola.xyz:6969/announce
 
 udp://tracker.xor.st:6969/announce
 
