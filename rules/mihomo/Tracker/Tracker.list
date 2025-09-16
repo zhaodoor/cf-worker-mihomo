@@ -42,7 +42,7 @@ http://116.9.207.226:6969/announce
 
 http://119.28.71.45:8080/announce
 
-http://123.245.62.50:6969/announce
+http://123.245.62.7:6969/announce
 
 http://129.146.193.240:6699/announce
 
@@ -122,6 +122,8 @@ http://171.104.226.31:6969/announce
 
 http://171.104.226.87:6969/announce
 
+http://177.27.223.186:6969/announce
+
 http://179.100.24.134:6969/announce
 
 http://180.97.219.76:8070/announce
@@ -184,9 +186,9 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.188/announce
-
 http://211.75.205.190/announce
+
+http://211.75.210.221/announce
 
 http://211.75.29.254:6969/announce
 
@@ -214,13 +216,13 @@ http://34.94.213.23:2710/announce
 
 http://34.94.76.146/announce
 
-http://34.94.76.146:11450/announce
+http://34.94.76.146/announce.php
 
 http://34.94.76.146:1337/announce
 
-http://34.94.76.146:2710/announce
+http://34.94.76.146:2701/announce
 
-http://34.94.76.146:443/announce
+http://34.94.76.146:2710/announce
 
 http://34.94.76.146:6969/announce
 
@@ -230,11 +232,11 @@ http://35.227.12.84:2710/announce
 
 http://35.227.59.57/announce
 
-http://35.227.59.57/announce.php
-
-http://35.227.59.57:2701/announce
+http://35.227.59.57:11450/announce
 
 http://35.227.59.57:2710/announce
+
+http://35.227.59.57:443/announce
 
 http://35.227.59.57:6969/announce
 
@@ -815,8 +817,6 @@ http://retracker.hotplug.ru:2710/announce
 http://retracker.joxnet.ru/announce
 
 http://retracker.ohys.net/announce
-
-http://retracker.seven-sky.net/announce
 
 http://retracker.spark-rostov.ru/announce
 
@@ -1834,6 +1834,8 @@ udp://147job.com:6969/announce
 
 udp://148.251.53.72:6969/announce
 
+udp://151.243.109.163:6969/announce
+
 udp://156.234.201.18:80/announce
 
 udp://158.101.161.60:3131/announce
@@ -1853,6 +1855,8 @@ udp://176.123.1.180:6969/announce
 udp://176.31.250.174:6969/announce
 
 udp://176.99.7.59:6969/announce
+
+udp://177.27.223.186:6969/announce
 
 udp://178.170.48.154:1337/announce
 
@@ -1888,8 +1892,6 @@ udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
 
-udp://208.83.20.20:6969/announce
-
 udp://209.126.11.233:6969/announce
 
 udp://209.141.59.25:6969/announce
@@ -1898,9 +1900,9 @@ udp://210.61.187.209:6969/announce
 
 udp://211.23.142.127:6969/announce
 
-udp://211.75.205.188:80/announce
+udp://211.75.205.188:6969/announce
 
-udp://211.75.210.221:6969/announce
+udp://211.75.210.221:80/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1910,7 +1912,7 @@ udp://220.200.35.40:2710/announce
 
 udp://220.200.35.40:6969/announce
 
-udp://23.134.88.9:1337/announce
+udp://23.134.90.9:1337/announce
 
 udp://23.137.251.45:6969/announce
 
@@ -1921,6 +1923,8 @@ udp://23.163.56.66:6969/announce
 udp://23.175.184.30:23333/announce
 
 udp://31.38.161.123:6969/announce
+
+udp://34.94.76.146:1337/announce
 
 udp://37.187.111.136:6969/announce
 
@@ -1950,6 +1954,8 @@ udp://5.255.124.190:6969/announce
 
 udp://5.45.69.185:6969/announce
 
+udp://504e163a.host.njalla.net:6969/announce
+
 udp://51.15.26.25:6969/announce
 
 udp://51.15.3.74:6969/announce
@@ -1960,6 +1966,8 @@ udp://51.158.144.42:6969/announce
 
 udp://51.159.54.68:6666/announce
 
+udp://51.222.82.36:6969/announce
+
 udp://51.68.174.87:6969/announce
 
 udp://51.81.222.188:6969/announce
@@ -1967,8 +1975,6 @@ udp://51.81.222.188:6969/announce
 udp://52.58.128.163:6969/announce
 
 udp://54.36.179.216:6969/announce
-
-udp://54.39.48.3:6969/announce
 
 udp://6.pocketnet.app:6969/announce
 
@@ -2011,6 +2017,8 @@ udp://94-227-232-84.access.telenet.be:6969/announce
 udp://94.103.87.87:6969/announce
 
 udp://94.136.190.183:1337/announce
+
+udp://94.136.190.183:2710/announce
 
 udp://94.136.190.183:6969/announce
 
@@ -2099,8 +2107,6 @@ udp://bttracker.debian.org:6969/announce
 udp://bubu.mapfactor.com:6969/announce
 
 udp://buddyfly.top:6969/announce
-
-udp://buny.uk:6969/announce
 
 udp://camera.lei001.com:6969/announce
 
@@ -2211,8 +2217,6 @@ udp://ipv6.rer.lol:6969/announce
 udp://ipv6.tracker.harry.lu/announce
 
 udp://ipv6.tracker.harry.lu:6969/announce
-
-udp://isk.richardsw.club:6969/announce
 
 udp://ismaarino.com:1234/announce
 
@@ -2375,6 +2379,8 @@ udp://slicie.icon256.com:8000/announce
 udp://smtp-relay.odysseylabel.com.au:6969/announce
 
 udp://smurfsoft.com:6969/announce
+
+udp://speedtest.iperson.xyz:6969/announce
 
 udp://srv5.digiboy.ir:6969/announce
 
@@ -2679,8 +2685,6 @@ udp://tracker4.itzmx.com:2710/announce
 udp://tracker4.leechshield.link:6969/announce
 
 udp://trl-zhuqiy.dgj055.icu:6969/announce
-
-udp://ts.populargamers.co.za:6969/announce
 
 udp://tsundere.pw:6969/announce
 
