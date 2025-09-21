@@ -122,8 +122,6 @@ http://171.104.226.31:6969/announce
 
 http://171.104.226.87:6969/announce
 
-http://177.27.223.186:6969/announce
-
 http://179.100.24.134:6969/announce
 
 http://180.97.219.76:8070/announce
@@ -151,6 +149,8 @@ http://187.57.14.62:6969/announce
 http://189.0.196.51:6969/announce
 
 http://189.110.233.96:6969/announce
+
+http://191.23.121.129:6969/announce
 
 http://192.3.165.191:6969/announce
 
@@ -186,7 +186,7 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.187/announce
+http://211.75.205.188/announce
 
 http://211.75.205.190/announce
 
@@ -216,9 +216,7 @@ http://34.94.213.23:2710/announce
 
 http://34.94.76.146/announce
 
-http://34.94.76.146:11450/announce
-
-http://34.94.76.146:2701/announce
+http://34.94.76.146/announce.php
 
 http://34.94.76.146:2710/announce
 
@@ -230,9 +228,11 @@ http://35.227.12.84:2710/announce
 
 http://35.227.59.57/announce
 
-http://35.227.59.57/announce.php
+http://35.227.59.57:11450/announce
 
 http://35.227.59.57:1337/announce
+
+http://35.227.59.57:2701/announce
 
 http://35.227.59.57:2710/announce
 
@@ -337,6 +337,8 @@ http://65.108.2.176:2710/announce
 http://65.130.205.148:9000/announce
 
 http://75.127.14.224:2710/announce
+
+http://79.111.12.213:6969/announce
 
 http://79.137.198.96:6969/announce
 
@@ -1218,6 +1220,8 @@ http://tracker.tricitytorrents.com:2710/announce
 
 http://tracker.tritan.gg:8080/announce
 
+http://tracker.valete.tf:9999/announce
+
 http://tracker.vanitycore.co:6969/announce
 
 http://tracker.vraphim.com:6969/announce
@@ -1818,8 +1822,6 @@ udp://119.28.71.45:8080/announce
 
 udp://135.125.106.92:6969/announce
 
-udp://135.125.236.64:6969/announce
-
 udp://144.126.245.19:6969/announce
 
 udp://144.91.88.22:6969/announce
@@ -1848,8 +1850,6 @@ udp://176.31.250.174:6969/announce
 
 udp://176.99.7.59:6969/announce
 
-udp://177.27.223.186:6969/announce
-
 udp://178.170.48.154:1337/announce
 
 udp://185.102.219.163:6969/announce
@@ -1868,6 +1868,8 @@ udp://185.243.218.213:80/announce
 
 udp://185.44.82.25:1337/announce
 
+udp://191.23.121.129:6969/announce
+
 udp://192.95.46.115:6969/announce
 
 udp://193.233.161.213:6969/announce
@@ -1884,11 +1886,7 @@ udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
 
-udp://208.83.20.20:6969/announce
-
 udp://209.126.11.233:6969/announce
-
-udp://209.141.59.16:6969/announce
 
 udp://209.141.59.25:6969/announce
 
@@ -1896,9 +1894,9 @@ udp://210.61.187.209:6969/announce
 
 udp://211.23.142.127:6969/announce
 
-udp://211.75.205.187:80/announce
+udp://211.75.205.188:6969/announce
 
-udp://211.75.210.221:6969/announce
+udp://211.75.205.188:80/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1908,13 +1906,11 @@ udp://220.200.35.40:2710/announce
 
 udp://220.200.35.40:6969/announce
 
-udp://23.134.89.9:1337/announce
-
 udp://23.137.251.45:6969/announce
 
-udp://23.157.120.14:6969/announce
-
 udp://23.163.56.66:6969/announce
+
+udp://23.168.232.9:1337/announce
 
 udp://23.175.184.30:23333/announce
 
@@ -1982,6 +1978,8 @@ udp://7p41a8967.wicp.vip:22222/announce
 
 udp://82.65.115.10:6969/announce
 
+udp://82.67.44.197:9999/announce
+
 udp://83.102.180.21:80/announce
 
 udp://88.80.28.7:6969/announce
@@ -2007,6 +2005,8 @@ udp://94-227-232-84.access.telenet.be:6969/announce
 udp://94.103.87.87:6969/announce
 
 udp://94.136.190.183:1337/announce
+
+udp://94.136.190.183:2710/announce
 
 udp://94.136.190.183:6969/announce
 
@@ -2085,8 +2085,6 @@ udp://bt.rer.lol:2710/announce
 udp://bt.rer.lol:6969/announce
 
 udp://bt1.archive.org:6969/announce
-
-udp://bt1.xxxxbt.cc:6969/announce
 
 udp://bt2.archive.org:6969/announce
 
@@ -2172,9 +2170,9 @@ udp://freedomalternative.com:6969/announce
 
 udp://ftp.pet:2710/announce
 
-udp://hbsy.zhuqiy.eu.org:6666/announce
+udp://glotorrents.pw:6969/announce
 
-udp://hificode.in:6969/announce
+udp://hbsy.zhuqiy.eu.org:6666/announce
 
 udp://home.kray.pw:6969/announce
 
@@ -2412,6 +2410,8 @@ udp://tk4.leechshield.link:6969/announce
 
 udp://torrent.fedoraproject.org:6969/announce
 
+udp://torrent.hificode.in:6969/announce
+
 udp://torrent.i.ng:6969/announce
 
 udp://torrent.ubuntu.com:6969/announce
@@ -2542,8 +2542,6 @@ udp://tracker.lelux.fi:6969/announce
 
 udp://tracker.monitorit4.me:6969/announce
 
-udp://tracker.moxing.party:6969/announce
-
 udp://tracker.mywaifu.best:6969/announce
 
 udp://tracker.nartlof.com.br:6969/announce
@@ -2615,6 +2613,8 @@ udp://tracker.tryhackx.org:6969/announce
 udp://tracker.tvunderground.org.ru:3218/announce
 
 udp://tracker.valete.tf:9999/announce
+
+udp://tracker.vanitycore.co:6969/announce
 
 udp://tracker.vds.nz:6969/announce
 
