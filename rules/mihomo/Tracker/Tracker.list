@@ -42,7 +42,7 @@ http://116.9.207.226:6969/announce
 
 http://119.28.71.45:8080/announce
 
-http://123.245.62.7:6969/announce
+http://123.245.62.50:6969/announce
 
 http://129.146.193.240:6699/announce
 
@@ -59,8 +59,6 @@ http://140.82.21.192:8080/announce
 http://141.144.224.250:2710/announce
 
 http://141.144.224.250:6969/announce
-
-http://142.171.85.76:6969/announce
 
 http://144.202.33.210:6961/announce
 
@@ -144,13 +142,13 @@ http://185.232.169.109/announce
 
 http://185.70.187.79:6969/announce
 
+http://187.57.130.147:6969/announce
+
 http://187.57.14.62:6969/announce
 
 http://189.0.196.51:6969/announce
 
 http://189.110.233.96:6969/announce
-
-http://191.23.121.129:6969/announce
 
 http://192.3.165.191:6969/announce
 
@@ -186,8 +184,6 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.188/announce
-
 http://211.75.205.190/announce
 
 http://211.75.29.254:6969/announce
@@ -216,7 +212,9 @@ http://34.94.213.23:2710/announce
 
 http://34.94.76.146/announce
 
-http://34.94.76.146/announce.php
+http://34.94.76.146:11450/announce
+
+http://34.94.76.146:2701/announce
 
 http://34.94.76.146:2710/announce
 
@@ -228,11 +226,9 @@ http://35.227.12.84:2710/announce
 
 http://35.227.59.57/announce
 
-http://35.227.59.57:11450/announce
+http://35.227.59.57/announce.php
 
 http://35.227.59.57:1337/announce
-
-http://35.227.59.57:2701/announce
 
 http://35.227.59.57:2710/announce
 
@@ -1452,6 +1448,8 @@ https://bt.nfshost.com/announce
 
 https://bt2.080609.xyz/announce
 
+https://burmese.app/announce
+
 https://carapax.net/announce
 
 https://carbon-bonsai-621.appspot.com/announce
@@ -1822,6 +1820,8 @@ udp://119.28.71.45:8080/announce
 
 udp://135.125.106.92:6969/announce
 
+udp://135.125.236.64:6969/announce
+
 udp://144.126.245.19:6969/announce
 
 udp://144.91.88.22:6969/announce
@@ -1829,6 +1829,8 @@ udp://144.91.88.22:6969/announce
 udp://147job.com:6969/announce
 
 udp://148.251.53.72:6969/announce
+
+udp://151.243.109.163:6969/announce
 
 udp://156.234.201.18:80/announce
 
@@ -1868,7 +1870,7 @@ udp://185.243.218.213:80/announce
 
 udp://185.44.82.25:1337/announce
 
-udp://191.23.121.129:6969/announce
+udp://187.57.130.147:6969/announce
 
 udp://192.95.46.115:6969/announce
 
@@ -1894,9 +1896,7 @@ udp://210.61.187.209:6969/announce
 
 udp://211.23.142.127:6969/announce
 
-udp://211.75.205.188:6969/announce
-
-udp://211.75.205.188:80/announce
+udp://211.75.205.189:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1906,11 +1906,13 @@ udp://220.200.35.40:2710/announce
 
 udp://220.200.35.40:6969/announce
 
+udp://23.134.88.9:1337/announce
+
 udp://23.137.251.45:6969/announce
 
-udp://23.163.56.66:6969/announce
+udp://23.157.120.14:6969/announce
 
-udp://23.168.232.9:1337/announce
+udp://23.163.56.66:6969/announce
 
 udp://23.175.184.30:23333/announce
 
@@ -1968,6 +1970,8 @@ udp://6.pocketnet.app:6969/announce
 
 udp://60.249.37.20:6969/announce
 
+udp://60.249.37.20:80/announce
+
 udp://62.60.157.92:6969/announce
 
 udp://6ahddutb1ucc3cp.ru:6969/announce
@@ -2005,8 +2009,6 @@ udp://94-227-232-84.access.telenet.be:6969/announce
 udp://94.103.87.87:6969/announce
 
 udp://94.136.190.183:1337/announce
-
-udp://94.136.190.183:2710/announce
 
 udp://94.136.190.183:6969/announce
 
@@ -2086,6 +2088,8 @@ udp://bt.rer.lol:6969/announce
 
 udp://bt1.archive.org:6969/announce
 
+udp://bt1.xxxxbt.cc:6969/announce
+
 udp://bt2.archive.org:6969/announce
 
 udp://btt.service.gongt.me:43079/announce
@@ -2097,6 +2101,8 @@ udp://bubu.mapfactor.com:6969/announce
 udp://buddyfly.top:6969/announce
 
 udp://buny.uk:6969/announce
+
+udp://burmese.app:6969/announce
 
 udp://camera.lei001.com:6969/announce
 
@@ -2133,6 +2139,8 @@ udp://debuz.com:6969/announce
 udp://devops.gay:6969/announce
 
 udp://dht.bt251.com:6969/announce
+
+udp://discord.heihachi.pw:6969/announce
 
 udp://download.nerocloud.me:6969/announce
 
@@ -2174,11 +2182,17 @@ udp://glotorrents.pw:6969/announce
 
 udp://hbsy.zhuqiy.eu.org:6666/announce
 
+udp://hificode.in:6969/announce
+
 udp://home.kray.pw:6969/announce
+
+udp://home.yxgz.club:6969/announce
 
 udp://http//www.peckservers.com:9000/announce
 
 udp://htz3.noho.st:6969/announce
+
+udp://hzzwly.gq:6969/announce
 
 udp://ibksturm.synology.me:6969/announce
 
@@ -2203,6 +2217,8 @@ udp://ipv6.rer.lol:6969/announce
 udp://ipv6.tracker.harry.lu/announce
 
 udp://ipv6.tracker.harry.lu:6969/announce
+
+udp://isk.richardsw.club:6969/announce
 
 udp://ismaarino.com:1234/announce
 
@@ -2410,8 +2426,6 @@ udp://tk4.leechshield.link:6969/announce
 
 udp://torrent.fedoraproject.org:6969/announce
 
-udp://torrent.hificode.in:6969/announce
-
 udp://torrent.i.ng:6969/announce
 
 udp://torrent.ubuntu.com:6969/announce
@@ -2542,6 +2556,8 @@ udp://tracker.lelux.fi:6969/announce
 
 udp://tracker.monitorit4.me:6969/announce
 
+udp://tracker.moxing.party:6969/announce
+
 udp://tracker.mywaifu.best:6969/announce
 
 udp://tracker.nartlof.com.br:6969/announce
@@ -2613,8 +2629,6 @@ udp://tracker.tryhackx.org:6969/announce
 udp://tracker.tvunderground.org.ru:3218/announce
 
 udp://tracker.valete.tf:9999/announce
-
-udp://tracker.vanitycore.co:6969/announce
 
 udp://tracker.vds.nz:6969/announce
 
