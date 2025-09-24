@@ -42,7 +42,7 @@ http://116.9.207.226:6969/announce
 
 http://119.28.71.45:8080/announce
 
-http://123.245.62.50:6969/announce
+http://123.245.62.7:6969/announce
 
 http://129.146.193.240:6699/announce
 
@@ -59,6 +59,8 @@ http://140.82.21.192:8080/announce
 http://141.144.224.250:2710/announce
 
 http://141.144.224.250:6969/announce
+
+http://142.171.85.76:6969/announce
 
 http://144.202.33.210:6961/announce
 
@@ -85,8 +87,6 @@ http://163.172.209.40/announce
 http://163.172.29.130/announce
 
 http://167.235.245.209/announce
-
-http://167.253.78.20:8080/announce
 
 http://171.104.110.193:6969/announce
 
@@ -184,8 +184,6 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.187/announce
-
 http://211.75.205.190/announce
 
 http://211.75.29.254:6969/announce
@@ -214,9 +212,11 @@ http://34.94.213.23:2710/announce
 
 http://34.94.76.146/announce
 
-http://34.94.76.146:2710/announce
+http://34.94.76.146:11450/announce
 
-http://34.94.76.146:443/announce
+http://34.94.76.146:1337/announce
+
+http://34.94.76.146:2710/announce
 
 http://34.94.76.146:6969/announce
 
@@ -228,13 +228,11 @@ http://35.227.59.57/announce
 
 http://35.227.59.57/announce.php
 
-http://35.227.59.57:11450/announce
-
-http://35.227.59.57:1337/announce
-
 http://35.227.59.57:2701/announce
 
 http://35.227.59.57:2710/announce
+
+http://35.227.59.57:443/announce
 
 http://35.227.59.57:6969/announce
 
@@ -247,8 +245,6 @@ http://43.139.20.56:6969/announce
 http://44.30.4.4:6969/announce
 
 http://45.13.119.213:6969/announce
-
-http://45.146.254.59/announce
 
 http://45.154.253.10/announce
 
@@ -305,8 +301,6 @@ http://51.81.200.170:6699/announce
 http://51.81.46.170:6969/announce
 
 http://52.70.94.249/announce
-
-http://54.37.38.200:2710/announce
 
 http://54.39.98.124/announce
 
@@ -1228,6 +1222,8 @@ http://tracker.vraphim.com:6969/announce
 
 http://tracker.vrpnet.org:6969/announce
 
+http://tracker.waaa.moe:6969/announce
+
 http://tracker.xdvdz.com:2710/announce
 
 http://tracker.xfapi.top:6868/announce
@@ -1644,8 +1640,6 @@ https://tracker.gbitt.info/announce
 
 https://tracker.gcrenwp.top/announce
 
-https://tracker.gcrreen.xyz/announce
-
 https://tracker.ghostchu-services.top/announce
 
 https://tracker.guguan.dpdns.org/announce
@@ -1830,6 +1824,8 @@ udp://147job.com:6969/announce
 
 udp://148.251.53.72:6969/announce
 
+udp://151.243.109.163:6969/announce
+
 udp://156.234.201.18:80/announce
 
 udp://158.101.161.60:3131/announce
@@ -1886,9 +1882,9 @@ udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
 
-udp://208.83.20.20:6969/announce
-
 udp://209.126.11.233:6969/announce
+
+udp://209.141.59.16:6969/announce
 
 udp://209.141.59.25:6969/announce
 
@@ -1896,9 +1892,9 @@ udp://210.61.187.209:6969/announce
 
 udp://211.23.142.127:6969/announce
 
-udp://211.75.205.187:6969/announce
+udp://211.75.205.189:6969/announce
 
-udp://211.75.205.187:80/announce
+udp://211.75.210.221:80/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1914,9 +1910,13 @@ udp://23.134.88.9:1337/announce
 
 udp://23.137.251.45:6969/announce
 
+udp://23.157.120.14:6969/announce
+
 udp://23.163.56.66:6969/announce
 
 udp://23.175.184.30:23333/announce
+
+udp://34.94.76.146:6969/announce
 
 udp://37.187.111.136:6969/announce
 
@@ -2178,19 +2178,13 @@ udp://freedomalternative.com:6969/announce
 
 udp://ftp.pet:2710/announce
 
-udp://glotorrents.pw:6969/announce
-
 udp://hbsy.zhuqiy.eu.org:6666/announce
 
 udp://home.kray.pw:6969/announce
 
-udp://home.yxgz.club:6969/announce
-
 udp://http//www.peckservers.com:9000/announce
 
 udp://htz3.noho.st:6969/announce
-
-udp://hzzwly.gq:6969/announce
 
 udp://ibksturm.synology.me:6969/announce
 
