@@ -52,8 +52,6 @@ http://1337.abcvg.info/announce
 
 http://1337.abcvg.info/announce+108
 
-http://138.124.183.78:6969/announce
-
 http://140.82.21.192:8080/announce
 
 http://141.144.224.250:2710/announce
@@ -87,6 +85,8 @@ http://163.172.209.40/announce
 http://163.172.29.130/announce
 
 http://167.235.245.209/announce
+
+http://167.253.78.20:8080/announce
 
 http://171.104.110.193:6969/announce
 
@@ -184,8 +184,6 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.189/announce
-
 http://211.75.205.190/announce
 
 http://211.75.29.254:6969/announce
@@ -214,7 +212,9 @@ http://34.94.213.23:2710/announce
 
 http://34.94.76.146/announce
 
-http://34.94.76.146/announce.php
+http://34.94.76.146:1337/announce
+
+http://34.94.76.146:2701/announce
 
 http://34.94.76.146:2710/announce
 
@@ -224,13 +224,9 @@ http://35.227.12.84/announce
 
 http://35.227.12.84:2710/announce
 
-http://35.227.59.57/announce
+http://35.227.59.57/announce.php
 
 http://35.227.59.57:11450/announce
-
-http://35.227.59.57:1337/announce
-
-http://35.227.59.57:2701/announce
 
 http://35.227.59.57:2710/announce
 
@@ -313,6 +309,8 @@ http://54.39.98.124/announce
 http://60-fps.org/bt/announce.php
 
 http://60-fps.org/bt:80/announce.php
+
+http://60.249.37.20/announce
 
 http://60.249.37.20:6969/announce
 
@@ -868,6 +866,8 @@ http://sukebei.tracker.wf:8888/announce
 
 http://t.acg.rip:6699/announce
 
+http://t.al.uy/announce
+
 http://t.jaekr.sh:6969/announce
 
 http://t.nyaatracker.com/announce
@@ -1023,8 +1023,6 @@ http://tracker.coppersurfer.site:2710/announce
 http://tracker.corpscorp.online/announce
 
 http://tracker.cutie.dating/announce
-
-http://tracker.darkness.services:6969/announce
 
 http://tracker.ddunlimited.net:6969/announce
 
@@ -1824,6 +1822,8 @@ udp://135.125.106.92:6969/announce
 
 udp://135.125.236.64:6969/announce
 
+udp://144.126.245.19:6969/announce
+
 udp://144.91.88.22:6969/announce
 
 udp://147job.com:6969/announce
@@ -1894,8 +1894,6 @@ udp://210.61.187.209:6969/announce
 
 udp://211.23.142.127:6969/announce
 
-udp://211.75.205.189:80/announce
-
 udp://211.75.29.254:6969/announce
 
 udp://217.30.10.77:6969/announce
@@ -1909,8 +1907,6 @@ udp://23.134.88.9:1337/announce
 udp://23.134.88.9:6969/announce
 
 udp://23.137.251.45:6969/announce
-
-udp://23.157.120.14:6969/announce
 
 udp://23.163.56.66:6969/announce
 
@@ -1944,8 +1940,6 @@ udp://5.196.89.204:6969/announce
 
 udp://5.255.124.190:6969/announce
 
-udp://5.45.69.185:6969/announce
-
 udp://504e163a.host.njalla.net:6969/announce
 
 udp://51.15.26.25:6969/announce
@@ -1958,8 +1952,6 @@ udp://51.158.144.42:6969/announce
 
 udp://51.159.54.68:6666/announce
 
-udp://51.222.82.36:6969/announce
-
 udp://51.68.174.87:6969/announce
 
 udp://51.81.222.188:6969/announce
@@ -1968,9 +1960,13 @@ udp://52.58.128.163:6969/announce
 
 udp://54.36.179.216:6969/announce
 
+udp://54.39.48.3:6969/announce
+
 udp://6.pocketnet.app:6969/announce
 
 udp://60.249.37.20:6969/announce
+
+udp://60.249.37.20:80/announce
 
 udp://62.60.157.92:6969/announce
 
@@ -2136,8 +2132,6 @@ udp://devops.gay:6969/announce
 
 udp://dht.bt251.com:6969/announce
 
-udp://discord.heihachi.pw:6969/announce
-
 udp://download.nerocloud.me:6969/announce
 
 udp://dyndns.xionxiii.ovh:6969/announce
@@ -2176,8 +2170,6 @@ udp://ftp.pet:2710/announce
 
 udp://hbsy.zhuqiy.eu.org:6666/announce
 
-udp://hificode.in:6969/announce
-
 udp://home.kray.pw:6969/announce
 
 udp://home.yxgz.club:6969/announce
@@ -2212,6 +2204,8 @@ udp://ipv6.tracker.harry.lu/announce
 
 udp://ipv6.tracker.harry.lu:6969/announce
 
+udp://isk.richardsw.club:6969/announce
+
 udp://ismaarino.com:1234/announce
 
 udp://jutone.com:6969/announce
@@ -2223,8 +2217,6 @@ udp://kokodayo.site:6969/announce
 udp://laze.cc:6969/announce
 
 udp://leefafa.tk:6969/announce
-
-udp://leet-tracker.moe:1337/announce
 
 udp://ln.mtahost.co:6969/announce
 
@@ -2267,6 +2259,8 @@ udp://ns-1.x-fins.com:6969/announce
 udp://ns1.monolithindustries.com:6969/announce
 
 udp://ns3109441.mypdns.org:6969/announce
+
+udp://ns575949.ip-51-222-82.net:6969/announce
 
 udp://odd-hd.fr:6969/announce
 
@@ -2387,6 +2381,8 @@ udp://stargrave.org:6969/announce
 udp://static.54.161.216.95.clients.your-server.de:6969/announce
 
 udp://su-data.com:6969/announce
+
+udp://t.al.uy:80/announce
 
 udp://t.jaekr.sh:6969/announce
 
@@ -2631,8 +2627,6 @@ udp://tracker.vraphim.com:6969/announce
 udp://tracker.vrpnet.org:6969/announce
 
 udp://tracker.waaa.moe:6969/announce
-
-udp://tracker.xiaoduola.xyz:6969/announce
 
 udp://tracker.xor.st:6969/announce
 
