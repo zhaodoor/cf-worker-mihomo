@@ -184,8 +184,6 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.187/announce
-
 http://211.75.205.190/announce
 
 http://211.75.29.254:6969/announce
@@ -214,9 +212,9 @@ http://34.94.213.23:2710/announce
 
 http://34.94.76.146/announce
 
-http://34.94.76.146:1337/announce
+http://34.94.76.146/announce.php
 
-http://34.94.76.146:2701/announce
+http://34.94.76.146:11450/announce
 
 http://34.94.76.146:2710/announce
 
@@ -228,9 +226,9 @@ http://35.227.12.84:2710/announce
 
 http://35.227.59.57/announce
 
-http://35.227.59.57/announce.php
+http://35.227.59.57:1337/announce
 
-http://35.227.59.57:11450/announce
+http://35.227.59.57:2701/announce
 
 http://35.227.59.57:2710/announce
 
@@ -1818,8 +1816,6 @@ udp://119.28.71.45:8080/announce
 
 udp://135.125.106.92:6969/announce
 
-udp://135.125.236.64:6969/announce
-
 udp://144.91.88.22:6969/announce
 
 udp://147job.com:6969/announce
@@ -1880,15 +1876,17 @@ udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
 
+udp://208.83.20.20:6969/announce
+
 udp://209.126.11.233:6969/announce
+
+udp://209.141.59.16:6969/announce
 
 udp://209.141.59.25:6969/announce
 
-udp://210.61.187.209:6969/announce
+udp://211.75.205.188:6969/announce
 
-udp://211.75.205.187:6969/announce
-
-udp://211.75.205.187:80/announce
+udp://211.75.205.189:80/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1904,11 +1902,11 @@ udp://23.134.88.9:6969/announce
 
 udp://23.137.251.45:6969/announce
 
+udp://23.157.120.14:6969/announce
+
 udp://23.163.56.66:6969/announce
 
 udp://23.175.184.30:23333/announce
-
-udp://34.94.76.146:1337/announce
 
 udp://37.187.111.136:6969/announce
 
@@ -1950,6 +1948,8 @@ udp://51.158.144.42:6969/announce
 
 udp://51.159.54.68:6666/announce
 
+udp://51.222.82.36:6969/announce
+
 udp://51.68.174.87:6969/announce
 
 udp://51.81.222.188:6969/announce
@@ -1957,8 +1957,6 @@ udp://51.81.222.188:6969/announce
 udp://52.58.128.163:6969/announce
 
 udp://54.36.179.216:6969/announce
-
-udp://54.39.48.3:6969/announce
 
 udp://6.pocketnet.app:6969/announce
 
@@ -2170,8 +2168,6 @@ udp://freedomalternative.com:6969/announce
 
 udp://ftp.pet:2710/announce
 
-udp://glotorrents.pw:6969/announce
-
 udp://hbsy.zhuqiy.eu.org:6666/announce
 
 udp://home.kray.pw:6969/announce
@@ -2189,8 +2185,6 @@ udp://ibksturm.synology.me:6969/announce
 udp://incine.ru:6969/announce
 
 udp://inferno.demonoid.is:3391/announce
-
-udp://ipv4.rer.lol:2710/announce
 
 udp://ipv4.tracker.harry.lu/announce
 
@@ -2261,8 +2255,6 @@ udp://ns-1.x-fins.com:6969/announce
 udp://ns1.monolithindustries.com:6969/announce
 
 udp://ns3109441.mypdns.org:6969/announce
-
-udp://ns575949.ip-51-222-82.net:6969/announce
 
 udp://odd-hd.fr:6969/announce
 
@@ -2620,6 +2612,8 @@ udp://tracker.tvunderground.org.ru:3218/announce
 
 udp://tracker.valete.tf:9999/announce
 
+udp://tracker.vanitycore.co:6969/announce
+
 udp://tracker.vds.nz:6969/announce
 
 udp://tracker.vraphim.com:6969/announce
@@ -2627,8 +2621,6 @@ udp://tracker.vraphim.com:6969/announce
 udp://tracker.vrpnet.org:6969/announce
 
 udp://tracker.waaa.moe:6969/announce
-
-udp://tracker.xiaoduola.xyz:6969/announce
 
 udp://tracker.xor.st:6969/announce
 
