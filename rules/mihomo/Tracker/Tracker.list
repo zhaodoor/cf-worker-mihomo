@@ -42,7 +42,7 @@ http://116.9.207.226:6969/announce
 
 http://119.28.71.45:8080/announce
 
-http://123.245.62.50:6969/announce
+http://123.245.62.7:6969/announce
 
 http://129.146.193.240:6699/announce
 
@@ -51,6 +51,8 @@ http://13.115.115.32:6969/announce
 http://1337.abcvg.info/announce
 
 http://1337.abcvg.info/announce+108
+
+http://138.124.183.78:6969/announce
 
 http://140.82.21.192:8080/announce
 
@@ -212,11 +214,11 @@ http://34.94.213.23:2710/announce
 
 http://34.94.76.146/announce
 
-http://34.94.76.146/announce.php
-
-http://34.94.76.146:11450/announce
+http://34.94.76.146:2701/announce
 
 http://34.94.76.146:2710/announce
+
+http://34.94.76.146:443/announce
 
 http://34.94.76.146:6969/announce
 
@@ -225,16 +227,6 @@ http://35.227.12.84/announce
 http://35.227.12.84:2710/announce
 
 http://35.227.59.57/announce
-
-http://35.227.59.57:1337/announce
-
-http://35.227.59.57:2701/announce
-
-http://35.227.59.57:2710/announce
-
-http://35.227.59.57:443/announce
-
-http://35.227.59.57:6969/announce
 
 http://37.235.174.46:2710/announce
 
@@ -1019,6 +1011,8 @@ http://tracker.coppersurfer.site:2710/announce
 http://tracker.corpscorp.online/announce
 
 http://tracker.cutie.dating/announce
+
+http://tracker.darkness.services:6969/announce
 
 http://tracker.ddunlimited.net:6969/announce
 
@@ -1816,11 +1810,15 @@ udp://119.28.71.45:8080/announce
 
 udp://135.125.106.92:6969/announce
 
+udp://135.125.236.64:6969/announce
+
 udp://144.91.88.22:6969/announce
 
 udp://147job.com:6969/announce
 
 udp://148.251.53.72:6969/announce
+
+udp://151.243.109.163:6969/announce
 
 udp://156.234.201.18:80/announce
 
@@ -1870,13 +1868,9 @@ udp://198.100.149.66:6969/announce
 
 udp://1c.premierzal.ru:6969/announce
 
-udp://201.13.49.202:6969/announce
-
 udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
-
-udp://208.83.20.20:6969/announce
 
 udp://209.126.11.233:6969/announce
 
@@ -1884,9 +1878,9 @@ udp://209.141.59.16:6969/announce
 
 udp://209.141.59.25:6969/announce
 
-udp://211.75.205.188:6969/announce
+udp://210.61.187.209:6969/announce
 
-udp://211.75.205.189:80/announce
+udp://211.75.210.221:80/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1895,8 +1889,6 @@ udp://217.30.10.77:6969/announce
 udp://220.200.35.40:2710/announce
 
 udp://220.200.35.40:6969/announce
-
-udp://23.134.88.9:1337/announce
 
 udp://23.134.88.9:6969/announce
 
@@ -1948,8 +1940,6 @@ udp://51.158.144.42:6969/announce
 
 udp://51.159.54.68:6666/announce
 
-udp://51.222.82.36:6969/announce
-
 udp://51.68.174.87:6969/announce
 
 udp://51.81.222.188:6969/announce
@@ -1957,6 +1947,8 @@ udp://51.81.222.188:6969/announce
 udp://52.58.128.163:6969/announce
 
 udp://54.36.179.216:6969/announce
+
+udp://54.39.48.3:6969/announce
 
 udp://6.pocketnet.app:6969/announce
 
@@ -1981,8 +1973,6 @@ udp://88.80.28.7:6969/announce
 udp://88.99.2.212:6969/announce
 
 udp://89.110.76.229:6969/announce
-
-udp://89.234.156.205:451/announce
 
 udp://89.36.216.8:6969/announce
 
@@ -2132,6 +2122,8 @@ udp://devops.gay:6969/announce
 
 udp://dht.bt251.com:6969/announce
 
+udp://discord.heihachi.pw:6969/announce
+
 udp://download.nerocloud.me:6969/announce
 
 udp://dyndns.xionxiii.ovh:6969/announce
@@ -2168,6 +2160,8 @@ udp://freedomalternative.com:6969/announce
 
 udp://ftp.pet:2710/announce
 
+udp://glotorrents.pw:6969/announce
+
 udp://hbsy.zhuqiy.eu.org:6666/announce
 
 udp://home.kray.pw:6969/announce
@@ -2185,6 +2179,8 @@ udp://ibksturm.synology.me:6969/announce
 udp://incine.ru:6969/announce
 
 udp://inferno.demonoid.is:3391/announce
+
+udp://ipv4.rer.lol:2710/announce
 
 udp://ipv4.tracker.harry.lu/announce
 
@@ -2406,8 +2402,6 @@ udp://tk4.leechshield.link:6969/announce
 
 udp://torrent.fedoraproject.org:6969/announce
 
-udp://torrent.hificode.in:6969/announce
-
 udp://torrent.i.ng:6969/announce
 
 udp://torrent.ubuntu.com:6969/announce
@@ -2622,6 +2616,8 @@ udp://tracker.vrpnet.org:6969/announce
 
 udp://tracker.waaa.moe:6969/announce
 
+udp://tracker.xiaoduola.xyz:6969/announce
+
 udp://tracker.xor.st:6969/announce
 
 udp://tracker.yangxiaoguozi.cn:6969/announce
@@ -2703,8 +2699,6 @@ udp://wg.mortis.me:6969/announce
 udp://widemus.de:6969/announce
 
 udp://www.2600.com:6969/announce
-
-udp://www.nartlof.com.br:6969/announce
 
 udp://www.peckservers.com:9000/announce
 
