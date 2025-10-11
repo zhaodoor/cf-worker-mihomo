@@ -42,8 +42,6 @@ http://116.9.207.226:6969/announce
 
 http://119.28.71.45:8080/announce
 
-http://123.245.62.50:6969/announce
-
 http://129.146.193.240:6699/announce
 
 http://13.115.115.32:6969/announce
@@ -53,6 +51,8 @@ http://1337.abcvg.info/announce
 http://1337.abcvg.info/announce+108
 
 http://138.124.183.78:6969/announce
+
+http://140.235.237.23:6969/announce
 
 http://140.82.21.192:8080/announce
 
@@ -122,8 +122,6 @@ http://171.104.226.87:6969/announce
 
 http://179.100.24.134:6969/announce
 
-http://179.175.247.98:6969/announce
-
 http://180.97.219.76:8070/announce
 
 http://185.130.47.2:6969/announce
@@ -160,6 +158,8 @@ http://193.37.214.12:6969/announce
 
 http://198.251.84.144/announce
 
+http://200.170.113.5:6969/announce
+
 http://200.232.254.1:6969/announce
 
 http://201.42.214.55:6969/announce
@@ -183,8 +183,6 @@ http://209.209.112.121:2710/announce
 http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
-
-http://211.75.210.221/announce
 
 http://211.75.29.254:6969/announce
 
@@ -212,9 +210,11 @@ http://34.94.213.23:2710/announce
 
 http://34.94.76.146/announce
 
+http://34.94.76.146/announce.php
+
 http://34.94.76.146:11450/announce
 
-http://34.94.76.146:1337/announce
+http://34.94.76.146:2701/announce
 
 http://34.94.76.146:2710/announce
 
@@ -226,13 +226,7 @@ http://35.227.12.84:2710/announce
 
 http://35.227.59.57/announce
 
-http://35.227.59.57/announce.php
-
-http://35.227.59.57:2701/announce
-
 http://35.227.59.57:2710/announce
-
-http://35.227.59.57:443/announce
 
 http://35.227.59.57:6969/announce
 
@@ -241,6 +235,8 @@ http://37.235.174.46:2710/announce
 http://38.145.197.79:6961/announce
 
 http://43.139.20.56:6969/announce
+
+http://44.30.4.4:6969/announce
 
 http://45.13.119.213:6969/announce
 
@@ -322,8 +318,6 @@ http://62.182.85.138:666/announce
 
 http://62.60.157.92:6969/announce
 
-http://64.112.43.194:6969/announce
-
 http://65.108.2.176:2710/announce
 
 http://65.130.205.148:9000/announce
@@ -331,8 +325,6 @@ http://65.130.205.148:9000/announce
 http://75.127.14.224:2710/announce
 
 http://79.137.198.96:6969/announce
-
-http://82.67.44.197:9999/announce
 
 http://83.31.190.19:6969/announce
 
@@ -505,6 +497,8 @@ http://bt.nnm-club.info:2710/announce
 http://bt.okmp3.ru:2710/announce
 
 http://bt.poletracker.org:2710/announce
+
+http://bt.rer.lol:2710/announce
 
 http://bt.rghost.net/announce
 
@@ -1818,6 +1812,8 @@ udp://119.28.71.45:8080/announce
 
 udp://135.125.106.92:6969/announce
 
+udp://135.125.236.64:6969/announce
+
 udp://144.126.245.19:6969/announce
 
 udp://144.91.88.22:6969/announce
@@ -1826,7 +1822,9 @@ udp://147job.com:6969/announce
 
 udp://148.251.53.72:6969/announce
 
-udp://151.243.109.163:6969/announce
+udp://152.53.152.105:1984/announce
+
+udp://152.53.152.105:54123/announce
 
 udp://156.234.201.18:80/announce
 
@@ -1872,9 +1870,13 @@ udp://193.37.214.12:6969/announce
 
 udp://194.38.21.77:6969/announce
 
+udp://194.62.248.73:15480/announce
+
 udp://198.100.149.66:6969/announce
 
 udp://1c.premierzal.ru:6969/announce
+
+udp://200.170.113.5:6969/announce
 
 udp://207.241.226.111:6969/announce
 
@@ -1882,33 +1884,27 @@ udp://207.241.231.226:6969/announce
 
 udp://209.126.11.233:6969/announce
 
-udp://209.141.59.16:6969/announce
-
 udp://209.141.59.25:6969/announce
 
-udp://211.75.210.221:6969/announce
+udp://209.50.255.93:3218/announce
 
-udp://211.75.210.221:80/announce
+udp://211.75.205.188:80/announce
 
 udp://211.75.29.254:6969/announce
 
 udp://217.30.10.77:6969/announce
 
-udp://220.200.35.40:2710/announce
-
 udp://220.200.35.40:6969/announce
 
 udp://23.134.88.9:1337/announce
+
+udp://23.134.88.9:6969/announce
 
 udp://23.137.251.45:6969/announce
 
 udp://23.157.120.14:6969/announce
 
-udp://23.163.56.66:6969/announce
-
 udp://23.175.184.30:23333/announce
-
-udp://34.94.76.146:6969/announce
 
 udp://37.187.111.136:6969/announce
 
@@ -1917,6 +1913,8 @@ udp://37.187.95.112:6969/announce
 udp://37.235.176.37:2710/announce
 
 udp://37.59.48.81:6969/announce
+
+udp://44.30.4.4:6969/announce
 
 udp://45.13.119.213:6969/announce
 
@@ -1942,11 +1940,11 @@ udp://51.15.26.25:6969/announce
 
 udp://51.15.3.74:6969/announce
 
-udp://51.15.41.46:6969/announce
-
 udp://51.158.144.42:6969/announce
 
 udp://51.159.54.68:6666/announce
+
+udp://51.222.82.36:6969/announce
 
 udp://51.68.174.87:6969/announce
 
@@ -1956,9 +1954,9 @@ udp://52.58.128.163:6969/announce
 
 udp://54.36.179.216:6969/announce
 
-udp://54.39.48.3:6969/announce
-
 udp://6.pocketnet.app:6969/announce
+
+udp://60.249.37.20:6969/announce
 
 udp://62.60.157.92:6969/announce
 
@@ -1984,6 +1982,8 @@ udp://89.36.216.8:6969/announce
 
 udp://91.211.5.21:6969/announce
 
+udp://91.216.110.53:451/announce
+
 udp://93.104.214.40:6969/announce
 
 udp://93.158.213.92:1337//announce
@@ -1993,6 +1993,8 @@ udp://93.158.213.92:1337/announce
 udp://94-227-232-84.access.telenet.be:6969/announce
 
 udp://94.103.87.87:6969/announce
+
+udp://94.136.190.183:1333/announce
 
 udp://94.136.190.183:1337/announce
 
@@ -2088,6 +2090,8 @@ udp://bubu.mapfactor.com:6969/announce
 
 udp://buddyfly.top:6969/announce
 
+udp://buny.uk:6969/announce
+
 udp://burmese.app:6969/announce
 
 udp://camera.lei001.com:6969/announce
@@ -2162,7 +2166,7 @@ udp://freedomalternative.com:6969/announce
 
 udp://ftp.pet:2710/announce
 
-udp://hificode.in:6969/announce
+udp://glotorrents.pw:6969/announce
 
 udp://home.kray.pw:6969/announce
 
@@ -2231,8 +2235,6 @@ udp://martin-gebhardt.eu:25/announce
 udp://mikrotik2.draatman.net:6969/announce
 
 udp://mirror.aptus.co.tz:6969/announce
-
-udp://mixfiend.com:6969/announce
 
 udp://moonburrow.club:6969/announce
 
@@ -2400,8 +2402,6 @@ udp://tk4.leechshield.link:6969/announce
 
 udp://torrent.fedoraproject.org:6969/announce
 
-udp://torrent.hificode.in:6969/announce
-
 udp://torrent.i.ng:6969/announce
 
 udp://torrent.ubuntu.com:6969/announce
@@ -2411,8 +2411,6 @@ udp://torrentclub.online:54123/announce
 udp://torrentclub.space:6969/announce
 
 udp://torrents.artixlinux.org:6969/announce
-
-udp://torrents.hikarinokiseki.com:6969/announce
 
 udp://torrenttracker.nwc.acsalaska.net:6969/announce
 
