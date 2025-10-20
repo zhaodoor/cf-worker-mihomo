@@ -62,6 +62,8 @@ http://141.144.224.250:2710/announce
 
 http://141.144.224.250:6969/announce
 
+http://142.171.85.76:6969/announce
+
 http://144.202.33.210:6961/announce
 
 http://144.76.118.107:6969/announce
@@ -186,8 +188,6 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.187/announce
-
 http://211.75.205.190/announce
 
 http://211.75.29.254:6969/announce
@@ -216,9 +216,11 @@ http://34.94.213.23:2710/announce
 
 http://34.94.76.146/announce
 
-http://34.94.76.146/announce.php
+http://34.94.76.146:1337/announce
 
 http://34.94.76.146:2710/announce
+
+http://34.94.76.146:443/announce
 
 http://34.94.76.146:6969/announce
 
@@ -228,15 +230,13 @@ http://35.227.12.84:2710/announce
 
 http://35.227.59.57/announce
 
-http://35.227.59.57:11450/announce
+http://35.227.59.57/announce.php
 
-http://35.227.59.57:1337/announce
+http://35.227.59.57:11450/announce
 
 http://35.227.59.57:2701/announce
 
 http://35.227.59.57:2710/announce
-
-http://35.227.59.57:443/announce
 
 http://35.227.59.57:6969/announce
 
@@ -314,6 +314,8 @@ http://60-fps.org/bt/announce.php
 
 http://60-fps.org/bt:80/announce.php
 
+http://60.249.37.20/announce
+
 http://61.216.109.95:6969/announce
 
 http://61.216.149.33:6969/announce
@@ -337,6 +339,8 @@ http://65.130.205.148:9000/announce
 http://75.127.14.224:2710/announce
 
 http://79.137.198.96:6969/announce
+
+http://82.67.44.197:9999/announce
 
 http://83.31.190.19:6969/announce
 
@@ -1234,6 +1238,8 @@ http://tracker.vraphim.com:6969/announce
 
 http://tracker.vrpnet.org:6969/announce
 
+http://tracker.waaa.moe:6969/announce
+
 http://tracker.xdvdz.com:2710/announce
 
 http://tracker.xfapi.top:6868/announce
@@ -1461,6 +1467,8 @@ https://carbon-bonsai-621.appspot.com/announce
 https://cernet-tracker.appspot.com/announce
 
 https://chihaya-heroku.120181311.xyz/announce
+
+https://cny.fan/announce
 
 https://dev.tracker.cf-identity-wallet.metadata.dev.cf-deployments.org/announce
 
@@ -1858,6 +1866,8 @@ udp://176.31.250.174:6969/announce
 
 udp://176.99.7.59:6969/announce
 
+udp://178.128.94.74:6969/announce
+
 udp://178.170.48.154:1337/announce
 
 udp://185.102.219.163:6969/announce
@@ -1896,19 +1906,15 @@ udp://207.241.231.226:6969/announce
 
 udp://209.126.11.233:6969/announce
 
-udp://209.141.59.16:6969/announce
-
 udp://209.141.59.25:6969/announce
 
 udp://209.50.255.93:3218/announce
 
-udp://211.75.205.187:6969/announce
-
-udp://211.75.205.187:80/announce
-
 udp://211.75.29.254:6969/announce
 
 udp://217.30.10.77:6969/announce
+
+udp://220.200.35.40:6969/announce
 
 udp://23.134.88.9:1337/announce
 
@@ -1916,7 +1922,7 @@ udp://23.134.88.9:6969/announce
 
 udp://23.137.251.45:6969/announce
 
-udp://23.175.184.30:23333/announce
+udp://23.157.120.14:6969/announce
 
 udp://37.187.111.136:6969/announce
 
@@ -1958,8 +1964,6 @@ udp://51.158.144.42:6969/announce
 
 udp://51.159.54.68:6666/announce
 
-udp://51.222.82.36:6969/announce
-
 udp://51.68.174.87:6969/announce
 
 udp://51.81.222.188:6969/announce
@@ -1968,7 +1972,13 @@ udp://52.58.128.163:6969/announce
 
 udp://54.36.179.216:6969/announce
 
+udp://54.39.48.3:6969/announce
+
 udp://6.pocketnet.app:6969/announce
+
+udp://60.249.37.20:6969/announce
+
+udp://60.249.37.20:80/announce
 
 udp://62.60.157.92:6969/announce
 
@@ -2086,6 +2096,8 @@ udp://bt.rer.lol:6969/announce
 
 udp://bt1.archive.org:6969/announce
 
+udp://bt1.xxxxbt.cc:6969/announce
+
 udp://bt2.archive.org:6969/announce
 
 udp://btt.service.gongt.me:43079/announce
@@ -2135,6 +2147,8 @@ udp://debuz.com:6969/announce
 udp://devops.gay:6969/announce
 
 udp://dht.bt251.com:6969/announce
+
+udp://discord.heihachi.pw:6969/announce
 
 udp://download.nerocloud.me:6969/announce
 
@@ -2409,8 +2423,6 @@ udp://tk2.trackerservers.com:8080/announce
 udp://tk4.leechshield.link:6969/announce
 
 udp://torrent.fedoraproject.org:6969/announce
-
-udp://torrent.hificode.in:6969/announce
 
 udp://torrent.i.ng:6969/announce
 
