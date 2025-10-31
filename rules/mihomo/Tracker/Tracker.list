@@ -162,8 +162,6 @@ http://193.37.214.12:6969/announce
 
 http://198.251.84.144/announce
 
-http://200.161.254.194:6969/announce
-
 http://200.232.254.1:6969/announce
 
 http://201.42.214.55:6969/announce
@@ -187,8 +185,6 @@ http://209.209.112.121:2710/announce
 http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
-
-http://211.75.205.188/announce
 
 http://211.75.205.190/announce
 
@@ -218,29 +214,15 @@ http://34.94.213.23:2710/announce
 
 http://34.94.76.146/announce
 
+http://34.94.76.146:11450/announce
+
 http://34.94.76.146:1337/announce
-
-http://34.94.76.146:2710/announce
-
-http://34.94.76.146:443/announce
-
-http://34.94.76.146:6969/announce
 
 http://35.227.12.84/announce
 
 http://35.227.12.84:2710/announce
 
-http://35.227.59.57/announce
-
-http://35.227.59.57/announce.php
-
-http://35.227.59.57:11450/announce
-
 http://35.227.59.57:2701/announce
-
-http://35.227.59.57:2710/announce
-
-http://35.227.59.57:6969/announce
 
 http://37.235.174.46:2710/announce
 
@@ -1836,6 +1818,8 @@ udp://135.125.106.92:6969/announce
 
 udp://135.125.236.64:6969/announce
 
+udp://144.126.245.19:6969/announce
+
 udp://144.91.88.22:6969/announce
 
 udp://147job.com:6969/announce
@@ -1898,8 +1882,6 @@ udp://198.100.149.66:6969/announce
 
 udp://1c.premierzal.ru:6969/announce
 
-udp://200.161.254.194:6969/announce
-
 udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
@@ -1911,8 +1893,6 @@ udp://209.141.59.25:6969/announce
 udp://209.50.255.93:3218/announce
 
 udp://211.75.205.188:80/announce
-
-udp://211.75.205.189:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1931,8 +1911,6 @@ udp://23.157.120.14:6969/announce
 udp://23.175.184.30:23333/announce
 
 udp://31.38.161.123:6969/announce
-
-udp://34.94.76.146:1337/announce
 
 udp://37.187.111.136:6969/announce
 
@@ -1970,8 +1948,6 @@ udp://51.15.26.25:6969/announce
 
 udp://51.15.3.74:6969/announce
 
-udp://51.15.41.46:6969/announce
-
 udp://51.158.144.42:6969/announce
 
 udp://51.159.54.68:6666/announce
@@ -1987,6 +1963,8 @@ udp://52.58.128.163:6969/announce
 udp://54.36.179.216:6969/announce
 
 udp://6.pocketnet.app:6969/announce
+
+udp://60.249.37.20:6969/announce
 
 udp://62.60.157.92:6969/announce
 
@@ -2011,8 +1989,6 @@ udp://89.234.156.205:451/announce
 udp://89.36.216.8:6969/announce
 
 udp://91.211.5.21:6969/announce
-
-udp://91.216.110.53:451/announce
 
 udp://93.104.214.40:6969/announce
 
@@ -2190,6 +2166,8 @@ udp://freedomalternative.com:6969/announce
 
 udp://ftp.pet:2710/announce
 
+udp://glotorrents.pw:6969/announce
+
 udp://home.kray.pw:6969/announce
 
 udp://home.yxgz.club:6969/announce
@@ -2233,8 +2211,6 @@ udp://kokodayo.site:6969/announce
 udp://laze.cc:6969/announce
 
 udp://leefafa.tk:6969/announce
-
-udp://leet-tracker.moe:1337/announce
 
 udp://ln.mtahost.co:6969/announce
 
@@ -2584,6 +2560,8 @@ udp://tracker.pcfreetime.com:6969/announce
 
 udp://tracker.picotorrent.one:6969/announce
 
+udp://tracker.playground.ru:6969/announce
+
 udp://tracker.plx.im:6969/announce
 
 udp://tracker.pomf.se:80/announce
@@ -2647,8 +2625,6 @@ udp://tracker.vraphim.com:6969/announce
 udp://tracker.vrpnet.org:6969/announce
 
 udp://tracker.waaa.moe:6969/announce
-
-udp://tracker.xiaoduola.xyz:6969/announce
 
 udp://tracker.xor.st:6969/announce
 
