@@ -150,8 +150,6 @@ http://189.0.196.51:6969/announce
 
 http://189.110.233.96:6969/announce
 
-http://189.69.171.209:6969/announce
-
 http://192.3.165.191:6969/announce
 
 http://192.9.228.30:6699/announce
@@ -186,6 +184,8 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
+http://211.75.205.189:6969/announce
+
 http://211.75.205.190/announce
 
 http://211.75.29.254:6969/announce
@@ -202,8 +202,6 @@ http://220.130.15.30:6969/announce
 
 http://220.200.35.40:2710/announce
 
-http://34.66.57.33:11450/announce
-
 http://34.89.30.59/announce
 
 http://34.89.30.59:2710/announce
@@ -218,9 +216,13 @@ http://34.94.76.146/announce
 
 http://34.94.76.146/announce.php
 
-http://34.94.76.146:1337/announce
+http://34.94.76.146:11450/announce
+
+http://34.94.76.146:2701/announce
 
 http://34.94.76.146:2710/announce
+
+http://34.94.76.146:443/announce
 
 http://34.94.76.146:6969/announce
 
@@ -230,11 +232,9 @@ http://35.227.12.84:2710/announce
 
 http://35.227.59.57/announce
 
-http://35.227.59.57:2701/announce
+http://35.227.59.57:1337/announce
 
 http://35.227.59.57:2710/announce
-
-http://35.227.59.57:443/announce
 
 http://35.227.59.57:6969/announce
 
@@ -1808,6 +1808,8 @@ udp://104.131.98.232:6969/announce
 
 udp://104.143.10.186:8000/announce
 
+udp://104.248.85.59:6969/announce
+
 udp://107.175.221.194:6969/announce
 
 udp://107.189.2.131:1337/announce
@@ -1827,6 +1829,8 @@ udp://119.28.71.45:8080/announce
 udp://135.125.106.92:6969/announce
 
 udp://135.125.236.64:6969/announce
+
+udp://144.126.245.19:6969/announce
 
 udp://144.91.88.22:6969/announce
 
@@ -1858,6 +1862,8 @@ udp://176.31.250.174:6969/announce
 
 udp://176.99.7.59:6969/announce
 
+udp://178.128.94.74:6969/announce
+
 udp://178.170.48.154:1337/announce
 
 udp://185.102.219.163:6969/announce
@@ -1886,6 +1892,8 @@ udp://193.37.214.12:6969/announce
 
 udp://194.38.21.77:6969/announce
 
+udp://194.62.248.73:15480/announce
+
 udp://198.100.149.66:6969/announce
 
 udp://1c.premierzal.ru:6969/announce
@@ -1896,15 +1904,11 @@ udp://207.241.231.226:6969/announce
 
 udp://209.126.11.233:6969/announce
 
-udp://209.141.59.16:6969/announce
-
 udp://209.141.59.25:6969/announce
 
 udp://209.50.255.93:3218/announce
 
-udp://211.75.205.188:80/announce
-
-udp://211.75.210.221:6969/announce
+udp://211.75.205.189:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1922,7 +1926,7 @@ udp://23.157.120.14:6969/announce
 
 udp://23.175.184.30:23333/announce
 
-udp://34.66.57.33:1337/announce
+udp://31.38.161.123:6969/announce
 
 udp://37.187.111.136:6969/announce
 
@@ -1976,6 +1980,8 @@ udp://54.39.48.3:6969/announce
 
 udp://6.pocketnet.app:6969/announce
 
+udp://60.249.37.20:80/announce
+
 udp://62.60.157.92:6969/announce
 
 udp://6ahddutb1ucc3cp.ru:6969/announce
@@ -2013,8 +2019,6 @@ udp://94.103.87.87:6969/announce
 udp://94.136.190.183:1333/announce
 
 udp://94.136.190.183:1337/announce
-
-udp://94.136.190.183:2710/announce
 
 udp://94.136.190.183:6969/announce
 
@@ -2166,6 +2170,8 @@ udp://fh2.cmp-gaming.com:6969/announce
 
 udp://files.project-cataclysm.ru:6969/announce
 
+udp://fosstorrents.com:6969/announce
+
 udp://free.publictracker.xyz:6969/announce
 
 udp://freedom.1776.ga:6969/announce
@@ -2174,7 +2180,7 @@ udp://freedomalternative.com:6969/announce
 
 udp://ftp.pet:2710/announce
 
-udp://glotorrents.pw:6969/announce
+udp://hificode.in:6969/announce
 
 udp://home.kray.pw:6969/announce
 
@@ -2208,6 +2214,8 @@ udp://ipv6.tracker.harry.lu/announce
 
 udp://ipv6.tracker.harry.lu:6969/announce
 
+udp://isk.richardsw.club:6969/announce
+
 udp://ismaarino.com:1234/announce
 
 udp://jutone.com:6969/announce
@@ -2219,8 +2227,6 @@ udp://kokodayo.site:6969/announce
 udp://laze.cc:6969/announce
 
 udp://leefafa.tk:6969/announce
-
-udp://leet-tracker.moe:1337/announce
 
 udp://ln.mtahost.co:6969/announce
 
@@ -2263,6 +2269,8 @@ udp://ns-1.x-fins.com:6969/announce
 udp://ns1.monolithindustries.com:6969/announce
 
 udp://ns3109441.mypdns.org:6969/announce
+
+udp://ns575949.ip-51-222-82.net:6969/announce
 
 udp://odd-hd.fr:6969/announce
 
@@ -2528,6 +2536,8 @@ udp://tracker.hifimarket.in:2710/announce
 
 udp://tracker.hifitechindia.com:6969/announce
 
+udp://tracker.home.kmzs123.cn:17272/announce
+
 udp://tracker.ilibr.org:80/announce
 
 udp://tracker.internetwarriors.net:1337/announce
@@ -2633,6 +2643,8 @@ udp://tracker.vraphim.com:6969/announce
 udp://tracker.vrpnet.org:6969/announce
 
 udp://tracker.waaa.moe:6969/announce
+
+udp://tracker.xiaoduola.xyz:6969/announce
 
 udp://tracker.xor.st:6969/announce
 
