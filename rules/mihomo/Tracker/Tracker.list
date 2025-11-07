@@ -62,6 +62,8 @@ http://141.144.224.250:2710/announce
 
 http://141.144.224.250:6969/announce
 
+http://142.171.85.76:6969/announce
+
 http://144.202.33.210:6961/announce
 
 http://144.76.118.107:6969/announce
@@ -186,9 +188,9 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.187:6969/announce
+http://211.75.205.188/announce
 
-http://211.75.205.189/announce
+http://211.75.205.189:6969/announce
 
 http://211.75.205.190/announce
 
@@ -220,7 +222,9 @@ http://34.94.76.146/announce
 
 http://34.94.76.146/announce.php
 
-http://34.94.76.146:11450/announce
+http://34.94.76.146:1337/announce
+
+http://34.94.76.146:2701/announce
 
 http://34.94.76.146:2710/announce
 
@@ -234,9 +238,7 @@ http://35.227.12.84:2710/announce
 
 http://35.227.59.57/announce
 
-http://35.227.59.57:1337/announce
-
-http://35.227.59.57:2701/announce
+http://35.227.59.57:11450/announce
 
 http://35.227.59.57:2710/announce
 
@@ -1234,6 +1236,8 @@ http://tracker.vraphim.com:6969/announce
 
 http://tracker.vrpnet.org:6969/announce
 
+http://tracker.waaa.moe:6969/announce
+
 http://tracker.xdvdz.com:2710/announce
 
 http://tracker.xfapi.top:6868/announce
@@ -1792,6 +1796,8 @@ https://x7x.up.railway.app/announce
 
 https://xtremex.herokuapp.com/announce
 
+https://yuki.bt.bontal.net/announce
+
 https://zer0day.000webhostapp.com/announce
 
 udp://0205.uptm.ch:6969/announce
@@ -1862,6 +1868,8 @@ udp://176.31.250.174:6969/announce
 
 udp://176.99.7.59:6969/announce
 
+udp://178.128.94.74:6969/announce
+
 udp://178.170.48.154:1337/announce
 
 udp://185.102.219.163:6969/announce
@@ -1869,8 +1877,6 @@ udp://185.102.219.163:6969/announce
 udp://185.181.60.155:80/announce
 
 udp://185.181.60.67:80/announce
-
-udp://185.189.13.108:6969/announce
 
 udp://185.216.179.62:25/announce
 
@@ -1904,11 +1910,9 @@ udp://209.141.59.25:6969/announce
 
 udp://209.50.255.93:3218/announce
 
-udp://210.61.187.209:6969/announce
+udp://211.75.205.188:80/announce
 
-udp://211.75.205.187:6969/announce
-
-udp://211.75.205.189:80/announce
+udp://211.75.205.189:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1926,7 +1930,7 @@ udp://23.157.120.14:6969/announce
 
 udp://23.175.184.30:23333/announce
 
-udp://34.94.76.146:6969/announce
+udp://34.94.76.146:1337/announce
 
 udp://37.187.111.136:6969/announce
 
@@ -1953,6 +1957,8 @@ udp://5.196.67.51:6969/announce
 udp://5.196.89.204:6969/announce
 
 udp://5.255.124.190:6969/announce
+
+udp://5.45.69.185:6969/announce
 
 udp://504e163a.host.njalla.net:6969/announce
 
@@ -2005,6 +2011,8 @@ udp://89.234.156.205:451/announce
 udp://89.36.216.8:6969/announce
 
 udp://91.211.5.21:6969/announce
+
+udp://91.216.110.53:451/announce
 
 udp://93.104.214.40:6969/announce
 
@@ -2107,6 +2115,8 @@ udp://bttracker.debian.org:6969/announce
 udp://bubu.mapfactor.com:6969/announce
 
 udp://buddyfly.top:6969/announce
+
+udp://buny.uk:6969/announce
 
 udp://burmese.app:6969/announce
 
@@ -2267,8 +2277,6 @@ udp://ns-1.x-fins.com:6969/announce
 udp://ns1.monolithindustries.com:6969/announce
 
 udp://ns3109441.mypdns.org:6969/announce
-
-udp://ns575949.ip-51-222-82.net:6969/announce
 
 udp://odd-hd.fr:6969/announce
 
@@ -2532,8 +2540,6 @@ udp://tracker.hifimarket.in:2710/announce
 
 udp://tracker.hifitechindia.com:6969/announce
 
-udp://tracker.home.kmzs123.cn:17272/announce
-
 udp://tracker.ilibr.org:80/announce
 
 udp://tracker.internetwarriors.net:1337/announce
@@ -2545,10 +2551,6 @@ udp://tracker.istole.it:80/announce
 udp://tracker.jamesthebard.net:6969/announce
 
 udp://tracker.kali.org:6969/announce
-
-udp://tracker.kmzs123.cn:17272/announce
-
-udp://tracker.leena.network:6969/announce
 
 udp://tracker.lelux.fi:6969/announce
 
@@ -2639,6 +2641,8 @@ udp://tracker.vraphim.com:6969/announce
 udp://tracker.vrpnet.org:6969/announce
 
 udp://tracker.waaa.moe:6969/announce
+
+udp://tracker.xiaoduola.xyz:6969/announce
 
 udp://tracker.xor.st:6969/announce
 
