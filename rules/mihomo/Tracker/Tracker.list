@@ -42,8 +42,6 @@ http://116.9.207.226:6969/announce
 
 http://119.28.71.45:8080/announce
 
-http://123.245.62.104:6969/announce
-
 http://129.146.193.240:6699/announce
 
 http://13.115.115.32:6969/announce
@@ -188,9 +186,9 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.188/announce
+http://211.75.205.187:6969/announce
 
-http://211.75.205.189:6969/announce
+http://211.75.205.189/announce
 
 http://211.75.205.190/announce
 
@@ -228,8 +226,6 @@ http://34.94.76.146:2701/announce
 
 http://34.94.76.146:2710/announce
 
-http://34.94.76.146:443/announce
-
 http://34.94.76.146:6969/announce
 
 http://35.227.12.84/announce
@@ -241,6 +237,8 @@ http://35.227.59.57/announce
 http://35.227.59.57:11450/announce
 
 http://35.227.59.57:2710/announce
+
+http://35.227.59.57:443/announce
 
 http://35.227.59.57:6969/announce
 
@@ -1812,8 +1810,6 @@ udp://104.131.98.232:6969/announce
 
 udp://104.143.10.186:8000/announce
 
-udp://104.248.85.59:6969/announce
-
 udp://107.175.221.194:6969/announce
 
 udp://107.189.2.131:1337/announce
@@ -1834,13 +1830,13 @@ udp://135.125.106.92:6969/announce
 
 udp://135.125.236.64:6969/announce
 
-udp://144.126.245.19:6969/announce
-
 udp://144.91.88.22:6969/announce
 
 udp://147job.com:6969/announce
 
 udp://148.251.53.72:6969/announce
+
+udp://151.243.109.110:6969/announce
 
 udp://152.53.152.105:1984/announce
 
@@ -1871,6 +1867,8 @@ udp://185.102.219.163:6969/announce
 udp://185.181.60.155:80/announce
 
 udp://185.181.60.67:80/announce
+
+udp://185.189.13.108:6969/announce
 
 udp://185.216.179.62:25/announce
 
@@ -1906,9 +1904,9 @@ udp://209.50.255.93:3218/announce
 
 udp://210.61.187.209:6969/announce
 
-udp://211.75.205.188:80/announce
+udp://211.75.205.187:6969/announce
 
-udp://211.75.205.189:6969/announce
+udp://211.75.205.189:80/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1944,19 +1942,21 @@ udp://46.138.242.240:6969/announce
 
 udp://47.ip-51-68-199.eu:6969/announce
 
+udp://5.102.159.190:6969/announce
+
 udp://5.196.67.51:6969/announce
 
 udp://5.196.89.204:6969/announce
 
 udp://5.255.124.190:6969/announce
 
-udp://5.45.69.185:6969/announce
-
 udp://504e163a.host.njalla.net:6969/announce
 
 udp://51.15.26.25:6969/announce
 
 udp://51.15.3.74:6969/announce
+
+udp://51.15.41.46:6969/announce
 
 udp://51.158.144.42:6969/announce
 
@@ -2000,8 +2000,6 @@ udp://89.36.216.8:6969/announce
 
 udp://91.211.5.21:6969/announce
 
-udp://91.216.110.53:451/announce
-
 udp://93.104.214.40:6969/announce
 
 udp://93.158.213.92:1337//announce
@@ -2017,6 +2015,8 @@ udp://94.136.190.183:1333/announce
 udp://94.136.190.183:1337/announce
 
 udp://94.136.190.183:2710/announce
+
+udp://94.136.190.183:6969/announce
 
 udp://94.23.207.177:6969/announce
 
@@ -2090,8 +2090,6 @@ udp://bt.rer.lol:6969/announce
 
 udp://bt1.archive.org:6969/announce
 
-udp://bt1.xxxxbt.cc:6969/announce
-
 udp://bt2.archive.org:6969/announce
 
 udp://btt.service.gongt.me:43079/announce
@@ -2101,8 +2099,6 @@ udp://bttracker.debian.org:6969/announce
 udp://bubu.mapfactor.com:6969/announce
 
 udp://buddyfly.top:6969/announce
-
-udp://buny.uk:6969/announce
 
 udp://burmese.app:6969/announce
 
@@ -2176,17 +2172,11 @@ udp://freedomalternative.com:6969/announce
 
 udp://ftp.pet:2710/announce
 
-udp://hificode.in:6969/announce
-
 udp://home.kray.pw:6969/announce
-
-udp://home.yxgz.club:6969/announce
 
 udp://http//www.peckservers.com:9000/announce
 
 udp://htz3.noho.st:6969/announce
-
-udp://hzzwly.gq:6969/announce
 
 udp://ibksturm.synology.me:6969/announce
 
@@ -2221,8 +2211,6 @@ udp://kokodayo.site:6969/announce
 udp://laze.cc:6969/announce
 
 udp://leefafa.tk:6969/announce
-
-udp://leet-tracker.moe:1337/announce
 
 udp://ln.mtahost.co:6969/announce
 
@@ -2265,8 +2253,6 @@ udp://ns-1.x-fins.com:6969/announce
 udp://ns1.monolithindustries.com:6969/announce
 
 udp://ns3109441.mypdns.org:6969/announce
-
-udp://ns575949.ip-51-222-82.net:6969/announce
 
 udp://odd-hd.fr:6969/announce
 
@@ -2659,6 +2645,8 @@ udp://tracker.zemoj.com:6969/announce
 udp://tracker.zerobytes.xyz:1337/announce
 
 udp://tracker.zupix.online:1333/announce
+
+udp://tracker.zupix.online:6969/announce
 
 udp://tracker1.bt.moack.co.kr:80/announce
 
