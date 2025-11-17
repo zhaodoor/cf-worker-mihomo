@@ -42,7 +42,7 @@ http://116.9.207.226:6969/announce
 
 http://119.28.71.45:8080/announce
 
-http://123.245.62.104:6969/announce
+http://123.245.62.100:6969/announce
 
 http://129.146.193.240:6699/announce
 
@@ -61,6 +61,8 @@ http://140.82.21.192:8080/announce
 http://141.144.224.250:2710/announce
 
 http://141.144.224.250:6969/announce
+
+http://142.171.85.76:6969/announce
 
 http://144.202.33.210:6961/announce
 
@@ -122,6 +124,8 @@ http://171.104.226.31:6969/announce
 
 http://171.104.226.87:6969/announce
 
+http://177.215.67.185:6969/announce
+
 http://179.100.24.134:6969/announce
 
 http://180.97.219.76:8070/announce
@@ -149,8 +153,6 @@ http://187.57.14.62:6969/announce
 http://189.0.196.51:6969/announce
 
 http://189.110.233.96:6969/announce
-
-http://189.18.97.201:6969/announce
 
 http://192.3.165.191:6969/announce
 
@@ -186,11 +188,11 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.187/announce
-
 http://211.75.205.189:6969/announce
 
 http://211.75.205.190/announce
+
+http://211.75.210.221/announce
 
 http://211.75.29.254:6969/announce
 
@@ -218,7 +220,7 @@ http://34.94.213.23:2710/announce
 
 http://34.94.76.146/announce
 
-http://34.94.76.146:2701/announce
+http://34.94.76.146:1337/announce
 
 http://34.94.76.146:2710/announce
 
@@ -234,7 +236,7 @@ http://35.227.59.57/announce.php
 
 http://35.227.59.57:11450/announce
 
-http://35.227.59.57:1337/announce
+http://35.227.59.57:2701/announce
 
 http://35.227.59.57:2710/announce
 
@@ -1440,6 +1442,8 @@ https://api.ipv4online.uk/announce
 
 https://bittorrent.gongt.net/announce
 
+https://bittracker.nekosunevr.co.uk/announce
+
 https://bt.080609.xyz/announce
 
 https://bt.beatrice-raws.org/announce
@@ -1764,8 +1768,6 @@ https://tracker2.ctix.cn/announce
 
 https://trackers.mlsub.net/announce
 
-https://trackers.nekosunevr.co.uk/announce
-
 https://trackme.theom.nz/announce
 
 https://trakx.herokuapp.com/announce
@@ -1785,6 +1787,8 @@ https://www.wareztorrent.com/announce
 https://x7x.up.railway.app/announce
 
 https://xtremex.herokuapp.com/announce
+
+https://yuki.bt.bontal.net/announce
 
 https://zer0day.000webhostapp.com/announce
 
@@ -1824,15 +1828,11 @@ udp://135.125.106.92:6969/announce
 
 udp://135.125.236.64:6969/announce
 
-udp://144.126.245.19:6969/announce
-
 udp://144.91.88.22:6969/announce
 
 udp://147job.com:6969/announce
 
 udp://148.251.53.72:6969/announce
-
-udp://151.243.109.110:6969/announce
 
 udp://152.53.152.105:1984/announce
 
@@ -1874,7 +1874,7 @@ udp://185.243.218.213:80/announce
 
 udp://185.44.82.25:1337/announce
 
-udp://189.18.97.201:6969/announce
+udp://185.87.45.163:6969/announce
 
 udp://192.95.46.115:6969/announce
 
@@ -1900,9 +1900,9 @@ udp://209.50.255.93:3218/announce
 
 udp://210.61.187.209:6969/announce
 
-udp://211.75.205.187:80/announce
-
 udp://211.75.205.189:6969/announce
+
+udp://211.75.210.221:80/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1915,8 +1915,6 @@ udp://23.134.88.9:1337/announce
 udp://23.134.88.9:6969/announce
 
 udp://23.137.251.45:6969/announce
-
-udp://23.157.120.14:6969/announce
 
 udp://23.175.184.30:23333/announce
 
@@ -1964,7 +1962,11 @@ udp://52.58.128.163:6969/announce
 
 udp://54.36.179.216:6969/announce
 
+udp://54.39.48.3:6969/announce
+
 udp://6.pocketnet.app:6969/announce
+
+udp://60.249.37.20:6969/announce
 
 udp://6ahddutb1ucc3cp.ru:6969/announce
 
@@ -1975,6 +1977,8 @@ udp://7p41a8967.wicp.vip:22222/announce
 udp://82.65.115.10:6969/announce
 
 udp://83.102.180.21:80/announce
+
+udp://84.54.51.78:6969/announce
 
 udp://88.80.28.7:6969/announce
 
@@ -1987,8 +1991,6 @@ udp://89.234.156.205:451/announce
 udp://89.36.216.8:6969/announce
 
 udp://91.211.5.21:6969/announce
-
-udp://91.216.110.53:451/announce
 
 udp://93.104.214.40:6969/announce
 
@@ -2003,6 +2005,8 @@ udp://94.103.87.87:6969/announce
 udp://94.136.190.183:1333/announce
 
 udp://94.136.190.183:1337/announce
+
+udp://94.136.190.183:2710/announce
 
 udp://94.136.190.183:6969/announce
 
@@ -2086,6 +2090,8 @@ udp://bubu.mapfactor.com:6969/announce
 
 udp://buddyfly.top:6969/announce
 
+udp://buny.uk:6969/announce
+
 udp://burmese.app:6969/announce
 
 udp://camera.lei001.com:6969/announce
@@ -2123,6 +2129,8 @@ udp://debuz.com:6969/announce
 udp://devops.gay:6969/announce
 
 udp://dht.bt251.com:6969/announce
+
+udp://discord.heihachi.pw:6969/announce
 
 udp://download.nerocloud.me:6969/announce
 
@@ -2396,6 +2404,8 @@ udp://tk4.leechshield.link:6969/announce
 
 udp://torrent.fedoraproject.org:6969/announce
 
+udp://torrent.hificode.in:6969/announce
+
 udp://torrent.i.ng:6969/announce
 
 udp://torrent.ubuntu.com:6969/announce
@@ -2602,8 +2612,6 @@ udp://tracker.tvunderground.org.ru:3218/announce
 
 udp://tracker.valete.tf:9999/announce
 
-udp://tracker.vanitycore.co:6969/announce
-
 udp://tracker.vds.nz:6969/announce
 
 udp://tracker.vraphim.com:6969/announce
@@ -2611,6 +2619,8 @@ udp://tracker.vraphim.com:6969/announce
 udp://tracker.vrpnet.org:6969/announce
 
 udp://tracker.waaa.moe:6969/announce
+
+udp://tracker.xiaoduola.xyz:6969/announce
 
 udp://tracker.xor.st:6969/announce
 
