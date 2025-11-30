@@ -22,8 +22,6 @@ http://107.152.127.9:6969/announce
 
 http://107.189.10.20.sslip.io:7777/announce
 
-http://107.189.2.131:1337/announce
-
 http://107.189.31.134:6969/announce
 
 http://107.189.7.143:6969/announce
@@ -184,7 +182,7 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.189/announce
+http://211.75.205.187/announce
 
 http://211.75.205.190/announce
 
@@ -214,7 +212,7 @@ http://34.94.213.23:2710/announce
 
 http://34.94.76.146/announce
 
-http://34.94.76.146:11450/announce
+http://34.94.76.146:1337/announce
 
 http://34.94.76.146:2710/announce
 
@@ -226,13 +224,7 @@ http://35.227.12.84:2710/announce
 
 http://35.227.59.57/announce
 
-http://35.227.59.57/announce.php
-
-http://35.227.59.57:1337/announce
-
-http://35.227.59.57:2701/announce
-
-http://35.227.59.57:2710/announce
+http://35.227.59.57:11450/announce
 
 http://35.227.59.57:443/announce
 
@@ -1804,11 +1796,7 @@ udp://104.131.98.232:6969/announce
 
 udp://104.143.10.186:8000/announce
 
-udp://104.248.85.59:6969/announce
-
 udp://107.175.221.194:6969/announce
-
-udp://107.189.2.131:1337/announce
 
 udp://107.189.4.235:1337/announce
 
@@ -1826,15 +1814,11 @@ udp://135.125.106.92:6969/announce
 
 udp://135.125.236.64:6969/announce
 
-udp://144.126.245.19:6969/announce
-
 udp://144.91.88.22:6969/announce
 
 udp://147job.com:6969/announce
 
 udp://148.251.53.72:6969/announce
-
-udp://151.243.109.110:6969/announce
 
 udp://152.53.152.105:1984/announce
 
@@ -1898,15 +1882,15 @@ udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
 
-udp://208.83.20.20:6969/announce
-
 udp://209.126.11.233:6969/announce
 
 udp://209.141.59.25:6969/announce
 
 udp://209.50.255.93:3218/announce
 
-udp://211.75.210.221:80/announce
+udp://211.75.205.187:80/announce
+
+udp://211.75.210.221:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1914,11 +1898,9 @@ udp://217.30.10.77:6969/announce
 
 udp://220.200.35.40:6969/announce
 
+udp://23.134.88.9:6969/announce
+
 udp://23.137.251.45:6969/announce
-
-udp://23.157.120.14:6969/announce
-
-udp://23.175.184.30:23333/announce
 
 udp://37.187.111.136:6969/announce
 
@@ -1927,6 +1909,8 @@ udp://37.187.95.112:6969/announce
 udp://37.235.176.37:2710/announce
 
 udp://37.59.48.81:6969/announce
+
+udp://44.30.4.4:6969/announce
 
 udp://45.13.119.213:6969/announce
 
@@ -1962,17 +1946,15 @@ udp://54.36.179.216:6969/announce
 
 udp://6.pocketnet.app:6969/announce
 
-udp://60.249.37.20:6969/announce
-
 udp://6ahddutb1ucc3cp.ru:6969/announce
-
-udp://77.91.85.95:6969/announce
 
 udp://7p41a8967.wicp.vip:22222/announce
 
 udp://82.65.115.10:6969/announce
 
 udp://83.102.180.21:80/announce
+
+udp://84.54.51.78:6969/announce
 
 udp://88.80.28.7:6969/announce
 
@@ -2072,8 +2054,6 @@ udp://bt.rer.lol:6969/announce
 
 udp://bt1.archive.org:6969/announce
 
-udp://bt1.xxxxbt.cc:6969/announce
-
 udp://bt2.archive.org:6969/announce
 
 udp://btt.service.gongt.me:43079/announce
@@ -2083,6 +2063,8 @@ udp://bttracker.debian.org:6969/announce
 udp://bubu.mapfactor.com:6969/announce
 
 udp://buddyfly.top:6969/announce
+
+udp://buny.uk:6969/announce
 
 udp://burmese.app:6969/announce
 
@@ -2122,8 +2104,6 @@ udp://devops.gay:6969/announce
 
 udp://dht.bt251.com:6969/announce
 
-udp://discord.heihachi.pw:6969/announce
-
 udp://download.nerocloud.me:6969/announce
 
 udp://ec2-18-191-163-220.us-east-2.compute.amazonaws.com:6969/announce
@@ -2158,8 +2138,6 @@ udp://freedomalternative.com:6969/announce
 
 udp://ftp.pet:2710/announce
 
-udp://hificode.in:6969/announce
-
 udp://home.kray.pw:6969/announce
 
 udp://home.yxgz.club:6969/announce
@@ -2193,10 +2171,6 @@ udp://ipv6.tracker.harry.lu/announce
 udp://ipv6.tracker.harry.lu:6969/announce
 
 udp://ismaarino.com:1234/announce
-
-udp://joczo.duckdns.org:6969/announce
-
-udp://jp.moeweb.pw:6969/announce
 
 udp://jutone.com:6969/announce
 
@@ -2400,8 +2374,6 @@ udp://tk4.leechshield.link:6969/announce
 
 udp://torrent.fedoraproject.org:6969/announce
 
-udp://torrent.hificode.in:6969/announce
-
 udp://torrent.i.ng:6969/announce
 
 udp://torrent.ubuntu.com:6969/announce
@@ -2545,8 +2517,6 @@ udp://tracker.openbtba.com:6969/announce
 udp://tracker.opentrackr.org:1337/announce
 
 udp://tracker.pcfreetime.com:6969/announce
-
-udp://tracker.picotorrent.one:6969/announce
 
 udp://tracker.playground.ru:6969/announce
 
