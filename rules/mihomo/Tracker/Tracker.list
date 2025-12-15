@@ -184,7 +184,7 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.189:6969/announce
+http://211.75.205.187/announce
 
 http://211.75.29.254:6969/announce
 
@@ -216,11 +216,9 @@ http://34.94.76.146/announce
 
 http://34.94.76.146/announce.php
 
-http://34.94.76.146:11450/announce
-
 http://34.94.76.146:2710/announce
 
-http://34.94.76.146:443/announce
+http://34.94.76.146:6969/announce
 
 http://35.227.12.84/announce
 
@@ -228,11 +226,15 @@ http://35.227.12.84:2710/announce
 
 http://35.227.59.57/announce
 
+http://35.227.59.57:11450/announce
+
 http://35.227.59.57:1337/announce
 
 http://35.227.59.57:2701/announce
 
 http://35.227.59.57:2710/announce
+
+http://35.227.59.57:443/announce
 
 http://35.227.59.57:6969/announce
 
@@ -308,7 +310,7 @@ http://60-fps.org/bt/announce.php
 
 http://60-fps.org/bt:80/announce.php
 
-http://60.249.37.20/announce
+http://60.249.37.20:6969/announce
 
 http://61.216.109.95:6969/announce
 
@@ -1774,8 +1776,6 @@ https://x7x.up.railway.app/announce
 
 https://xtremex.herokuapp.com/announce
 
-https://yuki.bt.bontal.net/announce
-
 https://zer0day.000webhostapp.com/announce
 
 udp://0205.uptm.ch:6969/announce
@@ -1852,8 +1852,6 @@ udp://185.181.60.155:80/announce
 
 udp://185.181.60.67:80/announce
 
-udp://185.189.13.108:6969/announce
-
 udp://185.216.179.62:25/announce
 
 udp://185.230.4.150:1337/announce
@@ -1870,8 +1868,6 @@ udp://193.42.111.57:9337/announce
 
 udp://194.38.21.77:6969/announce
 
-udp://195.234.62.166:6969/announce
-
 udp://198.100.149.66:6969/announce
 
 udp://1c.premierzal.ru:6969/announce
@@ -1884,9 +1880,7 @@ udp://209.126.11.233:6969/announce
 
 udp://209.141.59.25:6969/announce
 
-udp://209.50.255.93:3218/announce
-
-udp://211.75.205.189:6969/announce
+udp://211.75.205.187:80/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1896,6 +1890,12 @@ udp://217.30.10.77:6969/announce
 
 udp://23.137.251.45:6969/announce
 
+udp://23.153.248.128:6969/announce
+
+udp://23.157.120.14:6969/announce
+
+udp://34.94.76.146:6969/announce
+
 udp://37.187.111.136:6969/announce
 
 udp://37.187.95.112:6969/announce
@@ -1903,6 +1903,8 @@ udp://37.187.95.112:6969/announce
 udp://37.235.176.37:2710/announce
 
 udp://37.59.48.81:6969/announce
+
+udp://44.30.4.4:6969/announce
 
 udp://45.13.119.213:6969/announce
 
@@ -1938,17 +1940,17 @@ udp://54.36.179.216:6969/announce
 
 udp://6.pocketnet.app:6969/announce
 
-udp://60.249.37.20:80/announce
+udp://60.249.37.20:6969/announce
 
 udp://6ahddutb1ucc3cp.ru:6969/announce
 
 udp://7p41a8967.wicp.vip:22222/announce
 
+udp://80.71.224.126:6969/announce
+
 udp://82.65.115.10:6969/announce
 
 udp://83.102.180.21:80/announce
-
-udp://84.54.51.78:6969/announce
 
 udp://88.80.28.7:6969/announce
 
@@ -1956,11 +1958,11 @@ udp://88.99.2.212:6969/announce
 
 udp://89.110.76.229:6969/announce
 
-udp://89.234.156.205:451/announce
-
 udp://89.36.216.8:6969/announce
 
 udp://91.211.5.21:6969/announce
+
+udp://91.216.110.53:451/announce
 
 udp://93.104.214.40:6969/announce
 
@@ -1972,7 +1974,7 @@ udp://94-227-232-84.access.telenet.be:6969/announce
 
 udp://94.103.87.87:6969/announce
 
-udp://94.136.190.183:6969/announce
+udp://94.136.190.183:1333/announce
 
 udp://94.23.207.177:6969/announce
 
@@ -2044,8 +2046,6 @@ udp://bt.rer.lol:6969/announce
 
 udp://bt1.archive.org:6969/announce
 
-udp://bt1.xxxxbt.cc:6969/announce
-
 udp://bt2.archive.org:6969/announce
 
 udp://btt.service.gongt.me:43079/announce
@@ -2055,6 +2055,8 @@ udp://bttracker.debian.org:6969/announce
 udp://bubu.mapfactor.com:6969/announce
 
 udp://buddyfly.top:6969/announce
+
+udp://buny.uk:6969/announce
 
 udp://burmese.app:6969/announce
 
@@ -2094,6 +2096,8 @@ udp://devops.gay:6969/announce
 
 udp://dht.bt251.com:6969/announce
 
+udp://discord.heihachi.pw:6969/announce
+
 udp://download.nerocloud.me:6969/announce
 
 udp://ec2-18-191-163-220.us-east-2.compute.amazonaws.com:6969/announce
@@ -2130,13 +2134,9 @@ udp://ftp.pet:2710/announce
 
 udp://home.kray.pw:6969/announce
 
-udp://home.yxgz.club:6969/announce
-
 udp://http//www.peckservers.com:9000/announce
 
 udp://htz3.noho.st:6969/announce
-
-udp://hzzwly.gq:6969/announce
 
 udp://ibksturm.synology.me:6969/announce
 
@@ -2178,6 +2178,8 @@ udp://leet-tracker.moe:1337/announce
 
 udp://ln.mtahost.co:6969/announce
 
+udp://lotus-eater.mywire.org:9001/announce
+
 udp://lucke.fenesisu.moe:6969/announce
 
 udp://mail.artixlinux.org:6969/announce
@@ -2215,6 +2217,8 @@ udp://ns-1.x-fins.com:6969/announce
 udp://ns1.monolithindustries.com:6969/announce
 
 udp://ns3109441.mypdns.org:6969/announce
+
+udp://ns575949.ip-51-222-82.net:6969/announce
 
 udp://odd-hd.fr:6969/announce
 
@@ -2267,8 +2271,6 @@ udp://p2p.publictracker.xyz:6969/announce
 udp://p4p.arenabg.com:1337/announce
 
 udp://parag.rs:6969/announce
-
-udp://play.aimisayo.com:6969/announce
 
 udp://pow7.com:80/announce
 
@@ -2506,6 +2508,8 @@ udp://tracker.mywaifu.best:6969/announce
 
 udp://tracker.nartlof.com.br:6969/announce
 
+udp://tracker.netmap.top:6969/announce
+
 udp://tracker.ololosh.space:6969/announce
 
 udp://tracker.openbittorrent.com:80/announce
@@ -2574,6 +2578,8 @@ udp://tracker.tvunderground.org.ru:3218/announce
 
 udp://tracker.valete.tf:9999/announce
 
+udp://tracker.vanitycore.co:6969/announce
+
 udp://tracker.vds.nz:6969/announce
 
 udp://tracker.vraphim.com:6969/announce
@@ -2583,6 +2589,8 @@ udp://tracker.vrpnet.org:6969/announce
 udp://tracker.waaa.moe:6969/announce
 
 udp://tracker.x6c.co:6969/announce
+
+udp://tracker.xiaoduola.xyz:6969/announce
 
 udp://tracker.xor.st:6969/announce
 
