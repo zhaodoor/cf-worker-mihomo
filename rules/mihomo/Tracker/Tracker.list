@@ -120,8 +120,6 @@ http://171.104.226.31:6969/announce
 
 http://171.104.226.87:6969/announce
 
-http://177.172.65.168:6969/announce
-
 http://179.100.24.134:6969/announce
 
 http://180.97.219.76:8070/announce
@@ -151,6 +149,8 @@ http://187.57.14.62:6969/announce
 http://189.0.196.51:6969/announce
 
 http://189.110.233.96:6969/announce
+
+http://189.18.163.167:6969/announce
 
 http://192.3.165.191:6969/announce
 
@@ -186,7 +186,7 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.188/announce
+http://211.75.205.188:6969/announce
 
 http://211.75.29.254:6969/announce
 
@@ -205,18 +205,6 @@ http://217.30.10.77:6969/announce
 http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
-
-http://34.66.57.33/announce
-
-http://34.66.57.33/announce.php
-
-http://34.66.57.33:11450/announce
-
-http://34.66.57.33:2701/announce
-
-http://34.66.57.33:2710/announce
-
-http://34.66.57.33:443/announce
 
 http://34.66.57.33:6969/announce
 
@@ -310,7 +298,7 @@ http://60-fps.org/bt/announce.php
 
 http://60-fps.org/bt:80/announce.php
 
-http://60.249.37.20:6969/announce
+http://60.249.37.20/announce
 
 http://61.216.109.95:6969/announce
 
@@ -1844,8 +1832,6 @@ udp://176.31.250.174:6969/announce
 
 udp://176.99.7.59:6969/announce
 
-udp://177.172.65.168:6969/announce
-
 udp://178.170.48.154:1337/announce
 
 udp://185.102.219.163:6969/announce
@@ -1864,7 +1850,13 @@ udp://185.243.218.213:80/announce
 
 udp://185.44.82.25:1337/announce
 
+udp://186.10.170.56:1337/announce
+
+udp://189.18.163.167:6969/announce
+
 udp://192.95.46.115:6969/announce
+
+udp://193.233.161.213:6969/announce
 
 udp://193.37.214.12:6969/announce
 
@@ -1884,7 +1876,7 @@ udp://209.141.59.25:6969/announce
 
 udp://209.50.255.93:3218/announce
 
-udp://211.75.205.188:80/announce
+udp://211.75.205.188:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1915,8 +1907,6 @@ udp://37.235.176.37:2710/announce
 udp://37.59.48.81:6969/announce
 
 udp://43.250.54.137:6969/announce
-
-udp://44.30.4.4:6969/announce
 
 udp://45.134.88.121:6969/announce
 
@@ -1954,7 +1944,7 @@ udp://54.36.179.216:6969/announce
 
 udp://6.pocketnet.app:6969/announce
 
-udp://60.249.37.20:6969/announce
+udp://60.249.37.20:80/announce
 
 udp://6ahddutb1ucc3cp.ru:6969/announce
 
@@ -1974,11 +1964,11 @@ udp://88.99.2.212:6969/announce
 
 udp://89.110.76.229:6969/announce
 
-udp://89.234.156.205:451/announce
-
 udp://89.36.216.8:6969/announce
 
 udp://91.211.5.21:6969/announce
+
+udp://91.216.110.53:451/announce
 
 udp://93.104.214.40:6969/announce
 
@@ -2139,6 +2129,8 @@ udp://fe.dealclub.de:6969/announce
 udp://fh2.cmp-gaming.com:6969/announce
 
 udp://files.project-cataclysm.ru:6969/announce
+
+udp://fosstorrents.com:6969/announce
 
 udp://free.publictracker.xyz:6969/announce
 
@@ -2528,8 +2520,6 @@ udp://tracker.lelux.fi:6969/announce
 
 udp://tracker.monitorit4.me:6969/announce
 
-udp://tracker.moxing.party:6969/announce
-
 udp://tracker.mywaifu.best:6969/announce
 
 udp://tracker.nartlof.com.br:6969/announce
@@ -2602,8 +2592,6 @@ udp://tracker.tvunderground.org.ru:3218/announce
 
 udp://tracker.valete.tf:9999/announce
 
-udp://tracker.vanitycore.co:6969/announce
-
 udp://tracker.vds.nz:6969/announce
 
 udp://tracker.vraphim.com:6969/announce
@@ -2615,8 +2603,6 @@ udp://tracker.waaa.moe:6969/announce
 udp://tracker.wepzone.net:6969/announce
 
 udp://tracker.x6c.co:6969/announce
-
-udp://tracker.xiaoduola.xyz:6969/announce
 
 udp://tracker.xor.st:6969/announce
 
