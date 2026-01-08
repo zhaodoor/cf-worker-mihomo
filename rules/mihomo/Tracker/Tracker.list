@@ -86,8 +86,6 @@ http://163.172.29.130/announce
 
 http://167.235.245.209/announce
 
-http://167.253.78.20:8080/announce
-
 http://171.104.110.193:6969/announce
 
 http://171.104.110.21:6969/announce
@@ -120,7 +118,7 @@ http://171.104.226.31:6969/announce
 
 http://171.104.226.87:6969/announce
 
-http://177.139.47.92:6969/announce
+http://177.139.46.160:6969/announce
 
 http://179.100.24.134:6969/announce
 
@@ -143,6 +141,8 @@ http://185.230.4.150:1337/announce
 http://185.232.169.109/announce
 
 http://185.70.187.79:6969/announce
+
+http://186.10.170.186:1337/announce
 
 http://187.57.14.62:6969/announce
 
@@ -190,8 +190,6 @@ http://211.75.205.188/announce
 
 http://211.75.205.189/announce
 
-http://211.75.205.189:6969/announce
-
 http://211.75.210.221/announce
 
 http://211.75.29.254:6969/announce
@@ -212,13 +210,7 @@ http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
 
-http://34.66.57.33/announce
-
-http://34.66.57.33:11450/announce
-
-http://34.66.57.33:1337/announce
-
-http://34.66.57.33:2701/announce
+http://34.66.57.33/announce.php
 
 http://34.66.57.33:2710/announce
 
@@ -311,6 +303,8 @@ http://54.39.98.124/announce
 http://60-fps.org/bt/announce.php
 
 http://60-fps.org/bt:80/announce.php
+
+http://60.249.37.20:6969/announce
 
 http://61.216.109.95:6969/announce
 
@@ -407,8 +401,6 @@ http://97.117.78.100:9000/announce
 http://97.117.85.73:9000/announce
 
 http://99.192.12.191:6969/announce
-
-http://[2a04:ac00:1:3dd8::1:2710]:2710/announce
 
 http://aaa.army:8866/announce
 
@@ -1054,6 +1046,8 @@ http://tracker.fansub.id/announce
 
 http://tracker.fdn.fr:6969/announce
 
+http://tracker.file09.com/announce
+
 http://tracker.filemail.com:6969/announce
 
 http://tracker.files.fm:6969/announce
@@ -1608,6 +1602,8 @@ https://tracker.bt-hash.com/announce
 
 https://tracker.bt4g.com/announce
 
+https://tracker.bug38.com/announce
+
 https://tracker.cangku.moe/announce
 
 https://tracker.cloudit.top/announce
@@ -1850,7 +1846,7 @@ udp://176.31.250.174:6969/announce
 
 udp://176.99.7.59:6969/announce
 
-udp://177.139.47.92:6969/announce
+udp://177.139.46.160:6969/announce
 
 udp://178.170.48.154:1337/announce
 
@@ -1894,8 +1890,6 @@ udp://209.141.59.25:6969/announce
 
 udp://209.50.255.93:3218/announce
 
-udp://211.75.205.189:6969/announce
-
 udp://211.75.210.221:80/announce
 
 udp://211.75.29.254:6969/announce
@@ -1903,6 +1897,8 @@ udp://211.75.29.254:6969/announce
 udp://211.97.119.76:6969/announce
 
 udp://212.42.38.197:6969/announce
+
+udp://217.156.123.49:1337/announce
 
 udp://217.30.10.77:6969/announce
 
@@ -1916,7 +1912,7 @@ udp://23.153.248.128:6969/announce
 
 udp://23.157.120.14:6969/announce
 
-udp://23.175.184.30:23333/announce
+udp://31.38.161.123:6969/announce
 
 udp://34.66.57.33:1337/announce
 
@@ -1978,8 +1974,6 @@ udp://6ahddutb1ucc3cp.ru:6969/announce
 
 udp://7p41a8967.wicp.vip:22222/announce
 
-udp://80.71.224.126:6969/announce
-
 udp://81.230.84.201:6969/announce
 
 udp://82.65.115.10:6969/announce
@@ -1991,8 +1985,6 @@ udp://84.54.51.78:6969/announce
 udp://88.80.28.7:6969/announce
 
 udp://88.99.2.212:6969/announce
-
-udp://89.110.76.229:6969/announce
 
 udp://89.234.156.205:451/announce
 
@@ -2019,12 +2011,6 @@ udp://95.216.74.39:6969/announce
 udp://95.31.11.224:6969/announce
 
 udp://960303.xyz:6969/announce
-
-udp://[2a03:7220:8083:cd00::1]:451/announce
-
-udp://[2a04:ac00:1:3dd8::1:2710]:2710/announce
-
-udp://[2a0f:e586:f:f::81]:6969/announce
 
 udp://aaa.army:8866/announce
 
@@ -2091,8 +2077,6 @@ udp://bttracker.debian.org:6969/announce
 udp://bubu.mapfactor.com:6969/announce
 
 udp://buddyfly.top:6969/announce
-
-udp://buny.uk:6969/announce
 
 udp://burmese.app:6969/announce
 
@@ -2418,8 +2402,6 @@ udp://tk4.leechshield.link:6969/announce
 
 udp://torrent.fedoraproject.org:6969/announce
 
-udp://torrent.hificode.in:6969/announce
-
 udp://torrent.i.ng:6969/announce
 
 udp://torrent.ubuntu.com:6969/announce
@@ -2627,8 +2609,6 @@ udp://tracker.tvunderground.org.ru:3218/announce
 udp://tracker.uraniumhexafluori.de:443/announce
 
 udp://tracker.valete.tf:9999/announce
-
-udp://tracker.vanitycore.co:6969/announce
 
 udp://tracker.vds.nz:6969/announce
 
