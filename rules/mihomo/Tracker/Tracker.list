@@ -68,6 +68,8 @@ http://147job.com:6969/announce
 
 http://151.115.49.115:1337/announce
 
+http://152.231.114.51:1337/announce
+
 http://155.248.200.105/announce
 
 http://156.234.201.18/announce
@@ -142,8 +144,6 @@ http://185.232.169.109/announce
 
 http://185.70.187.79:6969/announce
 
-http://186.10.170.186:1337/announce
-
 http://187.57.14.62:6969/announce
 
 http://189.0.196.51:6969/announce
@@ -212,11 +212,7 @@ http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
 
-http://34.66.57.33/announce
-
 http://34.66.57.33:11450/announce
-
-http://34.66.57.33:2710/announce
 
 http://34.89.30.59/announce
 
@@ -1496,8 +1492,6 @@ https://private.minimafia.nl/announce
 
 https://pybittrack.retiolus.net/announce
 
-https://retracker2.x2k.ru/announce
-
 https://seeders-paradise.org/announce
 
 https://shahidrazi.online/announce
@@ -1866,8 +1860,6 @@ udp://185.44.82.25:1337/announce
 
 udp://192.95.46.115:6969/announce
 
-udp://193.148.251.93:6969/announce
-
 udp://193.34.92.5:80/announce
 
 udp://193.37.214.12:6969/announce
@@ -1886,21 +1878,19 @@ udp://207.241.231.226:6969/announce
 
 udp://209.126.11.233:6969/announce
 
-udp://209.141.59.25:6969/announce
+udp://209.250.249.67:6969/announce
 
 udp://209.50.255.93:3218/announce
 
 udp://211.75.205.188:6969/announce
 
-udp://211.75.210.221:80/announce
+udp://211.75.205.188:80/announce
 
 udp://211.75.29.254:6969/announce
 
 udp://211.97.119.88:6969/announce
 
 udp://212.42.38.197:6969/announce
-
-udp://212.8.249.30:6969/announce
 
 udp://217.156.123.49:1337/announce
 
@@ -1909,6 +1899,8 @@ udp://217.30.10.77:6969/announce
 udp://23.137.251.45:6969/announce
 
 udp://23.153.248.128:6969/announce
+
+udp://23.157.120.14:6969/announce
 
 udp://23.175.184.30:23333/announce
 
@@ -1969,8 +1961,6 @@ udp://60.249.37.20:6969/announce
 udp://6ahddutb1ucc3cp.ru:6969/announce
 
 udp://7p41a8967.wicp.vip:22222/announce
-
-udp://80.71.224.126:6969/announce
 
 udp://81.230.84.201:6969/announce
 
@@ -2071,8 +2061,6 @@ udp://bt.oiyo.tk:6969/announce
 udp://bt.rer.lol:6969/announce
 
 udp://bt1.archive.org:6969/announce
-
-udp://bt1.xxxxbt.cc:6969/announce
 
 udp://bt2.archive.org:6969/announce
 
@@ -2548,8 +2536,6 @@ udp://tracker.lelux.fi:6969/announce
 
 udp://tracker.monitorit4.me:6969/announce
 
-udp://tracker.moxing.party:6969/announce
-
 udp://tracker.mywaifu.best:6969/announce
 
 udp://tracker.nartlof.com.br:6969/announce
@@ -2626,15 +2612,11 @@ udp://tracker.uraniumhexafluori.de:443/announce
 
 udp://tracker.valete.tf:9999/announce
 
-udp://tracker.vanitycore.co:6969/announce
-
 udp://tracker.vds.nz:6969/announce
 
 udp://tracker.waaa.moe:6969/announce
 
 udp://tracker.x6c.co:6969/announce
-
-udp://tracker.xiaoduola.xyz:6969/announce
 
 udp://tracker.xor.st:6969/announce
 
