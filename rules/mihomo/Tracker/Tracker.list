@@ -88,8 +88,6 @@ http://163.172.29.130/announce
 
 http://167.235.245.209/announce
 
-http://167.253.78.20:8080/announce
-
 http://171.104.110.193:6969/announce
 
 http://171.104.110.21:6969/announce
@@ -186,13 +184,13 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
+http://211.75.205.187:6969/announce
+
 http://211.75.205.188/announce
 
 http://211.75.205.189/announce
 
 http://211.75.210.221/announce
-
-http://211.75.210.221:6969/announce
 
 http://211.75.29.254:6969/announce
 
@@ -202,8 +200,6 @@ http://212.6.3.67/announce
 
 http://216.144.239.90:6969/announce
 
-http://217.156.123.49:1337/announce
-
 http://217.30.10.18:6969/announce
 
 http://217.30.10.77:6969/announce
@@ -211,6 +207,12 @@ http://217.30.10.77:6969/announce
 http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
+
+http://34.66.57.33/announce
+
+http://34.66.57.33/announce.php
+
+http://34.66.57.33:443/announce
 
 http://34.89.30.59/announce
 
@@ -1242,8 +1244,6 @@ http://tracker.yuelili.com/announce
 
 http://tracker.zerobytes.xyz:1337/announce
 
-http://tracker.zhuqiy.com/announce
-
 http://tracker.zhuqiy.dgj055.icu/announce
 
 http://tracker1.bt.moack.co.kr/announce
@@ -1776,8 +1776,6 @@ https://x7x.up.railway.app/announce
 
 https://xtremex.herokuapp.com/announce
 
-https://yuki.bt.bontal.net/announce
-
 https://zer0day.000webhostapp.com/announce
 
 udp://0205.uptm.ch:6969/announce
@@ -1808,13 +1806,13 @@ udp://111.90.151.241:6969/announce
 
 udp://119.28.71.45:8080/announce
 
+udp://132.226.6.145:6969/announce
+
 udp://135.125.106.92:6969/announce
 
 udp://135.125.236.64:6969/announce
 
 udp://144.91.88.22:6969/announce
-
-udp://147.45.77.75:6969/announce
 
 udp://147job.com:6969/announce
 
@@ -1888,7 +1886,7 @@ udp://209.141.59.25:6969/announce
 
 udp://209.50.255.93:3218/announce
 
-udp://211.75.210.221:6969/announce
+udp://211.75.205.187:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1896,13 +1894,15 @@ udp://211.97.119.88:6969/announce
 
 udp://212.42.38.197:6969/announce
 
-udp://217.156.123.49:1337/announce
+udp://212.8.249.30:6969/announce
 
 udp://217.30.10.77:6969/announce
 
+udp://23.134.88.9:6969/announce
+
 udp://23.137.251.45:6969/announce
 
-udp://23.175.184.30:23333/announce
+udp://23.157.120.14:6969/announce
 
 udp://31.38.161.123:6969/announce
 
@@ -1968,7 +1968,11 @@ udp://6ahddutb1ucc3cp.ru:6969/announce
 
 udp://74.119.150.221:6969/announce
 
+udp://77.91.85.95:6969/announce
+
 udp://7p41a8967.wicp.vip:22222/announce
+
+udp://80.71.224.126:6969/announce
 
 udp://81.230.84.201:6969/announce
 
@@ -1987,6 +1991,8 @@ udp://89.234.156.205:451/announce
 udp://89.36.216.8:6969/announce
 
 udp://91.211.5.21:6969/announce
+
+udp://91.216.110.53:451/announce
 
 udp://93.104.214.40:6969/announce
 
@@ -2066,6 +2072,8 @@ udp://bt.rer.lol:6969/announce
 
 udp://bt1.archive.org:6969/announce
 
+udp://bt1.xxxxbt.cc:6969/announce
+
 udp://bt2.archive.org:6969/announce
 
 udp://btt.service.gongt.me:43079/announce
@@ -2141,8 +2149,6 @@ udp://fe.dealclub.de:6969/announce
 udp://fh2.cmp-gaming.com:6969/announce
 
 udp://files.project-cataclysm.ru:6969/announce
-
-udp://fosstorrents.com:6969/announce
 
 udp://free.publictracker.xyz:6969/announce
 
