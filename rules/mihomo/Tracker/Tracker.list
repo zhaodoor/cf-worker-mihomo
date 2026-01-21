@@ -140,6 +140,8 @@ http://185.232.169.109/announce
 
 http://185.70.187.79:6969/announce
 
+http://187.11.75.60:6969/announce
+
 http://187.57.14.62:6969/announce
 
 http://189.0.196.51:6969/announce
@@ -186,8 +188,6 @@ http://211.75.205.188/announce
 
 http://211.75.205.189/announce
 
-http://211.75.205.189:6969/announce
-
 http://211.75.210.221/announce
 
 http://211.75.29.254:6969/announce
@@ -198,8 +198,6 @@ http://212.6.3.67/announce
 
 http://216.144.239.90:6969/announce
 
-http://217.156.123.49:1337/announce
-
 http://217.30.10.18:6969/announce
 
 http://217.30.10.77:6969/announce
@@ -207,6 +205,12 @@ http://217.30.10.77:6969/announce
 http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
+
+http://34.66.57.33:2701/announce
+
+http://34.66.57.33:443/announce
+
+http://34.66.57.33:6969/announce
 
 http://34.89.30.59/announce
 
@@ -295,6 +299,8 @@ http://54.39.98.124/announce
 http://60-fps.org/bt/announce.php
 
 http://60-fps.org/bt:80/announce.php
+
+http://60.249.37.20:6969/announce
 
 http://61.216.109.95:6969/announce
 
@@ -433,8 +439,6 @@ http://bigfoot1942.sektori.org:6969/announce
 http://bithq.org/announce
 
 http://bithq.org/announce.php
-
-http://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
 
 http://blackz.ro/announce
 
@@ -1620,8 +1624,6 @@ https://tracker.foreverpirates.co/announce
 
 https://tracker.gbitt.info/announce
 
-https://tracker.gcrenwp.top/announce
-
 https://tracker.ghostchu-services.top/announce
 
 https://tracker.guguan.dpdns.org/announce
@@ -1786,8 +1788,6 @@ udp://104.131.98.232:6969/announce
 
 udp://104.143.10.186:8000/announce
 
-udp://104.248.85.59:6969/announce
-
 udp://107.175.221.194:6969/announce
 
 udp://107.189.4.235:1337/announce
@@ -1844,6 +1844,8 @@ udp://176.99.7.59:6969/announce
 
 udp://178.170.48.154:1337/announce
 
+udp://184.105.226.26:6969/announce
+
 udp://185.102.219.163:6969/announce
 
 udp://185.121.168.96:1337/announce
@@ -1862,7 +1864,11 @@ udp://185.230.4.150:1337/announce
 
 udp://185.243.218.213:80/announce
 
+udp://185.249.198.175:1337/announce
+
 udp://185.44.82.25:1337/announce
+
+udp://187.11.75.60:6969/announce
 
 udp://192.95.46.115:6969/announce
 
@@ -1886,9 +1892,9 @@ udp://209.126.11.233:6969/announce
 
 udp://209.141.59.25:6969/announce
 
-udp://209.50.255.93:3218/announce
+udp://209.250.249.67:6969/announce
 
-udp://211.75.205.189:6969/announce
+udp://209.50.255.93:3218/announce
 
 udp://211.75.210.221:80/announce
 
@@ -1903,6 +1909,8 @@ udp://212.8.249.30:6969/announce
 udp://217.30.10.77:6969/announce
 
 udp://23.137.251.45:6969/announce
+
+udp://23.157.120.14:6969/announce
 
 udp://23.175.184.30:23333/announce
 
@@ -1921,8 +1929,6 @@ udp://37.59.48.81:6969/announce
 udp://43.154.112.29:17272/announce
 
 udp://43.250.54.137:6969/announce
-
-udp://45.134.88.121:6969/announce
 
 udp://45.9.60.30:6969/announce
 
@@ -1964,7 +1970,11 @@ udp://60.249.37.20:6969/announce
 
 udp://6ahddutb1ucc3cp.ru:6969/announce
 
+udp://74.119.150.221:6969/announce
+
 udp://7p41a8967.wicp.vip:22222/announce
+
+udp://80.71.224.126:6969/announce
 
 udp://81.230.84.201:6969/announce
 
@@ -2064,6 +2074,8 @@ udp://bt.rer.lol:6969/announce
 
 udp://bt1.archive.org:6969/announce
 
+udp://bt1.xxxxbt.cc:6969/announce
+
 udp://bt2.archive.org:6969/announce
 
 udp://btt.service.gongt.me:43079/announce
@@ -2152,9 +2164,13 @@ udp://ftp.pet:2710/announce
 
 udp://home.kray.pw:6969/announce
 
+udp://home.yxgz.club:6969/announce
+
 udp://http//www.peckservers.com:9000/announce
 
 udp://htz3.noho.st:6969/announce
+
+udp://hzzwly.gq:6969/announce
 
 udp://ibksturm.synology.me:6969/announce
 
@@ -2619,8 +2635,6 @@ udp://tracker.waaa.moe:6969/announce
 udp://tracker.wepzone.net:6969/announce
 
 udp://tracker.x6c.co:6969/announce
-
-udp://tracker.xiaoduola.xyz:6969/announce
 
 udp://tracker.xor.st:6969/announce
 
