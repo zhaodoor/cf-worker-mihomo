@@ -42,8 +42,6 @@ http://117.72.34.150:6969/announce
 
 http://119.28.71.45:8080/announce
 
-http://123.245.62.88:6969/announce
-
 http://129.146.193.240:6699/announce
 
 http://13.115.115.32:6969/announce
@@ -124,8 +122,6 @@ http://171.104.226.87:6969/announce
 
 http://179.100.24.134:6969/announce
 
-http://179.175.247.70:6969/announce
-
 http://180.97.219.76:8070/announce
 
 http://185.130.47.2:6969/announce
@@ -151,6 +147,8 @@ http://187.57.14.62:6969/announce
 http://189.0.196.51:6969/announce
 
 http://189.110.233.96:6969/announce
+
+http://189.18.96.9:6969/announce
 
 http://192.3.165.191:6969/announce
 
@@ -211,10 +209,6 @@ http://217.30.10.77:6969/announce
 http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
-
-http://34.66.57.33:2710/announce
-
-http://34.66.57.33:443/announce
 
 http://34.89.30.59/announce
 
@@ -303,8 +297,6 @@ http://54.39.98.124/announce
 http://60-fps.org/bt/announce.php
 
 http://60-fps.org/bt:80/announce.php
-
-http://60.249.37.20/announce
 
 http://61.216.109.95:6969/announce
 
@@ -1232,8 +1224,6 @@ http://tracker.xn--djrq4gl4hvoi.top/announce
 
 http://tracker.ygsub.com:6969/announce
 
-http://tracker.ykat.xyz:6969/announce
-
 http://tracker.yoshi210.com:6969/announce
 
 http://tracker.yuelili.com/announce
@@ -1820,6 +1810,8 @@ udp://144.126.245.19:6969/announce
 
 udp://144.91.88.22:6969/announce
 
+udp://147.45.77.75:6969/announce
+
 udp://147job.com:6969/announce
 
 udp://148.251.53.72:6969/announce
@@ -1850,10 +1842,6 @@ udp://176.99.7.59:6969/announce
 
 udp://178.170.48.154:1337/announce
 
-udp://179.175.247.70:6969/announce
-
-udp://184.105.226.26:6969/announce
-
 udp://185.102.219.163:6969/announce
 
 udp://185.121.168.96:1337/announce
@@ -1874,7 +1862,11 @@ udp://185.243.218.213:80/announce
 
 udp://185.44.82.25:1337/announce
 
+udp://189.18.96.9:6969/announce
+
 udp://192.95.46.115:6969/announce
+
+udp://193.148.251.93:6969/announce
 
 udp://193.34.92.5:80/announce
 
@@ -1900,6 +1892,8 @@ udp://209.50.255.93:3218/announce
 
 udp://211.75.205.187:6969/announce
 
+udp://211.75.205.189:80/announce
+
 udp://211.75.29.254:6969/announce
 
 udp://211.97.119.88:6969/announce
@@ -1911,8 +1905,6 @@ udp://212.8.249.30:6969/announce
 udp://217.30.10.77:6969/announce
 
 udp://23.137.251.45:6969/announce
-
-udp://23.175.184.30:23333/announce
 
 udp://31.38.161.123:6969/announce
 
@@ -1929,8 +1921,6 @@ udp://37.59.48.81:6969/announce
 udp://43.154.112.29:17272/announce
 
 udp://43.250.54.137:6969/announce
-
-udp://45.134.88.121:6969/announce
 
 udp://45.9.60.30:6969/announce
 
@@ -1970,13 +1960,9 @@ udp://6.pocketnet.app:6969/announce
 
 udp://60.249.37.20:6969/announce
 
-udp://60.249.37.20:80/announce
-
 udp://6ahddutb1ucc3cp.ru:6969/announce
 
 udp://74.119.150.221:6969/announce
-
-udp://77.91.85.95:6969/announce
 
 udp://7p41a8967.wicp.vip:22222/announce
 
@@ -1997,8 +1983,6 @@ udp://89.234.156.205:451/announce
 udp://89.36.216.8:6969/announce
 
 udp://91.211.5.21:6969/announce
-
-udp://91.216.110.53:451/announce
 
 udp://93.104.214.40:6969/announce
 
@@ -2099,6 +2083,8 @@ udp://canardscitrons.nohost.me:6969/announce
 udp://caramelo.ddns.net:8000/announce
 
 udp://carr.codes:6969/announce
+
+udp://ch3oh.ru:6969/announce
 
 udp://chouchou.top:8080/announce
 
@@ -2548,8 +2534,6 @@ udp://tracker.lelux.fi:6969/announce
 
 udp://tracker.monitorit4.me:6969/announce
 
-udp://tracker.moxing.party:6969/announce
-
 udp://tracker.mywaifu.best:6969/announce
 
 udp://tracker.nartlof.com.br:6969/announce
@@ -2632,6 +2616,10 @@ udp://tracker.vanitycore.co:6969/announce
 
 udp://tracker.vds.nz:6969/announce
 
+udp://tracker.vraphim.com:6969/announce
+
+udp://tracker.vrpnet.org:6969/announce
+
 udp://tracker.waaa.moe:6969/announce
 
 udp://tracker.wepzone.net:6969/announce
@@ -2645,8 +2633,6 @@ udp://tracker.xor.st:6969/announce
 udp://tracker.yangxiaoguozi.cn:6969/announce
 
 udp://tracker.ygsub.com:6969/announce
-
-udp://tracker.ykat.xyz:6969/announce
 
 udp://tracker.yoshi210.com:6969/announce
 
