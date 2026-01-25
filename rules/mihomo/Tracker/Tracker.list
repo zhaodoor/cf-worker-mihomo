@@ -50,8 +50,6 @@ http://1337.abcvg.info/announce
 
 http://1337.abcvg.info/announce+108
 
-http://138.124.183.78:6969/announce
-
 http://140.235.237.23:6969/announce
 
 http://140.82.21.192:8080/announce
@@ -65,6 +63,8 @@ http://144.202.33.210:6961/announce
 http://144.76.118.107:6969/announce
 
 http://147job.com:6969/announce
+
+http://15.204.239.175:6969/announce
 
 http://151.115.49.115:1337/announce
 
@@ -85,8 +85,6 @@ http://163.172.209.40/announce
 http://163.172.29.130/announce
 
 http://167.235.245.209/announce
-
-http://167.253.78.20:8080/announce
 
 http://171.104.110.193:6969/announce
 
@@ -120,9 +118,9 @@ http://171.104.226.31:6969/announce
 
 http://171.104.226.87:6969/announce
 
-http://177.172.62.240:6969/announce
-
 http://179.100.24.134:6969/announce
+
+http://179.98.51.66:6969/announce
 
 http://180.97.219.76:8070/announce
 
@@ -187,6 +185,8 @@ http://211.20.122.47:6969/announce
 http://211.22.29.93/announce
 
 http://211.75.205.188/announce
+
+http://211.75.205.188:6969/announce
 
 http://211.75.205.189/announce
 
@@ -295,8 +295,6 @@ http://54.39.98.124/announce
 http://60-fps.org/bt/announce.php
 
 http://60-fps.org/bt:80/announce.php
-
-http://60.249.37.20:6969/announce
 
 http://61.216.109.95:6969/announce
 
@@ -1488,6 +1486,8 @@ https://private.minimafia.nl/announce
 
 https://pybittrack.retiolus.net/announce
 
+https://retracker2.x2k.ru/announce
+
 https://seeders-paradise.org/announce
 
 https://shahidrazi.online/announce
@@ -1617,6 +1617,8 @@ https://tracker.feb217.tk:8443/announce
 https://tracker.foreverpirates.co/announce
 
 https://tracker.gbitt.info/announce
+
+https://tracker.gcrenwp.top/announce
 
 https://tracker.ghostchu-services.top/announce
 
@@ -1776,6 +1778,8 @@ udp://10.rarbg.com:6969/announce
 
 udp://103.122.21.50:6969/announce
 
+udp://103.251.166.126:6969/announce
+
 udp://104.131.98.232:6969/announce
 
 udp://104.143.10.186:8000/announce
@@ -1804,6 +1808,8 @@ udp://144.126.245.19:6969/announce
 
 udp://144.91.88.22:6969/announce
 
+udp://147.45.77.75:6969/announce
+
 udp://147job.com:6969/announce
 
 udp://148.251.53.72:6969/announce
@@ -1811,6 +1817,8 @@ udp://148.251.53.72:6969/announce
 udp://152.53.152.105:1984/announce
 
 udp://152.53.152.105:54123/announce
+
+udp://154.40.43.165:6969/announce
 
 udp://156.234.201.18:80/announce
 
@@ -1826,17 +1834,17 @@ udp://172.105.235.127:6969/announce
 
 udp://173.249.201.201:6969/announce
 
-udp://176.123.1.180:6969/announce
-
 udp://176.31.250.174:6969/announce
 
 udp://176.99.7.59:6969/announce
 
-udp://177.172.62.240:6969/announce
-
 udp://178.170.48.154:1337/announce
 
+udp://179.98.51.66:6969/announce
+
 udp://185.102.219.163:6969/announce
+
+udp://185.121.168.96:1337/announce
 
 udp://185.121.168.96:6969/announce
 
@@ -1876,13 +1884,13 @@ udp://207.241.231.226:6969/announce
 
 udp://209.126.11.233:6969/announce
 
-udp://209.141.59.16:6969/announce
-
 udp://209.141.59.25:6969/announce
 
 udp://209.50.255.93:3218/announce
 
-udp://211.75.210.221:80/announce
+udp://211.75.205.188:6969/announce
+
+udp://211.75.205.188:80/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1895,8 +1903,6 @@ udp://212.8.249.30:6969/announce
 udp://217.30.10.77:6969/announce
 
 udp://23.137.251.45:6969/announce
-
-udp://23.157.120.14:6969/announce
 
 udp://23.175.184.30:23333/announce
 
@@ -1958,17 +1964,15 @@ udp://6ahddutb1ucc3cp.ru:6969/announce
 
 udp://74.119.150.221:6969/announce
 
-udp://77.91.85.95:6969/announce
-
 udp://7p41a8967.wicp.vip:22222/announce
-
-udp://80.71.224.126:6969/announce
 
 udp://81.230.84.201:6969/announce
 
 udp://82.65.115.10:6969/announce
 
 udp://83.102.180.21:80/announce
+
+udp://84.54.51.78:6969/announce
 
 udp://88.80.28.7:6969/announce
 
@@ -1979,6 +1983,8 @@ udp://89.234.156.205:451/announce
 udp://89.36.216.8:6969/announce
 
 udp://91.211.5.21:6969/announce
+
+udp://91.216.110.53:451/announce
 
 udp://93.104.214.40:6969/announce
 
@@ -2017,6 +2023,8 @@ udp://aegir.sexy:6969/announce
 udp://amigacity.xyz:6969/announce
 
 udp://anidex.moe:6969/announce
+
+udp://anna.bt.bontal.net:6969/announce
 
 udp://app.icon256.com:8000/announce
 
@@ -2134,8 +2142,6 @@ udp://fh2.cmp-gaming.com:6969/announce
 
 udp://files.project-cataclysm.ru:6969/announce
 
-udp://fosstorrents.com:6969/announce
-
 udp://free.publictracker.xyz:6969/announce
 
 udp://freedom.1776.ga:6969/announce
@@ -2146,13 +2152,9 @@ udp://ftp.pet:2710/announce
 
 udp://home.kray.pw:6969/announce
 
-udp://home.yxgz.club:6969/announce
-
 udp://http//www.peckservers.com:9000/announce
 
 udp://htz3.noho.st:6969/announce
-
-udp://hzzwly.gq:6969/announce
 
 udp://ibksturm.synology.me:6969/announce
 
@@ -2398,6 +2400,8 @@ udp://tk4.leechshield.link:6969/announce
 
 udp://torrent.fedoraproject.org:6969/announce
 
+udp://torrent.hificode.in:6969/announce
+
 udp://torrent.i.ng:6969/announce
 
 udp://torrent.ubuntu.com:6969/announce
@@ -2609,8 +2613,6 @@ udp://tracker.tvunderground.org.ru:3218/announce
 udp://tracker.uraniumhexafluori.de:443/announce
 
 udp://tracker.valete.tf:9999/announce
-
-udp://tracker.vanitycore.co:6969/announce
 
 udp://tracker.vds.nz:6969/announce
 
