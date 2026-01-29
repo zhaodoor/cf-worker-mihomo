@@ -142,6 +142,8 @@ http://185.232.169.109/announce
 
 http://185.70.187.79:6969/announce
 
+http://187.57.132.65:6969/announce
+
 http://187.57.14.62:6969/announce
 
 http://189.0.196.51:6969/announce
@@ -157,8 +159,6 @@ http://193.31.26.113:6969/announce
 http://193.37.214.12:6969/announce
 
 http://198.251.84.144/announce
-
-http://200.148.11.156:6969/announce
 
 http://200.232.254.1:6969/announce
 
@@ -207,6 +207,8 @@ http://217.30.10.77:6969/announce
 http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
+
+http://34.66.57.33:2701/announce
 
 http://34.89.30.59/announce
 
@@ -639,6 +641,8 @@ http://joczo.duckdns.org:6969/announce
 http://jp.moeweb.pw:6969/announce
 
 http://jsb.by00/announce
+
+http://jvavav.com/announce
 
 http://kamikazee.duckdns.org:7777/announce
 
@@ -1540,8 +1544,6 @@ https://tracker.aburaya.live/announce
 
 https://tracker.alaskantf.com/announce
 
-https://tracker.amelia.fun/announce
-
 https://tracker.baka.ink/announce
 
 https://tracker.bangumi.zip/announce
@@ -1734,8 +1736,6 @@ udp://10.rarbg.com:6969/announce
 
 udp://103.122.21.50:6969/announce
 
-udp://103.251.166.126:6969/announce
-
 udp://104.131.98.232:6969/announce
 
 udp://104.143.10.186:8000/announce
@@ -1764,8 +1764,6 @@ udp://144.126.245.19:6969/announce
 
 udp://144.91.88.22:6969/announce
 
-udp://147.45.77.75:6969/announce
-
 udp://147job.com:6969/announce
 
 udp://148.251.53.72:6969/announce
@@ -1788,8 +1786,6 @@ udp://172.105.235.127:6969/announce
 
 udp://173.249.201.201:6969/announce
 
-udp://176.123.1.180:6969/announce
-
 udp://176.31.250.174:6969/announce
 
 udp://176.99.7.59:6969/announce
@@ -1797,10 +1793,6 @@ udp://176.99.7.59:6969/announce
 udp://178.170.48.154:1337/announce
 
 udp://185.102.219.163:6969/announce
-
-udp://185.121.168.96:1337/announce
-
-udp://185.121.168.96:6969/announce
 
 udp://185.181.60.155:80/announce
 
@@ -1814,7 +1806,11 @@ udp://185.243.218.213:80/announce
 
 udp://185.44.82.25:1337/announce
 
+udp://187.57.132.65:6969/announce
+
 udp://192.95.46.115:6969/announce
+
+udp://193.148.251.93:6969/announce
 
 udp://193.34.92.5:80/announce
 
@@ -1826,8 +1822,6 @@ udp://198.100.149.66:6969/announce
 
 udp://1c.premierzal.ru:6969/announce
 
-udp://200.148.11.156:6969/announce
-
 udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
@@ -1838,13 +1832,15 @@ udp://209.141.59.25:6969/announce
 
 udp://209.50.255.93:3218/announce
 
-udp://211.75.205.189:6969/announce
+udp://211.75.205.188:80/announce
 
-udp://211.75.210.221:80/announce
+udp://211.75.205.189:6969/announce
 
 udp://211.75.29.254:6969/announce
 
 udp://212.42.38.197:6969/announce
+
+udp://212.8.249.30:6969/announce
 
 udp://217.30.10.77:6969/announce
 
@@ -1860,13 +1856,13 @@ udp://37.187.111.136:6969/announce
 
 udp://37.187.95.112:6969/announce
 
+udp://37.235.176.37:2710/announce
+
 udp://37.59.48.81:6969/announce
 
 udp://43.154.112.29:17272/announce
 
 udp://43.250.54.137:6969/announce
-
-udp://45.134.88.121:6969/announce
 
 udp://45.9.60.30:6969/announce
 
@@ -1909,6 +1905,8 @@ udp://60.249.37.20:6969/announce
 udp://6ahddutb1ucc3cp.ru:6969/announce
 
 udp://74.119.150.221:6969/announce
+
+udp://77.91.85.95:6969/announce
 
 udp://81.230.84.201:6969/announce
 
@@ -1999,6 +1997,8 @@ udp://bt.oiyo.tk:6969/announce
 udp://bt.rer.lol:6969/announce
 
 udp://bt1.archive.org:6969/announce
+
+udp://bt1.xxxxbt.cc:6969/announce
 
 udp://bt2.archive.org:6969/announce
 
@@ -2091,8 +2091,6 @@ udp://htz3.noho.st:6969/announce
 udp://ibksturm.synology.me:6969/announce
 
 udp://incine.ru:6969/announce
-
-udp://ipv4.rer.lol:2710/announce
 
 udp://ipv4.tracker.harry.lu/announce
 
@@ -2320,8 +2318,6 @@ udp://torrent.fedoraproject.org:6969/announce
 
 udp://torrent.i.ng:6969/announce
 
-udp://torrent.ubuntu.com:6969/announce
-
 udp://torrentclub.online:54123/announce
 
 udp://torrentclub.space:6969/announce
@@ -2509,8 +2505,6 @@ udp://tracker.tvunderground.org.ru:3218/announce
 udp://tracker.uraniumhexafluori.de:443/announce
 
 udp://tracker.valete.tf:9999/announce
-
-udp://tracker.vanitycore.co:6969/announce
 
 udp://tracker.vds.nz:6969/announce
 
