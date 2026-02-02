@@ -148,6 +148,8 @@ http://189.0.196.51:6969/announce
 
 http://189.110.233.96:6969/announce
 
+http://191.23.71.193:6969/announce
+
 http://192.3.165.191:6969/announce
 
 http://192.9.228.30:6699/announce
@@ -188,11 +190,11 @@ http://211.22.29.93/announce
 
 http://211.75.205.188/announce
 
+http://211.75.205.188:6969/announce
+
 http://211.75.205.189/announce
 
 http://211.75.210.221/announce
-
-http://211.75.210.221:6969/announce
 
 http://211.75.29.254:6969/announce
 
@@ -208,11 +210,17 @@ http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
 
+http://34.66.57.33/announce
+
 http://34.66.57.33/announce.php
 
 http://34.66.57.33:11450/announce
 
-http://34.66.57.33:6969/announce
+http://34.66.57.33:2701/announce
+
+http://34.66.57.33:2710/announce
+
+http://34.66.57.33:443/announce
 
 http://34.89.30.59/announce
 
@@ -735,8 +743,6 @@ http://open.stealth.si/announce
 http://open.touki.ru/announce
 
 http://open.touki.ru/announce.php
-
-http://open.tracker.cl:1337/announce
 
 http://open.tracker.ink:6969/announce
 
@@ -1786,6 +1792,8 @@ udp://144.126.245.19:6969/announce
 
 udp://144.91.88.22:6969/announce
 
+udp://147.45.77.75:6969/announce
+
 udp://147job.com:6969/announce
 
 udp://148.251.53.72:6969/announce
@@ -1814,6 +1822,8 @@ udp://178.170.48.154:1337/announce
 
 udp://185.102.219.163:6969/announce
 
+udp://185.121.168.96:1337/announce
+
 udp://185.121.168.96:6969/announce
 
 udp://185.181.60.155:80/announce
@@ -1827,6 +1837,8 @@ udp://185.230.4.150:1337/announce
 udp://185.243.218.213:80/announce
 
 udp://185.44.82.25:1337/announce
+
+udp://191.23.71.193:6969/announce
 
 udp://192.95.46.115:6969/announce
 
@@ -1850,15 +1862,13 @@ udp://209.126.11.233:6969/announce
 
 udp://209.141.59.25:6969/announce
 
-udp://209.50.255.93:3218/announce
+udp://209.250.249.67:6969/announce
 
-udp://211.75.210.221:6969/announce
+udp://209.50.255.93:3218/announce
 
 udp://211.75.29.254:6969/announce
 
 udp://212.42.38.197:6969/announce
-
-udp://212.8.249.30:6969/announce
 
 udp://217.30.10.77:6969/announce
 
@@ -1886,11 +1896,11 @@ udp://37.235.176.37:2710/announce
 
 udp://37.59.48.81:6969/announce
 
+udp://43.154.112.29:17272/announce
+
 udp://43.250.54.137:6969/announce
 
 udp://44.30.4.4:6969/announce
-
-udp://45.134.88.121:6969/announce
 
 udp://45.9.60.30:6969/announce
 
@@ -1936,11 +1946,7 @@ udp://6ahddutb1ucc3cp.ru:6969/announce
 
 udp://74.119.150.221:6969/announce
 
-udp://77.91.85.95:6969/announce
-
 udp://78.71.168.156:6969/announce
-
-udp://80.71.224.126:1337/announce
 
 udp://81.230.84.201:6969/announce
 
@@ -1959,6 +1965,8 @@ udp://89.234.156.205:451/announce
 udp://89.36.216.8:6969/announce
 
 udp://91.211.5.21:6969/announce
+
+udp://91.216.110.53:451/announce
 
 udp://93.104.214.40:6969/announce
 
@@ -2108,6 +2116,8 @@ udp://fh2.cmp-gaming.com:6969/announce
 
 udp://files.project-cataclysm.ru:6969/announce
 
+udp://fosstorrents.com:6969/announce
+
 udp://free.publictracker.xyz:6969/announce
 
 udp://freedom.1776.ga:6969/announce
@@ -2139,8 +2149,6 @@ udp://ipv4.tracker.harry.lu:6969/announce
 udp://ipv4.tracker.harry.lu:80/announce
 
 udp://ipv4announce.sktorrent.eu:6969/announce
-
-udp://ipv6.fuuuuuck.com:6969/announce
 
 udp://ipv6.rer.lol:6969/announce
 
@@ -2356,8 +2364,6 @@ udp://tk4.leechshield.link:6969/announce
 
 udp://torrent.fedoraproject.org:6969/announce
 
-udp://torrent.hificode.in:6969/announce
-
 udp://torrent.i.ng:6969/announce
 
 udp://torrentclub.online:54123/announce
@@ -2480,8 +2486,6 @@ udp://tracker.lelux.fi:6969/announce
 
 udp://tracker.monitorit4.me:6969/announce
 
-udp://tracker.moxing.party:6969/announce
-
 udp://tracker.mywaifu.best:6969/announce
 
 udp://tracker.nartlof.com.br:6969/announce
@@ -2554,8 +2558,6 @@ udp://tracker.uraniumhexafluori.de:443/announce
 
 udp://tracker.valete.tf:9999/announce
 
-udp://tracker.vanitycore.co:6969/announce
-
 udp://tracker.vds.nz:6969/announce
 
 udp://tracker.waaa.moe:6969/announce
@@ -2563,8 +2565,6 @@ udp://tracker.waaa.moe:6969/announce
 udp://tracker.wepzone.net:6969/announce
 
 udp://tracker.x6c.co:6969/announce
-
-udp://tracker.xiaoduola.xyz:6969/announce
 
 udp://tracker.xor.st:6969/announce
 
@@ -2655,8 +2655,6 @@ udp://yuki.bt.bontal.net:6969/announce
 udp://z.mercax.com:53/announce
 
 udp://zecircle.xyz:6969/announce
-
-udp://zer0day.ch:1337/announce
 
 ws://tracker.files.fm:7072/announce
 
