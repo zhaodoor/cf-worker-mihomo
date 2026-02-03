@@ -76,6 +76,8 @@ http://157.90.169.123/announce
 
 http://158.101.137.177:6969/announce
 
+http://159.195.43.181:6969/announce
+
 http://159.69.65.157:6969/announce
 
 http://160.251.78.190:6969/announce
@@ -142,13 +144,13 @@ http://185.232.169.109/announce
 
 http://185.70.187.79:6969/announce
 
+http://187.11.72.168:6969/announce
+
 http://187.57.14.62:6969/announce
 
 http://189.0.196.51:6969/announce
 
 http://189.110.233.96:6969/announce
-
-http://191.23.71.193:6969/announce
 
 http://192.3.165.191:6969/announce
 
@@ -190,9 +192,9 @@ http://211.22.29.93/announce
 
 http://211.75.205.188/announce
 
-http://211.75.205.188:6969/announce
-
 http://211.75.205.189/announce
+
+http://211.75.205.189:6969/announce
 
 http://211.75.210.221/announce
 
@@ -212,15 +214,9 @@ http://220.130.15.30:6969/announce
 
 http://34.66.57.33/announce
 
-http://34.66.57.33/announce.php
-
 http://34.66.57.33:11450/announce
 
-http://34.66.57.33:2701/announce
-
 http://34.66.57.33:2710/announce
-
-http://34.66.57.33:443/announce
 
 http://34.89.30.59/announce
 
@@ -316,7 +312,7 @@ http://60-fps.org/bt/announce.php
 
 http://60-fps.org/bt:80/announce.php
 
-http://60.249.37.20:6969/announce
+http://60.249.37.20/announce
 
 http://61.216.109.95:6969/announce
 
@@ -743,6 +739,8 @@ http://open.stealth.si/announce
 http://open.touki.ru/announce
 
 http://open.touki.ru/announce.php
+
+http://open.tracker.cl:1337/announce
 
 http://open.tracker.ink:6969/announce
 
@@ -1610,6 +1608,8 @@ https://tracker.foreverpirates.co/announce
 
 https://tracker.gbitt.info/announce
 
+https://tracker.gcrenwp.top/announce
+
 https://tracker.ghostchu-services.top/announce
 
 https://tracker.guguan.us.kg/announce
@@ -1838,11 +1838,9 @@ udp://185.243.218.213:80/announce
 
 udp://185.44.82.25:1337/announce
 
-udp://191.23.71.193:6969/announce
+udp://187.11.72.168:6969/announce
 
 udp://192.95.46.115:6969/announce
-
-udp://193.34.92.5:80/announce
 
 udp://193.37.214.12:6969/announce
 
@@ -1860,19 +1858,27 @@ udp://207.241.231.226:6969/announce
 
 udp://209.126.11.233:6969/announce
 
+udp://209.141.59.16:6969/announce
+
 udp://209.141.59.25:6969/announce
 
 udp://209.250.249.67:6969/announce
 
 udp://209.50.255.93:3218/announce
 
+udp://211.75.205.189:6969/announce
+
 udp://211.75.29.254:6969/announce
 
 udp://212.42.38.197:6969/announce
 
+udp://212.8.249.30:6969/announce
+
 udp://217.30.10.77:6969/announce
 
 udp://23.137.251.45:6969/announce
+
+udp://23.157.120.14:6969/announce
 
 udp://23.175.184.30:23333/announce
 
@@ -1966,8 +1972,6 @@ udp://89.36.216.8:6969/announce
 
 udp://91.211.5.21:6969/announce
 
-udp://91.216.110.53:451/announce
-
 udp://93.104.214.40:6969/announce
 
 udp://93.158.213.92:1337//announce
@@ -1979,8 +1983,6 @@ udp://94-227-232-84.access.telenet.be:6969/announce
 udp://94.103.87.87:6969/announce
 
 udp://94.136.190.183:6969/announce
-
-udp://94.23.207.177:6969/announce
 
 udp://94.243.222.100:6969/announce
 
@@ -2115,8 +2117,6 @@ udp://fe.dealclub.de:6969/announce
 udp://fh2.cmp-gaming.com:6969/announce
 
 udp://files.project-cataclysm.ru:6969/announce
-
-udp://fosstorrents.com:6969/announce
 
 udp://free.publictracker.xyz:6969/announce
 
@@ -2364,6 +2364,8 @@ udp://tk4.leechshield.link:6969/announce
 
 udp://torrent.fedoraproject.org:6969/announce
 
+udp://torrent.hificode.in:6969/announce
+
 udp://torrent.i.ng:6969/announce
 
 udp://torrentclub.online:54123/announce
@@ -2486,6 +2488,8 @@ udp://tracker.lelux.fi:6969/announce
 
 udp://tracker.monitorit4.me:6969/announce
 
+udp://tracker.moxing.party:6969/announce
+
 udp://tracker.mywaifu.best:6969/announce
 
 udp://tracker.nartlof.com.br:6969/announce
@@ -2557,6 +2561,8 @@ udp://tracker.umunu.ru:6969/announce
 udp://tracker.uraniumhexafluori.de:443/announce
 
 udp://tracker.valete.tf:9999/announce
+
+udp://tracker.vanitycore.co:6969/announce
 
 udp://tracker.vds.nz:6969/announce
 
