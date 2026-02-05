@@ -86,8 +86,6 @@ http://163.172.29.130/announce
 
 http://167.235.245.209/announce
 
-http://167.253.78.20:8080/announce
-
 http://171.104.110.193:6969/announce
 
 http://171.104.110.21:6969/announce
@@ -120,11 +118,7 @@ http://171.104.226.31:6969/announce
 
 http://171.104.226.87:6969/announce
 
-http://177.172.62.154:6969/announce
-
 http://179.100.24.134:6969/announce
-
-http://180.112.57.159:6969/announce
 
 http://180.97.219.76:8070/announce
 
@@ -146,6 +140,8 @@ http://185.232.169.109/announce
 
 http://185.70.187.79:6969/announce
 
+http://187.11.75.160:6969/announce
+
 http://187.57.14.62:6969/announce
 
 http://189.0.196.51:6969/announce
@@ -161,6 +157,8 @@ http://193.31.26.113:6969/announce
 http://193.37.214.12:6969/announce
 
 http://198.251.84.144/announce
+
+http://200.111.152.53:1337/announce
 
 http://200.232.254.1:6969/announce
 
@@ -192,11 +190,13 @@ http://211.22.29.93/announce
 
 http://211.75.205.188/announce
 
-http://211.75.205.188:6969/announce
-
 http://211.75.205.189/announce
 
+http://211.75.205.189:6969/announce
+
 http://211.75.210.221/announce
+
+http://211.75.210.221:6969/announce
 
 http://211.75.29.254:6969/announce
 
@@ -729,6 +729,8 @@ http://open.stealth.si/announce
 http://open.touki.ru/announce
 
 http://open.touki.ru/announce.php
+
+http://open.tracker.cl:1337/announce
 
 http://open.tracker.ink:6969/announce
 
@@ -1594,8 +1596,6 @@ https://tracker.foreverpirates.co/announce
 
 https://tracker.gbitt.info/announce
 
-https://tracker.gcrenwp.top/announce
-
 https://tracker.ghostchu-services.top/announce
 
 https://tracker.guguan.us.kg/announce
@@ -1750,6 +1750,8 @@ udp://101.99.94.187:6969/announce
 
 udp://103.122.21.50:6969/announce
 
+udp://103.251.166.126:6969/announce
+
 udp://104.131.98.232:6969/announce
 
 udp://104.143.10.186:8000/announce
@@ -1798,19 +1800,15 @@ udp://173.201.36.219:6969/announce
 
 udp://173.249.201.201:6969/announce
 
+udp://176.123.1.180:6969/announce
+
 udp://176.31.250.174:6969/announce
 
 udp://176.99.7.59:6969/announce
 
-udp://177.172.62.154:6969/announce
-
 udp://178.170.48.154:1337/announce
 
 udp://185.102.219.163:6969/announce
-
-udp://185.121.168.96:1337/announce
-
-udp://185.121.168.96:6969/announce
 
 udp://185.181.60.155:80/announce
 
@@ -1827,10 +1825,6 @@ udp://185.243.218.213:80/announce
 udp://185.44.82.25:1337/announce
 
 udp://192.95.46.115:6969/announce
-
-udp://193.148.251.93:6969/announce
-
-udp://193.34.92.5:80/announce
 
 udp://193.37.214.12:6969/announce
 
@@ -1852,7 +1846,7 @@ udp://209.141.59.25:6969/announce
 
 udp://209.50.255.93:3218/announce
 
-udp://211.75.205.188:6969/announce
+udp://211.75.205.189:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1874,6 +1868,8 @@ udp://34.66.57.33:1337/announce
 
 udp://34.66.57.33:80/announce
 
+udp://37.120.182.83:15480/announce
+
 udp://37.120.182.83:1984/announce
 
 udp://37.120.182.83:54123/announce
@@ -1892,6 +1888,8 @@ udp://43.250.54.137:6969/announce
 
 udp://44.30.4.4:6969/announce
 
+udp://45.134.88.121:6969/announce
+
 udp://45.9.60.30:6969/announce
 
 udp://46.138.242.240:6969/announce
@@ -1904,13 +1902,13 @@ udp://5.196.89.204:6969/announce
 
 udp://5.255.124.190:6969/announce
 
-udp://5.75.253.124:6969/announce
-
 udp://504e163a.host.njalla.net:6969/announce
 
 udp://51.15.26.25:6969/announce
 
 udp://51.15.3.74:6969/announce
+
+udp://51.15.41.46:6969/announce
 
 udp://51.158.144.42:6969/announce
 
@@ -2035,8 +2033,6 @@ udp://bt.rer.lol:6969/announce
 udp://bt1.archive.org:6969/announce
 
 udp://bt2.archive.org:6969/announce
-
-udp://btt.service.gongt.me:43079/announce
 
 udp://bttracker.debian.org:6969/announce
 
@@ -2178,8 +2174,6 @@ udp://mikrotik2.draatman.net:6969/announce
 
 udp://mirror.aptus.co.tz:6969/announce
 
-udp://mixfiend.com:6969/announce
-
 udp://moonburrow.club:6969/announce
 
 udp://movies.zsw.ca:6969/announce
@@ -2213,8 +2207,6 @@ udp://oh.fuuuuuck.com:6969/announce
 udp://open.4ever.tk:6969/announce
 
 udp://open.demonii.com:1337/announce
-
-udp://open.demonoid.ch:6969/announce
 
 udp://open.dstud.io:6969/announce
 
@@ -2471,6 +2463,8 @@ udp://tracker.kali.org:6969/announce
 udp://tracker.lelux.fi:6969/announce
 
 udp://tracker.monitorit4.me:6969/announce
+
+udp://tracker.moxing.party:6969/announce
 
 udp://tracker.mywaifu.best:6969/announce
 
