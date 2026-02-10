@@ -50,6 +50,8 @@ http://1337.abcvg.info/announce
 
 http://1337.abcvg.info/announce+108
 
+http://138.124.183.78:6969/announce
+
 http://140.235.237.23:6969/announce
 
 http://140.82.21.192:8080/announce
@@ -118,6 +120,8 @@ http://171.104.226.87:6969/announce
 
 http://179.100.24.134:6969/announce
 
+http://180.114.103.80:6969/announce
+
 http://180.97.219.76:8070/announce
 
 http://185.130.47.2:6969/announce
@@ -154,9 +158,9 @@ http://193.37.214.12:6969/announce
 
 http://198.251.84.144/announce
 
-http://200.168.117.124:6969/announce
-
 http://200.232.254.1:6969/announce
+
+http://201.13.50.75:6969/announce
 
 http://201.42.214.55:6969/announce
 
@@ -184,13 +188,11 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.187/announce
+http://211.75.205.187:6969/announce
 
 http://211.75.205.188/announce
 
 http://211.75.205.189/announce
-
-http://211.75.205.189:6969/announce
 
 http://211.75.210.221/announce
 
@@ -209,6 +211,14 @@ http://217.30.10.77:6969/announce
 http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
+
+http://34.66.57.33/announce
+
+http://34.66.57.33:2710/announce
+
+http://34.66.57.33:443/announce
+
+http://34.66.57.33:6969/announce
 
 http://34.89.30.59/announce
 
@@ -1594,8 +1604,6 @@ https://tracker.foreverpirates.co/announce
 
 https://tracker.gbitt.info/announce
 
-https://tracker.gcrenwp.top/announce
-
 https://tracker.ghostchu-services.top/announce
 
 https://tracker.guguan.us.kg/announce
@@ -1605,6 +1613,8 @@ https://tracker.h3o2.me/announce
 https://tracker.imgoingto.icu/announce
 
 https://tracker.iochimari.moe/announce
+
+https://tracker.iperson.xyz/announce
 
 https://tracker.ipfsscan.io/announce
 
@@ -1774,9 +1784,9 @@ udp://144.126.245.19:6969/announce
 
 udp://144.91.88.22:6969/announce
 
-udp://147.45.77.75:6969/announce
-
 udp://148.251.53.72:6969/announce
+
+udp://154.40.43.165:6969/announce
 
 udp://156.234.201.18:80/announce
 
@@ -1810,17 +1820,19 @@ udp://185.181.60.155:80/announce
 
 udp://185.181.60.67:80/announce
 
+udp://185.189.13.108:6969/announce
+
 udp://185.216.179.62:25/announce
 
 udp://185.230.4.150:1337/announce
 
 udp://185.243.218.213:80/announce
 
+udp://185.249.198.175:1337/announce
+
 udp://185.44.82.25:1337/announce
 
 udp://192.95.46.115:6969/announce
-
-udp://193.34.92.5:80/announce
 
 udp://193.37.214.12:6969/announce
 
@@ -1832,9 +1844,7 @@ udp://198.100.149.66:6969/announce
 
 udp://1c.premierzal.ru:6969/announce
 
-udp://200.111.152.53:1337/announce
-
-udp://200.168.117.124:6969/announce
+udp://201.13.50.75:6969/announce
 
 udp://207.241.226.111:6969/announce
 
@@ -1842,15 +1852,21 @@ udp://207.241.231.226:6969/announce
 
 udp://209.126.11.233:6969/announce
 
+udp://209.141.59.16:6969/announce
+
 udp://209.141.59.25:6969/announce
+
+udp://209.250.249.67:6969/announce
 
 udp://209.50.255.93:3218/announce
 
-udp://211.75.210.221:6969/announce
+udp://211.75.205.187:6969/announce
 
 udp://211.75.29.254:6969/announce
 
 udp://212.42.38.197:6969/announce
+
+udp://212.8.249.30:6969/announce
 
 udp://217.30.10.77:6969/announce
 
@@ -1882,10 +1898,6 @@ udp://43.154.112.29:17272/announce
 
 udp://43.250.54.137:6969/announce
 
-udp://44.30.4.4:6969/announce
-
-udp://45.134.88.121:6969/announce
-
 udp://45.9.60.30:6969/announce
 
 udp://46.138.242.240:6969/announce
@@ -1897,6 +1909,8 @@ udp://5.196.67.51:6969/announce
 udp://5.196.89.204:6969/announce
 
 udp://5.255.124.190:6969/announce
+
+udp://5.75.253.124:6969/announce
 
 udp://51.15.26.25:6969/announce
 
@@ -1926,8 +1940,6 @@ udp://6ahddutb1ucc3cp.ru:6969/announce
 
 udp://74.119.150.221:6969/announce
 
-udp://78.71.168.156:6969/announce
-
 udp://80.71.224.126:1337/announce
 
 udp://81.230.84.201:6969/announce
@@ -1942,9 +1954,9 @@ udp://88.80.28.7:6969/announce
 
 udp://88.99.2.212:6969/announce
 
-udp://89.234.156.205:451/announce
-
 udp://89.36.216.8:6969/announce
+
+udp://91.186.213.204:6969/announce
 
 udp://91.211.5.21:6969/announce
 
@@ -1959,6 +1971,10 @@ udp://93.158.213.92:1337/announce
 udp://94-227-232-84.access.telenet.be:6969/announce
 
 udp://94.103.87.87:6969/announce
+
+udp://94.136.190.183:1333/announce
+
+udp://94.136.190.183:1337/announce
 
 udp://94.136.190.183:6969/announce
 
@@ -2350,6 +2366,8 @@ udp://tracker.ccp.ovh:6969/announce
 
 udp://tracker.cloaka.xyz:1337/announce
 
+udp://tracker.cloudbase.store:1333/announce
+
 udp://tracker.corpscorp.online:80/announce
 
 udp://tracker.cubonegro.xyz:6969/announce
@@ -2430,6 +2448,8 @@ udp://tracker.skyts.net:6969/announce
 
 udp://tracker.srv00.com:6969/announce
 
+udp://tracker.startwork.cv:1337/announce
+
 udp://tracker.swateam.org.uk:2710/announce
 
 udp://tracker.sylphix.com:6969/announce
@@ -2457,8 +2477,6 @@ udp://tracker.trackerfix.com:82/announce
 udp://tracker.tryhackx.org:6969/announce
 
 udp://tracker.tvunderground.org.ru:3218/announce
-
-udp://tracker.umunu.ru:6969/announce
 
 udp://tracker.valete.tf:9999/announce
 
@@ -2521,8 +2539,6 @@ udp://v74853.hosted-by-vdsina.com:6969/announce
 udp://vibe.sleepyinternetfun.xyz:1738/announce
 
 udp://vps-dd0a0715.vps.ovh.net:6969/announce
-
-udp://wegkxfcivgx.ydns.eu:80/announce
 
 udp://wepzone.net:6969/announce
 
