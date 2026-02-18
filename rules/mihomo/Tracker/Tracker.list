@@ -22,6 +22,8 @@ http://107.152.127.9:6969/announce
 
 http://107.189.10.20.sslip.io:7777/announce
 
+http://107.189.2.131:1337/announce
+
 http://107.189.31.134:6969/announce
 
 http://107.189.7.143:6969/announce
@@ -42,8 +44,6 @@ http://117.72.34.150:6969/announce
 
 http://119.28.71.45:8080/announce
 
-http://123.245.62.88:6969/announce
-
 http://129.146.193.240:6699/announce
 
 http://13.115.115.32:6969/announce
@@ -51,6 +51,8 @@ http://13.115.115.32:6969/announce
 http://1337.abcvg.info/announce
 
 http://1337.abcvg.info/announce+108
+
+http://138.124.183.78:6969/announce
 
 http://140.235.237.23:6969/announce
 
@@ -78,6 +80,8 @@ http://157.90.169.123/announce
 
 http://158.101.137.177:6969/announce
 
+http://159.195.43.181:6969/announce
+
 http://159.69.65.157:6969/announce
 
 http://160.251.78.190:6969/announce
@@ -87,6 +91,8 @@ http://163.172.209.40/announce
 http://163.172.29.130/announce
 
 http://167.235.245.209/announce
+
+http://167.253.78.20:8080/announce
 
 http://171.104.110.193:6969/announce
 
@@ -188,13 +194,11 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.187:6969/announce
+http://211.75.205.187/announce
 
 http://211.75.205.188/announce
 
 http://211.75.205.189/announce
-
-http://211.75.205.189:6969/announce
 
 http://211.75.210.221/announce
 
@@ -255,6 +259,8 @@ http://43.250.54.137:6969/announce
 http://44.30.4.4:6969/announce
 
 http://44.30.4.70:6969/announce
+
+http://45.146.254.59/announce
 
 http://45.154.253.10/announce
 
@@ -321,6 +327,8 @@ http://54.39.98.124/announce
 http://60-fps.org/bt/announce.php
 
 http://60-fps.org/bt:80/announce.php
+
+http://60.249.37.20:6969/announce
 
 http://61.216.109.95:6969/announce
 
@@ -461,6 +469,8 @@ http://bigfoot1942.sektori.org:6969/announce
 http://bithq.org/announce
 
 http://bithq.org/announce.php
+
+http://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
 
 http://blackz.ro/announce
 
@@ -1620,6 +1630,8 @@ https://tracker.foreverpirates.co/announce
 
 https://tracker.gbitt.info/announce
 
+https://tracker.gcrenwp.top/announce
+
 https://tracker.ghostchu-services.top/announce
 
 https://tracker.guguan.us.kg/announce
@@ -1728,8 +1740,6 @@ https://tracker.torrentsnows.com/announce
 
 https://tracker.tvgc.win/announce
 
-https://tracker.uraniumhexafluori.de/announce
-
 https://tracker.vectahosting.eu/announce
 
 https://tracker.yemekyedim.com/announce
@@ -1778,11 +1788,15 @@ udp://101.99.94.187:6969/announce
 
 udp://103.122.21.50:6969/announce
 
+udp://103.251.166.126:6969/announce
+
 udp://104.131.98.232:6969/announce
 
 udp://104.143.10.186:8000/announce
 
 udp://107.175.221.194:6969/announce
+
+udp://107.189.2.131:1337/announce
 
 udp://107.189.4.235:1337/announce
 
@@ -1840,8 +1854,6 @@ udp://185.181.60.155:80/announce
 
 udp://185.181.60.67:80/announce
 
-udp://185.189.13.108:6969/announce
-
 udp://185.216.179.62:25/announce
 
 udp://185.230.4.150:1337/announce
@@ -1851,6 +1863,8 @@ udp://185.243.218.213:80/announce
 udp://185.44.82.25:1337/announce
 
 udp://192.95.46.115:6969/announce
+
+udp://193.148.251.93:6969/announce
 
 udp://193.37.214.12:6969/announce
 
@@ -1864,23 +1878,15 @@ udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
 
-udp://208.83.20.20:6969/announce
-
 udp://209.126.11.233:6969/announce
 
 udp://209.141.59.25:6969/announce
 
-udp://209.250.249.67:6969/announce
-
 udp://209.50.255.93:3218/announce
-
-udp://211.75.205.187:6969/announce
 
 udp://211.75.29.254:6969/announce
 
 udp://212.42.38.197:6969/announce
-
-udp://212.8.249.30:6969/announce
 
 udp://217.30.10.77:6969/announce
 
@@ -1899,6 +1905,8 @@ udp://34.66.57.33:80/announce
 udp://37.120.182.83:15480/announce
 
 udp://37.120.182.83:1984/announce
+
+udp://37.120.182.83:54123/announce
 
 udp://37.187.111.136:6969/announce
 
@@ -1927,6 +1935,8 @@ udp://5.196.67.51:6969/announce
 udp://5.196.89.204:6969/announce
 
 udp://5.255.124.190:6969/announce
+
+udp://5.75.253.124:6969/announce
 
 udp://51.15.26.25:6969/announce
 
@@ -1972,8 +1982,6 @@ udp://89.234.156.205:451/announce
 
 udp://89.36.216.8:6969/announce
 
-udp://91.186.213.204:6969/announce
-
 udp://91.211.5.21:6969/announce
 
 udp://91.216.110.53:451/announce
@@ -1989,8 +1997,6 @@ udp://94-227-232-84.access.telenet.be:6969/announce
 udp://94.103.87.87:6969/announce
 
 udp://94.136.190.183:1333/announce
-
-udp://94.136.190.183:1337/announce
 
 udp://94.23.207.177:6969/announce
 
@@ -2322,6 +2328,8 @@ udp://tk4.leechshield.link:6969/announce
 
 udp://torrent.i.ng:6969/announce
 
+udp://torrentclub.online:54123/announce
+
 udp://torrentclub.space:6969/announce
 
 udp://torrents.artixlinux.org:6969/announce
@@ -2583,8 +2591,6 @@ udp://yuki.bt.bontal.net:6969/announce
 udp://z.mercax.com:53/announce
 
 udp://zecircle.xyz:6969/announce
-
-udp://zer0day.ch:1337/announce
 
 ws://tracker.files.fm:7072/announce
 
