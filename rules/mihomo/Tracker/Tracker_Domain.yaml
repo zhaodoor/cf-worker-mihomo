@@ -1,6 +1,7 @@
 payload:
   - +.000.pe
   - +.000webhostapp.com
+  - +.004430.xyz
   - +.0123456789nonexistent.com
   - +.080609.xyz
   - +.0g.cx
@@ -74,7 +75,6 @@ payload:
   - +.bandito.org
   - +.bangumi.moe
   - +.bangumi.zip
-  - +.bdremux.club
   - +.beatrice-raws.org
   - +.bedro.cloud
   - +.beeimg.com
