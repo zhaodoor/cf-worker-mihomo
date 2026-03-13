@@ -186,6 +186,8 @@ http://211.22.29.93/announce
 
 http://211.75.205.188/announce
 
+http://211.75.205.188:6969/announce
+
 http://211.75.205.189/announce
 
 http://211.75.210.221/announce
@@ -195,8 +197,6 @@ http://211.75.210.221:6969/announce
 http://211.75.29.254:6969/announce
 
 http://212.6.3.67/announce
-
-http://216.144.239.90:6969/announce
 
 http://217.30.10.18:6969/announce
 
@@ -301,8 +301,6 @@ http://54.39.98.124/announce
 http://60-fps.org/bt/announce.php
 
 http://60-fps.org/bt:80/announce.php
-
-http://60.249.37.20:6969/announce
 
 http://61.216.109.95:6969/announce
 
@@ -839,6 +837,8 @@ http://siambit.org/announce.php
 http://sigmatracker.i2p/a
 
 http://smurfsoft.com:6969/announce
+
+http://speedtest.iperson.xyz:6969/announce
 
 http://sukebei.tracker.wf:8888/announce
 
@@ -1392,6 +1392,8 @@ https://00.mercax.com/announce
 
 https://00.xxtor.com/announce
 
+https://004430.xyz/announce
+
 https://0d.kebhana.mx/announce
 
 https://1337.abcvg.info/announce
@@ -1407,6 +1409,8 @@ https://abir0dev.github.io/announce
 https://alpha.torrenttracker.nl/announce
 
 https://api.ipv4online.uk/announce
+
+https://bdremux.club/announce
 
 https://bittorrent.gongt.net/announce
 
@@ -1780,6 +1784,8 @@ udp://135.125.106.92:6969/announce
 
 udp://135.125.236.64:6969/announce
 
+udp://144.126.245.19:6969/announce
+
 udp://144.91.88.22:6969/announce
 
 udp://147.45.77.75:6969/announce
@@ -1828,6 +1834,8 @@ udp://185.230.4.150:1337/announce
 
 udp://185.243.218.213:80/announce
 
+udp://185.249.198.175:1337/announce
+
 udp://185.44.82.25:1337/announce
 
 udp://192.95.46.115:6969/announce
@@ -1858,7 +1866,7 @@ udp://209.141.59.25:6969/announce
 
 udp://209.50.255.93:3218/announce
 
-udp://211.75.210.221:6969/announce
+udp://211.75.205.188:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1872,7 +1880,11 @@ udp://23.134.88.9:6969/announce
 
 udp://23.137.251.45:6969/announce
 
+udp://23.157.120.14:6969/announce
+
 udp://23.175.184.30:23333/announce
+
+udp://31.38.161.123:6969/announce
 
 udp://34.66.57.33:1337/announce
 
@@ -1943,8 +1955,6 @@ udp://60.249.37.20:6969/announce
 udp://6ahddutb1ucc3cp.ru:6969/announce
 
 udp://74.119.150.221:6969/announce
-
-udp://78.40.116.12:6969/announce
 
 udp://81.230.84.201:6969/announce
 
@@ -2111,6 +2121,8 @@ udp://ipv4.tracker.harry.lu:6969/announce
 udp://ipv4.tracker.harry.lu:80/announce
 
 udp://ipv4announce.sktorrent.eu:6969/announce
+
+udp://ipv6.rer.lol:6969/announce
 
 udp://ipv6.tracker.harry.lu/announce
 
