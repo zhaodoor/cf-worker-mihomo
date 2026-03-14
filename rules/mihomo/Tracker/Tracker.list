@@ -84,6 +84,8 @@ http://163.172.29.130/announce
 
 http://167.235.245.209/announce
 
+http://167.253.78.20:8080/announce
+
 http://171.104.110.193:6969/announce
 
 http://171.104.110.21:6969/announce
@@ -184,19 +186,19 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.188/announce
+http://211.75.205.187:6969/announce
 
-http://211.75.205.188:6969/announce
+http://211.75.205.188/announce
 
 http://211.75.205.189/announce
 
 http://211.75.210.221/announce
 
-http://211.75.210.221:6969/announce
-
 http://211.75.29.254:6969/announce
 
 http://212.6.3.67/announce
+
+http://216.144.239.90:6969/announce
 
 http://217.30.10.18:6969/announce
 
@@ -229,10 +231,6 @@ http://38.145.197.79:6961/announce
 http://43.139.20.56:6969/announce
 
 http://43.250.54.137:6969/announce
-
-http://44.30.4.4:6969/announce
-
-http://44.30.4.70:6969/announce
 
 http://45.146.254.59/announce
 
@@ -804,6 +802,12 @@ http://rstracker.ohys.net/announce
 
 http://s1124554.ha012.t.mydomain.zone/announce
 
+http://s1130638.ha016.t.mydomain.zone/announce
+
+http://s1130639.ha009.t.mydomain.zone/announce
+
+http://s1130642.ha014.t.mydomain.zone/announce
+
 http://s926723.ha016.t.mydomain.zone/announce
 
 http://saltwood.top:6969/announce
@@ -1207,8 +1211,6 @@ http://tracker.vraphim.com:6969/announce
 http://tracker.vrpnet.org:6969/announce
 
 http://tracker.waaa.moe:6969/announce
-
-http://tracker.wepzone.net:6969/announce
 
 http://tracker.xdvdz.com:2710/announce
 
@@ -1744,6 +1746,8 @@ https://voxhost.fr/announce
 
 https://w.wwwww.wtf/announce
 
+https://wsad.run.place/announce
+
 https://www.peckservers.com:9443/announce
 
 https://www.wareztorrent.com/announce
@@ -1759,8 +1763,6 @@ udp://10.rarbg.com/announce
 udp://10.rarbg.com:6969/announce
 
 udp://103.122.21.50:6969/announce
-
-udp://103.251.166.126:6969/announce
 
 udp://104.131.98.232:6969/announce
 
@@ -1818,8 +1820,6 @@ udp://178.170.48.154:1337/announce
 
 udp://185.102.219.163:6969/announce
 
-udp://185.121.168.96:1337/announce
-
 udp://185.121.168.96:6969/announce
 
 udp://185.181.60.155:80/announce
@@ -1839,6 +1839,8 @@ udp://185.249.198.175:1337/announce
 udp://185.44.82.25:1337/announce
 
 udp://192.95.46.115:6969/announce
+
+udp://193.148.251.93:6969/announce
 
 udp://193.187.90.12:6969/announce
 
@@ -1866,13 +1868,11 @@ udp://209.141.59.25:6969/announce
 
 udp://209.50.255.93:3218/announce
 
-udp://211.75.205.188:6969/announce
+udp://211.75.205.187:6969/announce
 
 udp://211.75.29.254:6969/announce
 
 udp://212.42.38.197:6969/announce
-
-udp://212.8.249.30:6969/announce
 
 udp://217.30.10.77:6969/announce
 
@@ -1908,12 +1908,6 @@ udp://43.154.112.29:17272/announce
 
 udp://43.250.54.137:6969/announce
 
-udp://44.30.4.4:6969/announce
-
-udp://44.30.4.70:6969/announce
-
-udp://45.134.88.121:6969/announce
-
 udp://45.9.60.30:6969/announce
 
 udp://46.138.242.240:6969/announce
@@ -1925,8 +1919,6 @@ udp://5.196.67.51:6969/announce
 udp://5.196.89.204:6969/announce
 
 udp://5.255.124.190:6969/announce
-
-udp://5.75.253.124:6969/announce
 
 udp://51.15.26.25:6969/announce
 
@@ -1967,8 +1959,6 @@ udp://88.80.22.67:2710/announce
 udp://88.80.28.7:6969/announce
 
 udp://88.99.2.212:6969/announce
-
-udp://89.234.156.205:451/announce
 
 udp://89.36.216.8:6969/announce
 
