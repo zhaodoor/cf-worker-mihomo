@@ -186,11 +186,13 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.187:6969/announce
+http://211.75.205.187/announce
 
-http://211.75.205.188/announce
+http://211.75.205.188:6969/announce
 
 http://211.75.205.189/announce
+
+http://211.75.205.189:6969/announce
 
 http://211.75.210.221/announce
 
@@ -300,10 +302,6 @@ http://60-fps.org/bt/announce.php
 
 http://60-fps.org/bt:80/announce.php
 
-http://60.249.37.20/announce
-
-http://60.249.37.20:6969/announce
-
 http://61.216.109.95:6969/announce
 
 http://61.216.149.33:6969/announce
@@ -401,8 +399,6 @@ http://97.117.78.100:9000/announce
 http://97.117.85.73:9000/announce
 
 http://99.192.12.191:6969/announce
-
-http://[2a04:ac00:1:3dd8::1:2710]:2710/announce
 
 http://aaa.army:8866/announce
 
@@ -1490,6 +1486,8 @@ https://prestige.minimafia.nl/announce
 
 https://private.minimafia.nl/announce
 
+https://pybittrack.retiolus.net/announce
+
 https://retracker2.x2k.ru/announce
 
 https://seeders-paradise.org/announce
@@ -1621,8 +1619,6 @@ https://tracker.h3o2.me/announce
 https://tracker.imgoingto.icu/announce
 
 https://tracker.iochimari.moe/announce
-
-https://tracker.iperson.xyz/announce
 
 https://tracker.ipfsscan.io/announce
 
@@ -1784,8 +1780,6 @@ udp://107.175.221.194:6969/announce
 
 udp://107.189.2.131:1337/announce
 
-udp://107.189.4.235:1337/announce
-
 udp://107.189.7.165:6969/announce
 
 udp://109.201.134.183:80/announce
@@ -1793,6 +1787,8 @@ udp://109.201.134.183:80/announce
 udp://11.rarbg.com:80/announce
 
 udp://119.28.71.45:8080/announce
+
+udp://132.226.6.145:6969/announce
 
 udp://135.125.106.92:6969/announce
 
@@ -1809,8 +1805,6 @@ udp://147.45.77.75:6969/announce
 udp://148.251.53.72:6969/announce
 
 udp://152.89.29.128:6969/announce
-
-udp://154.40.43.165:6969/announce
 
 udp://156.234.201.18:80/announce
 
@@ -1860,6 +1854,8 @@ udp://193.187.90.12:6969/announce
 
 udp://193.37.214.12:6969/announce
 
+udp://193.42.111.57:9337/announce
+
 udp://194.38.21.77:6969/announce
 
 udp://198.100.149.66:6969/announce
@@ -1876,7 +1872,9 @@ udp://209.141.59.16:6969/announce
 
 udp://209.141.59.25:6969/announce
 
-udp://211.75.205.187:6969/announce
+udp://209.50.255.93:3218/announce
+
+udp://211.75.205.188:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1940,8 +1938,6 @@ udp://51.15.26.25:6969/announce
 
 udp://51.15.3.74:6969/announce
 
-udp://51.15.41.46:6969/announce
-
 udp://51.158.144.42:6969/announce
 
 udp://51.159.54.68:6666/announce
@@ -1958,11 +1954,9 @@ udp://54.36.179.216:6969/announce
 
 udp://6.pocketnet.app:6969/announce
 
-udp://60.249.37.20:6969/announce
-
 udp://6ahddutb1ucc3cp.ru:6969/announce
 
-udp://74.119.150.221:6969/announce
+udp://74.119.149.136:6969/announce
 
 udp://78.40.116.12:6969/announce
 
@@ -1982,7 +1976,11 @@ udp://89.234.156.205:451/announce
 
 udp://89.36.216.8:6969/announce
 
+udp://91.186.213.204:6969/announce
+
 udp://91.211.5.21:6969/announce
+
+udp://91.216.110.53:451/announce
 
 udp://93.104.214.40:6969/announce
 
@@ -2120,8 +2118,6 @@ udp://htz3.noho.st:6969/announce
 
 udp://ibksturm.synology.me:6969/announce
 
-udp://ipv4.rer.lol:2710/announce
-
 udp://ipv4.tracker.harry.lu/announce
 
 udp://ipv4.tracker.harry.lu:6969/announce
@@ -2129,8 +2125,6 @@ udp://ipv4.tracker.harry.lu:6969/announce
 udp://ipv4.tracker.harry.lu:80/announce
 
 udp://ipv4announce.sktorrent.eu:6969/announce
-
-udp://ipv6.rer.lol:6969/announce
 
 udp://ipv6.tracker.harry.lu/announce
 
@@ -2205,6 +2199,8 @@ udp://oh.fuuuuuck.com:6969/announce
 udp://open.4ever.tk:6969/announce
 
 udp://open.demonii.com:1337/announce
+
+udp://open.demonoid.ch:6969/announce
 
 udp://open.dstud.io:6969/announce
 
