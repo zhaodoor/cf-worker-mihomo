@@ -120,6 +120,8 @@ http://171.104.226.31:6969/announce
 
 http://171.104.226.87:6969/announce
 
+http://177.215.65.114:6969/announce
+
 http://179.100.24.134:6969/announce
 
 http://180.97.219.76:8070/announce
@@ -147,8 +149,6 @@ http://187.57.14.62:6969/announce
 http://189.0.196.51:6969/announce
 
 http://189.110.233.96:6969/announce
-
-http://189.69.168.147:6969/announce
 
 http://192.3.165.191:6969/announce
 
@@ -194,9 +194,13 @@ http://211.75.205.188:6969/announce
 
 http://211.75.205.189/announce
 
+http://211.75.210.221/announce
+
 http://211.75.29.254:6969/announce
 
 http://212.6.3.67/announce
+
+http://216.144.239.90:6969/announce
 
 http://217.30.10.18:6969/announce
 
@@ -297,6 +301,8 @@ http://54.39.98.124/announce
 http://60-fps.org/bt/announce.php
 
 http://60-fps.org/bt:80/announce.php
+
+http://60.249.37.20:6969/announce
 
 http://61.216.109.95:6969/announce
 
@@ -853,8 +859,6 @@ http://t.nyaatracker.com/announce
 http://t.overflow.biz:6969/announce
 
 http://t.publictracker.xyz:6969/announce
-
-http://t1.aag.moe:17715/announce
 
 http://t1.chfs.ch:6969/announce
 
@@ -1798,6 +1802,8 @@ udp://135.125.236.64:6969/announce
 
 udp://138.124.183.78:6969/announce
 
+udp://144.126.245.19:6969/announce
+
 udp://144.91.88.22:6969/announce
 
 udp://147.45.77.75:6969/announce
@@ -1818,8 +1824,6 @@ udp://167.99.185.219:6969/announce
 
 udp://172.105.235.127:6969/announce
 
-udp://172.245.168.134:1337/announce
-
 udp://173.201.36.219:6969/announce
 
 udp://173.249.201.201:6969/announce
@@ -1827,6 +1831,8 @@ udp://173.249.201.201:6969/announce
 udp://176.31.250.174:6969/announce
 
 udp://176.99.7.59:6969/announce
+
+udp://177.215.65.114:6969/announce
 
 udp://178.170.48.154:1337/announce
 
@@ -1836,11 +1842,11 @@ udp://185.121.168.96:1337/announce
 
 udp://185.121.168.96:6969/announce
 
+udp://185.146.233.150:6969/announce
+
 udp://185.181.60.155:80/announce
 
 udp://185.181.60.67:80/announce
-
-udp://185.189.13.108:6969/announce
 
 udp://185.216.179.62:25/announce
 
@@ -1851,8 +1857,6 @@ udp://185.243.218.213:80/announce
 udp://185.249.198.175:1337/announce
 
 udp://185.44.82.25:1337/announce
-
-udp://189.69.168.147:6969/announce
 
 udp://192.95.46.115:6969/announce
 
@@ -1876,6 +1880,8 @@ udp://209.141.59.16:6969/announce
 
 udp://209.141.59.25:6969/announce
 
+udp://209.250.249.67:6969/announce
+
 udp://209.50.255.93:3218/announce
 
 udp://211.75.205.188:6969/announce
@@ -1884,17 +1890,15 @@ udp://211.75.29.254:6969/announce
 
 udp://212.42.38.197:6969/announce
 
-udp://212.8.249.30:6969/announce
-
 udp://217.30.10.77:6969/announce
 
 udp://23.134.88.9:6969/announce
 
 udp://23.137.251.45:6969/announce
 
-udp://23.175.184.30:23333/announce
+udp://23.157.120.14:6969/announce
 
-udp://31.38.161.123:6969/announce
+udp://23.175.184.30:23333/announce
 
 udp://34.66.57.33:1337/announce
 
@@ -1919,10 +1923,6 @@ udp://43.154.112.29:17272/announce
 udp://43.250.54.137:6969/announce
 
 udp://44.30.4.4:6969/announce
-
-udp://45.134.88.121:6969/announce
-
-udp://45.7.231.102:80/announce
 
 udp://45.9.60.30:6969/announce
 
@@ -1955,6 +1955,8 @@ udp://52.58.128.163:6969/announce
 udp://54.36.179.216:6969/announce
 
 udp://6.pocketnet.app:6969/announce
+
+udp://60.249.37.20:6969/announce
 
 udp://6ahddutb1ucc3cp.ru:6969/announce
 
