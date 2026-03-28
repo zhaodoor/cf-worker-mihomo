@@ -86,8 +86,6 @@ http://163.172.29.130/announce
 
 http://167.235.245.209/announce
 
-http://167.253.78.20:8080/announce
-
 http://171.104.110.193:6969/announce
 
 http://171.104.110.21:6969/announce
@@ -188,7 +186,7 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.187:6969/announce
+http://211.75.205.187/announce
 
 http://211.75.205.188/announce
 
@@ -198,9 +196,13 @@ http://211.75.205.189/announce
 
 http://211.75.210.221/announce
 
+http://211.75.210.221:6969/announce
+
 http://211.75.29.254:6969/announce
 
 http://212.6.3.67/announce
+
+http://216.144.239.90:6969/announce
 
 http://217.30.10.18:6969/announce
 
@@ -209,8 +211,6 @@ http://217.30.10.77:6969/announce
 http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
-
-http://34.66.57.33/announce.php
 
 http://34.66.57.33:2701/announce
 
@@ -900,6 +900,8 @@ http://torrent.arjlover.net:2710/announce
 
 http://torrent.fedoraproject.org:6969/announce
 
+http://torrent.hificode.in:6969/announce
+
 http://torrent.mp3quran.net/announce
 
 http://torrent.mp3quran.net/announce.php
@@ -1105,6 +1107,8 @@ http://tracker.minglong.org80/announce
 http://tracker.minglong.org:8080/announce
 
 http://tracker.moxing.party:6969/announce
+
+http://tracker.mrhei.tech:666/announce
 
 http://tracker.mywaifu.best:6969/announce
 
@@ -1624,8 +1628,6 @@ https://tracker.imgoingto.icu/announce
 
 https://tracker.iochimari.moe/announce
 
-https://tracker.iperson.xyz/announce
-
 https://tracker.ipfsscan.io/announce
 
 https://tracker.iriseden.fr/announce
@@ -1778,6 +1780,8 @@ udp://10.rarbg.com:6969/announce
 
 udp://103.122.21.50:6969/announce
 
+udp://103.251.166.126:6969/announce
+
 udp://104.131.98.232:6969/announce
 
 udp://104.143.10.186:8000/announce
@@ -1796,15 +1800,17 @@ udp://11.rarbg.com:80/announce
 
 udp://119.28.71.45:8080/announce
 
+udp://132.243.174.78:6969/announce
+
 udp://135.125.106.92:6969/announce
 
 udp://135.125.236.64:6969/announce
 
 udp://138.124.183.78:6969/announce
 
-udp://144.91.88.22:6969/announce
+udp://144.126.245.19:6969/announce
 
-udp://148.135.112.164:6969/announce
+udp://144.91.88.22:6969/announce
 
 udp://148.251.53.72:6969/announce
 
@@ -1828,8 +1834,6 @@ udp://173.249.201.201:6969/announce
 
 udp://176.31.250.174:6969/announce
 
-udp://176.99.7.59:6969/announce
-
 udp://177.215.65.114:6969/announce
 
 udp://178.170.48.154:1337/announce
@@ -1843,8 +1847,6 @@ udp://185.146.233.150:6969/announce
 udp://185.181.60.155:80/announce
 
 udp://185.181.60.67:80/announce
-
-udp://185.189.13.108:6969/announce
 
 udp://185.216.179.62:25/announce
 
@@ -1866,6 +1868,8 @@ udp://198.100.149.66:6969/announce
 
 udp://1c.premierzal.ru:6969/announce
 
+udp://2.57.214.218:6969/announce
+
 udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
@@ -1880,7 +1884,7 @@ udp://209.141.59.25:6969/announce
 
 udp://209.50.255.93:3218/announce
 
-udp://211.75.205.187:6969/announce
+udp://211.75.205.188:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1911,6 +1915,8 @@ udp://37.187.95.112:6969/announce
 udp://37.235.176.37:2710/announce
 
 udp://37.59.48.81:6969/announce
+
+udp://43.154.112.29:17272/announce
 
 udp://43.250.54.137:6969/announce
 
@@ -1950,9 +1956,13 @@ udp://54.36.179.216:6969/announce
 
 udp://6.pocketnet.app:6969/announce
 
+udp://60.249.37.20:6969/announce
+
 udp://6ahddutb1ucc3cp.ru:6969/announce
 
 udp://74.119.149.136:6969/announce
+
+udp://74.119.150.221:6969/announce
 
 udp://78.40.116.12:6969/announce
 
