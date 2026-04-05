@@ -178,13 +178,15 @@ http://207.246.79.17:8080/announce
 
 http://209.209.112.121:2710/announce
 
+http://209.50.255.93:3218/announce
+
 http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.187/announce
-
 http://211.75.205.188/announce
+
+http://211.75.205.188:6969/announce
 
 http://211.75.205.189/announce
 
@@ -231,8 +233,6 @@ http://43.139.20.56:6969/announce
 http://43.250.54.137:6969/announce
 
 http://44.30.4.4:6969/announce
-
-http://45.146.254.59/announce
 
 http://45.154.253.10/announce
 
@@ -296,7 +296,7 @@ http://60-fps.org/bt/announce.php
 
 http://60-fps.org/bt:80/announce.php
 
-http://60.249.37.20:6969/announce
+http://60.249.37.20/announce
 
 http://61.216.109.95:6969/announce
 
@@ -489,6 +489,8 @@ http://bt.nnm-club.info:2710/announce
 http://bt.okmp3.ru:2710/announce
 
 http://bt.poletracker.org:2710/announce
+
+http://bt.publicvm.com:8080/announce
 
 http://bt.rghost.net/announce
 
@@ -993,8 +995,6 @@ http://tracker.coppersurfer.site:2710/announce
 http://tracker.corpscorp.online/announce
 
 http://tracker.cubonegro.org/announce
-
-http://tracker.cutie.dating/announce
 
 http://tracker.darkness.services:6969/announce
 
@@ -1766,11 +1766,15 @@ udp://10.rarbg.com:6969/announce
 
 udp://103.122.21.50:6969/announce
 
+udp://103.251.166.126:6969/announce
+
 udp://104.131.98.232:6969/announce
 
 udp://104.143.10.186:8000/announce
 
 udp://107.175.221.194:6969/announce
+
+udp://107.189.2.131:1337/announce
 
 udp://107.189.4.235:1337/announce
 
@@ -1786,7 +1790,7 @@ udp://135.125.106.92:6969/announce
 
 udp://135.125.236.64:6969/announce
 
-udp://144.126.245.19:6969/announce
+udp://138.124.183.78:6969/announce
 
 udp://144.91.88.22:6969/announce
 
@@ -1812,6 +1816,8 @@ udp://173.249.201.201:6969/announce
 
 udp://176.31.250.174:6969/announce
 
+udp://176.99.7.59:6969/announce
+
 udp://178.170.48.154:1337/announce
 
 udp://185.102.219.163:6969/announce
@@ -1821,6 +1827,8 @@ udp://185.121.168.96:6969/announce
 udp://185.181.60.155:80/announce
 
 udp://185.181.60.67:80/announce
+
+udp://185.189.13.108:6969/announce
 
 udp://185.216.179.62:25/announce
 
@@ -1856,15 +1864,17 @@ udp://207.241.231.226:6969/announce
 
 udp://209.126.11.233:6969/announce
 
+udp://209.141.59.16:6969/announce
+
 udp://209.141.59.25:6969/announce
 
-udp://209.50.255.93:3218/announce
-
-udp://211.75.210.221:6969/announce
+udp://211.75.205.188:6969/announce
 
 udp://211.75.29.254:6969/announce
 
 udp://212.42.38.197:6969/announce
+
+udp://212.8.249.30:6969/announce
 
 udp://217.30.10.77:6969/announce
 
@@ -1893,8 +1903,6 @@ udp://37.59.48.81:6969/announce
 udp://43.154.112.29:17272/announce
 
 udp://43.250.54.137:6969/announce
-
-udp://44.30.4.4:6969/announce
 
 udp://45.134.88.121:6969/announce
 
@@ -1948,11 +1956,11 @@ udp://88.80.28.7:6969/announce
 
 udp://88.99.2.212:6969/announce
 
-udp://89.234.156.205:451/announce
-
 udp://89.36.216.8:6969/announce
 
 udp://91.211.5.21:6969/announce
+
+udp://91.216.110.53:451/announce
 
 udp://93.104.214.40:6969/announce
 
@@ -2037,6 +2045,8 @@ udp://caramelo.ddns.net:8000/announce
 udp://carr.codes:6969/announce
 
 udp://chouchou.top:8080/announce
+
+udp://coeus.torrentonline.cc:42069/announce
 
 udp://concen.org:6969/announce
 
@@ -2551,6 +2561,8 @@ udp://yahor.of.by:6969/announce
 udp://yann5.hexanyn.fr:6969/announce
 
 udp://yuki.bt.bontal.net:6969/announce
+
+udp://yuptracker-eu.gaijinent.com:27022/announce
 
 udp://z.mercax.com:53/announce
 
