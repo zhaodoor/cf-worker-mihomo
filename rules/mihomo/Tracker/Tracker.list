@@ -86,8 +86,6 @@ http://163.172.29.130/announce
 
 http://167.235.245.209/announce
 
-http://167.253.78.20:8080/announce
-
 http://171.104.110.193:6969/announce
 
 http://171.104.110.21:6969/announce
@@ -123,6 +121,8 @@ http://171.104.226.87:6969/announce
 http://179.100.24.134:6969/announce
 
 http://180.97.219.76:8070/announce
+
+http://185.121.24.141:6969/announce
 
 http://185.130.47.2:6969/announce
 
@@ -190,6 +190,8 @@ http://211.75.205.188/announce
 
 http://211.75.205.189/announce
 
+http://211.75.205.189:6969/announce
+
 http://211.75.210.221/announce
 
 http://211.75.210.221:6969/announce
@@ -208,11 +210,17 @@ http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
 
+http://34.66.57.33/announce
+
+http://34.66.57.33/announce.php
+
+http://34.66.57.33:1337/announce
+
 http://34.66.57.33:2701/announce
 
 http://34.66.57.33:2710/announce
 
-http://34.66.57.33:443/announce
+http://34.66.57.33:6969/announce
 
 http://34.89.30.59/announce
 
@@ -300,7 +308,7 @@ http://60-fps.org/bt/announce.php
 
 http://60-fps.org/bt:80/announce.php
 
-http://60.249.37.20:6969/announce
+http://60.249.37.20/announce
 
 http://61.216.109.95:6969/announce
 
@@ -900,6 +908,8 @@ http://torrent.arjlover.net:2710/announce
 
 http://torrent.fedoraproject.org:6969/announce
 
+http://torrent.hificode.in:6969/announce
+
 http://torrent.mp3quran.net/announce
 
 http://torrent.mp3quran.net/announce.php
@@ -1217,6 +1227,8 @@ http://tracker.vraphim.com:6969/announce
 http://tracker.vrpnet.org:6969/announce
 
 http://tracker.waaa.moe:6969/announce
+
+http://tracker.wepzone.net:6969/announce
 
 http://tracker.xdvdz.com:2710/announce
 
@@ -1786,6 +1798,8 @@ udp://104.143.10.186:8000/announce
 
 udp://107.175.221.194:6969/announce
 
+udp://107.189.2.131:1337/announce
+
 udp://107.189.4.235:1337/announce
 
 udp://107.189.7.165:6969/announce
@@ -1836,6 +1850,8 @@ udp://185.102.219.163:6969/announce
 
 udp://185.121.168.96:6969/announce
 
+udp://185.121.24.141:6969/announce
+
 udp://185.146.233.150:6969/announce
 
 udp://185.181.60.155:80/announce
@@ -1858,7 +1874,7 @@ udp://192.3.130.53:1337/announce
 
 udp://192.95.46.115:6969/announce
 
-udp://193.148.251.93:6969/announce
+udp://193.187.90.12:6969/announce
 
 udp://193.34.92.5:80/announce
 
@@ -1881,6 +1897,8 @@ udp://209.126.11.233:6969/announce
 udp://209.141.59.16:6969/announce
 
 udp://209.141.59.25:6969/announce
+
+udp://209.250.249.67:6969/announce
 
 udp://209.50.255.93:3218/announce
 
@@ -1917,8 +1935,6 @@ udp://37.59.48.81:6969/announce
 udp://43.154.112.29:17272/announce
 
 udp://43.250.54.137:6969/announce
-
-udp://44.30.4.4:6969/announce
 
 udp://45.9.60.30:6969/announce
 
