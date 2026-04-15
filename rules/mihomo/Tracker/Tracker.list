@@ -30,7 +30,7 @@ http://107.189.7.143:6969/announce
 
 http://11.rarbg.com/announce
 
-http://113.16.155.146:6969/announce
+http://113.16.155.116:6969/announce
 
 http://116.252.176.125:6969/announce
 
@@ -164,8 +164,6 @@ http://201.42.214.55:6969/announce
 
 http://201.43.209.254:6969/announce
 
-http://207.211.184.229:6969/announce
-
 http://207.241.226.111:6969/announce
 
 http://207.241.231.226:6969/announce
@@ -186,15 +184,13 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
+http://211.75.205.187:6969/announce
+
 http://211.75.205.188/announce
 
 http://211.75.205.189/announce
 
-http://211.75.205.189:6969/announce
-
 http://211.75.210.221/announce
-
-http://211.75.210.221:6969/announce
 
 http://211.75.29.254:6969/announce
 
@@ -210,15 +206,9 @@ http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
 
-http://34.66.57.33/announce
-
 http://34.66.57.33:11450/announce
 
-http://34.66.57.33:1337/announce
-
-http://34.66.57.33:443/announce
-
-http://34.66.57.33:6969/announce
+http://34.66.57.33:2710/announce
 
 http://34.89.30.59/announce
 
@@ -305,6 +295,8 @@ http://54.39.98.124/announce
 http://60-fps.org/bt/announce.php
 
 http://60-fps.org/bt:80/announce.php
+
+http://60.249.37.20/announce
 
 http://61.216.109.95:6969/announce
 
@@ -654,8 +646,6 @@ http://jp.moeweb.pw:6969/announce
 
 http://jsb.by00/announce
 
-http://jvavav.com/announce
-
 http://kamikazee.duckdns.org:7777/announce
 
 http://kinorun.com/announce
@@ -903,6 +893,8 @@ http://torrent-tracker.ru/announce.php
 http://torrent.arjlover.net:2710/announce
 
 http://torrent.fedoraproject.org:6969/announce
+
+http://torrent.hificode.in:6969/announce
 
 http://torrent.mp3quran.net/announce
 
@@ -1618,6 +1610,8 @@ https://tracker.foreverpirates.co/announce
 
 https://tracker.gbitt.info/announce
 
+https://tracker.gcrenwp.top/announce
+
 https://tracker.ghostchu-services.top/announce
 
 https://tracker.guguan.us.kg/announce
@@ -1784,8 +1778,6 @@ udp://104.143.10.186:8000/announce
 
 udp://107.175.221.194:6969/announce
 
-udp://107.189.2.131:1337/announce
-
 udp://107.189.4.235:1337/announce
 
 udp://107.189.7.165:6969/announce
@@ -1806,9 +1798,9 @@ udp://144.126.245.19:6969/announce
 
 udp://144.91.88.22:6969/announce
 
-udp://148.251.53.72:6969/announce
+udp://147.45.77.75:6969/announce
 
-udp://154.40.43.165:6969/announce
+udp://148.251.53.72:6969/announce
 
 udp://156.234.201.18:80/announce
 
@@ -1846,8 +1838,6 @@ udp://185.230.4.150:1337/announce
 
 udp://185.243.218.213:80/announce
 
-udp://185.249.198.175:1337/announce
-
 udp://185.44.82.25:1337/announce
 
 udp://192.3.130.53:1337/announce
@@ -1876,13 +1866,11 @@ udp://207.241.231.226:6969/announce
 
 udp://209.126.11.233:6969/announce
 
-udp://209.141.59.16:6969/announce
-
 udp://209.141.59.25:6969/announce
 
 udp://209.50.255.93:3218/announce
 
-udp://211.75.210.221:6969/announce
+udp://211.75.205.187:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1972,9 +1960,9 @@ udp://89.234.156.205:451/announce
 
 udp://89.36.216.8:6969/announce
 
-udp://91.186.213.204:6969/announce
-
 udp://91.211.5.21:6969/announce
+
+udp://91.216.110.53:451/announce
 
 udp://93.104.214.40:6969/announce
 
@@ -2015,6 +2003,8 @@ udp://amigacity.xyz:6969/announce
 udp://anna.bt.bontal.net:6969/announce
 
 udp://app.icon256.com:8000/announce
+
+udp://archive.torrentonline.cc:42069/announce
 
 udp://astrr.ru:6969/announce
 
@@ -2122,6 +2112,8 @@ udp://ipv4.tracker.harry.lu:80/announce
 
 udp://ipv4announce.sktorrent.eu:6969/announce
 
+udp://ipv6.rer.lol:6969/announce
+
 udp://ipv6.tracker.harry.lu/announce
 
 udp://ipv6.tracker.harry.lu:6969/announce
@@ -2187,6 +2179,8 @@ udp://ns-1.x-fins.com:6969/announce
 udp://ns1.monolithindustries.com:6969/announce
 
 udp://ns575949.ip-51-222-82.net:6969/announce
+
+udp://obey.torrentonline.cc:42069/announce
 
 udp://odd-hd.fr:6969/announce
 
@@ -2565,6 +2559,8 @@ udp://vps-dd0a0715.vps.ovh.net:6969/announce
 udp://wegkxfcivgx.ydns.eu:80/announce
 
 udp://wepzone.net:6969/announce
+
+udp://whybother.torrentonline.cc:42069/announce
 
 udp://www.2600.com:6969/announce
 
