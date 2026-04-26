@@ -176,11 +176,11 @@ http://207.246.79.17:8080/announce
 
 http://209.209.112.121:2710/announce
 
-http://209.50.255.93:3218/announce
-
 http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
+
+http://211.75.205.187/announce
 
 http://211.75.205.188/announce
 
@@ -189,8 +189,6 @@ http://211.75.205.189/announce
 http://211.75.205.189:6969/announce
 
 http://211.75.210.221/announce
-
-http://211.75.210.221:6969/announce
 
 http://211.75.29.254:6969/announce
 
@@ -305,6 +303,8 @@ http://54.39.98.124/announce
 http://60-fps.org/bt/announce.php
 
 http://60-fps.org/bt:80/announce.php
+
+http://60.249.37.20:6969/announce
 
 http://61.216.109.95:6969/announce
 
@@ -907,6 +907,8 @@ http://torrent-tracker.ru/announce.php
 http://torrent.arjlover.net:2710/announce
 
 http://torrent.fedoraproject.org:6969/announce
+
+http://torrent.hificode.in:6969/announce
 
 http://torrent.mp3quran.net/announce
 
@@ -1854,8 +1856,6 @@ udp://185.243.218.213:80/announce
 
 udp://185.44.82.25:1337/announce
 
-udp://187.56.163.229:6969/announce
-
 udp://192.3.130.53:1337/announce
 
 udp://192.95.46.115:6969/announce
@@ -1874,8 +1874,6 @@ udp://198.100.149.66:6969/announce
 
 udp://1c.premierzal.ru:6969/announce
 
-udp://2.57.214.218:6969/announce
-
 udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
@@ -1883,10 +1881,6 @@ udp://207.241.231.226:6969/announce
 udp://209.126.11.233:6969/announce
 
 udp://209.141.59.25:6969/announce
-
-udp://209.50.255.93:3218/announce
-
-udp://211.75.210.221:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1898,7 +1892,7 @@ udp://23.134.88.9:6969/announce
 
 udp://23.137.251.45:6969/announce
 
-udp://23.175.184.30:23333/announce
+udp://23.157.120.14:6969/announce
 
 udp://31.38.161.123:6969/announce
 
@@ -2413,6 +2407,8 @@ udp://tracker.ducks.party:1984/announce
 udp://tracker.edkj.club:6969/announce
 
 udp://tracker.ex.ua:80/announce
+
+udp://tracker.exe.in.th:6969/announce
 
 udp://tracker.farted.net:6969/announce
 
