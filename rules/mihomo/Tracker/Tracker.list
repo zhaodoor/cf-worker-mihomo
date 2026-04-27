@@ -30,6 +30,8 @@ http://107.189.7.143:6969/announce
 
 http://11.rarbg.com/announce
 
+http://113.16.155.226:6969/announce
+
 http://116.252.176.125:6969/announce
 
 http://116.9.207.121:6969/announce
@@ -176,6 +178,8 @@ http://207.246.79.17:8080/announce
 
 http://209.209.112.121:2710/announce
 
+http://209.50.255.93:3218/announce
+
 http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
@@ -184,11 +188,13 @@ http://211.75.205.187/announce
 
 http://211.75.205.188/announce
 
+http://211.75.205.188:6969/announce
+
 http://211.75.205.189/announce
 
-http://211.75.205.189:6969/announce
-
 http://211.75.210.221/announce
+
+http://211.75.210.221:6969/announce
 
 http://211.75.29.254:6969/announce
 
@@ -204,17 +210,9 @@ http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
 
-http://34.66.57.33/announce
-
-http://34.66.57.33/announce.php
-
-http://34.66.57.33:1337/announce
-
 http://34.66.57.33:2701/announce
 
 http://34.66.57.33:2710/announce
-
-http://34.66.57.33:443/announce
 
 http://34.89.30.59/announce
 
@@ -303,8 +301,6 @@ http://54.39.98.124/announce
 http://60-fps.org/bt/announce.php
 
 http://60-fps.org/bt:80/announce.php
-
-http://60.249.37.20:6969/announce
 
 http://61.216.109.95:6969/announce
 
@@ -656,8 +652,6 @@ http://jp.moeweb.pw:6969/announce
 
 http://jsb.by00/announce
 
-http://jvavav.com/announce
-
 http://kamikazee.duckdns.org:7777/announce
 
 http://kinorun.com/announce
@@ -907,8 +901,6 @@ http://torrent-tracker.ru/announce.php
 http://torrent.arjlover.net:2710/announce
 
 http://torrent.fedoraproject.org:6969/announce
-
-http://torrent.hificode.in:6969/announce
 
 http://torrent.mp3quran.net/announce
 
@@ -1788,13 +1780,13 @@ udp://10.rarbg.com:6969/announce
 
 udp://103.122.21.50:6969/announce
 
+udp://103.251.166.126:6969/announce
+
 udp://104.131.98.232:6969/announce
 
 udp://104.143.10.186:8000/announce
 
 udp://107.175.221.194:6969/announce
-
-udp://107.189.2.131:1337/announce
 
 udp://107.189.4.235:1337/announce
 
@@ -1860,8 +1852,6 @@ udp://192.3.130.53:1337/announce
 
 udp://192.95.46.115:6969/announce
 
-udp://193.148.251.93:6969/announce
-
 udp://193.187.90.12:6969/announce
 
 udp://193.34.92.5:80/announce
@@ -1880,7 +1870,9 @@ udp://207.241.231.226:6969/announce
 
 udp://209.126.11.233:6969/announce
 
-udp://209.141.59.25:6969/announce
+udp://209.250.249.67:6969/announce
+
+udp://211.75.205.188:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1892,7 +1884,7 @@ udp://23.134.88.9:6969/announce
 
 udp://23.137.251.45:6969/announce
 
-udp://23.157.120.14:6969/announce
+udp://23.175.184.30:23333/announce
 
 udp://31.38.161.123:6969/announce
 
@@ -1950,6 +1942,8 @@ udp://51.81.222.188:6969/announce
 
 udp://52.58.128.163:6969/announce
 
+udp://54.36.179.216:6969/announce
+
 udp://6.pocketnet.app:6969/announce
 
 udp://60.249.37.20:6969/announce
@@ -1957,8 +1951,6 @@ udp://60.249.37.20:6969/announce
 udp://6ahddutb1ucc3cp.ru:6969/announce
 
 udp://74.119.149.136:6969/announce
-
-udp://74.119.150.221:6969/announce
 
 udp://81.230.84.201:6969/announce
 
@@ -1973,8 +1965,6 @@ udp://88.99.2.212:6969/announce
 udp://89.234.156.205:451/announce
 
 udp://89.36.216.8:6969/announce
-
-udp://91.186.213.204:6969/announce
 
 udp://91.211.5.21:6969/announce
 
