@@ -30,7 +30,7 @@ http://107.189.7.143:6969/announce
 
 http://11.rarbg.com/announce
 
-http://113.16.155.112:6969/announce
+http://113.17.153.206:6969/announce
 
 http://116.252.176.125:6969/announce
 
@@ -186,11 +186,13 @@ http://211.22.29.93/announce
 
 http://211.75.205.188/announce
 
+http://211.75.205.188:6969/announce
+
 http://211.75.205.189/announce
 
-http://211.75.210.221/announce
+http://211.75.205.189:6969/announce
 
-http://211.75.210.221:6969/announce
+http://211.75.210.221/announce
 
 http://211.75.29.254:6969/announce
 
@@ -205,6 +207,14 @@ http://217.30.10.77:6969/announce
 http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
+
+http://34.66.57.33/announce
+
+http://34.66.57.33/announce.php
+
+http://34.66.57.33:11450/announce
+
+http://34.66.57.33:2701/announce
 
 http://34.89.30.59/announce
 
@@ -229,8 +239,6 @@ http://38.145.197.79:6961/announce
 http://43.139.20.56:6969/announce
 
 http://43.250.54.137:6969/announce
-
-http://45.146.254.59/announce
 
 http://45.154.253.10/announce
 
@@ -892,6 +900,8 @@ http://torrent.arjlover.net:2710/announce
 
 http://torrent.fedoraproject.org:6969/announce
 
+http://torrent.hificode.in:6969/announce
+
 http://torrent.mp3quran.net/announce
 
 http://torrent.mp3quran.net/announce.php
@@ -994,8 +1004,6 @@ http://tracker.corpscorp.online/announce
 
 http://tracker.cubonegro.org/announce
 
-http://tracker.cutie.dating/announce
-
 http://tracker.ddunlimited.net:6969/announce
 
 http://tracker.dhitechnical.com:6969/announce
@@ -1047,6 +1055,8 @@ http://tracker.gbitt.info/announce
 http://tracker.gcvchp.com:2710/announce
 
 http://tracker.gdp.pw:900/announce
+
+http://tracker.ghostchu-services.top/announce
 
 http://tracker.gigatorrents.ws:2710/announce
 
@@ -1768,8 +1778,6 @@ udp://10.rarbg.com:6969/announce
 
 udp://103.122.21.50:6969/announce
 
-udp://103.251.166.126:6969/announce
-
 udp://104.131.98.232:6969/announce
 
 udp://104.143.10.186:8000/announce
@@ -1786,8 +1794,6 @@ udp://11.rarbg.com:80/announce
 
 udp://119.28.71.45:8080/announce
 
-udp://132.226.6.145:6969/announce
-
 udp://135.125.106.92:6969/announce
 
 udp://135.125.236.64:6969/announce
@@ -1797,6 +1803,8 @@ udp://144.126.245.19:6969/announce
 udp://144.91.88.22:6969/announce
 
 udp://147.45.77.75:6969/announce
+
+udp://148.135.112.164:6969/announce
 
 udp://148.251.53.72:6969/announce
 
@@ -1811,8 +1819,6 @@ udp://163.172.29.130:80/announce
 udp://167.99.185.219:6969/announce
 
 udp://172.105.235.127:6969/announce
-
-udp://173.201.36.219:6969/announce
 
 udp://173.249.201.201:6969/announce
 
@@ -1858,6 +1864,8 @@ udp://198.100.149.66:6969/announce
 
 udp://1c.premierzal.ru:6969/announce
 
+udp://2.57.214.218:6969/announce
+
 udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
@@ -1868,9 +1876,11 @@ udp://209.141.59.16:6969/announce
 
 udp://209.141.59.25:6969/announce
 
+udp://209.250.249.67:6969/announce
+
 udp://209.50.255.93:3218/announce
 
-udp://211.75.210.221:6969/announce
+udp://211.75.205.188:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1881,6 +1891,8 @@ udp://217.30.10.77:6969/announce
 udp://23.134.88.9:6969/announce
 
 udp://23.137.251.45:6969/announce
+
+udp://23.157.120.14:6969/announce
 
 udp://23.175.184.30:23333/announce
 
@@ -1907,10 +1919,6 @@ udp://37.59.48.81:6969/announce
 udp://43.154.112.29:17272/announce
 
 udp://43.250.54.137:6969/announce
-
-udp://44.30.4.4:6969/announce
-
-udp://45.134.88.121:6969/announce
 
 udp://45.9.60.30:6969/announce
 
@@ -1966,11 +1974,7 @@ udp://89.234.156.205:451/announce
 
 udp://89.36.216.8:6969/announce
 
-udp://91.186.213.204:6969/announce
-
 udp://91.211.5.21:6969/announce
-
-udp://91.216.110.53:451/announce
 
 udp://93.104.214.40:6969/announce
 
@@ -2591,8 +2595,6 @@ udp://yuptracker-eu.gaijinent.com:27022/announce
 udp://z.mercax.com:53/announce
 
 udp://zecircle.xyz:6969/announce
-
-ws://tracker.files.fm:7072/announce
 
 wss://qot.abiir.top/announce
 
