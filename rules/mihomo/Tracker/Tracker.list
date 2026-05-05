@@ -30,8 +30,6 @@ http://107.189.7.143:6969/announce
 
 http://11.rarbg.com/announce
 
-http://113.16.153.98:6969/announce
-
 http://116.252.176.125:6969/announce
 
 http://116.9.207.121:6969/announce
@@ -182,11 +180,11 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.187/announce
-
 http://211.75.205.188/announce
 
 http://211.75.205.189/announce
+
+http://211.75.205.189:6969/announce
 
 http://211.75.210.221/announce
 
@@ -291,8 +289,6 @@ http://54.39.98.124/announce
 http://60-fps.org/bt/announce.php
 
 http://60-fps.org/bt:80/announce.php
-
-http://60.249.37.20:6969/announce
 
 http://61.216.109.95:6969/announce
 
@@ -721,6 +717,8 @@ http://open.stealth.si/announce
 http://open.touki.ru/announce
 
 http://open.touki.ru/announce.php
+
+http://open.tracker.cl:1337/announce
 
 http://open.tracker.ink:6969/announce
 
@@ -1498,8 +1496,6 @@ https://t.btcland.xyz/announce
 
 https://t.quic.ws/announce
 
-https://t.warwarez.ru/announce
-
 https://t.zerg.pw/announce
 
 https://t1.hloli.org/announce
@@ -1814,9 +1810,9 @@ udp://144.91.88.22:6969/announce
 
 udp://147.45.77.75:6969/announce
 
-udp://148.251.53.72:6969/announce
+udp://148.135.112.164:6969/announce
 
-udp://154.40.43.165:6969/announce
+udp://148.251.53.72:6969/announce
 
 udp://156.234.201.18:80/announce
 
@@ -1846,9 +1842,13 @@ udp://185.102.219.163:6969/announce
 
 udp://185.121.168.96:1337/announce
 
+udp://185.146.233.150:6969/announce
+
 udp://185.181.60.155:80/announce
 
 udp://185.181.60.67:80/announce
+
+udp://185.189.13.108:6969/announce
 
 udp://185.216.179.62:25/announce
 
@@ -1857,8 +1857,6 @@ udp://185.230.4.150:1337/announce
 udp://185.243.218.213:80/announce
 
 udp://185.44.82.25:1337/announce
-
-udp://189.18.126.49:6969/announce
 
 udp://192.3.130.53:1337/announce
 
@@ -1887,6 +1885,10 @@ udp://209.126.11.233:6969/announce
 udp://209.141.59.16:6969/announce
 
 udp://209.141.59.25:6969/announce
+
+udp://209.250.249.67:6969/announce
+
+udp://211.75.210.221:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1925,8 +1927,6 @@ udp://37.59.48.81:6969/announce
 udp://43.154.112.29:17272/announce
 
 udp://43.250.54.137:6969/announce
-
-udp://45.134.88.121:6969/announce
 
 udp://45.137.199.107:6969/announce
 
@@ -1978,8 +1978,6 @@ udp://81.230.84.201:6969/announce
 
 udp://82.65.115.10:6969/announce
 
-udp://87.106.210.134:6969/announce
-
 udp://88.80.22.67:2710/announce
 
 udp://88.80.28.7:6969/announce
@@ -1989,8 +1987,6 @@ udp://88.99.2.212:6969/announce
 udp://89.234.156.205:451/announce
 
 udp://89.36.216.8:6969/announce
-
-udp://91.186.213.204:6969/announce
 
 udp://91.211.5.21:6969/announce
 
@@ -2511,6 +2507,8 @@ udp://tracker.tiny-vps.com:6969/announce
 udp://tracker.tnl.one:8000/announce
 
 udp://tracker.torrent.eu.org:451/announce
+
+udp://tracker.torrentclaw.com:1337/announce
 
 udp://tracker.torrust-demo.com:6969/announce
 
