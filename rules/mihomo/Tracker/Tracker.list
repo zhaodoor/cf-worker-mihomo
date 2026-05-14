@@ -126,6 +126,8 @@ http://185.130.47.2:6969/announce
 
 http://185.148.3.231/announce
 
+http://185.171.202.111:6969/announce
+
 http://185.185.40.51:6969/announce
 
 http://185.185.40.95:6969/announce
@@ -145,6 +147,8 @@ http://187.57.14.62:6969/announce
 http://189.0.196.51:6969/announce
 
 http://189.110.233.96:6969/announce
+
+http://189.18.162.12:6969/announce
 
 http://192.3.165.191:6969/announce
 
@@ -182,11 +186,7 @@ http://211.75.205.188/announce
 
 http://211.75.205.189/announce
 
-http://211.75.205.189:6969/announce
-
 http://211.75.210.221/announce
-
-http://211.75.210.221:6969/announce
 
 http://211.75.29.254:6969/announce
 
@@ -204,9 +204,11 @@ http://220.130.15.30:6969/announce
 
 http://34.66.57.33/announce
 
-http://34.66.57.33:1337/announce
+http://34.66.57.33:2710/announce
 
 http://34.66.57.33:443/announce
+
+http://34.66.57.33:6969/announce
 
 http://34.89.30.59/announce
 
@@ -292,7 +294,7 @@ http://60-fps.org/bt/announce.php
 
 http://60-fps.org/bt:80/announce.php
 
-http://60.249.37.20/announce
+http://60.249.37.20:6969/announce
 
 http://61.216.109.95:6969/announce
 
@@ -360,13 +362,11 @@ http://88.99.189.199:6969/announce
 
 http://91.224.92.110:6969/announce
 
-http://91.98.161.68:6969/announce
-
-http://92.112.126.44:6969/announce
-
 http://93.158.213.92:1337/announce
 
 http://93.88.129.16/announce
+
+http://94.72.140.51:6969/announce
 
 http://95.107.48.115/announce
 
@@ -1488,8 +1488,6 @@ https://private.minimafia.nl/announce
 
 https://pybittrack.retiolus.net/announce
 
-https://retracker2.x2k.ru/announce
-
 https://seeders-paradise.org/announce
 
 https://shahidrazi.online/announce
@@ -1776,11 +1774,15 @@ udp://10.rarbg.com:6969/announce
 
 udp://103.122.21.50:6969/announce
 
+udp://103.251.166.126:6969/announce
+
 udp://104.131.98.232:6969/announce
 
 udp://104.143.10.186:8000/announce
 
 udp://107.175.221.194:6969/announce
+
+udp://107.189.2.131:1337/announce
 
 udp://107.189.4.235:1337/announce
 
@@ -1792,6 +1794,8 @@ udp://11.rarbg.com:80/announce
 
 udp://119.28.71.45:8080/announce
 
+udp://120.78.150.131:6969/announce
+
 udp://135.125.106.92:6969/announce
 
 udp://135.125.236.64:6969/announce
@@ -1801,6 +1805,8 @@ udp://144.91.88.22:6969/announce
 udp://147.45.74.251:6969/announce
 
 udp://147.45.77.75:6969/announce
+
+udp://148.135.112.164:6969/announce
 
 udp://148.251.53.72:6969/announce
 
@@ -1836,11 +1842,11 @@ udp://185.121.168.96:1337/announce
 
 udp://185.146.233.150:6969/announce
 
+udp://185.171.202.111:6969/announce
+
 udp://185.181.60.155:80/announce
 
 udp://185.181.60.67:80/announce
-
-udp://185.189.13.108:6969/announce
 
 udp://185.216.179.62:25/announce
 
@@ -1849,6 +1855,8 @@ udp://185.230.4.150:1337/announce
 udp://185.243.218.213:80/announce
 
 udp://185.44.82.25:1337/announce
+
+udp://189.18.162.12:6969/announce
 
 udp://192.3.130.53:1337/announce
 
@@ -1874,11 +1882,7 @@ udp://207.241.231.226:6969/announce
 
 udp://209.126.11.233:6969/announce
 
-udp://209.141.59.16:6969/announce
-
 udp://209.141.59.25:6969/announce
-
-udp://211.75.210.221:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1900,11 +1904,7 @@ udp://34.66.57.33:1337/announce
 
 udp://34.66.57.33:80/announce
 
-udp://37.120.182.83:15480/announce
-
 udp://37.120.182.83:1984/announce
-
-udp://37.120.182.83:54123/announce
 
 udp://37.187.111.136:6969/announce
 
@@ -1972,6 +1972,8 @@ udp://81.230.84.201:6969/announce
 
 udp://82.65.115.10:6969/announce
 
+udp://87.106.210.134:6969/announce
+
 udp://88.80.22.67:2710/announce
 
 udp://88.80.28.7:6969/announce
@@ -1983,10 +1985,6 @@ udp://89.234.156.205:451/announce
 udp://89.36.216.8:6969/announce
 
 udp://91.211.5.21:6969/announce
-
-udp://91.98.161.68:6969/announce
-
-udp://92.112.126.44:6969/announce
 
 udp://93.104.214.40:6969/announce
 
@@ -2001,6 +1999,8 @@ udp://94.103.87.87:6969/announce
 udp://94.23.207.177:6969/announce
 
 udp://94.243.222.100:6969/announce
+
+udp://94.72.140.51:6969/announce
 
 udp://95.216.74.39:6969/announce
 
@@ -2211,6 +2211,8 @@ udp://oh.fuuuuuck.com:6969/announce
 udp://open.4ever.tk:6969/announce
 
 udp://open.demonii.com:1337/announce
+
+udp://open.demonoid.ch:6969/announce
 
 udp://open.free-tracker.ga:6969/announce
 
