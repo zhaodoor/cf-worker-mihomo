@@ -30,6 +30,8 @@ http://107.189.7.143:6969/announce
 
 http://11.rarbg.com/announce
 
+http://113.16.155.243:6969/announce
+
 http://116.252.176.125:6969/announce
 
 http://116.9.207.121:6969/announce
@@ -186,7 +188,11 @@ http://211.75.205.188/announce
 
 http://211.75.205.189/announce
 
+http://211.75.205.189:6969/announce
+
 http://211.75.210.221/announce
+
+http://211.75.210.221:6969/announce
 
 http://211.75.29.254:6969/announce
 
@@ -201,14 +207,6 @@ http://217.30.10.77:6969/announce
 http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
-
-http://34.66.57.33/announce
-
-http://34.66.57.33:2710/announce
-
-http://34.66.57.33:443/announce
-
-http://34.66.57.33:6969/announce
 
 http://34.89.30.59/announce
 
@@ -294,8 +292,6 @@ http://60-fps.org/bt/announce.php
 
 http://60-fps.org/bt:80/announce.php
 
-http://60.249.37.20:6969/announce
-
 http://61.216.109.95:6969/announce
 
 http://61.216.149.33:6969/announce
@@ -358,6 +354,8 @@ http://83.6.234.75:6969/announce
 
 http://83.6.237.118:6969/announce
 
+http://85.121.5.80:6969/announce
+
 http://88.99.189.199:6969/announce
 
 http://91.224.92.110:6969/announce
@@ -365,8 +363,6 @@ http://91.224.92.110:6969/announce
 http://93.158.213.92:1337/announce
 
 http://93.88.129.16/announce
-
-http://94.72.140.51:6969/announce
 
 http://95.107.48.115/announce
 
@@ -646,8 +642,6 @@ http://jp.moeweb.pw:6969/announce
 
 http://jsb.by00/announce
 
-http://jvavav.com/announce
-
 http://kamikazee.duckdns.org:7777/announce
 
 http://kinorun.com/announce
@@ -897,8 +891,6 @@ http://torrent-tracker.ru/announce.php
 http://torrent.arjlover.net:2710/announce
 
 http://torrent.fedoraproject.org:6969/announce
-
-http://torrent.hificode.in:6969/announce
 
 http://torrent.mp3quran.net/announce
 
@@ -1488,6 +1480,8 @@ https://private.minimafia.nl/announce
 
 https://pybittrack.retiolus.net/announce
 
+https://retracker2.x2k.ru/announce
+
 https://seeders-paradise.org/announce
 
 https://shahidrazi.online/announce
@@ -1774,8 +1768,6 @@ udp://10.rarbg.com:6969/announce
 
 udp://103.122.21.50:6969/announce
 
-udp://103.251.166.126:6969/announce
-
 udp://104.131.98.232:6969/announce
 
 udp://104.143.10.186:8000/announce
@@ -1805,8 +1797,6 @@ udp://144.91.88.22:6969/announce
 udp://147.45.74.251:6969/announce
 
 udp://147.45.77.75:6969/announce
-
-udp://148.135.112.164:6969/announce
 
 udp://148.251.53.72:6969/announce
 
@@ -1840,13 +1830,13 @@ udp://185.102.219.163:6969/announce
 
 udp://185.121.168.96:1337/announce
 
-udp://185.146.233.150:6969/announce
-
 udp://185.171.202.111:6969/announce
 
 udp://185.181.60.155:80/announce
 
 udp://185.181.60.67:80/announce
+
+udp://185.189.13.108:6969/announce
 
 udp://185.216.179.62:25/announce
 
@@ -1882,7 +1872,7 @@ udp://207.241.231.226:6969/announce
 
 udp://209.126.11.233:6969/announce
 
-udp://209.141.59.25:6969/announce
+udp://211.75.210.221:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1896,15 +1886,17 @@ udp://23.134.88.9:6969/announce
 
 udp://23.137.251.45:6969/announce
 
-udp://23.175.184.30:23333/announce
-
 udp://31.38.161.123:6969/announce
 
 udp://34.66.57.33:1337/announce
 
 udp://34.66.57.33:80/announce
 
+udp://37.120.182.83:15480/announce
+
 udp://37.120.182.83:1984/announce
+
+udp://37.120.182.83:54123/announce
 
 udp://37.187.111.136:6969/announce
 
@@ -1964,6 +1956,8 @@ udp://60.172.236.18:6969/announce
 
 udp://60.249.37.20:6969/announce
 
+udp://67.222.238.222:2010/announce
+
 udp://6ahddutb1ucc3cp.ru:6969/announce
 
 udp://74.119.149.136:6969/announce
@@ -1971,6 +1965,8 @@ udp://74.119.149.136:6969/announce
 udp://81.230.84.201:6969/announce
 
 udp://82.65.115.10:6969/announce
+
+udp://85.121.5.80:6969/announce
 
 udp://87.106.210.134:6969/announce
 
@@ -1986,6 +1982,8 @@ udp://89.36.216.8:6969/announce
 
 udp://91.211.5.21:6969/announce
 
+udp://91.216.110.53:451/announce
+
 udp://93.104.214.40:6969/announce
 
 udp://93.158.213.92:1337//announce
@@ -1995,6 +1993,8 @@ udp://93.158.213.92:1337/announce
 udp://94-227-232-84.access.telenet.be:6969/announce
 
 udp://94.103.87.87:6969/announce
+
+udp://94.136.190.183:1337/announce
 
 udp://94.23.207.177:6969/announce
 
@@ -2346,6 +2346,8 @@ udp://torrentvpn.club:6990/announce
 
 udp://tr.bangumi.moe:6969/announce
 
+udp://tr.btube3.com:2010/announce
+
 udp://tr.cili001.com:8070/announce
 
 udp://tr3.ysagin.top:2715/announce
@@ -2487,6 +2489,8 @@ udp://tracker.silksa.co.za:6969/announce
 udp://tracker.skyts.net:6969/announce
 
 udp://tracker.srv00.com:6969/announce
+
+udp://tracker.startwork.cv:1337/announce
 
 udp://tracker.swateam.org.uk:2710/announce
 
