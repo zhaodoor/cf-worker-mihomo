@@ -30,7 +30,7 @@ http://107.189.7.143:6969/announce
 
 http://11.rarbg.com/announce
 
-http://113.17.153.227:6969/announce
+http://113.16.155.21:6969/announce
 
 http://116.252.176.125:6969/announce
 
@@ -43,6 +43,8 @@ http://116.9.207.198:6969/announce
 http://116.9.207.226:6969/announce
 
 http://119.28.71.45:8080/announce
+
+http://123.245.62.80:6969/announce
 
 http://129.146.193.240:6699/announce
 
@@ -126,6 +128,8 @@ http://185.130.47.2:6969/announce
 
 http://185.148.3.231/announce
 
+http://185.171.202.111:6969/announce
+
 http://185.185.40.51:6969/announce
 
 http://185.185.40.95:6969/announce
@@ -145,8 +149,6 @@ http://187.57.14.62:6969/announce
 http://189.0.196.51:6969/announce
 
 http://189.110.233.96:6969/announce
-
-http://189.18.162.12:6969/announce
 
 http://192.3.165.191:6969/announce
 
@@ -181,6 +183,8 @@ http://211.20.122.47:6969/announce
 http://211.22.29.93/announce
 
 http://211.75.205.188/announce
+
+http://211.75.205.188:6969/announce
 
 http://211.75.205.189/announce
 
@@ -223,8 +227,6 @@ http://37.235.174.46:2710/announce
 http://38.145.197.79:6961/announce
 
 http://43.139.20.56:6969/announce
-
-http://43.250.54.126:6969/announce
 
 http://45.154.253.10/announce
 
@@ -288,7 +290,7 @@ http://60-fps.org/bt/announce.php
 
 http://60-fps.org/bt:80/announce.php
 
-http://60.249.37.20:6969/announce
+http://60.249.37.20/announce
 
 http://61.216.109.95:6969/announce
 
@@ -638,8 +640,6 @@ http://jp.moeweb.pw:6969/announce
 
 http://jsb.by00/announce
 
-http://jvavav.com/announce
-
 http://kamikazee.duckdns.org:7777/announce
 
 http://kinorun.com/announce
@@ -891,8 +891,6 @@ http://torrent-tracker.ru/announce.php
 http://torrent.arjlover.net:2710/announce
 
 http://torrent.fedoraproject.org:6969/announce
-
-http://torrent.hificode.in:6969/announce
 
 http://torrent.mp3quran.net/announce
 
@@ -1566,6 +1564,8 @@ https://tracker.aburaya.live/announce
 
 https://tracker.alaskantf.com/announce
 
+https://tracker.anibt.net/announce
+
 https://tracker.baka.ink/announce
 
 https://tracker.bangumi.zip/announce
@@ -1770,13 +1770,13 @@ udp://10.rarbg.com:6969/announce
 
 udp://103.122.21.50:6969/announce
 
+udp://103.251.166.126:6969/announce
+
 udp://104.131.98.232:6969/announce
 
 udp://104.143.10.186:8000/announce
 
 udp://107.175.221.194:6969/announce
-
-udp://107.189.2.131:1337/announce
 
 udp://107.189.4.235:1337/announce
 
@@ -1789,10 +1789,6 @@ udp://11.rarbg.com:80/announce
 udp://118.196.100.63:6969/announce
 
 udp://119.28.71.45:8080/announce
-
-udp://120.78.150.131:6969/announce
-
-udp://132.243.174.78:6969/announce
 
 udp://135.125.106.92:6969/announce
 
@@ -1850,8 +1846,6 @@ udp://185.243.218.213:80/announce
 
 udp://185.44.82.25:1337/announce
 
-udp://189.18.162.12:6969/announce
-
 udp://192.95.46.115:6969/announce
 
 udp://193.187.90.12:6969/announce
@@ -1875,6 +1869,8 @@ udp://207.241.231.226:6969/announce
 udp://209.126.11.233:6969/announce
 
 udp://209.141.59.25:6969/announce
+
+udp://211.75.205.189:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1912,7 +1908,11 @@ udp://37.235.176.37:2710/announce
 
 udp://37.59.48.81:6969/announce
 
-udp://43.250.54.126:6969/announce
+udp://43.154.112.29:17272/announce
+
+udp://44.30.4.4:6969/announce
+
+udp://45.134.88.121:6969/announce
 
 udp://45.137.199.107:6969/announce
 
@@ -1991,8 +1991,6 @@ udp://94.136.190.183:1337/announce
 udp://94.23.207.177:6969/announce
 
 udp://94.243.222.100:6969/announce
-
-udp://95.179.232.193:6969/announce
 
 udp://95.216.74.39:6969/announce
 
@@ -2206,8 +2204,6 @@ udp://open.4ever.tk:6969/announce
 
 udp://open.demonii.com:1337/announce
 
-udp://open.demonoid.ch:6969/announce
-
 udp://open.free-tracker.ga:6969/announce
 
 udp://open.ftorrent.com:443/announce
@@ -2404,8 +2400,6 @@ udp://tracker.ddunlimited.net:6969/announce
 
 udp://tracker.deadorbit.nl:6969/announce
 
-udp://tracker.dhitechnical.com:6969/announce
-
 udp://tracker.dler.com:6969/announce
 
 udp://tracker.dler.org:6969/announce
@@ -2441,8 +2435,6 @@ udp://tracker.iperson.xyz:6969/announce
 udp://tracker.istole.it:80/announce
 
 udp://tracker.ixuexi.click:6969/announce
-
-udp://tracker.jamesthebard.net:6969/announce
 
 udp://tracker.lelux.fi:6969/announce
 
@@ -2581,8 +2573,6 @@ udp://v74853.hosted-by-vdsina.com:6969/announce
 udp://vibe.sleepyinternetfun.xyz:1738/announce
 
 udp://vito-tracker.duckdns.org:6969/announce
-
-udp://vito-tracker.space:2095/announce
 
 udp://vito-tracker.space:6969/announce
 
