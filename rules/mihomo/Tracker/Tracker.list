@@ -44,6 +44,8 @@ http://116.9.207.226:6969/announce
 
 http://119.28.71.45:8080/announce
 
+http://123.245.62.80:6969/announce
+
 http://129.146.193.240:6699/announce
 
 http://13.115.115.32:6969/announce
@@ -86,6 +88,8 @@ http://163.172.29.130/announce
 
 http://167.235.245.209/announce
 
+http://167.253.78.20:8080/announce
+
 http://171.104.110.193:6969/announce
 
 http://171.104.110.21:6969/announce
@@ -125,6 +129,8 @@ http://180.97.219.76:8070/announce
 http://185.130.47.2:6969/announce
 
 http://185.148.3.231/announce
+
+http://185.171.202.111:6969/announce
 
 http://185.185.40.51:6969/announce
 
@@ -180,8 +186,6 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.187/announce
-
 http://211.75.205.188/announce
 
 http://211.75.205.189/announce
@@ -189,8 +193,6 @@ http://211.75.205.189/announce
 http://211.75.205.189:6969/announce
 
 http://211.75.210.221/announce
-
-http://211.75.210.221:6969/announce
 
 http://211.75.29.254:6969/announce
 
@@ -229,8 +231,6 @@ http://37.235.174.46:2710/announce
 http://38.145.197.79:6961/announce
 
 http://43.139.20.56:6969/announce
-
-http://43.250.54.126:6969/announce
 
 http://45.154.253.10/announce
 
@@ -294,6 +294,8 @@ http://60-fps.org/bt/announce.php
 
 http://60-fps.org/bt:80/announce.php
 
+http://60.249.37.20:6969/announce
+
 http://61.216.109.95:6969/announce
 
 http://61.216.149.33:6969/announce
@@ -355,6 +357,8 @@ http://83.6.232.23:6969/announce
 http://83.6.234.75:6969/announce
 
 http://83.6.237.118:6969/announce
+
+http://85.121.5.80:6969/announce
 
 http://88.99.189.199:6969/announce
 
@@ -879,8 +883,6 @@ http://tk.greedland.net/announce
 http://tk1.trackerservers.com:8080/announce
 
 http://tk2.greedland.net/announce
-
-http://tk2.trackerservers.com:8080/announce
 
 http://torrent-team.net/announce
 
@@ -1776,15 +1778,11 @@ udp://10.rarbg.com:6969/announce
 
 udp://103.122.21.50:6969/announce
 
-udp://103.251.166.126:6969/announce
-
 udp://104.131.98.232:6969/announce
 
 udp://104.143.10.186:8000/announce
 
 udp://107.175.221.194:6969/announce
-
-udp://107.189.2.131:1337/announce
 
 udp://107.189.4.235:1337/announce
 
@@ -1798,15 +1796,11 @@ udp://118.196.100.63:6969/announce
 
 udp://119.28.71.45:8080/announce
 
-udp://132.243.174.78:6969/announce
-
 udp://135.125.106.92:6969/announce
 
 udp://135.125.236.64:6969/announce
 
 udp://144.91.88.22:6969/announce
-
-udp://147.45.74.251:6969/announce
 
 udp://147.45.77.75:6969/announce
 
@@ -1844,11 +1838,11 @@ udp://185.121.168.96:1337/announce
 
 udp://185.146.233.150:6969/announce
 
+udp://185.171.202.111:6969/announce
+
 udp://185.181.60.155:80/announce
 
 udp://185.181.60.67:80/announce
-
-udp://185.189.13.108:6969/announce
 
 udp://185.216.179.62:25/announce
 
@@ -1884,11 +1878,7 @@ udp://207.241.231.226:6969/announce
 
 udp://209.126.11.233:6969/announce
 
-udp://209.141.59.16:6969/announce
-
 udp://209.141.59.25:6969/announce
-
-udp://211.75.210.221:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1927,8 +1917,6 @@ udp://43.154.112.29:17272/announce
 udp://43.250.54.126:6969/announce
 
 udp://44.30.4.4:6969/announce
-
-udp://45.134.88.121:6969/announce
 
 udp://45.137.199.107:6969/announce
 
@@ -1979,8 +1967,6 @@ udp://74.119.149.136:6969/announce
 udp://81.230.84.201:6969/announce
 
 udp://82.65.115.10:6969/announce
-
-udp://87.106.210.134:6969/announce
 
 udp://88.80.22.67:2710/announce
 
@@ -2225,6 +2211,8 @@ udp://oh.fuuuuuck.com:6969/announce
 udp://open.4ever.tk:6969/announce
 
 udp://open.demonii.com:1337/announce
+
+udp://open.demonoid.ch:6969/announce
 
 udp://open.free-tracker.ga:6969/announce
 
@@ -2627,6 +2615,8 @@ udp://zer0day.ch:1337/announce
 wss://qot.abiir.top/announce
 
 wss://spacetradersapi-chatbox.herokuapp.com/announce
+
+wss://tracker.btorrent.xyz/
 
 wss://tracker.btorrent.xyz/announce
 
