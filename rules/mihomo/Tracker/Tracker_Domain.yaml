@@ -3,6 +3,7 @@ payload:
   - +.000webhostapp.com
   - +.004430.xyz
   - +.0123456789nonexistent.com
+  - +.021912.xyz
   - +.080609.xyz
   - +.0g.cx
   - +.0x.tf
@@ -267,6 +268,7 @@ payload:
   - +.harry.lu
   - +.herokuapp.com
   - +.hexanyn.fr
+  - +.hificode.in
   - +.highstar.shop
   - +.highteahop.top
   - +.hikarinokiseki.com
@@ -447,6 +449,7 @@ payload:
   - +.orel.ru
   - +.org.ru
   - +.org.uk
+  - +.orgtgju.org
   - +.orsvarn.com
   - +.overflow.biz
   - +.ovh.net
@@ -489,6 +492,7 @@ payload:
   - +.qu.ax
   - +.quic.ws
   - +.quix.cf
+  - +.qzz.io
   - +.r4sas.i2p
   - +.railway.app
   - +.rarbg.com
