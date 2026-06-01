@@ -30,7 +30,7 @@ http://107.189.7.143:6969/announce
 
 http://11.rarbg.com/announce
 
-http://113.17.67.93:6969/announce
+http://113.16.154.70:6969/announce
 
 http://116.252.176.125:6969/announce
 
@@ -148,6 +148,8 @@ http://189.0.196.51:6969/announce
 
 http://189.110.233.96:6969/announce
 
+http://189.18.162.12:6969/announce
+
 http://192.3.165.191:6969/announce
 
 http://192.9.228.30:6699/announce
@@ -180,11 +182,13 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
+http://211.75.205.187/announce
+
 http://211.75.205.188/announce
 
-http://211.75.205.188:6969/announce
-
 http://211.75.205.189/announce
+
+http://211.75.205.189:6969/announce
 
 http://211.75.210.221/announce
 
@@ -204,13 +208,11 @@ http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
 
-http://34.66.57.33/announce
+http://34.66.57.33/announce.php
 
-http://34.66.57.33:11450/announce
+http://34.66.57.33:2701/announce
 
-http://34.66.57.33:443/announce
-
-http://34.66.57.33:6969/announce
+http://34.66.57.33:2710/announce
 
 http://34.89.30.59/announce
 
@@ -361,6 +363,8 @@ http://83.6.232.23:6969/announce
 http://83.6.234.75:6969/announce
 
 http://83.6.237.118:6969/announce
+
+http://85.121.5.80:6969/announce
 
 http://88.99.189.199:6969/announce
 
@@ -647,6 +651,8 @@ http://joczo.duckdns.org:6969/announce
 http://jp.moeweb.pw:6969/announce
 
 http://jsb.by00/announce
+
+http://jvavav.com/announce
 
 http://kamikazee.duckdns.org:7777/announce
 
@@ -1796,6 +1802,8 @@ udp://104.143.10.186:8000/announce
 
 udp://107.175.221.194:6969/announce
 
+udp://107.189.2.131:1337/announce
+
 udp://107.189.4.235:1337/announce
 
 udp://107.189.7.165:6969/announce
@@ -1809,6 +1817,8 @@ udp://118.196.100.63:6969/announce
 udp://119.28.71.45:8080/announce
 
 udp://132.226.6.145:6969/announce
+
+udp://132.243.174.78:6969/announce
 
 udp://135.125.106.92:6969/announce
 
@@ -1850,8 +1860,6 @@ udp://185.121.168.96:1337/announce
 
 udp://185.146.233.150:6969/announce
 
-udp://185.171.202.111:6969/announce
-
 udp://185.181.60.155:80/announce
 
 udp://185.181.60.67:80/announce
@@ -1864,9 +1872,11 @@ udp://185.243.218.213:80/announce
 
 udp://185.44.82.25:1337/announce
 
-udp://192.95.46.115:6969/announce
+udp://189.18.162.12:6969/announce
 
-udp://193.148.251.93:6969/announce
+udp://192.3.130.53:1337/announce
+
+udp://192.95.46.115:6969/announce
 
 udp://193.187.90.12:6969/announce
 
@@ -1890,7 +1900,7 @@ udp://209.126.11.233:6969/announce
 
 udp://209.141.59.25:6969/announce
 
-udp://211.75.205.188:6969/announce
+udp://211.75.210.221:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1976,9 +1986,9 @@ udp://81.230.84.201:6969/announce
 
 udp://82.65.115.10:6969/announce
 
-udp://85.121.5.80:6969/announce
+udp://83.102.180.21:80/announce
 
-udp://87.106.210.134:6969/announce
+udp://85.121.5.80:6969/announce
 
 udp://88.80.22.67:2710/announce
 
@@ -1991,8 +2001,6 @@ udp://89.234.156.205:451/announce
 udp://89.36.216.8:6969/announce
 
 udp://91.211.5.21:6969/announce
-
-udp://91.216.110.53:451/announce
 
 udp://93.104.214.40:6969/announce
 
@@ -2595,6 +2603,8 @@ udp://v74853.hosted-by-vdsina.com:6969/announce
 udp://vibe.sleepyinternetfun.xyz:1738/announce
 
 udp://vito-tracker.duckdns.org:6969/announce
+
+udp://vito-tracker.space:6969/announce
 
 udp://vps-dd0a0715.vps.ovh.net:6969/announce
 
