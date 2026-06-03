@@ -30,6 +30,8 @@ http://107.189.7.143:6969/announce
 
 http://11.rarbg.com/announce
 
+http://113.13.6.197:6969/announce
+
 http://116.252.176.125:6969/announce
 
 http://116.9.207.121:6969/announce
@@ -83,8 +85,6 @@ http://163.172.209.40/announce
 http://163.172.29.130/announce
 
 http://167.235.245.209/announce
-
-http://167.253.78.20:8080/announce
 
 http://171.104.110.193:6969/announce
 
@@ -180,15 +180,15 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.187:6969/announce
+http://211.75.205.187/announce
 
 http://211.75.205.188/announce
+
+http://211.75.205.188:6969/announce
 
 http://211.75.205.189/announce
 
 http://211.75.210.221/announce
-
-http://211.75.210.221:6969/announce
 
 http://211.75.29.254:6969/announce
 
@@ -203,8 +203,6 @@ http://217.30.10.77:6969/announce
 http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
-
-http://34.66.57.33/announce
 
 http://34.89.30.59/announce
 
@@ -293,6 +291,8 @@ http://54.39.98.124/announce
 http://60-fps.org/bt/announce.php
 
 http://60-fps.org/bt:80/announce.php
+
+http://60.249.37.20:6969/announce
 
 http://61.216.109.95:6969/announce
 
@@ -413,6 +413,8 @@ http://anidex.moe:6969/announce+
 http://anisource.spb.ru/announce
 
 http://announce.partis.si/announce
+
+http://announce.sktorrent.eu:6969/announce
 
 http://asiatorrent.ddns.net:51413/announce
 
@@ -641,8 +643,6 @@ http://joczo.duckdns.org:6969/announce
 http://jp.moeweb.pw:6969/announce
 
 http://jsb.by00/announce
-
-http://jvavav.com/announce
 
 http://kamikazee.duckdns.org:7777/announce
 
@@ -1127,6 +1127,8 @@ http://tracker.pcfreetime.com:6969/announce
 http://tracker.peckservers.com:9000/announce
 
 http://tracker.pimp4003.net/announce
+
+http://tracker.plx.im:6969/announce
 
 http://tracker.pomf.se/announce
 
@@ -1842,13 +1844,19 @@ udp://185.121.168.96:1337/announce
 
 udp://185.146.233.150:6969/announce
 
+udp://185.171.202.111:6969/announce
+
 udp://185.181.60.155:80/announce
 
 udp://185.181.60.67:80/announce
 
+udp://185.189.13.108:6969/announce
+
 udp://185.216.179.62:25/announce
 
 udp://185.230.4.150:1337/announce
+
+udp://185.243.218.213:80/announce
 
 udp://185.44.82.25:1337/announce
 
@@ -1857,8 +1865,6 @@ udp://189.18.162.12:6969/announce
 udp://192.3.130.53:1337/announce
 
 udp://192.95.46.115:6969/announce
-
-udp://193.148.251.93:6969/announce
 
 udp://193.187.90.12:6969/announce
 
@@ -1880,11 +1886,7 @@ udp://207.241.231.226:6969/announce
 
 udp://209.126.11.233:6969/announce
 
-udp://209.141.59.16:6969/announce
-
 udp://209.141.59.25:6969/announce
-
-udp://211.75.210.221:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1923,6 +1925,8 @@ udp://37.59.48.81:6969/announce
 udp://43.154.112.29:17272/announce
 
 udp://43.250.54.126:6969/announce
+
+udp://45.134.88.121:6969/announce
 
 udp://45.137.199.107:6969/announce
 
@@ -1964,6 +1968,8 @@ udp://6.pocketnet.app:6969/announce
 
 udp://60.172.236.18:6969/announce
 
+udp://60.249.37.20:6969/announce
+
 udp://6ahddutb1ucc3cp.ru:6969/announce
 
 udp://74.119.149.136:6969/announce
@@ -1971,8 +1977,6 @@ udp://74.119.149.136:6969/announce
 udp://81.230.84.201:6969/announce
 
 udp://82.65.115.10:6969/announce
-
-udp://83.102.180.21:80/announce
 
 udp://87.106.210.134:6969/announce
 
@@ -2621,6 +2625,8 @@ udp://zer0day.ch:1337/announce
 wss://qot.abiir.top/announce
 
 wss://spacetradersapi-chatbox.herokuapp.com/announce
+
+wss://tracker.btorrent.xyz/
 
 wss://tracker.btorrent.xyz/announce
 
