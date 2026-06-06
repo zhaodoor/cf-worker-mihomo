@@ -30,7 +30,7 @@ http://107.189.7.143:6969/announce
 
 http://11.rarbg.com/announce
 
-http://113.16.153.116:6969/announce
+http://113.17.66.235:6969/announce
 
 http://116.252.176.125:6969/announce
 
@@ -184,13 +184,17 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
+http://211.75.205.187/announce
+
 http://211.75.205.188/announce
+
+http://211.75.205.188:6969/announce
 
 http://211.75.205.189/announce
 
-http://211.75.205.189:6969/announce
-
 http://211.75.210.221/announce
+
+http://211.75.210.221:6969/announce
 
 http://211.75.29.254:6969/announce
 
@@ -206,11 +210,9 @@ http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
 
-http://34.66.57.33:11450/announce
+http://34.66.57.33/announce.php
 
-http://34.66.57.33:2710/announce
-
-http://34.66.57.33:6969/announce
+http://34.66.57.33:2701/announce
 
 http://34.89.30.59/announce
 
@@ -297,8 +299,6 @@ http://54.39.98.124/announce
 http://60-fps.org/bt/announce.php
 
 http://60-fps.org/bt:80/announce.php
-
-http://60.249.37.20/announce
 
 http://61.216.109.95:6969/announce
 
@@ -899,8 +899,6 @@ http://torrent-tracker.ru/announce.php
 http://torrent.arjlover.net:2710/announce
 
 http://torrent.fedoraproject.org:6969/announce
-
-http://torrent.hificode.in:6969/announce
 
 http://torrent.mp3quran.net/announce
 
@@ -1592,6 +1590,8 @@ https://tracker.bangumi.zip/announce
 
 https://tracker.belmult.online/announce
 
+https://tracker.bigbewbs.online/announce
+
 https://tracker.bjut.jp/announce
 
 https://tracker.bt-hash.com/announce
@@ -1798,8 +1798,6 @@ udp://104.143.10.186:8000/announce
 
 udp://107.175.221.194:6969/announce
 
-udp://107.189.2.131:1337/announce
-
 udp://107.189.4.235:1337/announce
 
 udp://107.189.7.165:6969/announce
@@ -1811,8 +1809,6 @@ udp://11.rarbg.com:80/announce
 udp://118.196.100.63:6969/announce
 
 udp://119.28.71.45:8080/announce
-
-udp://120.78.150.131:6969/announce
 
 udp://132.226.6.145:6969/announce
 
@@ -1854,19 +1850,13 @@ udp://185.121.168.96:1337/announce
 
 udp://185.146.233.150:6969/announce
 
-udp://185.171.202.111:6969/announce
-
 udp://185.181.60.155:80/announce
 
 udp://185.181.60.67:80/announce
 
-udp://185.189.13.108:6969/announce
-
 udp://185.216.179.62:25/announce
 
 udp://185.230.4.150:1337/announce
-
-udp://185.243.218.213:80/announce
 
 udp://185.44.82.25:1337/announce
 
@@ -1875,8 +1865,6 @@ udp://189.18.162.12:6969/announce
 udp://192.3.130.53:1337/announce
 
 udp://192.95.46.115:6969/announce
-
-udp://193.148.251.93:6969/announce
 
 udp://193.187.90.12:6969/announce
 
@@ -1898,11 +1886,9 @@ udp://207.241.231.226:6969/announce
 
 udp://209.126.11.233:6969/announce
 
-udp://209.141.59.16:6969/announce
-
 udp://209.141.59.25:6969/announce
 
-udp://211.75.205.189:6969/announce
+udp://211.75.210.221:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1913,6 +1899,8 @@ udp://217.30.10.77:6969/announce
 udp://23.134.88.9:6969/announce
 
 udp://23.137.251.45:6969/announce
+
+udp://23.157.120.14:6969/announce
 
 udp://23.175.184.30:23333/announce
 
@@ -1936,9 +1924,7 @@ udp://37.59.48.81:6969/announce
 
 udp://43.154.112.29:17272/announce
 
-udp://43.250.54.126:6969/announce
-
-udp://45.137.199.107:6969/announce
+udp://45.134.88.121:6969/announce
 
 udp://45.9.60.30:6969/announce
 
@@ -1972,9 +1958,9 @@ udp://52.211.139.85:27022/announce
 
 udp://52.58.128.163:6969/announce
 
-udp://54.36.179.216:6969/announce
-
 udp://6.pocketnet.app:6969/announce
+
+udp://60.172.236.18:6969/announce
 
 udp://6ahddutb1ucc3cp.ru:6969/announce
 
@@ -1987,8 +1973,6 @@ udp://82.65.115.10:6969/announce
 udp://83.102.180.21:80/announce
 
 udp://87.106.210.134:6969/announce
-
-udp://88.80.22.67:2710/announce
 
 udp://88.80.28.7:6969/announce
 
@@ -2232,6 +2216,8 @@ udp://open.4ever.tk:6969/announce
 
 udp://open.demonii.com:1337/announce
 
+udp://open.demonoid.ch:6969/announce
+
 udp://open.free-tracker.ga:6969/announce
 
 udp://open.ftorrent.com:443/announce
@@ -2430,6 +2416,8 @@ udp://tracker.dler.com:6969/announce
 
 udp://tracker.dler.org:6969/announce
 
+udp://tracker.dorcus.digital:1337/announce
+
 udp://tracker.draatman.uk:6969/announce
 
 udp://tracker.ducks.party:1984/announce
@@ -2511,6 +2499,8 @@ udp://tracker.sylphix.com:6969/announce
 udp://tracker.t-1.org:6969/announce
 
 udp://tracker.tcp.exchange:6969/announce
+
+udp://tracker.teambelgium.net:6969/announce
 
 udp://tracker.theoks.net:6969/announce
 
@@ -2599,8 +2589,6 @@ udp://v74853.hosted-by-vdsina.com:6969/announce
 udp://vibe.sleepyinternetfun.xyz:1738/announce
 
 udp://vito-tracker.duckdns.org:6969/announce
-
-udp://vito-tracker.space:6969/announce
 
 udp://vps-dd0a0715.vps.ovh.net:6969/announce
 
