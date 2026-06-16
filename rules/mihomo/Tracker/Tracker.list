@@ -30,8 +30,6 @@ http://107.189.7.143:6969/announce
 
 http://11.rarbg.com/announce
 
-http://113.17.153.232:6969/announce
-
 http://116.252.176.125:6969/announce
 
 http://116.9.207.121:6969/announce
@@ -89,6 +87,8 @@ http://163.172.209.40/announce
 http://163.172.29.130/announce
 
 http://167.235.245.209/announce
+
+http://167.253.78.20:8080/announce
 
 http://171.104.110.193:6969/announce
 
@@ -186,9 +186,9 @@ http://211.75.205.188/announce
 
 http://211.75.205.189/announce
 
-http://211.75.210.221/announce
+http://211.75.205.189:6969/announce
 
-http://211.75.210.221:6969/announce
+http://211.75.210.221/announce
 
 http://211.75.29.254:6969/announce
 
@@ -204,15 +204,7 @@ http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
 
-http://34.66.57.33:1337/announce
-
-http://34.66.57.33:2701/announce
-
-http://34.66.57.33:2710/announce
-
-http://34.66.57.33:443/announce
-
-http://34.66.57.33:6969/announce
+http://222.84.23.3:6969/announce
 
 http://34.89.30.59/announce
 
@@ -657,8 +649,6 @@ http://joczo.duckdns.org:6969/announce
 http://jp.moeweb.pw:6969/announce
 
 http://jsb.by00/announce
-
-http://jvavav.com/announce
 
 http://kamikazee.duckdns.org:7777/announce
 
@@ -1824,6 +1814,8 @@ udp://132.226.6.145:6969/announce
 
 udp://135.125.106.92:6969/announce
 
+udp://135.125.236.64:6969/announce
+
 udp://144.91.88.22:6969/announce
 
 udp://148.251.53.72:6969/announce
@@ -1842,6 +1834,8 @@ udp://161.97.67.210:6969/announce
 
 udp://163.172.29.130:80/announce
 
+udp://163.5.63.253:6990/announce
+
 udp://164.152.110.70:6969/announce
 
 udp://167.99.185.219:6969/announce
@@ -1855,8 +1849,6 @@ udp://176.31.250.174:6969/announce
 udp://178.170.48.154:1337/announce
 
 udp://185.102.219.163:6969/announce
-
-udp://185.121.168.96:1337/announce
 
 udp://185.146.233.150:6969/announce
 
@@ -1875,6 +1867,8 @@ udp://185.44.82.25:1337/announce
 udp://192.3.130.53:1337/announce
 
 udp://192.95.46.115:6969/announce
+
+udp://193.148.251.143:6969/announce
 
 udp://193.187.90.12:6969/announce
 
@@ -1897,8 +1891,6 @@ udp://207.241.231.226:6969/announce
 udp://209.126.11.233:6969/announce
 
 udp://209.141.59.25:6969/announce
-
-udp://211.75.210.221:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1940,6 +1932,8 @@ udp://5.196.67.51:6969/announce
 
 udp://5.196.89.204:6969/announce
 
+udp://5.255.124.190:6969/announce
+
 udp://51.15.26.25:6969/announce
 
 udp://51.15.3.74:6969/announce
@@ -1960,9 +1954,13 @@ udp://52.211.139.85:27022/announce
 
 udp://52.58.128.163:6969/announce
 
+udp://54.36.179.216:6969/announce
+
 udp://6.pocketnet.app:6969/announce
 
 udp://60.172.236.18:6969/announce
+
+udp://60.249.37.20:6969/announce
 
 udp://60.249.37.20:80/announce
 
@@ -1976,6 +1974,10 @@ udp://82.65.115.10:6969/announce
 
 udp://83.102.180.21:80/announce
 
+udp://87.106.210.134:6969/announce
+
+udp://88.80.22.67:2710/announce
+
 udp://88.80.28.7:6969/announce
 
 udp://88.99.2.212:6969/announce
@@ -1987,8 +1989,6 @@ udp://89.234.156.205:451/announce
 udp://89.36.216.8:6969/announce
 
 udp://91.211.5.21:6969/announce
-
-udp://91.216.110.53:451/announce
 
 udp://93.104.214.40:6969/announce
 
@@ -2495,6 +2495,8 @@ udp://tracker.silksa.co.za:6969/announce
 udp://tracker.skyts.net:6969/announce
 
 udp://tracker.srv00.com:6969/announce
+
+udp://tracker.startwork.cv:1337/announce
 
 udp://tracker.swateam.org.uk:2710/announce
 
