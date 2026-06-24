@@ -64,8 +64,6 @@ http://147job.com:6969/announce
 
 http://151.115.49.115:1337/announce
 
-http://152.249.97.82:6969/announce
-
 http://152.53.194.103:2710/announce
 
 http://155.248.200.105/announce
@@ -85,6 +83,8 @@ http://163.172.209.40/announce
 http://163.172.29.130/announce
 
 http://167.235.245.209/announce
+
+http://167.253.78.20:8080/announce
 
 http://171.104.110.193:6969/announce
 
@@ -146,6 +146,8 @@ http://189.0.196.51:6969/announce
 
 http://189.110.233.96:6969/announce
 
+http://189.79.13.198:6969/announce
+
 http://192.3.165.191:6969/announce
 
 http://192.9.228.30:6699/announce
@@ -188,6 +190,8 @@ http://211.75.205.189/announce
 
 http://211.75.210.221/announce
 
+http://211.75.210.221:6969/announce
+
 http://211.75.29.254:6969/announce
 
 http://212.6.3.67/announce
@@ -201,6 +205,8 @@ http://217.30.10.77:6969/announce
 http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
+
+http://34.66.57.33/announce
 
 http://34.89.30.59/announce
 
@@ -287,8 +293,6 @@ http://54.39.98.124/announce
 http://60-fps.org/bt/announce.php
 
 http://60-fps.org/bt:80/announce.php
-
-http://60.249.37.20:6969/announce
 
 http://61.216.109.95:6969/announce
 
@@ -1800,6 +1804,8 @@ udp://109.201.134.183:80/announce
 
 udp://11.rarbg.com:80/announce
 
+udp://118.196.100.63:6969/announce
+
 udp://119.28.71.45:8080/announce
 
 udp://132.226.6.145:6969/announce
@@ -1811,8 +1817,6 @@ udp://144.91.88.22:6969/announce
 udp://148.251.53.72:6969/announce
 
 udp://149.106.106.25:443/announce
-
-udp://152.249.97.82:6969/announce
 
 udp://152.53.194.103:54123/announce
 
@@ -1838,8 +1842,6 @@ udp://178.170.48.154:1337/announce
 
 udp://185.102.219.163:6969/announce
 
-udp://185.121.168.96:1337/announce
-
 udp://185.146.233.150:6969/announce
 
 udp://185.181.60.155:80/announce
@@ -1853,6 +1855,8 @@ udp://185.230.4.150:1337/announce
 udp://185.243.218.213:80/announce
 
 udp://185.44.82.25:1337/announce
+
+udp://189.79.13.198:6969/announce
 
 udp://192.3.130.53:1337/announce
 
@@ -1881,6 +1885,8 @@ udp://209.126.11.233:6969/announce
 udp://209.141.59.25:6969/announce
 
 udp://211.75.205.187:80/announce
+
+udp://211.75.210.221:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1914,8 +1920,6 @@ udp://46.138.242.240:6969/announce
 
 udp://47.ip-51-68-199.eu:6969/announce
 
-udp://5.135.104.146:6969/announce
-
 udp://5.196.67.51:6969/announce
 
 udp://5.196.89.204:6969/announce
@@ -1936,6 +1940,8 @@ udp://51.68.174.87:6969/announce
 
 udp://51.81.222.188:6969/announce
 
+udp://51.83.160.93:6969/announce
+
 udp://52.211.139.85:27022/announce
 
 udp://52.58.128.163:6969/announce
@@ -1944,7 +1950,7 @@ udp://6.pocketnet.app:6969/announce
 
 udp://60.172.236.18:6969/announce
 
-udp://60.249.37.20:6969/announce
+udp://67.222.238.222:2010/announce
 
 udp://6ahddutb1ucc3cp.ru:6969/announce
 
@@ -1967,6 +1973,8 @@ udp://89.234.156.205:451/announce
 udp://89.36.216.8:6969/announce
 
 udp://91.211.5.21:6969/announce
+
+udp://91.216.110.53:451/announce
 
 udp://93.104.214.40:6969/announce
 
@@ -2069,8 +2077,6 @@ udp://cpe-104-34-3-152.socal.res.rr.com:6969/announce
 udp://cutscloud.duckdns.org:6969/announce
 
 udp://d40969.acod.regrucolo.ru:6969/announce
-
-udp://db.koikia.eu:6969/announce
 
 udp://devops.gay:6969/announce
 
@@ -2597,8 +2603,6 @@ udp://yuptracker-eu.gaijinent.com:27022/announce
 udp://z.mercax.com:53/announce
 
 udp://zecircle.xyz:6969/announce
-
-udp://zer0day.ch:1337/announce
 
 wss://qot.abiir.top/announce
 
