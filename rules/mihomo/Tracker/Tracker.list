@@ -84,6 +84,8 @@ http://163.172.29.130/announce
 
 http://167.235.245.209/announce
 
+http://167.253.78.20:8080/announce
+
 http://171.104.110.193:6969/announce
 
 http://171.104.110.21:6969/announce
@@ -178,15 +180,17 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.187:6969/announce
+http://211.75.205.187/announce
 
 http://211.75.205.188/announce
 
+http://211.75.205.188:6969/announce
+
 http://211.75.205.189/announce
 
-http://211.75.210.221/announce
+http://211.75.205.189:6969/announce
 
-http://211.75.210.221:6969/announce
+http://211.75.210.221/announce
 
 http://211.75.29.254:6969/announce
 
@@ -202,7 +206,11 @@ http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
 
+http://34.66.57.33:11450/announce
+
 http://34.66.57.33:2710/announce
+
+http://34.66.57.33:443/announce
 
 http://34.66.57.33:6969/announce
 
@@ -1498,6 +1506,8 @@ https://private.minimafia.nl/announce
 
 https://pybittrack.retiolus.net/announce
 
+https://retracker2.x2k.ru/announce
+
 https://seeders-paradise.org/announce
 
 https://shahidrazi.online/announce
@@ -1808,8 +1818,6 @@ udp://119.28.71.45:8080/announce
 
 udp://132.226.6.145:6969/announce
 
-udp://132.243.161.144:6969/announce
-
 udp://135.125.106.92:6969/announce
 
 udp://144.91.88.22:6969/announce
@@ -1866,8 +1874,6 @@ udp://192.95.46.115:6969/announce
 
 udp://193.187.90.12:6969/announce
 
-udp://193.34.92.5:80/announce
-
 udp://193.37.214.12:6969/announce
 
 udp://194.38.21.77:6969/announce
@@ -1886,9 +1892,9 @@ udp://209.126.11.233:6969/announce
 
 udp://209.141.59.25:6969/announce
 
-udp://211.75.210.221:6969/announce
+udp://211.75.205.187:80/announce
 
-udp://211.75.210.221:80/announce
+udp://211.75.205.189:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1904,8 +1910,6 @@ udp://34.66.57.33:1337/announce
 
 udp://34.66.57.33:80/announce
 
-udp://37.120.182.83:15480/announce
-
 udp://37.120.182.83:1984/announce
 
 udp://37.187.111.136:6969/announce
@@ -1917,8 +1921,6 @@ udp://37.59.48.81:6969/announce
 udp://43.154.112.29:17272/announce
 
 udp://43.250.54.126:6969/announce
-
-udp://45.137.199.107:6969/announce
 
 udp://45.9.60.30:6969/announce
 
@@ -1956,6 +1958,8 @@ udp://6.pocketnet.app:6969/announce
 
 udp://60.172.236.18:6969/announce
 
+udp://67.222.238.222:2010/announce
+
 udp://6ahddutb1ucc3cp.ru:6969/announce
 
 udp://74.119.149.136:6969/announce
@@ -1977,6 +1981,8 @@ udp://89.234.156.205:451/announce
 udp://89.36.216.8:6969/announce
 
 udp://91.211.5.21:6969/announce
+
+udp://91.216.110.53:451/announce
 
 udp://93.104.214.40:6969/announce
 
