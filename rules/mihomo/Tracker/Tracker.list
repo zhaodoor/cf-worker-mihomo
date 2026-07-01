@@ -84,8 +84,6 @@ http://163.172.29.130/announce
 
 http://167.235.245.209/announce
 
-http://167.253.78.20:8080/announce
-
 http://171.104.110.193:6969/announce
 
 http://171.104.110.21:6969/announce
@@ -184,9 +182,9 @@ http://211.75.205.188/announce
 
 http://211.75.205.189/announce
 
-http://211.75.205.189:6969/announce
-
 http://211.75.210.221/announce
+
+http://211.75.210.221:6969/announce
 
 http://211.75.29.254:6969/announce
 
@@ -201,6 +199,18 @@ http://217.30.10.77:6969/announce
 http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
+
+http://34.66.57.33:11450/announce
+
+http://34.66.57.33:1337/announce
+
+http://34.66.57.33:2701/announce
+
+http://34.66.57.33:2710/announce
+
+http://34.66.57.33:443/announce
+
+http://34.66.57.33:6969/announce
 
 http://34.89.30.59/announce
 
@@ -644,6 +654,8 @@ http://jp.moeweb.pw:6969/announce
 
 http://jsb.by00/announce
 
+http://jvavav.com/announce
+
 http://kamikazee.duckdns.org:7777/announce
 
 http://kinorun.com/announce
@@ -889,6 +901,8 @@ http://torrent-tracker.ru/announce.php
 http://torrent.arjlover.net:2710/announce
 
 http://torrent.fedoraproject.org:6969/announce
+
+http://torrent.hificode.in:6969/announce
 
 http://torrent.mp3quran.net/announce
 
@@ -1498,6 +1512,8 @@ https://seeders-paradise.org/announce
 
 https://shahidrazi.online/announce
 
+https://staticfile-bobcat.wasmer.app/announce
+
 https://t.213891.xyz/announce
 
 https://t.btcland.xyz/announce
@@ -1800,6 +1816,8 @@ udp://109.201.134.183:80/announce
 
 udp://11.rarbg.com:80/announce
 
+udp://118.196.100.63:6969/announce
+
 udp://119.28.71.45:8080/announce
 
 udp://132.226.6.145:6969/announce
@@ -1838,6 +1856,8 @@ udp://178.170.48.154:1337/announce
 
 udp://185.102.219.163:6969/announce
 
+udp://185.121.168.96:1337/announce
+
 udp://185.121.168.96:6969/announce
 
 udp://185.146.233.150:6969/announce
@@ -1860,8 +1880,6 @@ udp://192.95.46.115:6969/announce
 
 udp://193.187.90.12:6969/announce
 
-udp://193.34.92.5:80/announce
-
 udp://193.37.214.12:6969/announce
 
 udp://194.38.21.77:6969/announce
@@ -1869,8 +1887,6 @@ udp://194.38.21.77:6969/announce
 udp://198.100.149.66:6969/announce
 
 udp://1c.premierzal.ru:6969/announce
-
-udp://2.57.214.218:6969/announce
 
 udp://207.241.226.111:6969/announce
 
@@ -1882,7 +1898,7 @@ udp://209.126.11.233:6969/announce
 
 udp://209.141.59.25:6969/announce
 
-udp://211.75.205.189:6969/announce
+udp://211.75.210.221:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1947,8 +1963,6 @@ udp://60.172.236.18:6969/announce
 udp://60.249.37.20:6969/announce
 
 udp://60.249.37.20:80/announce
-
-udp://67.222.238.222:2010/announce
 
 udp://6ahddutb1ucc3cp.ru:6969/announce
 
