@@ -178,11 +178,13 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.187/announce
-
 http://211.75.205.188/announce
 
+http://211.75.205.188:6969/announce
+
 http://211.75.205.189/announce
+
+http://211.75.205.189:6969/announce
 
 http://211.75.210.221/announce
 
@@ -286,7 +288,7 @@ http://60-fps.org/bt/announce.php
 
 http://60-fps.org/bt:80/announce.php
 
-http://60.249.37.20:6969/announce
+http://60.249.37.20/announce
 
 http://61.216.109.95:6969/announce
 
@@ -934,6 +936,8 @@ http://tracker-udp.anirena.com/announce
 
 http://tracker-udp.gbitt.info/announce
 
+http://tracker.004430.xyz:1337/announce
+
 http://tracker.23794.top:6969/announce
 
 http://tracker.acgnx.se/announce
@@ -1414,8 +1418,6 @@ https://bittorrent.gongt.net/announce
 
 https://bittracker.nekosunevr.co.uk/announce
 
-https://bt-tracker.wasmer.app/announce
-
 https://bt.080609.xyz/announce
 
 https://bt.beatrice-raws.org/announce
@@ -1856,9 +1858,9 @@ udp://185.44.82.25:1337/announce
 
 udp://191.23.62.139:6969/announce
 
-udp://192.3.130.53:1337/announce
-
 udp://192.95.46.115:6969/announce
+
+udp://193.148.251.143:6969/announce
 
 udp://193.187.90.12:6969/announce
 
@@ -1880,9 +1882,7 @@ udp://209.126.11.233:6969/announce
 
 udp://209.141.59.25:6969/announce
 
-udp://211.75.205.187:80/announce
-
-udp://211.75.210.221:6969/announce
+udp://211.75.205.189:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1908,6 +1908,8 @@ udp://37.187.95.112:6969/announce
 
 udp://37.59.48.81:6969/announce
 
+udp://43.154.112.29:17272/announce
+
 udp://43.250.54.126:6969/announce
 
 udp://45.9.60.30:6969/announce
@@ -1919,8 +1921,6 @@ udp://47.ip-51-68-199.eu:6969/announce
 udp://5.196.67.51:6969/announce
 
 udp://5.196.89.204:6969/announce
-
-udp://5.255.124.190:6969/announce
 
 udp://51.15.26.25:6969/announce
 
@@ -1949,6 +1949,10 @@ udp://6.pocketnet.app:6969/announce
 udp://60.172.236.18:6969/announce
 
 udp://60.249.37.20:6969/announce
+
+udp://60.249.37.20:80/announce
+
+udp://67.222.238.222:2010/announce
 
 udp://6ahddutb1ucc3cp.ru:6969/announce
 
@@ -2599,8 +2603,6 @@ udp://yuptracker-us.gaijinent.com:27022/announce
 udp://yuptracker.gaijinent.com:27022/announce
 
 udp://zecircle.xyz:6969/announce
-
-udp://zer0day.ch:1337/announce
 
 wss://qot.abiir.top/announce
 
