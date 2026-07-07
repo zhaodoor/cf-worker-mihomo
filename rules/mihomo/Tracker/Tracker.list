@@ -2,6 +2,8 @@ http://00.mercax.com:443/announce
 
 http://00.xxtor.com:443/announce
 
+http://004430.xyz/announce
+
 http://0123456789nonexistent.com/announce
 
 http://0d.kebhana.mx:443/announce
@@ -81,6 +83,8 @@ http://163.172.209.40/announce
 http://163.172.29.130/announce
 
 http://167.235.245.209/announce
+
+http://167.253.78.20:8080/announce
 
 http://171.104.110.193:6969/announce
 
@@ -176,15 +180,15 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.188/announce
+http://211.75.205.187:6969/announce
 
-http://211.75.205.188:6969/announce
+http://211.75.205.188/announce
 
 http://211.75.205.189/announce
 
-http://211.75.210.221/announce
+http://211.75.205.189:6969/announce
 
-http://211.75.210.221:6969/announce
+http://211.75.210.221/announce
 
 http://211.75.29.254:6969/announce
 
@@ -199,6 +203,16 @@ http://217.30.10.77:6969/announce
 http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
+
+http://34.66.57.33/announce.php
+
+http://34.66.57.33:11450/announce
+
+http://34.66.57.33:2710/announce
+
+http://34.66.57.33:443/announce
+
+http://34.66.57.33:6969/announce
 
 http://34.89.30.59/announce
 
@@ -666,6 +680,8 @@ http://masters-tb.com/announce
 
 http://masters-tb.com/announce.php
 
+http://maxsrv.xyz:9000/announce
+
 http://mediaclub.tv/announce
 
 http://mediaclub.tv/announce.php
@@ -719,6 +735,8 @@ http://open.stealth.si/announce
 http://open.touki.ru/announce
 
 http://open.touki.ru/announce.php
+
+http://open.tracker.cl:1337/announce
 
 http://open.tracker.ink:6969/announce
 
@@ -801,8 +819,6 @@ http://s1130638.ha016.t.mydomain.zone/announce
 http://s1130639.ha009.t.mydomain.zone/announce
 
 http://s1130642.ha014.t.mydomain.zone/announce
-
-http://s926723.ha016.t.mydomain.zone/announce
 
 http://secure.pow7.com/announce
 
@@ -1116,6 +1132,8 @@ http://tracker.openbittorrent.com/announce
 
 http://tracker.openbittorrrent.com/announce
 
+http://tracker.opentorrent.top:6969/announce
+
 http://tracker.opentrackr.org:1337/announce
 
 http://tracker.openzim.org/announce
@@ -1177,6 +1195,8 @@ http://tracker.tambovnet.org/announce.php
 http://tracker.tfile.co/announce
 
 http://tracker.tfile.me/announce
+
+http://tracker.therarbg.to:6969/announce
 
 http://tracker.tiny-vps.com:6969/announce
 
@@ -1492,6 +1512,8 @@ https://private.minimafia.nl/announce
 
 https://pybittrack.retiolus.net/announce
 
+https://retracker2.x2k.ru/announce
+
 https://seeders-paradise.org/announce
 
 https://shahidrazi.online/announce
@@ -1800,11 +1822,11 @@ udp://109.201.134.183:80/announce
 
 udp://11.rarbg.com:80/announce
 
+udp://118.196.100.63:6969/announce
+
 udp://119.28.71.45:8080/announce
 
 udp://132.226.6.145:6969/announce
-
-udp://132.243.161.144:6969/announce
 
 udp://135.125.106.92:6969/announce
 
@@ -1842,11 +1864,7 @@ udp://179.146.54.238:6969/announce
 
 udp://185.102.219.163:6969/announce
 
-udp://185.121.168.96:1337/announce
-
 udp://185.121.168.96:6969/announce
-
-udp://185.146.233.150:6969/announce
 
 udp://185.181.60.155:80/announce
 
@@ -1872,11 +1890,11 @@ udp://198.100.149.66:6969/announce
 
 udp://1c.premierzal.ru:6969/announce
 
+udp://200.111.84.93:1337/announce
+
 udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
-
-udp://208.83.20.20:6969/announce
 
 udp://209.126.11.233:6969/announce
 
@@ -1884,7 +1902,7 @@ udp://209.141.59.25:6969/announce
 
 udp://211.75.205.188:80/announce
 
-udp://211.75.210.221:6969/announce
+udp://211.75.205.189:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1893,6 +1911,8 @@ udp://212.42.38.197:6969/announce
 udp://217.30.10.77:6969/announce
 
 udp://23.137.251.45:6969/announce
+
+udp://23.157.120.14:6969/announce
 
 udp://34.66.57.33:1337/announce
 
@@ -1947,6 +1967,8 @@ udp://60.172.236.18:6969/announce
 udp://60.249.37.20:6969/announce
 
 udp://65.109.28.17:6969/announce
+
+udp://67.222.238.222:2010/announce
 
 udp://6ahddutb1ucc3cp.ru:6969/announce
 
@@ -2101,8 +2123,6 @@ udp://files.project-cataclysm.ru:6969/announce
 udp://free.publictracker.xyz:6969/announce
 
 udp://freedom.1776.ga:6969/announce
-
-udp://freedomalternative.com:6969/announce
 
 udp://http//www.peckservers.com:9000/announce
 
@@ -2339,8 +2359,6 @@ udp://tracker-udp.anirena.com:80/announce
 udp://tracker-udp.gbitt.info:80/announce
 
 udp://tracker-us.silksa.co.za:6969/announce
-
-udp://tracker.004430.xyz:1337/announce
 
 udp://tracker.0x.tf:6969/announce
 
@@ -2599,8 +2617,6 @@ udp://yuptracker-us.gaijinent.com:27022/announce
 udp://yuptracker.gaijinent.com:27022/announce
 
 udp://zecircle.xyz:6969/announce
-
-udp://zer0day.ch:1337/announce
 
 wss://qot.abiir.top/announce
 
