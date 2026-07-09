@@ -156,8 +156,6 @@ http://193.37.214.12:6969/announce
 
 http://198.251.84.144/announce
 
-http://200.111.84.93:1337/announce
-
 http://200.232.254.1:6969/announce
 
 http://201.42.214.55:6969/announce
@@ -182,13 +180,15 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.187:6969/announce
-
 http://211.75.205.188/announce
+
+http://211.75.205.188:6969/announce
 
 http://211.75.205.189/announce
 
 http://211.75.210.221/announce
+
+http://211.75.210.221:6969/announce
 
 http://211.75.29.254:6969/announce
 
@@ -203,16 +203,6 @@ http://217.30.10.77:6969/announce
 http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
-
-http://34.66.57.33/announce
-
-http://34.66.57.33:11450/announce
-
-http://34.66.57.33:2701/announce
-
-http://34.66.57.33:2710/announce
-
-http://34.66.57.33:443/announce
 
 http://34.89.30.59/announce
 
@@ -297,8 +287,6 @@ http://54.39.98.124/announce
 http://60-fps.org/bt/announce.php
 
 http://60-fps.org/bt:80/announce.php
-
-http://60.249.37.20:6969/announce
 
 http://61.216.109.95:6969/announce
 
@@ -652,8 +640,6 @@ http://jp.moeweb.pw:6969/announce
 
 http://jsb.by00/announce
 
-http://jvavav.com/announce
-
 http://kamikazee.duckdns.org:7777/announce
 
 http://kinorun.com/announce
@@ -901,8 +887,6 @@ http://torrent-tracker.ru/announce.php
 http://torrent.arjlover.net:2710/announce
 
 http://torrent.fedoraproject.org:6969/announce
-
-http://torrent.hificode.in:6969/announce
 
 http://torrent.mp3quran.net/announce
 
@@ -1508,8 +1492,6 @@ https://private.minimafia.nl/announce
 
 https://pybittrack.retiolus.net/announce
 
-https://retracker2.x2k.ru/announce
-
 https://seeders-paradise.org/announce
 
 https://staticfile-bobcat.wasmer.app/announce
@@ -1862,7 +1844,7 @@ udp://185.121.168.96:1337/announce
 
 udp://185.121.168.96:6969/announce
 
-udp://185.146.233.150:6969/announce
+udp://185.171.202.111:6969/announce
 
 udp://185.181.60.155:80/announce
 
@@ -1888,19 +1870,15 @@ udp://198.100.149.66:6969/announce
 
 udp://1c.premierzal.ru:6969/announce
 
-udp://200.111.84.93:1337/announce
-
 udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
-
-udp://208.83.20.20:6969/announce
 
 udp://209.126.11.233:6969/announce
 
 udp://209.141.59.25:6969/announce
 
-udp://211.75.205.187:6969/announce
+udp://211.75.205.188:6969/announce
 
 udp://211.75.205.188:80/announce
 
@@ -1964,8 +1942,6 @@ udp://60.249.37.20:6969/announce
 
 udp://65.109.28.17:6969/announce
 
-udp://67.222.238.222:2010/announce
-
 udp://6ahddutb1ucc3cp.ru:6969/announce
 
 udp://74.119.149.136:6969/announce
@@ -1980,13 +1956,13 @@ udp://88.80.28.7:6969/announce
 
 udp://88.99.2.212:6969/announce
 
+udp://89.127.235.120:6969/announce
+
 udp://89.234.156.205:451/announce
 
 udp://89.36.216.8:6969/announce
 
 udp://91.211.5.21:6969/announce
-
-udp://91.216.110.53:451/announce
 
 udp://93.104.214.40:6969/announce
 
@@ -2093,6 +2069,8 @@ udp://devops.gay:6969/announce
 udp://dht.bt251.com:6969/announce
 
 udp://download.nerocloud.me:6969/announce
+
+udp://ds32244.seedhost.eu:6969/announce
 
 udp://ec2-18-191-163-220.us-east-2.compute.amazonaws.com:6969/announce
 
@@ -2389,8 +2367,6 @@ udp://tracker.ccc.de:80/announce
 udp://tracker.ccp.ovh:6969/announce
 
 udp://tracker.corpscorp.online:80/announce
-
-udp://tracker.cubonegro.org:80/announce
 
 udp://tracker.cubonegro.xyz:6969/announce
 
