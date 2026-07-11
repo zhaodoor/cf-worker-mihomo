@@ -120,8 +120,6 @@ http://171.104.226.87:6969/announce
 
 http://179.100.24.134:6969/announce
 
-http://179.146.54.238:6969/announce
-
 http://180.97.219.76:8070/announce
 
 http://185.130.47.2:6969/announce
@@ -156,8 +154,6 @@ http://193.37.214.12:6969/announce
 
 http://198.251.84.144/announce
 
-http://200.111.84.93:1337/announce
-
 http://200.232.254.1:6969/announce
 
 http://201.42.214.55:6969/announce
@@ -182,13 +178,17 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.188/announce
+http://211.75.205.187/announce
 
-http://211.75.205.188:6969/announce
+http://211.75.205.187:6969/announce
+
+http://211.75.205.188/announce
 
 http://211.75.205.189/announce
 
 http://211.75.210.221/announce
+
+http://211.75.210.221:6969/announce
 
 http://211.75.29.254:6969/announce
 
@@ -203,6 +203,8 @@ http://217.30.10.77:6969/announce
 http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
+
+http://34.66.57.33/announce.php
 
 http://34.89.30.59/announce
 
@@ -289,10 +291,6 @@ http://54.39.98.124/announce
 http://60-fps.org/bt/announce.php
 
 http://60-fps.org/bt:80/announce.php
-
-http://60.249.37.20/announce
-
-http://60.249.37.20:6969/announce
 
 http://61.216.109.95:6969/announce
 
@@ -648,6 +646,8 @@ http://jp.moeweb.pw:6969/announce
 
 http://jsb.by00/announce
 
+http://jvavav.com/announce
+
 http://kamikazee.duckdns.org:7777/announce
 
 http://kinorun.com/announce
@@ -897,6 +897,8 @@ http://torrent-tracker.ru/announce.php
 http://torrent.arjlover.net:2710/announce
 
 http://torrent.fedoraproject.org:6969/announce
+
+http://torrent.hificode.in:6969/announce
 
 http://torrent.mp3quran.net/announce
 
@@ -1808,8 +1810,6 @@ udp://132.226.6.145:6969/announce
 
 udp://135.125.106.92:6969/announce
 
-udp://135.125.236.64:6969/announce
-
 udp://144.91.88.22:6969/announce
 
 udp://148.251.53.72:6969/announce
@@ -1840,9 +1840,9 @@ udp://176.31.250.174:6969/announce
 
 udp://178.170.48.154:1337/announce
 
-udp://179.146.54.238:6969/announce
-
 udp://185.102.219.163:6969/announce
+
+udp://185.121.168.96:1337/announce
 
 udp://185.121.168.96:6969/announce
 
@@ -1880,11 +1880,11 @@ udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
 
-udp://208.83.20.20:6969/announce
-
 udp://209.126.11.233:6969/announce
 
-udp://209.141.59.25:6969/announce
+udp://211.75.205.187:80/announce
+
+udp://211.75.210.221:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1948,8 +1948,6 @@ udp://60.172.236.18:6969/announce
 
 udp://60.249.37.20:6969/announce
 
-udp://60.249.37.20:80/announce
-
 udp://65.109.28.17:6969/announce
 
 udp://67.222.238.222:2010/announce
@@ -1973,6 +1971,8 @@ udp://89.234.156.205:451/announce
 udp://89.36.216.8:6969/announce
 
 udp://91.211.5.21:6969/announce
+
+udp://91.216.110.53:451/announce
 
 udp://93.104.214.40:6969/announce
 
@@ -2317,8 +2317,6 @@ udp://torrentclub.online:54123/announce
 udp://torrentclub.space:6969/announce
 
 udp://torrents.artixlinux.org:6969/announce
-
-udp://torrents.tmtime.dev:6969/announce
 
 udp://torrentvpn.club:6990/announce
 
