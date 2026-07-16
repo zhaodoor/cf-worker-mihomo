@@ -180,11 +180,11 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
+http://211.75.205.187:6969/announce
+
 http://211.75.205.188/announce
 
 http://211.75.205.189/announce
-
-http://211.75.205.189:6969/announce
 
 http://211.75.210.221/announce
 
@@ -201,6 +201,12 @@ http://217.30.10.77:6969/announce
 http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
+
+http://34.66.57.33/announce
+
+http://34.66.57.33/announce.php
+
+http://34.66.57.33:11450/announce
 
 http://34.66.57.33:2710/announce
 
@@ -219,6 +225,8 @@ http://34.94.213.23:2710/announce
 http://35.227.12.84/announce
 
 http://35.227.12.84:2710/announce
+
+http://37.120.182.83/announce
 
 http://37.235.174.46:2710/announce
 
@@ -289,6 +297,8 @@ http://54.39.98.124/announce
 http://60-fps.org/bt/announce.php
 
 http://60-fps.org/bt:80/announce.php
+
+http://60.249.37.20/announce
 
 http://61.216.109.95:6969/announce
 
@@ -389,6 +399,8 @@ http://97.117.85.73:9000/announce
 http://99.192.12.191:6969/announce
 
 http://aaa.army:8866/announce
+
+http://aboutbeautifulgallopinghorsesinthegreenpasture.online/announce
 
 http://all4nothin.net/announce
 
@@ -930,6 +942,8 @@ http://tr.cili001.com70/announce
 
 http://tr.cili001.com:8070/announce
 
+http://tr.highstar.shop/announce
+
 http://tr.kxmp.cf/announce
 
 http://tr.nyacat.pw/announce
@@ -1105,6 +1119,8 @@ http://tracker.noobsubs.net/announce
 http://tracker.novaopcj.eu.org:6969/announce
 
 http://tracker.nucozer-tracker.ml:2710/announce
+
+http://tracker.nyaa.vc:6969/announce
 
 http://tracker.nyaa2p.i2p/announce
 
@@ -1494,6 +1510,8 @@ https://pybittrack.retiolus.net/announce
 
 https://seeders-paradise.org/announce
 
+https://shahidrazi.online/announce
+
 https://staticfile-bobcat.wasmer.app/announce
 
 https://t.213891.xyz/announce
@@ -1802,6 +1820,8 @@ udp://132.226.6.145:6969/announce
 
 udp://135.125.106.92:6969/announce
 
+udp://135.125.236.64:6969/announce
+
 udp://144.91.88.22:6969/announce
 
 udp://148.251.53.72:6969/announce
@@ -1835,6 +1855,8 @@ udp://177.139.44.203:6969/announce
 udp://178.170.48.154:1337/announce
 
 udp://185.102.219.163:6969/announce
+
+udp://185.121.168.96:6969/announce
 
 udp://185.146.233.150:6969/announce
 
@@ -1870,13 +1892,13 @@ udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
 
+udp://208.83.20.20:6969/announce
+
 udp://209.126.11.233:6969/announce
 
 udp://209.141.59.25:6969/announce
 
-udp://211.75.205.189:6969/announce
-
-udp://211.75.210.221:80/announce
+udp://211.75.205.187:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1886,9 +1908,15 @@ udp://217.30.10.77:6969/announce
 
 udp://23.137.251.45:6969/announce
 
+udp://23.157.120.14:6969/announce
+
 udp://34.66.57.33:1337/announce
 
 udp://34.66.57.33:80/announce
+
+udp://37.120.182.83:15480/announce
+
+udp://37.120.182.83:1984/announce
 
 udp://37.187.111.136:6969/announce
 
@@ -1901,6 +1929,8 @@ udp://37.59.48.81:6969/announce
 udp://43.154.112.29:17272/announce
 
 udp://43.250.54.126:6969/announce
+
+udp://45.137.199.107:6969/announce
 
 udp://45.9.60.30:6969/announce
 
@@ -1935,6 +1965,8 @@ udp://6.pocketnet.app:6969/announce
 udp://60.172.236.18:6969/announce
 
 udp://60.249.37.20:6969/announce
+
+udp://60.249.37.20:80/announce
 
 udp://65.109.28.17:6969/announce
 
@@ -2224,6 +2256,8 @@ udp://qtstm32fan.ru:6969/announce
 
 udp://r.l5.ca:6969/announce
 
+udp://rekcart.duckdns.org:15480/announce
+
 udp://rep-art.ynh.fr:6969/announce
 
 udp://retracker.hotplug.ru:2710/announce
@@ -2363,6 +2397,8 @@ udp://tracker.dler.com:6969/announce
 udp://tracker.dler.org:6969/announce
 
 udp://tracker.dorcus.digital:1337/announce
+
+udp://tracker.ducks.party:1984/announce
 
 udp://tracker.edkj.club:6969/announce
 
@@ -2563,6 +2599,8 @@ udp://yuptracker-us.gaijinent.com:27022/announce
 udp://yuptracker.gaijinent.com:27022/announce
 
 udp://zecircle.xyz:6969/announce
+
+udp://zer0day.ch:1337/announce
 
 wss://qot.abiir.top/announce
 
