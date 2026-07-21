@@ -116,6 +116,8 @@ http://171.104.226.31:6969/announce
 
 http://171.104.226.87:6969/announce
 
+http://177.172.61.26:6969/announce
+
 http://179.100.24.134:6969/announce
 
 http://180.97.219.76:8070/announce
@@ -180,13 +182,17 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
+http://211.75.205.187/announce
+
+http://211.75.205.187:6969/announce
+
 http://211.75.205.188/announce
 
 http://211.75.205.189/announce
 
-http://211.75.210.221/announce
+http://211.75.205.189:6969/announce
 
-http://211.75.210.221:6969/announce
+http://211.75.210.221/announce
 
 http://211.75.29.254:6969/announce
 
@@ -219,6 +225,8 @@ http://35.227.12.84:2710/announce
 http://37.120.182.83/announce
 
 http://37.235.174.46:2710/announce
+
+http://37.60.249.217:6969/announce
 
 http://38.145.197.79:6961/announce
 
@@ -357,6 +365,8 @@ http://91.224.92.110:6969/announce
 http://93.158.213.92:1337/announce
 
 http://93.88.129.16/announce
+
+http://94.23.207.177:6969/announce
 
 http://95.107.48.115/announce
 
@@ -1096,6 +1106,8 @@ http://tracker.nartlof.com.br:6969/announce
 
 http://tracker.netmap.top:6969/announce
 
+http://tracker.nexusstream.eu:6969/announce
+
 http://tracker.noobsubs.net/announce
 
 http://tracker.novaopcj.eu.org:6969/announce
@@ -1384,6 +1396,8 @@ http://xtremewrestlingtorrents.net/announce
 
 http://xtremewrestlingtorrents.net/announce.php
 
+http://ydlkccp.dscloud.me:6969/announce
+
 https://00.mercax.com/announce
 
 https://00.xxtor.com/announce
@@ -1437,6 +1451,8 @@ https://cny.fan/announce
 https://dev.tracker.cf-identity-wallet.metadata.dev.cf-deployments.org/announce
 
 https://docker-tracker-production.up.railway.app/announce
+
+https://edgev.duckdns.org/announce
 
 https://evening-badlands-6215.herokuapp.com/announce
 
@@ -1800,13 +1816,19 @@ udp://148.251.53.72:6969/announce
 
 udp://149.106.106.25:443/announce
 
+udp://15.235.207.99:8081/announce
+
 udp://151.242.104.187:80/announce
+
+udp://152.53.194.103:1984/announce
 
 udp://152.53.194.103:54123/announce
 
 udp://156.234.201.18:80/announce
 
 udp://158.101.161.60:3131/announce
+
+udp://159.146.99.45:6969/announce
 
 udp://161.97.67.210:6969/announce
 
@@ -1834,8 +1856,6 @@ udp://185.121.168.96:1337/announce
 
 udp://185.121.168.96:6969/announce
 
-udp://185.146.233.150:6969/announce
-
 udp://185.171.202.111:6969/announce
 
 udp://185.181.60.155:80/announce
@@ -1847,8 +1867,6 @@ udp://185.216.179.62:25/announce
 udp://185.230.4.150:1337/announce
 
 udp://185.44.82.25:1337/announce
-
-udp://185.87.45.163:6969/announce
 
 udp://192.95.46.115:6969/announce
 
@@ -1864,8 +1882,6 @@ udp://198.100.149.66:6969/announce
 
 udp://1c.premierzal.ru:6969/announce
 
-udp://200.111.84.93:1337/announce
-
 udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
@@ -1874,15 +1890,17 @@ udp://208.83.20.20:6969/announce
 
 udp://209.126.11.233:6969/announce
 
-udp://211.75.205.188:80/announce
+udp://211.75.205.187:80/announce
 
-udp://211.75.210.221:6969/announce
+udp://211.75.205.189:6969/announce
 
 udp://211.75.29.254:6969/announce
 
 udp://212.42.38.197:6969/announce
 
 udp://217.30.10.77:6969/announce
+
+udp://221.153.216.56:8081/announce
 
 udp://23.137.251.45:6969/announce
 
@@ -1894,15 +1912,13 @@ udp://34.66.57.33:80/announce
 
 udp://37.120.182.83:15480/announce
 
-udp://37.120.182.83:1984/announce
-
 udp://37.187.111.136:6969/announce
 
 udp://37.187.95.112:6969/announce
 
-udp://37.235.176.37:2710/announce
-
 udp://37.59.48.81:6969/announce
+
+udp://37.60.249.217:6969/announce
 
 udp://43.154.112.29:17272/announce
 
@@ -1934,7 +1950,15 @@ udp://51.68.174.87:6969/announce
 
 udp://51.81.222.188:6969/announce
 
+udp://51.83.160.93:6969/announce
+
 udp://52.58.128.163:6969/announce
+
+udp://54.36.179.216:6969/announce
+
+udp://57.129.129.129:6969/announce
+
+udp://57.129.129.187:6969/announce
 
 udp://6.pocketnet.app:6969/announce
 
@@ -1954,6 +1978,8 @@ udp://82.65.115.10:6969/announce
 
 udp://83.102.180.21:80/announce
 
+udp://88.80.22.75:2710/announce
+
 udp://88.80.28.7:6969/announce
 
 udp://88.99.2.212:6969/announce
@@ -1961,6 +1987,8 @@ udp://88.99.2.212:6969/announce
 udp://89.234.156.205:451/announce
 
 udp://89.36.216.8:6969/announce
+
+udp://91.177.126.188:6969/announce
 
 udp://91.211.5.21:6969/announce
 
@@ -2073,6 +2101,8 @@ udp://download.nerocloud.me:6969/announce
 udp://ds32244.seedhost.eu:6969/announce
 
 udp://ec2-18-191-163-220.us-east-2.compute.amazonaws.com:6969/announce
+
+udp://edgev.duckdns.org:6969/announce
 
 udp://elementsbrowser.com:6969/announce
 
@@ -2576,6 +2606,8 @@ udp://zecircle.xyz:6969/announce
 
 udp://zer0day.ch:1337/announce
 
+wss://open.ftorrent.com/
+
 wss://qot.abiir.top/announce
 
 wss://spacetradersapi-chatbox.herokuapp.com/announce
@@ -2590,5 +2622,9 @@ wss://tracker.files.fm:7073/announce
 
 wss://tracker.magnetoo.io/announce
 
+wss://tracker.openwebtorrent.com/
+
 wss://tracker.openwebtorrent.com/announce
+
+wss://tracker.webtorrent.dev/
 
