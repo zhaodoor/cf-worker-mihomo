@@ -122,6 +122,8 @@ http://179.100.24.134:6969/announce
 
 http://180.97.219.76:8070/announce
 
+http://185.126.65.92:6969/announce
+
 http://185.130.47.2:6969/announce
 
 http://185.148.3.231/announce
@@ -180,15 +182,15 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.187/announce
+http://211.75.205.187:6969/announce
 
 http://211.75.205.188/announce
+
+http://211.75.205.188:6969/announce
 
 http://211.75.205.189/announce
 
 http://211.75.210.221/announce
-
-http://211.75.210.221:6969/announce
 
 http://211.75.29.254:6969/announce
 
@@ -203,6 +205,20 @@ http://217.30.10.77:6969/announce
 http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
+
+http://34.66.57.33/announce
+
+http://34.66.57.33/announce.php
+
+http://34.66.57.33:11450/announce
+
+http://34.66.57.33:2701/announce
+
+http://34.66.57.33:2710/announce
+
+http://34.66.57.33:443/announce
+
+http://34.66.57.33:6969/announce
 
 http://34.89.30.59/announce
 
@@ -648,6 +664,8 @@ http://jp.moeweb.pw:6969/announce
 
 http://jsb.by00/announce
 
+http://jvavav.com/announce
+
 http://kamikazee.duckdns.org:7777/announce
 
 http://kinorun.com/announce
@@ -723,8 +741,6 @@ http://open.stealth.si/announce
 http://open.touki.ru/announce
 
 http://open.touki.ru/announce.php
-
-http://open.tracker.cl:1337/announce
 
 http://open.tracker.ink:6969/announce
 
@@ -893,6 +909,8 @@ http://torrent-tracker.ru/announce.php
 http://torrent.arjlover.net:2710/announce
 
 http://torrent.fedoraproject.org:6969/announce
+
+http://torrent.hificode.in:6969/announce
 
 http://torrent.mp3quran.net/announce
 
@@ -1624,6 +1642,8 @@ https://tracker.foreverpirates.co/announce
 
 https://tracker.gbitt.info/announce
 
+https://tracker.gcrenwp.top/announce
+
 https://tracker.guguan.us.kg/announce
 
 https://tracker.h3o2.me/announce
@@ -1850,8 +1870,6 @@ udp://185.121.168.96:1337/announce
 
 udp://185.121.168.96:6969/announce
 
-udp://185.146.233.150:6969/announce
-
 udp://185.171.202.111:6969/announce
 
 udp://185.181.60.155:80/announce
@@ -1882,11 +1900,13 @@ udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
 
+udp://208.83.20.20:6969/announce
+
 udp://209.126.11.233:6969/announce
 
-udp://211.75.205.187:80/announce
+udp://211.75.205.187:6969/announce
 
-udp://211.75.210.221:6969/announce
+udp://211.75.210.221:80/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -2601,8 +2621,6 @@ udp://yuptracker-us.gaijinent.com:27022/announce
 udp://yuptracker.gaijinent.com:27022/announce
 
 udp://zecircle.xyz:6969/announce
-
-udp://zer0day.ch:1337/announce
 
 wss://open.ftorrent.com/
 
