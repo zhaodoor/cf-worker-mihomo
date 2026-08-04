@@ -44,8 +44,6 @@ http://129.146.193.240:6699/announce
 
 http://13.115.115.32:6969/announce
 
-http://132.243.161.144:6969/announce
-
 http://1337.abcvg.info/announce
 
 http://1337.abcvg.info/announce+108
@@ -86,6 +84,8 @@ http://163.172.29.130/announce
 
 http://167.235.245.209/announce
 
+http://167.253.78.20:8080/announce
+
 http://171.104.110.193:6969/announce
 
 http://171.104.110.21:6969/announce
@@ -118,7 +118,7 @@ http://171.104.226.31:6969/announce
 
 http://171.104.226.87:6969/announce
 
-http://177.172.61.26:6969/announce
+http://177.112.215.160:6969/announce
 
 http://179.100.24.134:6969/announce
 
@@ -186,9 +186,9 @@ http://211.22.29.93/announce
 
 http://211.75.205.187/announce
 
-http://211.75.205.188/announce
+http://211.75.205.187:6969/announce
 
-http://211.75.205.188:6969/announce
+http://211.75.205.188/announce
 
 http://211.75.205.189/announce
 
@@ -209,22 +209,6 @@ http://217.30.10.77:6969/announce
 http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
-
-http://34.66.57.33/announce
-
-http://34.66.57.33/announce.php
-
-http://34.66.57.33:11450/announce
-
-http://34.66.57.33:1337/announce
-
-http://34.66.57.33:2701/announce
-
-http://34.66.57.33:2710/announce
-
-http://34.66.57.33:443/announce
-
-http://34.66.57.33:6969/announce
 
 http://34.89.30.59/announce
 
@@ -670,8 +654,6 @@ http://jp.moeweb.pw:6969/announce
 
 http://jsb.by00/announce
 
-http://jvavav.com/announce
-
 http://kamikazee.duckdns.org:7777/announce
 
 http://kinorun.com/announce
@@ -915,8 +897,6 @@ http://torrent-tracker.ru/announce.php
 http://torrent.arjlover.net:2710/announce
 
 http://torrent.fedoraproject.org:6969/announce
-
-http://torrent.hificode.in:6969/announce
 
 http://torrent.mp3quran.net/announce
 
@@ -1846,8 +1826,6 @@ udp://156.234.201.18:80/announce
 
 udp://158.101.161.60:3131/announce
 
-udp://159.146.99.45:6969/announce
-
 udp://161.97.67.210:6969/announce
 
 udp://163.172.29.130:80/announce
@@ -1862,15 +1840,13 @@ udp://173.249.201.201:6969/announce
 
 udp://176.31.250.174:6969/announce
 
-udp://177.172.61.26:6969/announce
+udp://177.112.215.160:6969/announce
 
 udp://178.170.48.154:1337/announce
 
 udp://180.131.145.175:6969/announce
 
 udp://185.102.219.163:6969/announce
-
-udp://185.121.168.96:1337/announce
 
 udp://185.121.168.96:6969/announce
 
@@ -1912,8 +1888,6 @@ udp://208.83.20.20:6969/announce
 
 udp://209.126.11.233:6969/announce
 
-udp://209.141.59.25:6969/announce
-
 udp://211.75.205.187:80/announce
 
 udp://211.75.210.221:6969/announce
@@ -1937,6 +1911,10 @@ udp://31.38.161.123:6969/announce
 udp://34.66.57.33:1337/announce
 
 udp://34.66.57.33:80/announce
+
+udp://37.120.182.83:15480/announce
+
+udp://37.120.182.83:1984/announce
 
 udp://37.187.111.136:6969/announce
 
@@ -1978,15 +1956,17 @@ udp://51.81.222.188:6969/announce
 
 udp://52.58.128.163:6969/announce
 
-udp://54.36.179.216:6969/announce
-
 udp://6.pocketnet.app:6969/announce
 
 udp://60.172.236.18:6969/announce
 
 udp://60.249.37.20:6969/announce
 
+udp://65.109.28.17:6969/announce
+
 udp://65.109.28.33:6969/announce
+
+udp://67.222.238.222:2010/announce
 
 udp://6ahddutb1ucc3cp.ru:6969/announce
 
@@ -2027,8 +2007,6 @@ udp://94.23.207.177:6969/announce
 udp://94.243.222.100:6969/announce
 
 udp://95.216.74.39:6969/announce
-
-udp://95.217.80.20:6969/announce
 
 udp://95.217.80.22:6969/announce
 
@@ -2123,8 +2101,6 @@ udp://download.nerocloud.me:6969/announce
 udp://ds32244.seedhost.eu:6969/announce
 
 udp://ec2-18-191-163-220.us-east-2.compute.amazonaws.com:6969/announce
-
-udp://edgev.duckdns.org:6969/announce
 
 udp://elementsbrowser.com:6969/announce
 
@@ -2631,6 +2607,8 @@ udp://yuptracker-us.gaijinent.com:27022/announce
 udp://yuptracker.gaijinent.com:27022/announce
 
 udp://zecircle.xyz:6969/announce
+
+udp://zer0day.ch:1337/announce
 
 wss://open.ftorrent.com/
 
