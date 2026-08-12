@@ -116,7 +116,7 @@ http://171.104.226.31:6969/announce
 
 http://171.104.226.87:6969/announce
 
-http://177.215.67.242:6969/announce
+http://177.172.67.233:6969/announce
 
 http://179.100.24.134:6969/announce
 
@@ -182,11 +182,9 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.187/announce
+http://211.75.205.187:6969/announce
 
 http://211.75.205.188/announce
-
-http://211.75.205.188:6969/announce
 
 http://211.75.205.189/announce
 
@@ -206,9 +204,21 @@ http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
 
+http://34.66.57.33/announce
+
 http://34.66.57.33/announce.php
 
+http://34.66.57.33:11450/announce
+
 http://34.66.57.33:1337/announce
+
+http://34.66.57.33:2701/announce
+
+http://34.66.57.33:2710/announce
+
+http://34.66.57.33:443/announce
+
+http://34.66.57.33:6969/announce
 
 http://34.89.30.59/announce
 
@@ -1842,7 +1852,7 @@ udp://173.249.201.201:6969/announce
 
 udp://176.31.250.174:6969/announce
 
-udp://177.215.67.242:6969/announce
+udp://177.172.67.233:6969/announce
 
 udp://178.170.48.154:1337/announce
 
@@ -1896,9 +1906,9 @@ udp://209.126.11.233:6969/announce
 
 udp://209.141.59.25:6969/announce
 
-udp://211.75.205.187:80/announce
+udp://211.75.205.187:6969/announce
 
-udp://211.75.205.188:6969/announce
+udp://211.75.205.188:80/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1922,15 +1932,11 @@ udp://34.66.57.33:80/announce
 
 udp://37.120.182.83:15480/announce
 
-udp://37.120.182.83:1984/announce
-
 udp://37.187.111.136:6969/announce
 
 udp://37.187.95.112:6969/announce
 
 udp://37.59.48.81:6969/announce
-
-udp://37.60.249.217:6969/announce
 
 udp://43.154.112.29:17272/announce
 
@@ -1974,6 +1980,8 @@ udp://65.109.28.17:6969/announce
 
 udp://65.109.28.33:6969/announce
 
+udp://67.222.238.222:2010/announce
+
 udp://6ahddutb1ucc3cp.ru:6969/announce
 
 udp://74.119.149.136:6969/announce
@@ -1993,6 +2001,8 @@ udp://89.36.216.8:6969/announce
 udp://91.177.126.188:6969/announce
 
 udp://91.211.5.21:6969/announce
+
+udp://91.216.110.53:451/announce
 
 udp://93.104.214.40:6969/announce
 
@@ -2572,6 +2582,8 @@ udp://ttk2.nbaonlineservice.com:6969/announce
 
 udp://uabits.today:6990/announce
 
+udp://udp.tracker.linvk.com:6969/announce
+
 udp://udp1.torrust-tracker-demo.com:6969/announce
 
 udp://ulfbrueggemann.no-ip.org:6969/announce
@@ -2623,8 +2635,6 @@ wss://open.ftorrent.com/
 wss://qot.abiir.top/announce
 
 wss://spacetradersapi-chatbox.herokuapp.com/announce
-
-wss://tracker.btorrent.xyz/
 
 wss://tracker.btorrent.xyz/announce
 
