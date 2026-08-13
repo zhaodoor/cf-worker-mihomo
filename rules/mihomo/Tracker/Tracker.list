@@ -190,6 +190,8 @@ http://211.75.205.189/announce
 
 http://211.75.210.221/announce
 
+http://211.75.210.221:6969/announce
+
 http://211.75.29.254:6969/announce
 
 http://212.6.3.67/announce
@@ -203,22 +205,6 @@ http://217.30.10.77:6969/announce
 http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
-
-http://34.66.57.33/announce
-
-http://34.66.57.33/announce.php
-
-http://34.66.57.33:11450/announce
-
-http://34.66.57.33:1337/announce
-
-http://34.66.57.33:2701/announce
-
-http://34.66.57.33:2710/announce
-
-http://34.66.57.33:443/announce
-
-http://34.66.57.33:6969/announce
 
 http://34.89.30.59/announce
 
@@ -664,8 +650,6 @@ http://jp.moeweb.pw:6969/announce
 
 http://jsb.by00/announce
 
-http://jvavav.com/announce
-
 http://kamikazee.duckdns.org:7777/announce
 
 http://kinorun.com/announce
@@ -909,8 +893,6 @@ http://torrent-tracker.ru/announce.php
 http://torrent.arjlover.net:2710/announce
 
 http://torrent.fedoraproject.org:6969/announce
-
-http://torrent.hificode.in:6969/announce
 
 http://torrent.mp3quran.net/announce
 
@@ -1886,8 +1868,6 @@ udp://192.99.100.68:6969/announce
 
 udp://193.187.90.12:6969/announce
 
-udp://193.34.92.5:80/announce
-
 udp://193.37.214.12:6969/announce
 
 udp://194.38.21.77:6969/announce
@@ -1908,7 +1888,7 @@ udp://209.141.59.25:6969/announce
 
 udp://211.75.205.187:6969/announce
 
-udp://211.75.205.188:80/announce
+udp://211.75.210.221:80/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1932,11 +1912,15 @@ udp://34.66.57.33:80/announce
 
 udp://37.120.182.83:15480/announce
 
+udp://37.120.182.83:1984/announce
+
 udp://37.187.111.136:6969/announce
 
 udp://37.187.95.112:6969/announce
 
 udp://37.59.48.81:6969/announce
+
+udp://37.60.249.217:6969/announce
 
 udp://43.154.112.29:17272/announce
 
@@ -2603,6 +2587,8 @@ udp://vibe.sleepyinternetfun.xyz:1738/announce
 udp://vito-tracker.duckdns.org:6969/announce
 
 udp://vps-dd0a0715.vps.ovh.net:6969/announce
+
+udp://wegkxfcivgx.ydns.eu:80/announce
 
 udp://wepzone.net:6969/announce
 
