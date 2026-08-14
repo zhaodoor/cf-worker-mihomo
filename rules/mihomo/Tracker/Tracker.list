@@ -116,7 +116,7 @@ http://171.104.226.31:6969/announce
 
 http://171.104.226.87:6969/announce
 
-http://177.172.67.233:6969/announce
+http://177.215.66.183:6969/announce
 
 http://179.100.24.134:6969/announce
 
@@ -182,15 +182,13 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.187:6969/announce
-
 http://211.75.205.188/announce
+
+http://211.75.205.188:6969/announce
 
 http://211.75.205.189/announce
 
 http://211.75.210.221/announce
-
-http://211.75.210.221:6969/announce
 
 http://211.75.29.254:6969/announce
 
@@ -206,6 +204,20 @@ http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
 
+http://34.66.57.33/announce
+
+http://34.66.57.33:11450/announce
+
+http://34.66.57.33:1337/announce
+
+http://34.66.57.33:2701/announce
+
+http://34.66.57.33:2710/announce
+
+http://34.66.57.33:443/announce
+
+http://34.66.57.33:6969/announce
+
 http://34.89.30.59/announce
 
 http://34.89.30.59:2710/announce
@@ -219,8 +231,6 @@ http://34.94.213.23:2710/announce
 http://35.227.12.84/announce
 
 http://35.227.12.84:2710/announce
-
-http://37.120.182.83/announce
 
 http://37.235.174.46:2710/announce
 
@@ -395,8 +405,6 @@ http://97.117.85.73:9000/announce
 http://99.192.12.191:6969/announce
 
 http://aaa.army:8866/announce
-
-http://aboutbeautifulgallopinghorsesinthegreenpasture.online/announce
 
 http://all4nothin.net/announce
 
@@ -650,6 +658,8 @@ http://jp.moeweb.pw:6969/announce
 
 http://jsb.by00/announce
 
+http://jvavav.com/announce
+
 http://kamikazee.duckdns.org:7777/announce
 
 http://kinorun.com/announce
@@ -893,6 +903,8 @@ http://torrent-tracker.ru/announce.php
 http://torrent.arjlover.net:2710/announce
 
 http://torrent.fedoraproject.org:6969/announce
+
+http://torrent.hificode.in:6969/announce
 
 http://torrent.mp3quran.net/announce
 
@@ -1820,6 +1832,8 @@ udp://156.234.201.18:80/announce
 
 udp://158.101.161.60:3131/announce
 
+udp://159.146.99.45:6969/announce
+
 udp://161.97.67.210:6969/announce
 
 udp://163.172.29.130:80/announce
@@ -1834,7 +1848,7 @@ udp://173.249.201.201:6969/announce
 
 udp://176.31.250.174:6969/announce
 
-udp://177.172.67.233:6969/announce
+udp://177.215.66.183:6969/announce
 
 udp://178.170.48.154:1337/announce
 
@@ -1868,6 +1882,8 @@ udp://192.99.100.68:6969/announce
 
 udp://193.187.90.12:6969/announce
 
+udp://193.34.92.5:80/announce
+
 udp://193.37.214.12:6969/announce
 
 udp://194.38.21.77:6969/announce
@@ -1880,15 +1896,13 @@ udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
 
-udp://208.83.20.20:6969/announce
-
 udp://209.126.11.233:6969/announce
 
 udp://209.141.59.25:6969/announce
 
-udp://211.75.205.187:6969/announce
+udp://211.75.205.188:6969/announce
 
-udp://211.75.210.221:80/announce
+udp://211.75.205.188:80/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1904,15 +1918,9 @@ udp://23.153.248.128:6969/announce
 
 udp://23.157.120.14:6969/announce
 
-udp://31.38.161.123:6969/announce
-
 udp://34.66.57.33:1337/announce
 
 udp://34.66.57.33:80/announce
-
-udp://37.120.182.83:15480/announce
-
-udp://37.120.182.83:1984/announce
 
 udp://37.187.111.136:6969/announce
 
@@ -1935,6 +1943,8 @@ udp://47.ip-51-68-199.eu:6969/announce
 udp://5.196.67.51:6969/announce
 
 udp://5.196.89.204:6969/announce
+
+udp://5.255.124.190:6969/announce
 
 udp://51.15.26.25:6969/announce
 
@@ -1985,8 +1995,6 @@ udp://89.36.216.8:6969/announce
 udp://91.177.126.188:6969/announce
 
 udp://91.211.5.21:6969/announce
-
-udp://91.216.110.53:451/announce
 
 udp://93.104.214.40:6969/announce
 
@@ -2101,6 +2109,8 @@ udp://download.nerocloud.me:6969/announce
 udp://ds32244.seedhost.eu:6969/announce
 
 udp://ec2-18-191-163-220.us-east-2.compute.amazonaws.com:6969/announce
+
+udp://edgev.duckdns.org:6969/announce
 
 udp://elementsbrowser.com:6969/announce
 
@@ -2260,8 +2270,6 @@ udp://qtstm32fan.ru:6969/announce
 
 udp://r.l5.ca:6969/announce
 
-udp://rekcart.duckdns.org:15480/announce
-
 udp://rep-art.ynh.fr:6969/announce
 
 udp://retracker.hotplug.ru:2710/announce
@@ -2407,8 +2415,6 @@ udp://tracker.dler.com:6969/announce
 udp://tracker.dler.org:6969/announce
 
 udp://tracker.dorcus.digital:1337/announce
-
-udp://tracker.ducks.party:1984/announce
 
 udp://tracker.edkj.club:6969/announce
 
@@ -2615,6 +2621,8 @@ udp://yuptracker-us.gaijinent.com:27022/announce
 udp://yuptracker.gaijinent.com:27022/announce
 
 udp://zecircle.xyz:6969/announce
+
+udp://zer0day.ch:1337/announce
 
 wss://open.ftorrent.com/
 
