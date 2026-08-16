@@ -182,17 +182,15 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.187/announce
-
 http://211.75.205.187:6969/announce
 
 http://211.75.205.188/announce
 
+http://211.75.205.188:6969/announce
+
 http://211.75.205.189/announce
 
 http://211.75.210.221/announce
-
-http://211.75.210.221:6969/announce
 
 http://211.75.29.254:6969/announce
 
@@ -207,6 +205,12 @@ http://217.30.10.77:6969/announce
 http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
+
+http://34.66.57.33/announce
+
+http://34.66.57.33:1337/announce
+
+http://34.66.57.33:6969/announce
 
 http://34.89.30.59/announce
 
@@ -652,6 +656,8 @@ http://jp.moeweb.pw:6969/announce
 
 http://jsb.by00/announce
 
+http://jvavav.com/announce
+
 http://kamikazee.duckdns.org:7777/announce
 
 http://kinorun.com/announce
@@ -895,6 +901,8 @@ http://torrent-tracker.ru/announce.php
 http://torrent.arjlover.net:2710/announce
 
 http://torrent.fedoraproject.org:6969/announce
+
+http://torrent.hificode.in:6969/announce
 
 http://torrent.mp3quran.net/announce
 
@@ -1229,8 +1237,6 @@ http://tracker.yoshi210.com:6969/announce
 http://tracker.yuelili.com/announce
 
 http://tracker.zerobytes.xyz:1337/announce
-
-http://tracker.zhuqiy.com/announce
 
 http://tracker.zhuqiy.dgj055.icu/announce
 
@@ -1838,9 +1844,9 @@ udp://173.249.201.201:6969/announce
 
 udp://176.31.250.174:6969/announce
 
-udp://177.215.66.183:6969/announce
-
 udp://178.170.48.154:1337/announce
+
+udp://180.131.145.175:6969/announce
 
 udp://185.102.219.163:6969/announce
 
@@ -1884,13 +1890,15 @@ udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
 
+udp://208.83.20.20:6969/announce
+
 udp://209.126.11.233:6969/announce
 
-udp://209.141.59.16:6969/announce
+udp://209.141.59.25:6969/announce
 
-udp://211.75.205.187:80/announce
+udp://211.75.205.187:6969/announce
 
-udp://211.75.210.221:6969/announce
+udp://211.75.205.188:80/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1962,6 +1970,8 @@ udp://65.109.28.17:6969/announce
 
 udp://65.109.28.33:6969/announce
 
+udp://67.222.238.222:2010/announce
+
 udp://6ahddutb1ucc3cp.ru:6969/announce
 
 udp://74.119.149.136:6969/announce
@@ -1982,8 +1992,6 @@ udp://91.177.126.188:6969/announce
 
 udp://91.211.5.21:6969/announce
 
-udp://91.216.110.53:451/announce
-
 udp://93.104.214.40:6969/announce
 
 udp://93.158.213.92:1337//announce
@@ -2003,8 +2011,6 @@ udp://94.243.222.100:6969/announce
 udp://95.216.74.39:6969/announce
 
 udp://95.217.80.20:6969/announce
-
-udp://95.217.80.22:6969/announce
 
 udp://95.31.11.224:6969/announce
 
@@ -2255,8 +2261,6 @@ udp://public.publictracker.xyz:6969/announce
 udp://public.tracker.vraphim.com:6969/announce
 
 udp://qtstm32fan.ru:6969/announce
-
-udp://r.l5.ca:6969/announce
 
 udp://rekcart.duckdns.org:15480/announce
 
