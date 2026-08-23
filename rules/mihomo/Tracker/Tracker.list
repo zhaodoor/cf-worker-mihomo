@@ -116,8 +116,6 @@ http://171.104.226.31:6969/announce
 
 http://171.104.226.87:6969/announce
 
-http://177.215.66.183:6969/announce
-
 http://179.100.24.134:6969/announce
 
 http://180.97.219.76:8070/announce
@@ -141,6 +139,8 @@ http://185.230.4.150:1337/announce
 http://185.232.169.109/announce
 
 http://185.70.187.79:6969/announce
+
+http://187.57.131.55:6969/announce
 
 http://187.57.14.62:6969/announce
 
@@ -205,12 +205,6 @@ http://217.30.10.77:6969/announce
 http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
-
-http://34.66.57.33:11450/announce
-
-http://34.66.57.33:1337/announce
-
-http://34.66.57.33:6969/announce
 
 http://34.89.30.59/announce
 
@@ -899,8 +893,6 @@ http://torrent-tracker.ru/announce.php
 http://torrent.arjlover.net:2710/announce
 
 http://torrent.fedoraproject.org:6969/announce
-
-http://torrent.hificode.in:6969/announce
 
 http://torrent.mp3quran.net/announce
 
@@ -1796,8 +1788,6 @@ udp://104.143.10.186:8000/announce
 
 udp://107.175.221.194:6969/announce
 
-udp://107.189.2.131:1337/announce
-
 udp://109.201.134.183:80/announce
 
 udp://11.rarbg.com:80/announce
@@ -1828,6 +1818,8 @@ udp://156.234.201.18:80/announce
 
 udp://158.101.161.60:3131/announce
 
+udp://159.146.99.45:6969/announce
+
 udp://161.97.67.210:6969/announce
 
 udp://163.172.29.130:80/announce
@@ -1842,9 +1834,9 @@ udp://173.249.201.201:6969/announce
 
 udp://176.31.250.174:6969/announce
 
-udp://177.215.66.183:6969/announce
-
 udp://178.170.48.154:1337/announce
+
+udp://180.131.145.175:6969/announce
 
 udp://185.102.219.163:6969/announce
 
@@ -1863,6 +1855,8 @@ udp://185.216.179.62:25/announce
 udp://185.230.4.150:1337/announce
 
 udp://185.44.82.25:1337/announce
+
+udp://187.57.131.55:6969/announce
 
 udp://192.95.46.115:6969/announce
 
@@ -1884,8 +1878,6 @@ udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
 
-udp://208.83.20.20:6969/announce
-
 udp://209.126.11.233:6969/announce
 
 udp://211.75.205.187:80/announce
@@ -1901,6 +1893,8 @@ udp://217.30.10.77:6969/announce
 udp://23.137.251.45:6969/announce
 
 udp://23.153.248.128:6969/announce
+
+udp://23.157.120.14:6969/announce
 
 udp://31.56.179.159:6969/announce
 
@@ -1964,8 +1958,6 @@ udp://65.109.28.17:6969/announce
 
 udp://65.109.28.33:6969/announce
 
-udp://67.222.238.222:2010/announce
-
 udp://6ahddutb1ucc3cp.ru:6969/announce
 
 udp://74.119.149.136:6969/announce
@@ -1985,8 +1977,6 @@ udp://89.36.216.8:6969/announce
 udp://91.177.126.188:6969/announce
 
 udp://91.211.5.21:6969/announce
-
-udp://91.216.110.53:451/announce
 
 udp://93.104.214.40:6969/announce
 
@@ -2423,6 +2413,8 @@ udp://tracker.flatuslifir.is:6969/announce
 udp://tracker.fnix.net:6969/announce
 
 udp://tracker.gmi.gd:6969/announce
+
+udp://tracker.govt.hu:6969/announce
 
 udp://tracker.hismz.cn:6969/announce
 
