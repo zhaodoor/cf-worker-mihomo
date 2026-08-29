@@ -180,8 +180,6 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.187/announce
-
 http://211.75.205.187:6969/announce
 
 http://211.75.205.188/announce
@@ -205,6 +203,10 @@ http://217.30.10.77:6969/announce
 http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
+
+http://34.66.57.33/announce
+
+http://34.66.57.33:11450/announce
 
 http://34.89.30.59/announce
 
@@ -1856,8 +1858,6 @@ udp://185.230.4.150:1337/announce
 
 udp://185.44.82.25:1337/announce
 
-udp://187.57.131.55:6969/announce
-
 udp://192.95.46.115:6969/announce
 
 udp://192.99.100.68:6969/announce
@@ -1878,13 +1878,15 @@ udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
 
+udp://208.83.20.20:6969/announce
+
 udp://209.126.11.233:6969/announce
 
 udp://209.141.59.25:6969/announce
 
-udp://211.75.205.187:80/announce
+udp://211.75.205.187:6969/announce
 
-udp://211.75.205.188:6969/announce
+udp://211.75.210.221:80/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1979,6 +1981,8 @@ udp://89.36.216.8:6969/announce
 udp://91.177.126.188:6969/announce
 
 udp://91.211.5.21:6969/announce
+
+udp://91.216.110.53:451/announce
 
 udp://93.104.214.40:6969/announce
 
@@ -2489,6 +2493,8 @@ udp://tracker.tcp.exchange:6969/announce
 udp://tracker.teambelgium.net:6969/announce
 
 udp://tracker.theoks.net:6969/announce
+
+udp://tracker.therarbg.to:1337/announce
 
 udp://tracker.therarbg.to:6969/announce
 
