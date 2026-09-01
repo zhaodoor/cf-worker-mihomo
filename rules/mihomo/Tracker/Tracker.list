@@ -652,8 +652,6 @@ http://jp.moeweb.pw:6969/announce
 
 http://jsb.by00/announce
 
-http://jvavav.com/announce
-
 http://kamikazee.duckdns.org:7777/announce
 
 http://kinorun.com/announce
@@ -897,8 +895,6 @@ http://torrent-tracker.ru/announce.php
 http://torrent.arjlover.net:2710/announce
 
 http://torrent.fedoraproject.org:6969/announce
-
-http://torrent.hificode.in:6969/announce
 
 http://torrent.mp3quran.net/announce
 
@@ -1844,6 +1840,8 @@ udp://185.121.168.96:1337/announce
 
 udp://185.121.168.96:6969/announce
 
+udp://185.171.202.111:6969/announce
+
 udp://185.181.60.155:80/announce
 
 udp://185.181.60.67:80/announce
@@ -2545,6 +2543,8 @@ udp://tsundere.pw:6969/announce
 udp://ttk2.nbaonlineservice.com:6969/announce
 
 udp://uabits.today:6990/announce
+
+udp://udp-tracker.adgk.net:6969/announce
 
 udp://udp.tracker.linvk.com:6969/announce
 
