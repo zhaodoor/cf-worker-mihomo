@@ -186,6 +186,10 @@ http://211.75.205.188/announce
 
 http://211.75.205.188:6969/announce
 
+http://211.75.205.189/announce
+
+http://211.75.210.221/announce
+
 http://211.75.29.254:6969/announce
 
 http://212.6.3.67/announce
@@ -199,10 +203,6 @@ http://217.30.10.77:6969/announce
 http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
-
-http://34.66.57.33/announce
-
-http://34.66.57.33:2710/announce
 
 http://34.89.30.59/announce
 
@@ -644,8 +644,6 @@ http://jp.moeweb.pw:6969/announce
 
 http://jsb.by00/announce
 
-http://jvavav.com/announce
-
 http://kamikazee.duckdns.org:7777/announce
 
 http://kinorun.com/announce
@@ -951,6 +949,8 @@ http://tracker.anirena.com/announce
 http://tracker.anirena.com/announcehttp://tracker1.itzmx.com:8080/announce
 
 http://tracker.anirena.com/b16a15d9a238d1f59178d3614b857290/announce
+
+http://tracker.auctor.tv:6969/announce
 
 http://tracker.baka-sub.cf/announce
 
@@ -1780,11 +1780,15 @@ udp://104.143.10.186:8000/announce
 
 udp://107.175.221.194:6969/announce
 
+udp://108.165.191.38:1337/announce
+
 udp://109.201.134.183:80/announce
 
 udp://11.rarbg.com:80/announce
 
 udp://119.28.71.45:8080/announce
+
+udp://132.226.6.145:6969/announce
 
 udp://135.125.106.92:6969/announce
 
@@ -1832,6 +1836,8 @@ udp://185.121.168.96:1337/announce
 
 udp://185.121.168.96:6969/announce
 
+udp://185.171.202.111:6969/announce
+
 udp://185.181.60.155:80/announce
 
 udp://185.181.60.67:80/announce
@@ -1848,6 +1854,8 @@ udp://192.99.100.68:6969/announce
 
 udp://193.187.90.12:6969/announce
 
+udp://193.34.92.5:80/announce
+
 udp://193.37.214.12:6969/announce
 
 udp://194.38.21.77:6969/announce
@@ -1862,7 +1870,9 @@ udp://207.241.231.226:6969/announce
 
 udp://209.126.11.233:6969/announce
 
-udp://211.75.205.187:6969/announce
+udp://209.141.59.25:6969/announce
+
+udp://211.75.205.188:6969/announce
 
 udp://211.75.205.188:80/announce
 
@@ -1894,6 +1904,8 @@ udp://37.59.48.81:6969/announce
 
 udp://37.60.249.217:6969/announce
 
+udp://43.154.112.29:17272/announce
+
 udp://43.250.54.126:6969/announce
 
 udp://45.9.60.30:6969/announce
@@ -1909,6 +1921,8 @@ udp://5.196.89.204:6969/announce
 udp://51.15.26.25:6969/announce
 
 udp://51.15.3.74:6969/announce
+
+udp://51.15.41.46:6969/announce
 
 udp://51.158.144.42:6969/announce
 
@@ -1928,6 +1942,8 @@ udp://6.pocketnet.app:6969/announce
 
 udp://60.172.236.18:6969/announce
 
+udp://60.249.37.20:6969/announce
+
 udp://65.109.28.17:6969/announce
 
 udp://65.109.28.33:6969/announce
@@ -1944,13 +1960,13 @@ udp://88.80.28.7:6969/announce
 
 udp://88.99.2.212:6969/announce
 
+udp://89.234.156.205:451/announce
+
 udp://89.36.216.8:6969/announce
 
 udp://91.177.126.188:6969/announce
 
 udp://91.211.5.21:6969/announce
-
-udp://91.216.110.53:451/announce
 
 udp://93.104.214.40:6969/announce
 
@@ -2311,6 +2327,8 @@ udp://tracker-de-2.cutie.dating:1337/announce
 udp://tracker-udp.anirena.com:80/announce
 
 udp://tracker-udp.gbitt.info:80/announce
+
+udp://tracker.004430.xyz:1337/announce
 
 udp://tracker.0x.tf:6969/announce
 
