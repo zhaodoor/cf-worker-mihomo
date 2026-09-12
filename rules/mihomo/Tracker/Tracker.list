@@ -120,8 +120,6 @@ http://179.100.24.134:6969/announce
 
 http://180.97.219.76:8070/announce
 
-http://185.126.65.92:6969/announce
-
 http://185.130.47.2:6969/announce
 
 http://185.148.3.231/announce
@@ -180,8 +178,6 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.187:6969/announce
-
 http://211.75.205.188/announce
 
 http://211.75.205.189/announce
@@ -206,9 +202,7 @@ http://220.130.15.30:6969/announce
 
 http://34.66.57.33:11450/announce
 
-http://34.66.57.33:2710/announce
-
-http://34.66.57.33:443/announce
+http://34.66.57.33:1337/announce
 
 http://34.66.57.33:6969/announce
 
@@ -652,8 +646,6 @@ http://jp.moeweb.pw:6969/announce
 
 http://jsb.by00/announce
 
-http://jvavav.com/announce
-
 http://kamikazee.duckdns.org:7777/announce
 
 http://kinorun.com/announce
@@ -895,6 +887,8 @@ http://torrent-tracker.ru/announce.php
 http://torrent.arjlover.net:2710/announce
 
 http://torrent.fedoraproject.org:6969/announce
+
+http://torrent.hificode.in:6969/announce
 
 http://torrent.mp3quran.net/announce
 
@@ -1834,8 +1828,6 @@ udp://180.131.145.175:6969/announce
 
 udp://185.102.219.163:6969/announce
 
-udp://185.121.168.96:1337/announce
-
 udp://185.121.168.96:6969/announce
 
 udp://185.181.60.155:80/announce
@@ -1856,8 +1848,6 @@ udp://192.99.100.68:6969/announce
 
 udp://193.187.90.12:6969/announce
 
-udp://193.34.92.5:80/announce
-
 udp://193.37.214.12:6969/announce
 
 udp://194.38.21.77:6969/announce
@@ -1874,7 +1864,7 @@ udp://209.126.11.233:6969/announce
 
 udp://209.141.59.25:6969/announce
 
-udp://211.75.205.187:6969/announce
+udp://211.75.210.221:6969/announce
 
 udp://211.75.210.221:80/announce
 
@@ -1883,6 +1873,8 @@ udp://211.75.29.254:6969/announce
 udp://212.42.38.197:6969/announce
 
 udp://217.30.10.77:6969/announce
+
+udp://23.134.88.9:6969/announce
 
 udp://23.137.251.45:6969/announce
 
@@ -1921,6 +1913,8 @@ udp://47.ip-51-68-199.eu:6969/announce
 udp://5.196.67.51:6969/announce
 
 udp://5.196.89.204:6969/announce
+
+udp://5.255.124.190:6969/announce
 
 udp://51.15.26.25:6969/announce
 
@@ -1964,9 +1958,9 @@ udp://88.80.28.7:6969/announce
 
 udp://88.99.2.212:6969/announce
 
-udp://89.234.156.205:451/announce
-
 udp://89.36.216.8:6969/announce
+
+udp://91.177.126.188:6969/announce
 
 udp://91.211.5.21:6969/announce
 
