@@ -1846,7 +1846,11 @@ udp://192.95.46.115:6969/announce
 
 udp://192.99.100.68:6969/announce
 
+udp://193.148.251.93:6969/announce
+
 udp://193.187.90.12:6969/announce
+
+udp://193.34.92.5:80/announce
 
 udp://193.37.214.12:6969/announce
 
@@ -1957,6 +1961,8 @@ udp://83.102.180.21:80/announce
 udp://88.80.28.7:6969/announce
 
 udp://88.99.2.212:6969/announce
+
+udp://89.234.156.205:451/announce
 
 udp://89.36.216.8:6969/announce
 
