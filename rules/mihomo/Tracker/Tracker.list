@@ -178,8 +178,6 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.187:6969/announce
-
 http://211.75.205.188/announce
 
 http://211.75.205.189/announce
@@ -201,6 +199,8 @@ http://217.30.10.77:6969/announce
 http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
+
+http://34.66.57.33:1337/announce
 
 http://34.89.30.59/announce
 
@@ -1130,8 +1130,6 @@ http://tracker.pomf.se/announce
 
 http://tracker.pow7.com/announce
 
-http://tracker.privateseedbox.xyz:2710/announce
-
 http://tracker.publictorrent.net/announce
 
 http://tracker.pussytorrents.org:3000/announce
@@ -1183,6 +1181,8 @@ http://tracker.tiny-vps.com:6969/announce
 http://tracker.torrentbytes.net/announce
 
 http://tracker.torrentbytes.net/announce.php
+
+http://tracker.torrents.observer/announce
 
 http://tracker.torrentyorg.pl/announce
 
@@ -1836,8 +1836,6 @@ udp://185.181.60.67:80/announce
 
 udp://185.189.13.39:6969/announce
 
-udp://185.216.179.62:25/announce
-
 udp://185.230.4.150:1337/announce
 
 udp://185.44.82.25:1337/announce
@@ -1868,9 +1866,9 @@ udp://207.241.231.226:6969/announce
 
 udp://209.126.11.233:6969/announce
 
-udp://211.75.210.221:6969/announce
+udp://211.75.205.188:80/announce
 
-udp://211.75.210.221:80/announce
+udp://211.75.210.221:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1981,8 +1979,6 @@ udp://90.226.147.124:6969/announce
 udp://91.177.126.188:6969/announce
 
 udp://91.211.5.21:6969/announce
-
-udp://91.216.110.53:451/announce
 
 udp://93.104.214.40:6969/announce
 
@@ -2223,6 +2219,8 @@ udp://opentor.org:2710/announce
 udp://opentracker.i2p.rocks:6969/announce
 
 udp://opentracker.io:6969/announce
+
+udp://opentracker.lain.moscow:6969/announce
 
 udp://opentracker.simp.i2p:6969/a
 
