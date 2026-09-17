@@ -178,13 +178,17 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
+http://211.75.205.187/announce
+
+http://211.75.205.187:6969/announce
+
 http://211.75.205.188/announce
+
+http://211.75.205.188:6969/announce
 
 http://211.75.205.189/announce
 
 http://211.75.210.221/announce
-
-http://211.75.210.221:6969/announce
 
 http://211.75.29.254:6969/announce
 
@@ -199,8 +203,6 @@ http://217.30.10.77:6969/announce
 http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
-
-http://34.66.57.33:1337/announce
 
 http://34.89.30.59/announce
 
@@ -1102,6 +1104,8 @@ http://tracker.novaopcj.eu.org:6969/announce
 
 http://tracker.nucozer-tracker.ml:2710/announce
 
+http://tracker.nyaa.vc:6969/announce
+
 http://tracker.nyaa2p.i2p/announce
 
 http://tracker.nyacat.pw:7000/announce
@@ -1836,6 +1840,8 @@ udp://185.181.60.67:80/announce
 
 udp://185.189.13.39:6969/announce
 
+udp://185.216.179.62:25/announce
+
 udp://185.230.4.150:1337/announce
 
 udp://185.44.82.25:1337/announce
@@ -1864,11 +1870,13 @@ udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
 
+udp://208.83.20.20:6969/announce
+
 udp://209.126.11.233:6969/announce
 
-udp://211.75.205.188:80/announce
+udp://211.75.205.187:6969/announce
 
-udp://211.75.210.221:6969/announce
+udp://211.75.205.187:80/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1883,8 +1891,6 @@ udp://23.134.88.9:6969/announce
 udp://23.137.251.45:6969/announce
 
 udp://23.153.248.128:6969/announce
-
-udp://23.157.120.14:6969/announce
 
 udp://31.38.161.123:6969/announce
 
@@ -1911,6 +1917,8 @@ udp://38.180.157.12:2715/announce
 udp://43.154.112.29:17272/announce
 
 udp://43.250.54.126:6969/announce
+
+udp://45.137.199.107:6969/announce
 
 udp://45.38.170.167:6969/announce
 
@@ -1973,8 +1981,6 @@ udp://88.99.2.212:6969/announce
 udp://89.234.156.205:451/announce
 
 udp://89.36.216.8:6969/announce
-
-udp://90.226.147.124:6969/announce
 
 udp://91.177.126.188:6969/announce
 
@@ -2105,8 +2111,6 @@ udp://f1sh.de:6969/announce
 udp://fe.dealclub.de:6969/announce
 
 udp://fh2.cmp-gaming.com:6969/announce
-
-udp://files.project-cataclysm.ru:6969/announce
 
 udp://free.publictracker.xyz:6969/announce
 
