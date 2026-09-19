@@ -178,9 +178,9 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.188/announce
+http://211.75.205.187/announce
 
-http://211.75.205.188:6969/announce
+http://211.75.205.188/announce
 
 http://211.75.205.189/announce
 
@@ -202,7 +202,7 @@ http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
 
-http://34.66.57.33:1337/announce
+http://223.165.69.105:3392/announce
 
 http://34.89.30.59/announce
 
@@ -219,8 +219,6 @@ http://35.227.12.84/announce
 http://35.227.12.84:2710/announce
 
 http://37.235.174.46:2710/announce
-
-http://37.60.249.217:6969/announce
 
 http://38.145.197.79:6961/announce
 
@@ -651,6 +649,8 @@ http://kamikazee.duckdns.org:7777/announce
 http://kinorun.com/announce
 
 http://kinorun.com/announce.php
+
+http://kolanopentracker.airdns.org:3392/announce
 
 http://laxclax.ddns.net00/announce
 
@@ -1095,8 +1095,6 @@ http://tracker.mywaifu.best:6969/announce
 http://tracker.nartlof.com.br:6969/announce
 
 http://tracker.netmap.top:6969/announce
-
-http://tracker.nexusstream.eu:6969/announce
 
 http://tracker.noobsubs.net/announce
 
@@ -1870,13 +1868,17 @@ udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
 
+udp://208.83.20.20:6969/announce
+
 udp://209.126.11.233:6969/announce
+
+udp://209.141.59.16:6969/announce
 
 udp://209.141.59.25:6969/announce
 
-udp://211.75.205.188:6969/announce
+udp://211.75.205.187:80/announce
 
-udp://211.75.205.188:80/announce
+udp://211.75.210.221:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1886,11 +1888,15 @@ udp://217.30.10.77:6969/announce
 
 udp://221.153.216.56:8081/announce
 
+udp://223.165.69.105:3392/announce
+
 udp://23.134.88.9:6969/announce
 
 udp://23.137.251.45:6969/announce
 
 udp://23.153.248.128:6969/announce
+
+udp://23.157.120.14:6969/announce
 
 udp://31.38.161.123:6969/announce
 
@@ -1910,7 +1916,9 @@ udp://37.187.95.112:6969/announce
 
 udp://37.59.48.81:6969/announce
 
-udp://37.60.249.217:6969/announce
+udp://38.180.157.12:2715/announce
+
+udp://43.154.112.29:17272/announce
 
 udp://43.250.54.126:6969/announce
 
@@ -1953,8 +1961,6 @@ udp://52.58.128.163:6969/announce
 udp://6.pocketnet.app:6969/announce
 
 udp://60.172.236.18:6969/announce
-
-udp://60.249.37.20:6969/announce
 
 udp://65.109.28.17:6969/announce
 
@@ -2141,6 +2147,8 @@ udp://jutone.com:6969/announce
 udp://keke.re:6969/announce
 
 udp://kokodayo.site:6969/announce
+
+udp://kolanopentracker.airdns.org:3392/announce
 
 udp://laestrygonian.ooguy.com:9001/announce
 
