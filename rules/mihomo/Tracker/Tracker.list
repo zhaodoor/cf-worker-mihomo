@@ -178,15 +178,15 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.187/announce
+http://211.75.205.187:6969/announce
 
 http://211.75.205.188/announce
+
+http://211.75.205.188:6969/announce
 
 http://211.75.205.189/announce
 
 http://211.75.210.221/announce
-
-http://211.75.210.221:6969/announce
 
 http://211.75.29.254:6969/announce
 
@@ -201,8 +201,6 @@ http://217.30.10.77:6969/announce
 http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
-
-http://223.165.69.105:3392/announce
 
 http://34.89.30.59/announce
 
@@ -1844,6 +1842,8 @@ udp://185.230.4.150:1337/announce
 
 udp://185.44.82.25:1337/announce
 
+udp://192.3.130.53:1337/announce
+
 udp://192.95.46.115:6969/announce
 
 udp://192.99.100.68:6969/announce
@@ -1868,27 +1868,19 @@ udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
 
-udp://208.83.20.20:6969/announce
-
 udp://209.126.11.233:6969/announce
-
-udp://209.141.59.16:6969/announce
 
 udp://209.141.59.25:6969/announce
 
-udp://211.75.205.187:80/announce
+udp://211.75.205.187:6969/announce
 
-udp://211.75.210.221:6969/announce
+udp://211.75.205.188:80/announce
 
 udp://211.75.29.254:6969/announce
-
-udp://212.42.38.197:6969/announce
 
 udp://217.30.10.77:6969/announce
 
 udp://221.153.216.56:8081/announce
-
-udp://223.165.69.105:3392/announce
 
 udp://23.134.88.9:6969/announce
 
@@ -1961,6 +1953,8 @@ udp://52.58.128.163:6969/announce
 udp://6.pocketnet.app:6969/announce
 
 udp://60.172.236.18:6969/announce
+
+udp://60.249.37.20:6969/announce
 
 udp://65.109.28.17:6969/announce
 
@@ -2345,6 +2339,8 @@ udp://tracker-de-2.cutie.dating:1337/announce
 udp://tracker-udp.anirena.com:80/announce
 
 udp://tracker-udp.gbitt.info:80/announce
+
+udp://tracker.004430.xyz:1337/announce
 
 udp://tracker.0x.tf:6969/announce
 
