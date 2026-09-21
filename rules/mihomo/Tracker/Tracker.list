@@ -178,15 +178,17 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
+http://211.75.205.187/announce
+
 http://211.75.205.187:6969/announce
 
 http://211.75.205.188/announce
 
-http://211.75.205.188:6969/announce
-
 http://211.75.205.189/announce
 
 http://211.75.210.221/announce
+
+http://211.75.210.221:6969/announce
 
 http://211.75.29.254:6969/announce
 
@@ -647,8 +649,6 @@ http://kamikazee.duckdns.org:7777/announce
 http://kinorun.com/announce
 
 http://kinorun.com/announce.php
-
-http://kolanopentracker.airdns.org:3392/announce
 
 http://laxclax.ddns.net00/announce
 
@@ -1780,6 +1780,8 @@ udp://104.143.10.186:8000/announce
 
 udp://107.175.221.194:6969/announce
 
+udp://107.189.2.131:1337/announce
+
 udp://109.201.134.183:80/announce
 
 udp://11.rarbg.com:80/announce
@@ -1828,8 +1830,6 @@ udp://180.131.145.175:6969/announce
 
 udp://185.102.219.163:6969/announce
 
-udp://185.121.168.96:1337/announce
-
 udp://185.181.60.155:80/announce
 
 udp://185.181.60.67:80/announce
@@ -1874,13 +1874,17 @@ udp://209.141.59.25:6969/announce
 
 udp://211.75.205.187:6969/announce
 
-udp://211.75.205.188:80/announce
+udp://211.75.205.187:80/announce
 
 udp://211.75.29.254:6969/announce
+
+udp://212.42.38.197:6969/announce
 
 udp://217.30.10.77:6969/announce
 
 udp://221.153.216.56:8081/announce
+
+udp://223.165.69.105:3392/announce
 
 udp://23.134.88.9:6969/announce
 
@@ -1981,8 +1985,6 @@ udp://89.36.216.8:6969/announce
 udp://91.177.126.188:6969/announce
 
 udp://91.211.5.21:6969/announce
-
-udp://91.216.110.53:451/announce
 
 udp://93.104.214.40:6969/announce
 
