@@ -1780,8 +1780,6 @@ udp://104.143.10.186:8000/announce
 
 udp://107.175.221.194:6969/announce
 
-udp://107.189.2.131:1337/announce
-
 udp://109.201.134.183:80/announce
 
 udp://11.rarbg.com:80/announce
@@ -1830,11 +1828,11 @@ udp://180.131.145.175:6969/announce
 
 udp://185.102.219.163:6969/announce
 
+udp://185.121.168.96:1337/announce
+
 udp://185.181.60.155:80/announce
 
 udp://185.181.60.67:80/announce
-
-udp://185.189.13.39:6969/announce
 
 udp://185.216.179.62:25/announce
 
@@ -1872,9 +1870,9 @@ udp://209.126.11.233:6969/announce
 
 udp://209.141.59.25:6969/announce
 
-udp://211.75.205.187:6969/announce
-
 udp://211.75.205.187:80/announce
+
+udp://211.75.210.221:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1911,8 +1909,6 @@ udp://37.187.111.136:6969/announce
 udp://37.187.95.112:6969/announce
 
 udp://37.59.48.81:6969/announce
-
-udp://38.180.157.12:2715/announce
 
 udp://43.154.112.29:17272/announce
 
@@ -1954,6 +1950,8 @@ udp://52.211.139.85:27022/announce
 
 udp://52.58.128.163:6969/announce
 
+udp://54.36.179.216:6969/announce
+
 udp://6.pocketnet.app:6969/announce
 
 udp://60.172.236.18:6969/announce
@@ -1981,6 +1979,8 @@ udp://88.99.2.212:6969/announce
 udp://89.234.156.205:451/announce
 
 udp://89.36.216.8:6969/announce
+
+udp://90.226.147.124:6969/announce
 
 udp://91.177.126.188:6969/announce
 
