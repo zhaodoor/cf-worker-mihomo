@@ -114,6 +114,8 @@ http://171.104.226.31:6969/announce
 
 http://171.104.226.87:6969/announce
 
+http://177.188.141.75:6969/announce
+
 http://179.100.24.134:6969/announce
 
 http://180.97.219.76:8070/announce
@@ -152,8 +154,6 @@ http://193.37.214.12:6969/announce
 
 http://198.251.84.144/announce
 
-http://200.168.117.238:6969/announce
-
 http://200.232.254.1:6969/announce
 
 http://201.42.214.55:6969/announce
@@ -180,11 +180,11 @@ http://211.22.29.93/announce
 
 http://211.75.205.188/announce
 
-http://211.75.205.188:6969/announce
-
 http://211.75.205.189/announce
 
 http://211.75.210.221/announce
+
+http://211.75.210.221:6969/announce
 
 http://211.75.29.254:6969/announce
 
@@ -1468,8 +1468,6 @@ https://open.ftorrent.com/announce
 
 https://open.kickasstracker.com/announce
 
-https://opentracker.8880085.xyz/announce
-
 https://opentracker.cc/announce
 
 https://opentracker.i2p.rocks/announce
@@ -1816,9 +1814,13 @@ udp://173.249.201.201:6969/announce
 
 udp://176.31.250.174:6969/announce
 
+udp://177.188.141.75:6969/announce
+
 udp://178.170.48.154:1337/announce
 
 udp://178.239.19.29:80/announce
+
+udp://180.131.145.175:6969/announce
 
 udp://185.102.219.163:6969/announce
 
@@ -1854,19 +1856,15 @@ udp://198.100.149.66:6969/announce
 
 udp://1c.premierzal.ru:6969/announce
 
-udp://200.168.117.238:6969/announce
-
 udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
 
-udp://208.83.20.20:6969/announce
-
 udp://209.126.11.233:6969/announce
 
-udp://211.75.205.188:6969/announce
-
 udp://211.75.205.188:80/announce
+
+udp://211.75.210.221:6969/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1881,8 +1879,6 @@ udp://223.165.69.105:3392/announce
 udp://23.134.88.9:6969/announce
 
 udp://23.137.251.45:6969/announce
-
-udp://23.153.248.128:6969/announce
 
 udp://23.157.120.14:6969/announce
 
@@ -1946,8 +1942,6 @@ udp://52.211.139.85:27022/announce
 
 udp://52.58.128.163:6969/announce
 
-udp://54.36.179.216:6969/announce
-
 udp://6.pocketnet.app:6969/announce
 
 udp://60.172.236.18:6969/announce
@@ -1975,8 +1969,6 @@ udp://88.99.2.212:6969/announce
 udp://89.234.156.205:451/announce
 
 udp://89.36.216.8:6969/announce
-
-udp://90.226.147.124:6969/announce
 
 udp://91.177.126.188:6969/announce
 
@@ -2229,8 +2221,6 @@ udp://opentracker.simp.i2p:6969/a
 udp://opentracker.skank.i2p:6969/a
 
 udp://opentrackr.org:1337/announce
-
-udp://p2p.publictracker.xyz:6969/announce
 
 udp://p4p.arenabg.com:1337/announce
 
