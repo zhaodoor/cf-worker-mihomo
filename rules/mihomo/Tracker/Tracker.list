@@ -1656,6 +1656,8 @@ https://tracker.manager.v6.navy/announce
 
 https://tracker.maya.no.eu.org/announce
 
+https://tracker.midnightprogrammer.net/announce
+
 https://tracker.mlsub.net/announce
 
 https://tracker.moeblog.cn/announce
@@ -1774,6 +1776,8 @@ udp://104.143.10.186:8000/announce
 
 udp://107.175.221.194:6969/announce
 
+udp://107.189.2.131:1337/announce
+
 udp://109.201.134.183:80/announce
 
 udp://11.rarbg.com:80/announce
@@ -1824,8 +1828,6 @@ udp://180.131.145.175:6969/announce
 
 udp://185.102.219.163:6969/announce
 
-udp://185.121.168.96:1337/announce
-
 udp://185.181.60.155:80/announce
 
 udp://185.181.60.67:80/announce
@@ -1835,6 +1837,8 @@ udp://185.216.179.62:25/announce
 udp://185.230.4.150:1337/announce
 
 udp://185.44.82.25:1337/announce
+
+udp://185.87.45.163:6969/announce
 
 udp://192.3.130.53:1337/announce
 
@@ -1862,9 +1866,9 @@ udp://207.241.231.226:6969/announce
 
 udp://209.126.11.233:6969/announce
 
-udp://211.75.205.188:6969/announce
+udp://211.75.205.187:6969/announce
 
-udp://211.75.210.221:80/announce
+udp://211.75.205.188:80/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1888,13 +1892,13 @@ udp://34.66.57.33:1337/announce
 
 udp://34.66.57.33:80/announce
 
-udp://37.120.182.83:15480/announce
-
 udp://37.187.111.136:6969/announce
 
 udp://37.187.95.112:6969/announce
 
 udp://37.59.48.81:6969/announce
+
+udp://38.180.157.12:2715/announce
 
 udp://43.154.112.29:17272/announce
 
@@ -2461,6 +2465,8 @@ udp://tracker.qu.ax:6969/announce
 udp://tracker.riverarmy.xyz:6969/announce
 
 udp://tracker.sharebro.in:6969/announce
+
+udp://tracker.skynetcloud.site:6969/announce
 
 udp://tracker.skyts.net:6969/announce
 
