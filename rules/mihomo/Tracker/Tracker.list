@@ -66,6 +66,8 @@ http://147job.com:6969/announce
 
 http://151.115.49.115:1337/announce
 
+http://152.249.214.196:6969/announce
+
 http://155.248.200.105/announce
 
 http://156.234.201.18/announce
@@ -115,8 +117,6 @@ http://171.104.226.25:6969/announce
 http://171.104.226.31:6969/announce
 
 http://171.104.226.87:6969/announce
-
-http://177.188.141.75:6969/announce
 
 http://179.100.24.134:6969/announce
 
@@ -180,13 +180,11 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.187/announce
-
 http://211.75.205.188/announce
 
-http://211.75.210.221/announce
+http://211.75.205.188:6969/announce
 
-http://211.75.210.221:6969/announce
+http://211.75.210.221/announce
 
 http://211.75.29.254:6969/announce
 
@@ -1484,10 +1482,6 @@ https://private.minimafia.nl/announce
 
 https://pybittrack.retiolus.net/announce
 
-https://retracker.x2k.ru/announce
-
-https://retracker2.x2k.ru/announce
-
 https://seeders-paradise.org/announce
 
 https://staticfile-bobcat.wasmer.app/announce
@@ -1794,8 +1788,6 @@ udp://135.125.106.92:6969/announce
 
 udp://135.125.198.235:1984/announce
 
-udp://135.125.236.64:6969/announce
-
 udp://144.91.88.22:6969/announce
 
 udp://148.251.53.72:6969/announce
@@ -1806,9 +1798,13 @@ udp://15.235.207.99:8081/announce
 
 udp://151.242.104.187:80/announce
 
+udp://152.249.214.196:6969/announce
+
 udp://156.234.201.18:80/announce
 
 udp://158.101.161.60:3131/announce
+
+udp://159.146.99.45:6969/announce
 
 udp://160.30.240.158:1337/announce
 
@@ -1825,8 +1821,6 @@ udp://172.105.235.127:6969/announce
 udp://173.249.201.201:6969/announce
 
 udp://176.31.250.174:6969/announce
-
-udp://177.188.141.75:6969/announce
 
 udp://178.170.48.154:1337/announce
 
@@ -1872,15 +1866,13 @@ udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
 
-udp://208.83.20.20:6969/announce
-
 udp://209.126.11.233:6969/announce
 
 udp://209.141.59.25:6969/announce
 
-udp://211.75.205.187:80/announce
+udp://211.75.205.188:6969/announce
 
-udp://211.75.210.221:6969/announce
+udp://211.75.210.221:80/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1892,17 +1884,15 @@ udp://221.153.216.56:8081/announce
 
 udp://23.137.251.45:6969/announce
 
-udp://31.38.161.123:6969/announce
+udp://23.157.120.14:6969/announce
 
-udp://31.56.179.159:6969/announce
+udp://31.38.161.123:6969/announce
 
 udp://31.59.141.120:6969/announce
 
 udp://34.66.57.33:1337/announce
 
 udp://34.66.57.33:80/announce
-
-udp://37.120.182.83:15480/announce
 
 udp://37.187.111.136:6969/announce
 
@@ -1918,8 +1908,6 @@ udp://43.250.54.126:6969/announce
 
 udp://45.137.199.107:6969/announce
 
-udp://45.38.170.167:6969/announce
-
 udp://45.9.60.30:6969/announce
 
 udp://46.138.242.240:6969/announce
@@ -1931,6 +1919,8 @@ udp://47.ip-51-68-199.eu:6969/announce
 udp://5.196.67.51:6969/announce
 
 udp://5.196.89.204:6969/announce
+
+udp://5.255.124.190:6969/announce
 
 udp://51.15.26.25:6969/announce
 
@@ -2090,6 +2080,8 @@ udp://ds32244.seedhost.eu:6969/announce
 
 udp://ec2-18-191-163-220.us-east-2.compute.amazonaws.com:6969/announce
 
+udp://edgev.duckdns.org:6969/announce
+
 udp://elementsbrowser.com:6969/announce
 
 udp://epider.me:6969/announce
@@ -2245,8 +2237,6 @@ udp://public.publictracker.xyz:6969/announce
 udp://public.tracker.vraphim.com:6969/announce
 
 udp://qtstm32fan.ru:6969/announce
-
-udp://rekcart.duckdns.org:15480/announce
 
 udp://rep-art.ynh.fr:6969/announce
 
