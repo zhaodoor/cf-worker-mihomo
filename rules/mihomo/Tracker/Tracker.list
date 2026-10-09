@@ -66,8 +66,6 @@ http://147job.com:6969/announce
 
 http://151.115.49.115:1337/announce
 
-http://152.249.214.196:6969/announce
-
 http://155.248.200.105/announce
 
 http://156.234.201.18/announce
@@ -156,6 +154,8 @@ http://193.37.214.12:6969/announce
 
 http://198.251.84.144/announce
 
+http://200.161.254.249:6969/announce
+
 http://200.232.254.1:6969/announce
 
 http://201.42.214.55:6969/announce
@@ -182,9 +182,9 @@ http://211.22.29.93/announce
 
 http://211.75.205.188/announce
 
-http://211.75.210.221/announce
+http://211.75.205.188:6969/announce
 
-http://211.75.210.221:6969/announce
+http://211.75.210.221/announce
 
 http://211.75.29.254:6969/announce
 
@@ -481,8 +481,6 @@ http://bt.poletracker.org:2710/announce
 http://bt.publicvm.com:8080/announce
 
 http://bt.rghost.net/announce
-
-http://bt.xcty.eu.org:2095/announce
 
 http://bt.zlofenix.org:81/announce
 
@@ -1552,8 +1550,6 @@ https://tr.zukizuki.org/announce
 
 https://track3r.site/announce
 
-https://tracker-zhuqiy.dgj055.icu/announce
-
 https://tracker-zhuqiy.xn--1r3au8b.space/announce
 
 https://tracker.4.babico.name.tr/announce
@@ -1800,11 +1796,11 @@ udp://15.235.207.99:8081/announce
 
 udp://151.242.104.187:80/announce
 
-udp://152.249.214.196:6969/announce
-
 udp://156.234.201.18:80/announce
 
 udp://158.101.161.60:3131/announce
+
+udp://159.146.99.45:6969/announce
 
 udp://160.30.240.158:1337/announce
 
@@ -1860,6 +1856,8 @@ udp://198.100.149.66:6969/announce
 
 udp://1c.premierzal.ru:6969/announce
 
+udp://200.161.254.249:6969/announce
+
 udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
@@ -1868,7 +1866,7 @@ udp://209.126.11.233:6969/announce
 
 udp://209.141.59.25:6969/announce
 
-udp://211.75.210.221:6969/announce
+udp://211.75.205.188:6969/announce
 
 udp://211.75.210.221:80/announce
 
@@ -1879,6 +1877,8 @@ udp://212.42.38.197:6969/announce
 udp://217.30.10.77:6969/announce
 
 udp://23.137.251.45:6969/announce
+
+udp://23.157.120.14:6969/announce
 
 udp://23.94.174.203:1337/announce
 
@@ -1919,8 +1919,6 @@ udp://47.ip-51-68-199.eu:6969/announce
 udp://5.196.67.51:6969/announce
 
 udp://5.196.89.204:6969/announce
-
-udp://5.255.124.190:6969/announce
 
 udp://51.15.26.25:6969/announce
 
@@ -1967,8 +1965,6 @@ udp://89.234.156.205:451/announce
 udp://89.36.216.8:6969/announce
 
 udp://91.211.5.21:6969/announce
-
-udp://91.216.110.53:451/announce
 
 udp://93.104.214.40:6969/announce
 
@@ -2023,6 +2019,8 @@ udp://astrr.ru:6969/announce
 udp://bananas.space:6969/announce
 
 udp://bandito.byterunner.io:6969/announce
+
+udp://banzaitracker.com:2710/announce
 
 udp://bedro.cloud:6969/announce
 
@@ -2431,6 +2429,8 @@ udp://tracker.nexusstream.eu:6969/announce
 udp://tracker.nyaa.net:6969/announce
 
 udp://tracker.nyaa.vc:6969/announce
+
+udp://tracker.okade.pro:1337/announce
 
 udp://tracker.ololosh.space:6969/announce
 
