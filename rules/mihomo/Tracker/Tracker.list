@@ -186,8 +186,6 @@ http://211.75.205.187:6969/announce
 
 http://211.75.205.188/announce
 
-http://211.75.205.188:6969/announce
-
 http://211.75.210.221/announce
 
 http://211.75.29.254:6969/announce
@@ -203,8 +201,6 @@ http://217.30.10.77:6969/announce
 http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
-
-http://34.66.57.33:1337/announce
 
 http://34.89.30.59/announce
 
@@ -1802,6 +1798,8 @@ udp://156.234.201.18:80/announce
 
 udp://158.101.161.60:3131/announce
 
+udp://159.146.99.45:6969/announce
+
 udp://160.30.240.158:1337/announce
 
 udp://161.97.67.210:6969/announce
@@ -1827,6 +1825,8 @@ udp://178.239.19.29:80/announce
 udp://180.131.145.175:6969/announce
 
 udp://185.102.219.163:6969/announce
+
+udp://185.121.168.96:1337/announce
 
 udp://185.181.60.155:80/announce
 
@@ -1859,8 +1859,6 @@ udp://1c.premierzal.ru:6969/announce
 udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
-
-udp://208.83.20.20:6969/announce
 
 udp://209.126.11.233:6969/announce
 
@@ -1897,8 +1895,6 @@ udp://37.187.111.136:6969/announce
 udp://37.187.95.112:6969/announce
 
 udp://37.59.48.81:6969/announce
-
-udp://38.180.157.12:2715/announce
 
 udp://43.154.112.29:17272/announce
 
@@ -1942,6 +1938,8 @@ udp://52.58.128.163:6969/announce
 
 udp://6.pocketnet.app:6969/announce
 
+udp://60.172.236.18:6969/announce
+
 udp://65.109.28.17:6969/announce
 
 udp://65.109.28.33:6969/announce
@@ -1949,8 +1947,6 @@ udp://65.109.28.33:6969/announce
 udp://6ahddutb1ucc3cp.ru:6969/announce
 
 udp://74.119.149.136:6969/announce
-
-udp://74.81.245.60:2010/announce
 
 udp://82.65.115.10:6969/announce
 
