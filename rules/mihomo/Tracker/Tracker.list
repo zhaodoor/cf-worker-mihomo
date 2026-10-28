@@ -180,9 +180,9 @@ http://211.20.122.47:6969/announce
 
 http://211.22.29.93/announce
 
-http://211.75.205.188/announce
+http://211.75.205.187:6969/announce
 
-http://211.75.205.188:6969/announce
+http://211.75.205.188/announce
 
 http://211.75.210.221/announce
 
@@ -199,8 +199,6 @@ http://217.30.10.77:6969/announce
 http://220.130.15.27:6969/announce
 
 http://220.130.15.30:6969/announce
-
-http://34.66.57.33:1337/announce
 
 http://34.89.30.59/announce
 
@@ -1432,6 +1430,8 @@ https://edgev.duckdns.org/announce
 
 https://evening-badlands-6215.herokuapp.com/announce
 
+https://gargoyleperch.de/announce
+
 https://grifon.info:80/announce
 
 https://gwp2-v19.rinet.ru/announce
@@ -1826,6 +1826,8 @@ udp://178.170.48.154:1337/announce
 
 udp://178.239.19.29:80/announce
 
+udp://180.131.145.175:6969/announce
+
 udp://185.102.219.163:6969/announce
 
 udp://185.121.168.96:1337/announce
@@ -1860,15 +1862,15 @@ udp://207.241.226.111:6969/announce
 
 udp://207.241.231.226:6969/announce
 
-udp://208.83.20.20:6969/announce
-
 udp://209.126.11.233:6969/announce
+
+udp://209.141.59.16:6969/announce
 
 udp://209.141.59.25:6969/announce
 
-udp://211.75.205.188:6969/announce
+udp://211.75.205.187:6969/announce
 
-udp://211.75.210.221:80/announce
+udp://211.75.205.188:80/announce
 
 udp://211.75.29.254:6969/announce
 
@@ -1878,8 +1880,6 @@ udp://217.30.10.77:6969/announce
 
 udp://23.137.251.45:6969/announce
 
-udp://23.157.120.14:6969/announce
-
 udp://23.94.174.203:1337/announce
 
 udp://31.38.161.123:6969/announce
@@ -1887,10 +1887,6 @@ udp://31.38.161.123:6969/announce
 udp://31.56.179.159:6969/announce
 
 udp://31.59.141.120:6969/announce
-
-udp://34.66.57.33:1337/announce
-
-udp://34.66.57.33:80/announce
 
 udp://37.187.111.136:6969/announce
 
@@ -1903,8 +1899,6 @@ udp://38.180.157.12:2715/announce
 udp://43.154.112.29:17272/announce
 
 udp://43.250.54.126:6969/announce
-
-udp://45.134.88.121:6969/announce
 
 udp://45.137.199.107:6969/announce
 
@@ -1938,8 +1932,6 @@ udp://51.68.174.87:6969/announce
 
 udp://51.81.222.188:6969/announce
 
-udp://52.211.139.85:27022/announce
-
 udp://52.58.128.163:6969/announce
 
 udp://6.pocketnet.app:6969/announce
@@ -1969,8 +1961,6 @@ udp://89.234.156.205:451/announce
 udp://89.36.216.8:6969/announce
 
 udp://91.211.5.21:6969/announce
-
-udp://91.216.110.53:451/announce
 
 udp://93.104.214.40:6969/announce
 
@@ -2083,8 +2073,6 @@ udp://dht.bt251.com:6969/announce
 udp://download.nerocloud.me:6969/announce
 
 udp://ds32244.seedhost.eu:6969/announce
-
-udp://ec2-18-191-163-220.us-east-2.compute.amazonaws.com:6969/announce
 
 udp://edgev.duckdns.org:6969/announce
 
